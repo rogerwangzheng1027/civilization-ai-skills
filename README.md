@@ -1,2 +1,2 @@
 # civilization-ai-skills
-老牛马的自我蒸馏
+老黄牛的自我蒸馏
