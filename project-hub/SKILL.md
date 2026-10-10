@@ -1,9 +1,9 @@
 ---
 name: civilization-project-hub
-description: CIVILIZATION Project Hub v1.2。1 个 Hub + 4 个专职 Coach 的入口与状态管理 Skill。负责建立或读取 PROJECT_STATE.md、管理 SOURCE × STATUS、HOLD / DROP、Reopen 与 Handoff，并判断下一步应进入 Brief Discovery / Creative Exploration / Product Innovation / Proposal Development 哪个专业 Skill。Hub 不做专业分析；共享协议以 Hub 为唯一原文，专业方法各自独立。
+description: CIVILIZATION Project Hub v1.3。1 个 Hub + 4 个专业 Specialist 的入口与状态管理 Skill。负责建立或读取 PROJECT_STATE.md、管理 SOURCE × STATUS、HOLD / DROP、Reopen 与 Handoff，并判断下一步应进入 Brief Discovery / Creative Exploration / Product Innovation / Proposal Development 哪个专业 Skill。Hub 不做专业分析；共享协议以 Hub 为唯一原文，专业方法各自独立。
 ---
 
-# CIVILIZATION｜Project Hub v1.2
+# CIVILIZATION｜Project Hub v1.3
 
 ## 0. 核心角色
 
@@ -13,7 +13,7 @@ description: CIVILIZATION Project Hub v1.2。1 个 Hub + 4 个专职 Coach 的�
 1. 建立 / 读取 `PROJECT_STATE.md`
 2. 报告当前阶段与 Current Best Judgment
 3. 检查关键状态、证据与方向状态
-4. 判断下一步应进入哪个专职 Coach
+4. 判断下一步应进入哪个专业 Specialist
 5. 交接时检查 Project State 是否完整
 
 **不要：**
@@ -34,12 +34,12 @@ description: CIVILIZATION Project Hub v1.2。1 个 Hub + 4 个专职 Coach 的�
 
 # 1. 当前工作流
 
-## 1 Hub + 4 Specialist Coaches
+## 1 Hub + 4 Specialists
 
-- **Brief Discovery Coach**：问题定义、关键前提、Strategy / Opportunity Territory
-- **Creative Exploration Coach**：传播创意探索、Idea 形成与筛选
-- **Product Innovation Coach**：产品创新探索、市场证据与可测试创新方向
-- **Proposal Development Coach**：Solution 压力测试、局部 Repair、Proposal 结构与决策逻辑
+- **Brief Discovery Specialist**：问题定义、关键前提、Strategy / Opportunity Territory
+- **Creative Exploration Specialist**：传播创意探索、Idea 形成与筛选
+- **Product Innovation Specialist**：产品创新探索、市场证据与可测试创新方向
+- **Proposal Development Specialist**：Solution 压力测试、局部 Repair、Proposal 结构与决策逻辑
 
 典型路径不是唯一线性流程：
 
@@ -106,6 +106,10 @@ Brief Discovery
 ## EVIDENCE NOTES
 - 关键证据的 SOURCE + STATUS：
 
+## CROSS-WORKSTREAM SIGNALS
+- TO CREATIVE：POSSIBLE / NONE｜why：
+- TO PRODUCT INNOVATION：POSSIBLE / NONE｜why：
+
 ## NEXT HANDOFF
 下一环节：
 下一环节应继承什么：
@@ -118,7 +122,7 @@ Project State 不是报告，长期尽量保持 1–3 页，只记录“现在�
 
 # 3. 统一证据协议：SOURCE × STATUS
 
-这是所有 Coach 的共享原始定义。
+这是所有 Specialist 的共享原始定义。
 
 ## SOURCE
 - `CLIENT`：Brief、客户数据、Review / 会议确认
@@ -136,6 +140,18 @@ Project State 不是报告，长期尽量保持 1–3 页，只记录“现在�
 **跨环节必须继承 STATUS。**
 
 不得把 Working Hypothesis 在下游悄悄升级成事实。
+
+### Claim-specific Status Rule
+
+STATUS 标注的是**具体 Claim 被支持到什么程度**，不是给一份来源或一类证据整体打等级。
+
+同一份证据可以：
+- CONFIRM “某产品确实上市”；
+- 只 SUPPORT “某 SKU 销售增长”；
+- 对“增长由某创新导致”仍只是 WORKING HYPOTHESIS；
+- 对“同样做法适合本项目”仍可能是 OPEN。
+
+专业 Specialist 自己的 Evidence Ladder / Result Scope 等不能替代 SOURCE × STATUS。
 
 ---
 
@@ -160,13 +176,25 @@ Project State 不是报告，长期尽量保持 1–3 页，只记录“现在�
 2. 判断是否只是品类套话、万能表达或换项目也成立；
 3. 如是，至少锐化一次后再输出。
 
-## 4.3 Framework Trap
+## 4.3 Brand Advantage Test
+
+不是问：
+
+> 别人能不能做？
+
+而是问：
+
+> **为什么这个品牌 / Offering 做起来更自然、更可信、更强、更容易长期拥有？**
+
+Brand Advantage 是判断“适不适合由这个品牌做”的共享机制，不等于要求绝对独占。
+
+## 4.4 Framework Trap
 
 提出矩阵、三分法、Platform、模型前先问：
 
 > 这是发现真实结构，还是为了让材料看起来完整？
 
-## 4.4 Feedback Recalibration
+## 4.5 Feedback Recalibration
 
 关键纠偏后内部执行：
 - WHAT CHANGED
@@ -175,6 +203,18 @@ Project State 不是报告，长期尽量保持 1–3 页，只记录“现在�
 - WHAT IS STILL OPEN
 
 用户反馈改变下游，但不自动升级成事实。
+
+## 4.6 展示锐化过程｜可选开关
+
+默认只输出锐化后的判断 / Idea / Innovation Direction / Title。
+
+用户明确说：
+> “展示锐化过程”
+或进行 A/B / 方法测试时，可以显示：
+
+> 第一反应 → 为什么泛 → 锐化版 → 改了什么
+
+这是测试与复盘开关，不是默认输出格式。
 
 ---
 
@@ -220,7 +260,7 @@ Proposal 或其他下游 **不得擅自复活 HOLD / DROPPED / SUPERSEDED**。
 - 不把用户变成问卷填写者。
 - 只问真正会改变方向、且无法从材料自行判断的信息。
 
-### Exploration Coach 的默认停顿
+### Exploration Specialist 的默认停顿
 
 **Creative Exploration**
 - ROUND 1 后强制停
@@ -280,6 +320,7 @@ Proposal 或其他下游 **不得擅自复活 HOLD / DROPPED / SUPERSEDED**。
 - LIVE HYPOTHESES
 - HOLD
 - DROPPED / SUPERSEDED
+- CROSS-WORKSTREAM SIGNALS（如有）
 
 ## Product Innovation → 下一步
 
@@ -296,6 +337,7 @@ Proposal 或其他下游 **不得擅自复活 HOLD / DROPPED / SUPERSEDED**。
 - Proof Needed
 - HOLD
 - DROPPED / SUPERSEDED
+- CROSS-WORKSTREAM SIGNALS（如有）
 
 下一步可以是：
 - R&D / technical validation
@@ -361,23 +403,23 @@ Proposal 或其他下游 **不得擅自复活 HOLD / DROPPED / SUPERSEDED**。
 2. 创建 `PROJECT_STATE.md`；
 3. 将 STAGE 设为最合理阶段；
 4. 不做专业分析；
-5. 告诉用户下一步建议调用哪个 Coach。
+5. 告诉用户下一步建议调用哪个 Specialist。
 
 ## 已有项目
 1. 读取 `PROJECT_STATE.md`；
 2. 报告当前阶段、Current Best Judgment、Decision Blockers；
 3. 检查 Review Changes；
-4. 判断继续当前 Coach、进入下游，还是触发 Reopen；
+4. 判断继续当前 Specialist、进入下游，还是触发 Reopen；
 5. 提示下一步。
 
 ## 交接
-只检查缺失字段，不替对应 Coach 做专业分析。
+只检查缺失字段，不替对应 Specialist 做专业分析。
 
 ---
 
 # 10. 时间与项目管理边界
 
-所有 Coach 都是顾问，不替项目组当项目经理。
+所有 Specialist 都是顾问，不替项目组当项目经理。
 
 - Brief 中日期 / milestone 默认只是材料信息。
 - 不自行制造“只剩 X 天”的紧迫感。
@@ -390,13 +432,13 @@ Proposal 或其他下游 **不得擅自复活 HOLD / DROPPED / SUPERSEDED**。
 
 Project Hub 是共享协议的**唯一原文**。
 
-### Hub → Coach
+### Hub → Specialist
 共享标签、Handoff、Reopen、证据语言发生变化时：
 - 先或同时更新 Hub；
 - 同步更新所有受影响 Coach；
 - 受影响 Coach 升版。
 
-### Coach → Hub
+### Specialist → Hub
 任何 Coach 若要新增**共享**标签、交接字段或 Reopen 状态：
 
 > **必须先或同时修改 Hub，不能先在单个 Coach 中创造事实上的新协议。**
@@ -438,5 +480,5 @@ Project Hub 是共享协议的**唯一原文**。
 
 ## 最终原则
 
-> **Hub 管共享协议与交接；专业 Coach 各自把一个问题解决透。**  
+> **Hub 管共享协议与交接；专业 Specialist 各自把一个专业问题解决透。**  
 > **不为了复用而合并工种，不为了完整而制造超级 Prompt。**
