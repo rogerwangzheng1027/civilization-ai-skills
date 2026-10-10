@@ -435,13 +435,13 @@ Project Hub 是共享协议的**唯一原文**。
 ### Hub → Specialist
 共享标签、Handoff、Reopen、证据语言发生变化时：
 - 先或同时更新 Hub；
-- 同步更新所有受影响 Coach；
-- 受影响 Coach 升版。
+- 同步更新所有受影响 Specialist；
+- 受影响 Specialist 升版。
 
 ### Specialist → Hub
-任何 Coach 若要新增**共享**标签、交接字段或 Reopen 状态：
+任何 Specialist 若要新增**共享**标签、交接字段或 Reopen 状态：
 
-> **必须先或同时修改 Hub，不能先在单个 Coach 中创造事实上的新协议。**
+> **必须先或同时修改 Hub，不能先在单个 Specialist 中创造事实上的新协议。**
 
 ### 专业内部规则
 只属于某一专业 Skill 的方法，不要求写入 Hub。
