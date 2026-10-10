@@ -1,60 +1,172 @@
 # CIVILIZATION · AI 协作 Skills
 
-> 老黄牛的自我蒸馏：把个人经验转化为团队可使用、可讨论、可持续迭代的工作方法。
+> 把个人经验转化为团队可使用、可讨论、可持续迭代的工作方法。
 
-这是 CIVILIZATION 的内部 AI 协作工具库。我们希望 AI 不只是帮大家更快完成被分配的任务，而是在关键节点主动研究、提出不同视角、发现问题并贡献更好的解法，让团队更早拥有可讨论的观点与创意。
+这是 CIVILIZATION 的内部 AI 协作工具库。目标不是让 AI 多生成，而是让它在关键阶段承担研究、挑战、创意刺激、判断与提案发展工作，让团队更早拥有可讨论、可验证、可继续推进的观点。
 
-**AI 是顾问和共创伙伴，不是替团队作决定的领导，也不是代写作业的外包。** 两个 Skill 可分别使用，也可以在同一个项目中先后衔接。
+**AI 是顾问和共创伙伴，不是替团队做决定的领导，也不是代写作业的外包。**
 
-## 目前包含两个 Skill
+## 当前工作流：1 个 Hub + 3 个 Coach
 
-| 工具 | 适合什么时候用 | 核心产出 | 协作方式 |
+| Skill | 当前版本 | 什么时候用 | 核心作用 |
 | --- | --- | --- | --- |
-| [Brief Discovery Coach · Brief 解题顾问](./brief-discovery-coach/SKILL.md)（v1.14） | 刚收到客户 Brief，希望在 Kickoff 前读懂任务、研究真实竞争环境、挑战关键假设、找到有依据的解题入口 | **Brief 解题罗盘｜六问**：要什么、看见什么、问题在哪、从哪解题、什么值得挑战、接下来定什么 | 可选「逐轮讨论（推荐）」或「一次跑完」；两种模式的研究与交付标准相同 |
-| [Creative Exploration Coach · 创意探索顾问](./creative-exploration-coach/SKILL.md)（v1.4） | 已有创意任务、策略方向或初步 Idea，希望打开思路、找到有吸引力的具体玩法，并持续打磨 | 可观看、可追溯的跨界参考案例；一句话能讲清的具体 Idea；主动 Review 后的升级版与新 Idea | **三轮逐轮共创**，每一轮都给用户讨论和纠偏的机会；不默认一次跑完 |
+| [Project Hub](./project-hub/SKILL.md) | v1.1 | 新项目开始、阶段切换、重要 Review 后 | 建立 / 读取 `PROJECT_STATE.md`，管理项目状态、证据标签和交接，判断下一步调用哪个 Coach |
+| [Brief Discovery Coach](./brief-discovery-coach/SKILL.md) | v1.17 | 刚收到 Brief、问题定义还不清楚、关键前提需要验证 | 研究与拆 Brief，形成 Problem Landscape、Current Best Judgment、Strategy / Opportunity Territory，为 Kickoff 准备判断 |
+| [Creative Exploration Coach](./creative-exploration-coach/SKILL.md) | v1.8 | 问题基本清楚，希望通过跨界案例发现新的创意解法 | 以真实案例为主要刺激，拆可迁移机制，通过 Human Spark / Follow the Spark 继续探索，再用 KEEP / HOLD / DROP 筛选值得发展的方向 |
+| [Proposal Development Coach](./proposal-development-coach/SKILL.md) | v1.8 | 已有 Strategy / Solution / Idea，希望压实逻辑并发展成 Proposal | 用 Storyline 压力测试 Solution；必要时做 Local Creative Repair；帮助客户理解、相信并作出决定 |
 
-### 两个工具分别解决什么问题？
+一句话记住：
 
-**Brief Discovery Coach：先把题解清楚。** 完整阅读 Brief，主动研究消费者、品牌、竞争与关键前提，区分已有事实、推断和待验证事项。帮助核心小团队准备 Kickoff 讨论材料，**不在 Brief 阶段直接替团队敲定 Campaign Idea**。
+> **Hub 管状态与交接；Brief 管问题；Creative 管新的可能性与筛选；Proposal 管成立、相信与决定。**
 
-**Creative Exploration Coach：把方向变成更好的创意。** 第一轮从广告、线下活动、演出、综艺、IP 等真实案例中找启发，研究人为什么愿意关注、到场、追看、分享甚至消费；**先与你讨论案例，再进入 Idea 生成**。第二轮发展具体 Idea，听取你的纠偏和补充；第三轮 AI 主动 Creative Review，直接提出改进版与新 Idea，再继续讨论。广告案例有公开原始 Case Board 时优先提供，同时寻找真实画面、案例视频与具体页面链接；非广告项目没有 Case Board 不构成排除理由。
+## 最常见的项目流程
 
-## 怎么开始使用？
+```text
+Project Hub
+  ↓ 建立 / 读取 PROJECT_STATE.md
+Brief Discovery Coach
+  ↓ 更新问题定义、判断、证据与方向
+核心团队 Kickoff
+  ↓
+Creative Exploration Coach
+  ↓ 案例刺激 → 人的联想 → 二次探索 → 方向筛选
+Proposal Development Coach
+  ↓ Solution 压力测试 / Local Repair / Storyline
+客户 Review
+  ↓
+Project Hub
+  ↓ 判断 KEEP / REPAIR / CREATIVE REOPEN / BRIEF REOPEN
+```
 
-1. **打开对应文件夹，下载 `SKILL.md`。** 两份 Skill 都是单文件版本，不需要同时安装才能使用。
-2. **在公司获准使用的 AI 工具中安装 Skill；如果工具不支持安装，就在新对话上传对应的 `SKILL.md`。** 再上传当前项目获准使用的 Brief、策略材料或现有 Idea。
-3. **明确调用工具并说明任务。** 无需先准备一份完美的 Prompt；把你已知的信息和希望推进的问题告诉 AI 即可。
+### Review 后怎么判断
 
-**调用 Brief 解题顾问，可直接说：**
+- **KEEP**：Solution 成立，只需继续发展 Storyline、Evidence、表达与执行。
+- **REPAIR**：Strategy Territory / Idea Family 基本成立，但 Human Motivation、Creative Leap、Brand Action、Engagement Mechanic、Idea Bridge 等局部连接缺失；留在 Proposal 做 Local Creative Repair。
+- **CREATIVE REOPEN**：需要重新打开明显不同的创意可能性；回 Creative Exploration。
+- **BRIEF REOPEN**：新信息改变客户目标、真问题、关键前提或 Strategy Territory；回 Brief Discovery。
 
-> 请阅读并按照我提供的 Brief Discovery Coach SKILL.md，帮我拆解这份客户 Brief。请先让我选择「逐轮讨论」或「一次跑完」；研究时区分事实、推断和待验证事项，最终形成适合 Kickoff 讨论的解题罗盘。
+## 安装
 
-**调用创意探索顾问，可直接说：**
+### 支持 Skill 的 AI 工具
 
-> 请按照 Creative Exploration Coach SKILL.md 帮我探索这个创意任务。先完成第一轮：结合当前品牌与策略，从广告、活动、演出、综艺/IP 等领域研究有启发的真实案例，提供可找到的 Case Board、主要画面、视频和具体来源链接。先让我纠偏、补充案例，讨论后再进入第二轮 Idea 创作。
+分别安装四个 `SKILL.md`：
 
-如果已在使用 Skill 的对话里，可以直接说“继续第二轮”“这个案例不适合，换一组”“我觉得这个 Idea 不够有趣，请重新发展”，不必反复上传文件。
+```text
+project-hub/SKILL.md
+brief-discovery-coach/SKILL.md
+creative-exploration-coach/SKILL.md
+proposal-development-coach/SKILL.md
+```
 
-## 协作和交付原则
+不要把四个 Skill 合并成一个超级 Prompt。它们承担不同阶段的判断职责。
 
-- **每轮先由 AI 做实质工作，人再提供判断。** 不把三轮法变成员工填问卷，也不把用户说“继续”误认为对所有内容的认可。
-- **一个项目可以让两个 AI 独立研究，再交叉核查。** 共同结论不等于事实正确；重要内容仍要回看原始 Brief、原始案例和来源。不是简单把两份报告拼成一份。
-- **PDF / PPT 是按需整理的交付形式，不是完成工作的指标。** Kickoff 和 Review 更需要的是有依据、可讨论、不断改进的方向与 Idea。
-- **注意客户保密与素材权限。** 未获批准的客户 Brief、报价、用户数据等，不要放进此 GitHub 仓库或未经授权的 AI 平台；对外分享案例图片、视频及客户成果前，按项目授权核查。
+### 不支持 Skill 安装的工具
+
+把对应 `SKILL.md` 放进 Project / Workspace 的知识文件，或在对话中与项目材料一起上传，并明确说：
+
+> 请严格按照我提供的 SKILL.md 工作。
+
+`PROJECT_STATE.md` 是跨 Skill / 跨 Agent 的共享项目记忆。模板见：
+
+[project-hub/PROJECT_STATE_TEMPLATE.md](./project-hub/PROJECT_STATE_TEMPLATE.md)
+
+更简短的操作说明见：
+
+[QUICK_START.md](./QUICK_START.md)
+
+## 四个 Skill 怎么开始
+
+### 1. Project Hub
+
+新项目可直接说：
+
+> 这是一个新项目。请建立 PROJECT_STATE.md，判断当前阶段，并告诉我下一步应该调用哪个 Coach。不要做策略分析。
+
+Hub 只管理状态与交接，不替代三个 Coach 做分析。
+
+### 2. Brief Discovery Coach
+
+上传客户 Brief、会议纪要、已有研究与 `PROJECT_STATE.md`，可说：
+
+> 请按 Brief Discovery Coach 工作。先完整阅读材料并主动形成判断，不要先让我回答一堆问题。默认逐轮推进；如果我明确要求，也可以一次跑完。
+
+### 3. Creative Exploration Coach
+
+Creative v1.8 的核心流程是：
+
+```text
+CASE LANDSCAPE
+  ↓
+HUMAN SPARK
+  ↓
+FOLLOW THE SPARK
+  ↓
+SELECTION GATE: KEEP / HOLD / DROP
+  ↓
+SELECT & TRANSLATE
+```
+
+它不再默认“搜完案例就直接生成完整 Campaign”。ROUND 1 先用跨界真实案例打开新的参考系，拆 `真实行为 / 成立条件 / 不可迁移条件 / 可迁移机制`；然后必须停下，让人的联想决定第二轮探索。方向未筛选前，不自动拼成 IMC。
+
+可直接说：
+
+> 请按 Creative Exploration Coach 开始 ROUND 1。先根据当前 Creative Problem 寻找跨界真实案例并拆行为机制，不要直接生成 Idea。案例之后停下来让我校准和补充联想。
+
+### 4. Proposal Development Coach
+
+当已经有值得发展的 Strategy / Solution / Idea 时，可说：
+
+> 请按 Proposal Development Coach 工作。先判断当前 Solution 和 Proposal 最大的问题，不要先整理 PPT。如果故事讲不通，请先判断 KEEP / REPAIR / CREATIVE REOPEN / BRIEF REOPEN。
+
+## `PROJECT_STATE.md` 是工作流的共享记忆
+
+它应该记录当前最重要的判断，而不是变成一份长报告：
+
+- CLIENT ASK
+- CURRENT PROBLEM DEFINITION
+- CURRENT BEST JUDGMENT + reason + what would change my mind
+- LOCKED
+- LIVE HYPOTHESES
+- SELECTED DIRECTIONS
+- HOLD / DROPPED / SUPERSEDED
+- REVIEW CHANGES
+- OPEN QUESTIONS / DECISION BLOCKERS
+- EVIDENCE NOTES
+- NEXT HANDOFF
+
+证据统一使用 `SOURCE × STATUS` 双轴，不让工作假设在换 Agent / 换阶段后悄悄升级成事实。
+
+## 协作原则
+
+- **AI 先做实质工作，人负责判断和纠偏。** 不把工作流变成员工填问卷。
+- **真实案例是 Creative Exploration 的刺激，不是模板。** 重点拆为什么成立、哪些条件不可迁移、真正可带走的机制是什么。
+- **先选择，再体系化。** `Systemization is downstream of selection.` 不要因为多个方向各有一点价值，就自动把它们安排成 Content / Social / Media / Activation 一整套。
+- **Storyline 是诊断工具，不只是排版工具。** Proposal 讲不通时，先检查 Solution 是否缺了一环。
+- **PDF / PPT 是按需交付形式，不是完成工作的指标。**
+- **注意客户保密与素材权限。** 未获批准的 Brief、报价、用户数据、真实项目案例等，不放入本仓库或未经授权的平台。
 
 ## 文件结构
 
 ```text
 civilization-ai-skills/
 ├── README.md
+├── QUICK_START.md
+├── project-hub/
+│   ├── SKILL.md
+│   └── PROJECT_STATE_TEMPLATE.md
 ├── brief-discovery-coach/
 │   └── SKILL.md
-└── creative-exploration-coach/
+├── creative-exploration-coach/
+│   └── SKILL.md
+└── proposal-development-coach/
     └── SKILL.md
 ```
 
-## 版本与反馈
+## 当前版本
 
-当前为内部试用版本：Brief Discovery Coach **v1.14**；Creative Exploration Coach **v1.4**。试用时欢迎记录：哪些步骤帮助了判断、哪些案例或 Idea 不成立、AI 有没有认真吸收反馈、哪些规则让使用变得困难。
+- Project Hub **v1.1**
+- Brief Discovery Coach **v1.17**
+- Creative Exploration Coach **v1.8**
+- Proposal Development Coach **v1.8**
 
-更新 Skill 时，优先根据实际项目的对话记录与成果改进通用方法；具体客户案例和保密工作文件不直接写进通用 Skill。仓库保持私有，按公司需要授权同事访问。
+更新通用 Skill 时，优先根据真实工作流测试抽象方法规则；**具体客户、品牌、人物、Campaign、产品和项目内容不写入通用 Skill**。
