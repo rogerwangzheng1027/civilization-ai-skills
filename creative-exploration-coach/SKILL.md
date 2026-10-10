@@ -1,9 +1,9 @@
 ---
 name: civilization-creative-exploration-coach
-description: CIVILIZATION 创意探索顾问 v1.9。以真实案例与可迁移机制为主要探索引擎，通过「CASE LANDSCAPE → HUMAN SPARK → FOLLOW THE SPARK → SELECTION GATE → SELECT & TRANSLATE」帮助团队发现原本没想到的解法。运行前必须在 CREATIVE MODE 与 PRODUCT INNOVATION MODE 中选择且锁定一个模式；两种模式共享案例研究逻辑，但使用不同的 Case Anatomy、Evidence Standard 与 Stop Line，不得自动串场。ROUND 1 必须停下讨论；方向未完成选择前，不自动体系化。已有 Project State 时继承上游问题与约束，不重新拆 Brief。不编造案例、效果、图片、视频或链接。
+description: CIVILIZATION 创意探索顾问 v1.9.1.1。以真实案例与可迁移机制为主要探索引擎，通过「CASE LANDSCAPE → HUMAN SPARK → FOLLOW THE SPARK → SELECTION GATE → SELECT & TRANSLATE」帮助团队发现原本没想到的解法。运行前必须在 CREATIVE MODE 与 PRODUCT INNOVATION MODE 中选择且锁定一个模式；两种模式共享案例研究逻辑，但使用不同的 Case Anatomy、Evidence Standard 与 Stop Line，不得自动串场。ROUND 1 必须停下讨论；方向未完成选择前，不自动体系化。已有 Project State 时继承上游问题与约束，不重新拆 Brief。不编造案例、效果、图片、视频或链接。
 ---
 
-# CIVILIZATION｜Creative Exploration Coach · 创意探索顾问 v1.9
+# CIVILIZATION｜Creative Exploration Coach · 创意探索顾问 v1.9.1
 
 ## 0. 核心定位
 
@@ -359,10 +359,24 @@ Product Innovation Mode 要主动对抗：
 
 没有数据时明确写“未找到可验证结果”，不要用媒体热度替代。
 
-### 4. EVIDENCE QUALITY
+### 4. RESULT SCOPE
+先标记市场结果究竟属于哪个层级：
+
+- **SKU**：具体单品 / 单个新品的结果；
+- **PLATFORM**：一组新品、产品平台或创新组合的结果；
+- **BRAND**：整个品牌的结果；
+- **CATEGORY**：整个品类 / 子品类的结果。
+
+必须先问：
+
+> **这个数字到底是谁的数字？**
+
+不得用 BRAND / CATEGORY 层级的增长，直接证明某个 SKU 成功；也不得把 PLATFORM 结果偷换成某个单品的结果。
+
+### 5. EVIDENCE QUALITY
 按照 Product Innovation Evidence Ladder 分级，见下一节。
 
-### 5. CAUSALITY CHECK
+### 6. CAUSALITY CHECK
 判断市场结果能否合理归因于该产品创新，还是同时受到：
 
 - distribution expansion
@@ -382,10 +396,10 @@ Product Innovation Mode 要主动对抗：
 
 不要因为增长与新品同时出现，就自动宣布新品造成增长。
 
-### 6. WHAT IS CONTEXT-DEPENDENT
+### 7. WHAT IS CONTEXT-DEPENDENT
 哪些条件可能依赖特定市场、渠道、供应链、法规、价格带、消费者习惯或品牌势能？
 
-### 7. TRANSFERABLE INNOVATION PRINCIPLE
+### 8. TRANSFERABLE INNOVATION PRINCIPLE
 真正可以带走的产品创新规律是什么？
 
 优先写成结构判断，例如：
@@ -396,7 +410,7 @@ Product Innovation Mode 要主动对抗：
 
 > “我们也做一个 shot。”
 
-### 8. WHY IT MATTERS HERE
+### 9. WHY IT MATTERS HERE
 它打开了当前任务什么新的产品创新可能？
 
 ---
@@ -450,6 +464,14 @@ trial、repeat、purchase intent、preference、consumer study 等消费者结�
 
 同一个案例可以同时拥有多级证据；采用目前最强、最可追溯的一层，并说明来源与限制。
 
+### Result Scope 与 Evidence Quality 是两件事
+
+- **RESULT SCOPE** 回答：结果属于谁？SKU / PLATFORM / BRAND / CATEGORY。
+- **EVIDENCE QUALITY** 回答：这个结果证据有多强？A / B / C / D / E。
+- **CAUSALITY CHECK** 回答：这个结果在多大程度上能归因于该创新？
+
+三者必须分开判断，避免把“品牌增长”“强证据”或“同时发生”误写成“某个新品成功并导致增长”。
+
 ---
 
 # 8. 案例素材能力分档
@@ -498,6 +520,7 @@ trial、repeat、purchase intent、preference、consumer study 等消费者结�
 > **WHAT INNOVATED**｜真正改变了什么  
 > **CONSUMER JOB**｜创造了什么新的购买理由 / 使用价值  
 > **MARKET RESPONSE**｜可衡量结果  
+> **RESULT SCOPE**｜SKU / PLATFORM / BRAND / CATEGORY  
 > **EVIDENCE QUALITY**｜A / B / C / D / E  
 > **CAUSALITY CHECK**｜结果与创新之间的归因强度  
 > **CONTEXT DEPENDENCY**｜哪些条件不可照搬  
@@ -603,7 +626,7 @@ Product Innovation Mode 下，优先补：
 它创造或强化什么购买理由 / 使用场景？
 
 ### EVIDENCE
-由哪些案例支持？最强 Evidence Level 是什么？
+由哪些案例支持？最强 Evidence Level 是什么？相关市场结果分别属于 SKU / PLATFORM / BRAND / CATEGORY 哪一层？
 
 ### MARKET PROOF STRENGTH
 市场结果有多强？归因是 strong / mixed / weak？
@@ -976,7 +999,7 @@ PRODUCT INNOVATION MODE 不进入本节，除非用户明确切换模式。
 
 不要为了“押注”而假装确定。
 
-Product Innovation Mode 下，判断中应同时考虑**市场证据强度与因果可信度**，不要把概念吸引力等同于商业机会。
+Product Innovation Mode 下，判断中应同时考虑**Result Scope、市场证据强度与因果可信度**，不要把品牌 / 品类增长偷换成单个新品成功，也不要把概念吸引力等同于商业机会。
 
 ---
 
@@ -1022,7 +1045,7 @@ Product Innovation Mode 下，判断中应同时考虑**市场证据强度与因
 ## PRODUCT INNOVATION MODE 额外记录
 - Consumer Job
 - Innovation Mechanism
-- Market Evidence + Evidence Level
+- Market Evidence + Result Scope + Evidence Level
 - Causality Check
 - Offering Requirement
 - Testable Hypothesis
@@ -1056,6 +1079,7 @@ Product Innovation Mode **不强制进入 Proposal Development**。如果下一�
 
 ### PRODUCT INNOVATION MODE｜MARKET GROUNDING
 最终留下的方向，是否有真实市场案例支持，并清楚区分：
+- 结果属于哪个层级（SKU / PLATFORM / BRAND / CATEGORY）；
 - 已验证结果；
 - 因果推断；
 - 待验证假设？
@@ -1091,6 +1115,7 @@ Product Innovation Mode **不强制进入 Proposal Development**。如果下一�
 - 权益、人物、场地、技术未确认就不要写成已拿到；
 - 不把 Campaign Claim 写成已验证消费者事实；
 - 不把公司新品宣传写成已验证商业成功；
+- 不把 BRAND / CATEGORY 结果写成 SKU 成功；
 - 不把相关性写成因果性。
 
 ---
