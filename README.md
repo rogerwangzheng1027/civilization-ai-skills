@@ -15,7 +15,7 @@
 | --- | --- | --- | --- |
 | [Project Hub](./project-hub/SKILL.md) | v1.1 | 新项目开始、阶段切换、重要 Review 后 | 建立 / 读取 `PROJECT_STATE.md`，管理项目状态、证据标签和交接，判断下一步调用哪个 Coach |
 | [Brief Discovery Coach](./brief-discovery-coach/SKILL.md) | v1.17 | 刚收到 Brief、问题定义还不清楚、关键前提需要验证 | 研究与拆 Brief，形成 Problem Landscape、Current Best Judgment、Strategy / Opportunity Territory，为 Kickoff 准备判断 |
-| [Creative Exploration Coach](./creative-exploration-coach/SKILL.md) | v1.9 | 问题基本清楚，希望通过真实案例发现新的创意或产品创新解法 | 运行前锁定 CREATIVE / PRODUCT INNOVATION 其中一个模式；共享案例探索引擎，但 Case Anatomy、证据标准与 Stop Line 分开，避免串场 |
+| [Creative Exploration Coach](./creative-exploration-coach/SKILL.md) | v1.9.1 | 问题基本清楚，希望通过真实案例发现新的创意或产品创新解法 | 运行前锁定 CREATIVE / PRODUCT INNOVATION 其中一个模式；共享案例探索引擎，但 Case Anatomy、证据标准与 Stop Line 分开，避免串场 |
 | [Proposal Development Coach](./proposal-development-coach/SKILL.md) | v1.8 | 已有 Strategy / Solution / Idea，希望压实逻辑并发展成 Proposal | 用 Storyline 压力测试 Solution；必要时做 Local Creative Repair；帮助客户理解、相信并作出决定 |
 
 一句话记住：
@@ -95,7 +95,7 @@ Hub 只管理状态与交接，不替代三个 Coach 做分析。
 
 ### 3. Creative Exploration Coach
 
-Creative v1.9 的核心流程是：
+Creative v1.9.1 的核心流程是：
 
 ```text
 CASE LANDSCAPE
@@ -116,7 +116,7 @@ SELECT & TRANSLATE
 
 两种模式共享 `CASE LANDSCAPE → HUMAN SPARK → FOLLOW THE SPARK → SELECTION GATE → SELECT & TRANSLATE`，但不并行运行、不自动串场。
 
-CREATIVE MODE 不默认“搜完案例就直接生成完整 Campaign”；PRODUCT INNOVATION MODE 不默认“搜完新品就直接生成产品矩阵或传播方案”。ROUND 1 都必须先停下，让人的联想决定第二轮探索。方向未筛选前，不自动体系化。
+CREATIVE MODE 不默认“搜完案例就直接生成完整 Campaign”；PRODUCT INNOVATION MODE 不默认“搜完新品就直接生成产品矩阵或传播方案”。产品创新案例还必须区分 **RESULT SCOPE（SKU / PLATFORM / BRAND / CATEGORY）× Evidence Quality × Causality**，避免拿品牌或品类增长直接证明某个新品成功。ROUND 1 都必须先停下，让人的联想决定第二轮探索。方向未筛选前，不自动体系化。
 
 可直接说：
 
@@ -203,7 +203,7 @@ civilization-ai-skills/
 
 - Project Hub **v1.1**
 - Brief Discovery Coach **v1.17**
-- Creative Exploration Coach **v1.9**
+- Creative Exploration Coach **v1.9.1**
 - Proposal Development Coach **v1.8**
 
 更新通用 Skill 时，优先根据真实工作流测试抽象方法规则；**具体客户、品牌、人物、Campaign、产品和项目内容不写入通用 Skill**。
