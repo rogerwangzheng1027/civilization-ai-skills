@@ -15,13 +15,13 @@
 
 共享协议可以统一，但不同工种不因为“复用方便”就塞进同一个超级 Prompt。
 
-这也是当前结构从 1 Hub + 3 Coach 调整为 **1 Hub + 4 个专业 Specialist** 的原因：传播创意与产品创新是两类任务、两类判断、两类交付，应由两个独立 Skill 承接。
+这也是当前结构从原先三个专业 Skill 调整为 **1 Hub + 4 个专业 Specialist** 的原因：传播创意与产品创新是两类任务、两类判断、两类交付，应由两个独立 Skill 承接。
 
 ## 当前工作流：1 Hub + 4 Specialists
 
 | Skill | 当前版本 | 什么时候用 | 核心作用 |
 | --- | --- | --- | --- |
-| [Project Hub](./project-hub/SKILL.md) | v1.3 | 新项目、阶段切换、重要 Review 后 | 管理 `PROJECT_STATE.md`、共享证据协议、HOLD / DROP、Reopen 与交接；判断下一步进入哪个专职 Coach |
+| [Project Hub](./project-hub/SKILL.md) | v1.3 | 新项目、阶段切换、重要 Review 后 | 管理 `PROJECT_STATE.md`、共享证据协议、HOLD / DROP、Reopen 与交接；判断下一步进入哪个专业 Specialist |
 | [Brief Discovery Specialist](./brief-discovery-specialist/SKILL.md) | v1.19 | 刚收到 Brief、问题定义或关键前提不清楚 | 研究与拆 Brief，形成 Problem Landscape、Current Best Judgment、Strategy / Opportunity Territory |
 | [Creative Exploration Specialist](./creative-exploration-specialist/SKILL.md) | v2.1 | 问题基本清楚，需要寻找传播创意解法 | 用真实跨界案例打开参考系，经 Human Spark / Follow the Spark / Selection 后，把 KEEP 的机制转译成具体 Idea |
 | [Product Innovation Specialist](./product-innovation-specialist/SKILL.md) | v1.1 | 需要探索产品 / SKU / 配方 / 风味 / 功能 / 包装 / 规格等创新 | 用真实市场案例和可衡量结果筛选创新机制，形成可测试的产品创新方向与假设 |
@@ -60,7 +60,7 @@ Brief Discovery
 
 ## 两个探索 Specialist 为什么拆开
 
-### Creative Exploration Specialist v2.0
+### Creative Exploration Specialist v2.1
 
 专门研究：
 - Campaign / Communication
@@ -91,7 +91,7 @@ CREATIVE REVIEW
 
 ROUND 1 / ROUND 2 先让案例与人的联想打开空间；完成 Selection 后，ROUND 3 对 KEEP 机制先形成**参与结构 / 品牌动作真正不同的候选 Idea**，再选择与锐化。Creative Review 同时检查 Participation Cost、Retellability 与 Idea Role。方向未筛选前，不自动拼成 IMC。
 
-### Product Innovation Specialist v1.0
+### Product Innovation Specialist v1.1
 
 专门研究：
 - Product / SKU
@@ -248,7 +248,7 @@ civilization-ai-skills/
 
 Project Hub 是共享协议唯一原文。
 
-- Hub 修改共享标签、Handoff、Reopen、证据语言时，同步更新受影响 Coach。
+- Hub 修改共享标签、Handoff、Reopen、证据语言时，同步更新受影响 Specialist。
 - Specialist 如要新增共享标签或交接字段，必须先或同时更新 Hub。
 - 专业内部方法不写进 Hub，避免 Hub 变成超级 Skill。
 
@@ -281,9 +281,9 @@ Project Hub 是共享协议唯一原文。
 ## 当前版本
 
 - Project Hub **v1.3**
-- Brief Discovery Specialist **v1.18**
-- Creative Exploration Specialist **v2.0**
-- Product Innovation Specialist **v1.0**
-- Proposal Development Specialist **v1.9**
+- Brief Discovery Specialist **v1.19**
+- Creative Exploration Specialist **v2.1**
+- Product Innovation Specialist **v1.1**
+- Proposal Development Specialist **v1.10**
 
 更新通用 Skill 时，优先根据真实工作流测试抽象规则；**具体客户、品牌、人物、Campaign、产品和项目内容不写入通用 Skill**。
