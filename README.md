@@ -2,100 +2,74 @@
 
 > 把个人经验转化为团队可使用、可讨论、可持续迭代的工作方法。
 
-这是一个源于 CIVILIZATION 内部实践、现公开供学习、教育、研究与非商业实践使用的 AI 协作工具库。目标不是让 AI 多生成，而是让它在关键阶段承担研究、挑战、创意刺激、判断与提案发展工作，让团队更早拥有可讨论、可验证、可继续推进的观点。
+这是一个源于 CIVILIZATION 内部实践、现公开供学习、教育、研究与非商业实践使用的 AI 协作工具库。
 
 **AI 是顾问和共创伙伴，不是替团队做决定的领导，也不是代写作业的外包。**
 
 > **Public Learning Edition / 公开学习版**  
-> 本仓库公开的是可学习、可讨论、可持续迭代的通用方法与基础 Skill。CIVILIZATION 的客户案例、专有数据、内部评估机制及其他未公开实现细节不属于本公开仓库的一部分。公开方法，是为了促进学习与共同进步；真正的组织能力仍来自实践、判断与持续积累。
+> 本仓库公开的是可学习、可讨论、可持续迭代的通用方法与基础 Skill。CIVILIZATION 的客户案例、专有数据、内部评估机制及其他未公开实现细节不属于本公开仓库的一部分。
 
-## 当前工作流：1 个 Hub + 3 个 Coach
+## 一个底层原则
+
+> **一个 Skill 专门解决一个专业问题，并把它解决透；不追求大而全。**
+
+共享协议可以统一，但不同工种不因为“复用方便”就塞进同一个超级 Prompt。
+
+这也是当前结构从 1 Hub + 3 Coach 调整为 **1 Hub + 4 个专职 Coach** 的原因：传播创意与产品创新是两类任务、两类判断、两类交付，应由两个独立 Skill 承接。
+
+## 当前工作流：1 Hub + 4 Specialist Coaches
 
 | Skill | 当前版本 | 什么时候用 | 核心作用 |
 | --- | --- | --- | --- |
-| [Project Hub](./project-hub/SKILL.md) | v1.1 | 新项目开始、阶段切换、重要 Review 后 | 建立 / 读取 `PROJECT_STATE.md`，管理项目状态、证据标签和交接，判断下一步调用哪个 Coach |
-| [Brief Discovery Coach](./brief-discovery-coach/SKILL.md) | v1.17 | 刚收到 Brief、问题定义还不清楚、关键前提需要验证 | 研究与拆 Brief，形成 Problem Landscape、Current Best Judgment、Strategy / Opportunity Territory，为 Kickoff 准备判断 |
-| [Creative Exploration Coach](./creative-exploration-coach/SKILL.md) | v1.9.1 | 问题基本清楚，希望通过真实案例发现新的创意或产品创新解法 | 运行前锁定 CREATIVE / PRODUCT INNOVATION 其中一个模式；共享案例探索引擎，但 Case Anatomy、证据标准与 Stop Line 分开，避免串场 |
-| [Proposal Development Coach](./proposal-development-coach/SKILL.md) | v1.8 | 已有 Strategy / Solution / Idea，希望压实逻辑并发展成 Proposal | 用 Storyline 压力测试 Solution；必要时做 Local Creative Repair；帮助客户理解、相信并作出决定 |
+| [Project Hub](./project-hub/SKILL.md) | v1.2 | 新项目、阶段切换、重要 Review 后 | 管理 `PROJECT_STATE.md`、共享证据协议、HOLD / DROP、Reopen 与交接；判断下一步进入哪个专职 Coach |
+| [Brief Discovery Coach](./brief-discovery-coach/SKILL.md) | v1.18 | 刚收到 Brief、问题定义或关键前提不清楚 | 研究与拆 Brief，形成 Problem Landscape、Current Best Judgment、Strategy / Opportunity Territory |
+| [Creative Exploration Coach](./creative-exploration-coach/SKILL.md) | v2.0 | 问题基本清楚，需要寻找传播创意解法 | 用真实跨界案例打开参考系，经 Human Spark / Follow the Spark / Selection 后，把 KEEP 的机制转译成具体 Idea |
+| [Product Innovation Coach](./product-innovation-coach/SKILL.md) | v1.0 | 需要探索产品 / SKU / 配方 / 风味 / 功能 / 包装 / 规格等创新 | 用真实市场案例和可衡量结果筛选创新机制，形成可测试的产品创新方向与假设 |
+| [Proposal Development Coach](./proposal-development-coach/SKILL.md) | v1.9 | 已有 Strategy / Idea / Innovation Direction，需要形成客户决策材料 | 用 Storyline 压力测试 Solution；只做受限 Repair，不从零补做上游发散 |
 
 一句话记住：
 
-> **Hub 管状态与交接；Brief 管问题；Creative 管新的可能性与筛选；Proposal 管成立、相信与决定。**
+> **Hub 管协议与交接；Brief 管问题；Creative 管传播 Idea；Innovation 管产品创新；Proposal 管成立、相信与决定。**
 
-## 最常见的项目流程
+## 工作流不是唯一线性的
 
 ```text
 Project Hub
-  ↓ 建立 / 读取 PROJECT_STATE.md
-Brief Discovery Coach
-  ↓ 更新问题定义、判断、证据与方向
-核心团队 Kickoff
   ↓
-Creative Exploration Coach
-  ↓ 案例刺激 → 人的联想 → 二次探索 → 方向筛选
-Proposal Development Coach
-  ↓ Solution 压力测试 / Local Repair / Storyline
-客户 Review
-  ↓
-Project Hub
-  ↓ 判断 KEEP / REPAIR / CREATIVE REOPEN / BRIEF REOPEN
+Brief Discovery
+  ├─→ Creative Exploration
+  │      ↓
+  │   Proposal Development
+  │
+  └─→ Product Innovation
+         ├─→ R&D / Technical Validation
+         ├─→ Consumer / Prototype Test
+         ├─→ Business / Channel Validation
+         ├─→ Proposal Development
+         └─→ Creative Exploration
+              （产品方向基本锁定后，需要传播探索时）
 ```
 
 ### Review 后怎么判断
 
-- **KEEP**：Solution 成立，只需继续发展 Storyline、Evidence、表达与执行。
-- **REPAIR**：Strategy Territory / Idea Family 基本成立，但 Human Motivation、Creative Leap、Brand Action、Engagement Mechanic、Idea Bridge 等局部连接缺失；留在 Proposal 做 Local Creative Repair。
-- **CREATIVE REOPEN**：需要重新打开明显不同的创意可能性；回 Creative Exploration。
-- **BRIEF REOPEN**：新信息改变客户目标、真问题、关键前提或 Strategy Territory；回 Brief Discovery。
+- **KEEP**：Solution 成立，只需继续发展表达、证据或执行。
+- **REPAIR**：方向基本成立，但局部连接缺失；留在 Proposal 做受限 Repair。
+- **CREATIVE REOPEN**：需要重新打开传播创意可能性。
+- **INNOVATION REOPEN**：需要重新打开产品创新可能性。
+- **BRIEF REOPEN**：客户目标、问题定义、关键前提或 Strategy Territory 被改变。
 
-## 安装
+## 两个探索 Coach 为什么拆开
 
-### 支持 Skill 的 AI 工具
+### Creative Exploration Coach v2.0
 
-分别安装四个 `SKILL.md`：
+专门研究：
+- Campaign / Communication
+- Social / Creator
+- Activation / Experience
+- Content / Media
+- Brand behavior / Engagement mechanic
 
-```text
-project-hub/SKILL.md
-brief-discovery-coach/SKILL.md
-creative-exploration-coach/SKILL.md
-proposal-development-coach/SKILL.md
-```
-
-不要把四个 Skill 合并成一个超级 Prompt。它们承担不同阶段的判断职责。
-
-### 不支持 Skill 安装的工具
-
-把对应 `SKILL.md` 放进 Project / Workspace 的知识文件，或在对话中与项目材料一起上传，并明确说：
-
-> 请严格按照我提供的 SKILL.md 工作。
-
-`PROJECT_STATE.md` 是跨 Skill / 跨 Agent 的共享项目记忆。模板见：
-
-[project-hub/PROJECT_STATE_TEMPLATE.md](./project-hub/PROJECT_STATE_TEMPLATE.md)
-
-更简短的操作说明见：
-
-[QUICK_START.md](./QUICK_START.md)
-
-## 四个 Skill 怎么开始
-
-### 1. Project Hub
-
-新项目可直接说：
-
-> 这是一个新项目。请建立 PROJECT_STATE.md，判断当前阶段，并告诉我下一步应该调用哪个 Coach。不要做策略分析。
-
-Hub 只管理状态与交接，不替代三个 Coach 做分析。
-
-### 2. Brief Discovery Coach
-
-上传客户 Brief、会议纪要、已有研究与 `PROJECT_STATE.md`，可说：
-
-> 请按 Brief Discovery Coach 工作。先完整阅读材料并主动形成判断，不要先让我回答一堆问题。默认逐轮推进；如果我明确要求，也可以一次跑完。
-
-### 3. Creative Exploration Coach
-
-Creative v1.9.1 的核心流程是：
+核心流程：
 
 ```text
 CASE LANDSCAPE
@@ -106,54 +80,148 @@ FOLLOW THE SPARK
   ↓
 SELECTION GATE: KEEP / HOLD / DROP
   ↓
-SELECT & TRANSLATE
+IDEA TRANSLATION
+  ↓
+CREATIVE REVIEW
 ```
 
-运行前先锁定一个模式：
+关键变化：
 
-- **CREATIVE MODE**：传播、行为、体验、内容、媒介与创意机制。
-- **PRODUCT INNOVATION MODE**：产品、SKU、配方、风味、原料、功能、包装、规格与产品价值创新。
+> **不是取消 Idea，而是推迟 Idea。**
 
-两种模式共享 `CASE LANDSCAPE → HUMAN SPARK → FOLLOW THE SPARK → SELECTION GATE → SELECT & TRANSLATE`，但不并行运行、不自动串场。
+ROUND 1 / ROUND 2 先让案例与人的联想打开空间；完成 Selection 后，ROUND 3 **必须**把 KEEP 的机制转译成具体 Idea。方向未筛选前，不自动拼成 IMC。
 
-CREATIVE MODE 不默认“搜完案例就直接生成完整 Campaign”；PRODUCT INNOVATION MODE 不默认“搜完新品就直接生成产品矩阵或传播方案”。产品创新案例还必须区分 **RESULT SCOPE（SKU / PLATFORM / BRAND / CATEGORY）× Evidence Quality × Causality**，避免拿品牌或品类增长直接证明某个新品成功。ROUND 1 都必须先停下，让人的联想决定第二轮探索。方向未筛选前，不自动体系化。
+### Product Innovation Coach v1.0
 
-可直接说：
+专门研究：
+- Product / SKU
+- Formula / ingredient
+- Flavor
+- Function / benefit
+- Format / texture
+- Pack / portion / specification
+- Process / proposition / product-line innovation
 
-> 请按 Creative Exploration Coach 工作。先判断并锁定当前 Mode，再开始 ROUND 1。只运行一个 Mode，不要串到另一类任务。案例之后停下来让我校准和补充联想。
+核心流程：
 
-### 4. Proposal Development Coach
+```text
+INNOVATION CASE LANDSCAPE
+  ↓
+HUMAN SPARK
+  ↓
+FOLLOW THE SPARK
+  ↓
+SELECTION GATE: KEEP / HOLD / DROP
+  ↓
+INNOVATION TRANSLATION
+  ↓
+TESTABLE HYPOTHESIS / PROOF NEEDED
+```
 
-当已经有值得发展的 Strategy / Solution / Idea 时，可说：
+市场证据强制拆成三件事：
 
-> 请按 Proposal Development Coach 工作。先判断当前 Solution 和 Proposal 最大的问题，不要先整理 PPT。如果故事讲不通，请先判断 KEEP / REPAIR / CREATIVE REOPEN / BRIEF REOPEN。
+> **RESULT SCOPE**：这个数字是谁的？SKU / PLATFORM / BRAND / CATEGORY  
+> **EVIDENCE QUALITY**：证据有多强？A / B / C / D / E  
+> **CAUSALITY CHECK**：结果多大程度能归因于该创新？
 
-## `PROJECT_STATE.md` 是工作流的共享记忆
+Product Innovation 不自动进入 Campaign / IMC。产品方向基本锁定、且明确需要传播探索时，再进入 Creative Exploration。
 
-它应该记录当前最重要的判断，而不是变成一份长报告：
+## 安装
+
+### 支持 Skill 的 AI 工具
+
+分别安装：
+
+```text
+project-hub/SKILL.md
+brief-discovery-coach/SKILL.md
+creative-exploration-coach/SKILL.md
+product-innovation-coach/SKILL.md
+proposal-development-coach/SKILL.md
+```
+
+**不要合并成一个超级 Prompt。**
+
+### 不支持 Skill 安装的工具
+
+把对应 `SKILL.md` 放进 Project / Workspace 的知识文件，或和项目材料一起上传，并明确说：
+
+> 请严格按照我提供的 SKILL.md 工作。
+
+共享项目状态模板：
+
+[project-hub/PROJECT_STATE_TEMPLATE.md](./project-hub/PROJECT_STATE_TEMPLATE.md)
+
+简短操作说明：
+
+[QUICK_START.md](./QUICK_START.md)
+
+## 五个 Skill 怎么开始
+
+### 1. Project Hub
+
+> 这是一个新项目。请建立 PROJECT_STATE.md，判断当前阶段，并告诉我下一步应该调用哪个 Coach。不要做专业分析。
+
+### 2. Brief Discovery Coach
+
+> 请按 Brief Discovery Coach 工作。先完整阅读材料并主动形成判断，不要先让我回答一堆问题。默认逐轮推进。
+
+Brief 结束时应明确下一步属于：
+- Creative Exploration
+- Product Innovation
+- 或其他专业环节
+
+### 3. Creative Exploration Coach
+
+> 请按 Creative Exploration Coach 开始 ROUND 1。先根据当前 Creative Problem 寻找跨界真实案例并拆机制，不要直接生成 Idea。案例之后停下来让我校准和补充联想。
+
+ROUND 3 才把选中机制变成具体 Idea。
+
+### 4. Product Innovation Coach
+
+> 请按 Product Innovation Coach 开始 ROUND 1。寻找真实产品创新案例，优先验证市场结果，并区分 Result Scope、Evidence Quality 与 Causality。案例之后停下来让我校准。
+
+ROUND 3 把选中机制变成可测试的产品创新方向，而不是传播方案。
+
+### 5. Proposal Development Coach
+
+> 请按 Proposal Development Coach 工作。先判断当前 Solution 和 Proposal 最大的问题，不要先整理 PPT。如果核心方向本身不成立，请触发对应 Reopen，不要在 Proposal 中从零造新 Idea。
+
+## `PROJECT_STATE.md` 是共享记忆
+
+核心字段：
 
 - CLIENT ASK
 - CURRENT PROBLEM DEFINITION
-- CURRENT BEST JUDGMENT + reason + what would change my mind
+- CURRENT BEST JUDGMENT
 - LOCKED
 - LIVE HYPOTHESES
 - SELECTED DIRECTIONS
-- HOLD / DROPPED / SUPERSEDED
+- HOLD
+- DROPPED / SUPERSEDED
 - REVIEW CHANGES
 - OPEN QUESTIONS / DECISION BLOCKERS
 - EVIDENCE NOTES
 - NEXT HANDOFF
 
-证据统一使用 `SOURCE × STATUS` 双轴，不让工作假设在换 Agent / 换阶段后悄悄升级成事实。
+证据统一使用 `SOURCE × STATUS`，不让 Working Hypothesis 在换 Agent / 换阶段后悄悄变成事实。
+
+### HOLD 的含义
+
+**HOLD ≠ Supporting Layer。**
+
+下游不得为了“都用上”而把 HOLD 或 DROP 自动改造成 Content / Social / extra SKU / packaging layer。重新打开必须有用户要求、新证据或 Review 变化。
 
 ## 协作原则
 
-- **AI 先做实质工作，人负责判断和纠偏。** 不把工作流变成员工填问卷。
-- **真实案例是 Creative Exploration 的刺激，不是模板。** 重点拆为什么成立、哪些条件不可迁移、真正可带走的机制是什么。
-- **先选择，再体系化。** `Systemization is downstream of selection.` 不要因为多个方向各有一点价值，就自动把它们安排成 Content / Social / Media / Activation 一整套。
-- **Storyline 是诊断工具，不只是排版工具。** Proposal 讲不通时，先检查 Solution 是否缺了一环。
-- **PDF / PPT 是按需交付形式，不是完成工作的指标。**
-- **注意客户保密与素材权限。** 未获批准的 Brief、报价、用户数据、真实项目案例等，不放入本仓库或未经授权的平台。
+- **AI 先做实质工作，人负责判断和纠偏。**
+- **专业问题由专业 Skill 承接。** 不用一个 Skill 同时解决 Creative 与 Product Innovation。
+- **真实案例是刺激，不是模板。**
+- **先选择，再体系化。** `Systemization is downstream of selection.`
+- **Proposal 只修不从零造。** 缺 Idea 就 Creative Reopen；缺 Product Innovation Direction 就 Innovation Reopen。
+- **Storyline 是诊断工具，不只是排版工具。**
+- **PDF / PPT 是按需交付，不是完成工作的指标。**
+- **注意客户保密与素材权限。**
 
 ## 文件结构
 
@@ -161,6 +229,8 @@ CREATIVE MODE 不默认“搜完案例就直接生成完整 Campaign”；PRODUC
 civilization-ai-skills/
 ├── README.md
 ├── QUICK_START.md
+├── LICENSE
+├── COMMERCIAL_USE.md
 ├── project-hub/
 │   ├── SKILL.md
 │   └── PROJECT_STATE_TEMPLATE.md
@@ -168,10 +238,19 @@ civilization-ai-skills/
 │   └── SKILL.md
 ├── creative-exploration-coach/
 │   └── SKILL.md
+├── product-innovation-coach/
+│   └── SKILL.md
 └── proposal-development-coach/
     └── SKILL.md
 ```
 
+## 协议同步规则
+
+Project Hub 是共享协议唯一原文。
+
+- Hub 修改共享标签、Handoff、Reopen、证据语言时，同步更新受影响 Coach。
+- Coach 如要新增共享标签或交接字段，必须先或同时更新 Hub。
+- 专业内部方法不写进 Hub，避免 Hub 变成超级 Skill。
 
 ## License & 使用边界
 
@@ -201,9 +280,10 @@ civilization-ai-skills/
 
 ## 当前版本
 
-- Project Hub **v1.1**
-- Brief Discovery Coach **v1.17**
-- Creative Exploration Coach **v1.9.1**
-- Proposal Development Coach **v1.8**
+- Project Hub **v1.2**
+- Brief Discovery Coach **v1.18**
+- Creative Exploration Coach **v2.0**
+- Product Innovation Coach **v1.0**
+- Proposal Development Coach **v1.9**
 
-更新通用 Skill 时，优先根据真实工作流测试抽象方法规则；**具体客户、品牌、人物、Campaign、产品和项目内容不写入通用 Skill**。
+更新通用 Skill 时，优先根据真实工作流测试抽象规则；**具体客户、品牌、人物、Campaign、产品和项目内容不写入通用 Skill**。
