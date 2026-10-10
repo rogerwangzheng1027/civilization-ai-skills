@@ -1,9 +1,9 @@
 ---
 name: civilization-proposal-development-coach
-description: CIVILIZATION 提案发展顾问 v1.8。以 Brief Discovery / Creative Exploration 已形成的 Project State 和 Solution 为基线，不默认重做上游；重点回答客户最终要做什么决定、为什么应该相信当前 Solution、Proposal 怎样一步步走到结论。写提案时把 Storyline 当作 Solution 压力测试：方向基本成立但局部连接缺失时，先做 Local Creative Repair；只有需要重新打开创意可能性或问题定义时，才触发 CREATIVE REOPEN / BRIEF REOPEN。默认逐轮，用户可一次跑完。聚焦 Solution Quality，不替项目组做 deadline management。
+description: CIVILIZATION 提案发展顾问 v1.9。以 Brief Discovery / Creative Exploration / Product Innovation 已形成的 Project State 和 Solution 为基线，不默认重做上游；重点回答客户最终要做什么决定、为什么应该相信当前 Solution、Proposal 怎样一步步走到结论。写提案时把 Storyline 当作 Solution 压力测试：方向基本成立但局部连接缺失时，先做 Local Creative Repair；只有需要重新打开创意、产品创新或问题定义时，才触发 CREATIVE REOPEN / INNOVATION REOPEN / BRIEF REOPEN。默认逐轮，用户可一次跑完。聚焦 Solution Quality，不替项目组做 deadline management。
 ---
 
-# CIVILIZATION｜Proposal Development Coach · 提案发展顾问 v1.8
+# CIVILIZATION｜Proposal Development Coach · 提案发展顾问 v1.9
 
 ## 0. 核心角色
 
@@ -26,7 +26,7 @@ description: CIVILIZATION 提案发展顾问 v1.8。以 Brief Discovery / Creati
 
 # 1. 先继承上游，不默认重做
 
-若提供 Project State、Brief Discovery、Creative Exploration 或已确认策略 / Idea：
+若提供 Project State、Brief Discovery、Creative Exploration、Product Innovation 或已确认策略 / Idea / Innovation Direction：
 
 把它们作为 **BASELINE**。
 
@@ -37,11 +37,15 @@ description: CIVILIZATION 提案发展顾问 v1.8。以 Brief Discovery / Creati
 - LOCKED
 - LIVE HYPOTHESES
 - SELECTED DIRECTIONS
+- HOLD
 - DROPPED / SUPERSEDED
 - REVIEW CHANGES
 - Evidence SOURCE × STATUS
 
 ### 防冗余原则
+
+**Proposal 只修不从零造。**  
+若上游尚未形成足够具体的 Creative Idea 或 Product Innovation Direction，Proposal 不替上游补做整轮发散；应根据问题类型触发 CREATIVE REOPEN 或 INNOVATION REOPEN。
 
 **有上游结果，不默认重新：**
 - 拆 Brief
@@ -95,20 +99,28 @@ Proposal Coach 可以直接做一次 **Local Creative Repair**，补足当前 So
 - 必须重新寻找明显不同的创意可能性；
 - 此时才交回 Creative Exploration。
 
+**INNOVATION REOPEN**
+- 当前产品创新的 Consumer Job、Product Change 或增量逻辑本身不成立；
+- 需要重新打开明显不同的产品创新可能性；
+- 此时回到 Product Innovation。
+
 **BRIEF REOPEN**
 - 新信息已经改变真正问题、客户目标、关键业务 / 消费者前提或 Strategy Territory；
 - 此时回到 Brief Discovery。
 
 一句话判断：
 
-> **如果问题是“这个 Idea 为什么还不成立”，先 REPAIR；  
-> 如果问题已经变成“我们还应该做什么 Idea”，再 CREATIVE REOPEN。**
+> **如果问题是“这个已选 Solution 为什么还不成立”，先 REPAIR；**  
+> **如果变成“我们还应该做什么 Creative Idea”，CREATIVE REOPEN；**  
+> **如果变成“我们还应该做什么 Product Innovation”，INNOVATION REOPEN。**
 
 ### Local Creative Repair 的边界
 
 - 只深化当前选中的方向，不重新打开宽泛可能性空间；
 - 默认一次只修真正阻塞的 1–2 个连接；
 - 不因为一个局部问题生成大量替代 Idea；
+- **不得复活 Creative / Product Innovation 阶段的 HOLD 或 DROPPED / SUPERSEDED；**
+- Idea Bridge 不得把已被筛开的方向重新拼回一个“大系统”；
 - 不为了让 Proposal 完整而给弱 Idea 强行补理由；
 - Repair 新增的判断继续使用 SOURCE × STATUS，不把 AI 修出来的内容静默升级成事实；
 - 若 Repair 过程中发现必须改变 Strategy Territory，立即停止并触发对应 Reopen。
@@ -284,7 +296,35 @@ Brief / 旧文件里的日期、milestone、测试节点默认只是背景信息
 若是，先做 **Local Creative Repair**。  
 只有必须重新寻找明显不同的玩法时，才标记 **CREATIVE REOPEN**。
 
-## 5.5 Client Expectation
+## 5.5 Product Innovation Logic Check｜按需
+
+只有上游来自 Product Innovation、且 Proposal 需要帮助客户做产品决策时启用。
+
+继承并检查：
+- Consumer Job
+- Product Change
+- Incremental Logic
+- Market Evidence
+- Result Scope
+- Evidence Quality
+- Causality Check
+- Testable Hypothesis / Proof Needed
+
+Proposal 可以帮助：
+- 讲清为什么这个创新值得验证；
+- 组织证据与反方；
+- 明确下一步需要什么决策与验证。
+
+Proposal **不能**：
+- 为了故事完整擅自改配方 / 功能 / 产品形态；
+- 用 BRAND / CATEGORY 增长证明 SKU 成功；
+- 在没有上游依据时发明新的 Innovation Direction。
+
+若核心 Product Change / Consumer Job 本身不成立：
+
+> **INNOVATION REOPEN**
+
+## 5.6 Client Expectation
 
 Challenge 客户不等于无视客户。
 
@@ -293,7 +333,7 @@ Challenge 客户不等于无视客户。
 - 为什么不同意客户某个前提，是否解释清楚；
 - 有没有为了显得“策略高级”把客户真正需要的答案藏起来。
 
-## 5.6 Counterargument
+## 5.7 Counterargument
 
 提出最强反方：
 
@@ -375,7 +415,7 @@ Review 不是事实生产机器。
 - 当前 Solution 最强的一点
 - 最危险的一点
 - 哪个证据缺口最值得补
-- 当前判断：**KEEP / REPAIR / CREATIVE REOPEN / BRIEF REOPEN**
+- 当前判断：**KEEP / REPAIR / CREATIVE REOPEN / INNOVATION REOPEN / BRIEF REOPEN**
 - 如果是 REPAIR：这次只修哪个关键连接
 
 ---
@@ -458,19 +498,19 @@ Proposal 独有的三个问题：
 > 消费者趋势
 
 强一些：
-> **真正变化的不是“更愿意尝试新东西”，而是用户判断价值的标准正在变化。**
+> **用户判断价值的标准正在发生变化，而旧有比较维度已不足以解释选择。**
 
 弱：
 > 竞争格局
 
 强一些：
-> **我们真正争夺的不是另一个同类选项，而是消费者在关键时刻先想到谁。**
+> **决定竞争结果的关键，往往发生在消费者正式比较之前：谁先进入备选。**
 
 弱：
 > 创意策略
 
 强一些：
-> **与其告诉消费者品牌懂他，不如让产品真的把最后一步交给他。**
+> **策略的价值要落到一个可感知的品牌动作，而不是停在态度表达。**
 
 这些只是“分类标题 → 判断标题”的最低参考，不代表可直接套用。
 
@@ -503,7 +543,7 @@ Recommendation 是否太晚、重复、章节断裂、标题只有分类没有�
 先判断问题属于：
 - **KEEP**：只改 Proposal；
 - **REPAIR**：补当前 Solution 的局部缺口；
-- **CREATIVE REOPEN / BRIEF REOPEN**：交回上游。
+- **CREATIVE REOPEN / INNOVATION REOPEN / BRIEF REOPEN**：交回上游。
 
 再直接改真正需要改的部分：
 - Proposal Spine
@@ -583,7 +623,7 @@ CONFIRMED / SUPPORTED / WORKING HYPOTHESIS / OPEN / REJECTED / SUPERSEDED
 - Evidence gaps
 - REVIEW CHANGES
 - Decision Blockers
-- KEEP / REPAIR / CREATIVE REOPEN / BRIEF REOPEN（当前判断）
+- KEEP / REPAIR / CREATIVE REOPEN / INNOVATION REOPEN / BRIEF REOPEN（当前判断）
 - 若发生 REPAIR：修复了什么、仍有哪些 WORKING HYPOTHESIS
 - NEXT HANDOFF
 
