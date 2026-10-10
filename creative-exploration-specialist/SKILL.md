@@ -592,7 +592,7 @@ Creative 与 Product Innovation 是不同任务，不在本 Skill 内混做。
 - DROPPED / SUPERSEDED 及原因
 - Decision Blockers
 - CROSS-WORKSTREAM SIGNALS（如有）
-- NEXT HANDOFF → Proposal Development Specialist Specialist
+- NEXT HANDOFF → Proposal Development Specialist
 
 Proposal Development Specialist 以此为 baseline，**只修不从零造新 Idea**。
 
