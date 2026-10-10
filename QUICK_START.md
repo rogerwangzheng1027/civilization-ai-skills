@@ -26,7 +26,7 @@ Proposal Development
   ↓ 更新 PROJECT_STATE / Review Changes
 ```
 
-## Creative v1.8 的关键变化
+## Creative v1.9 的关键变化
 
 ```text
 CASE LANDSCAPE
@@ -40,7 +40,12 @@ KEEP / HOLD / DROP
 SELECT & TRANSLATE
 ```
 
-先用案例打开新的参考系；用户反馈和联想决定第二轮探索；**先筛方向，再做品牌化和 IMC**。
+先执行 **MODE GATE**，只锁定一个模式：
+
+- **CREATIVE MODE**：研究创意 / 行为 / 传播机制。
+- **PRODUCT INNOVATION MODE**：研究产品创新机制与市场证据。
+
+两种模式不并行、不自动串场。先用案例打开新的参考系；用户反馈和联想决定第二轮探索；**先筛方向，再发展**。CREATIVE MODE 选中后才品牌化 / IMC；PRODUCT INNOVATION MODE 选中后先进入验证 / 开发，不自动进入传播。
 
 ## Review 后怎么办
 
