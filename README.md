@@ -21,15 +21,15 @@
 
 | Skill | 当前版本 | 什么时候用 | 核心作用 |
 | --- | --- | --- | --- |
-| [Project Hub](./project-hub/SKILL.md) | v1.4 | 新项目、阶段切换、重要 Review 后 | 管理 `PROJECT_STATE.md`、共享证据协议、HOLD / DROP、Reopen 与交接；判断下一步进入哪个专业 Specialist |
+| [Project Hub](./project-hub/SKILL.md) | v1.5 | 新项目、阶段切换、重要 Review 后 | 管理 `PROJECT_STATE.md`、共享证据协议、HOLD / DROP、Reopen 与交接；判断下一步进入哪个专业 Specialist |
 | [Brief Discovery Specialist](./brief-discovery-specialist/SKILL.md) | v1.20 | 刚收到 Brief、问题定义或关键前提不清楚 | 研究与拆 Brief，形成 Problem Landscape、Current Best Judgment、Strategy / Opportunity Territory |
 | [Creative Exploration Specialist](./creative-exploration-specialist/SKILL.md) | v2.2 | 问题基本清楚，需要寻找传播创意解法 | 用真实跨界案例打开参考系，经 Human Spark / Follow the Spark / Selection 后，把 KEEP 的机制转译成具体 Idea |
-| [Product Innovation Specialist](./product-innovation-specialist/SKILL.md) | v1.2 | 需要探索产品 / SKU / 配方 / 风味 / 功能 / 包装 / 规格等创新 | 用真实市场案例和可衡量结果筛选创新机制，形成可测试的产品创新方向与假设 |
-| [Proposal Development Specialist](./proposal-development-specialist/SKILL.md) | v1.11 | 已有 Strategy / Idea / Innovation Direction，需要形成客户决策材料 | 用 Storyline 压力测试 Solution；只做受限 Repair，不从零补做上游发散 |
+| [Product Innovation Specialist](./product-innovation-specialist/SKILL.md) | v1.3 | 需要探索产品 / SKU / 配方 / 风味 / 功能 / 包装 / 规格等创新 | 用真实市场案例和可衡量结果筛选创新机制，形成可测试的产品创新方向与假设 |
+| [Proposal Development Specialist](./proposal-development-specialist/SKILL.md) | v1.12 | 已有 Strategy / Idea / Innovation Direction，需要形成完整提案文件 | 用 Storyline 压力测试并发展 Solution，形成 Proposal Spine、Page Plan、关键文案与可直接进入 PPT / PDF 的提案内容 |
 
 一句话记住：
 
-> **Hub 管协议与交接；Brief 管问题；Creative 管传播 Idea；Innovation 管产品创新；Proposal 管成立、相信与决定。**
+> **Hub 管协议与交接；Brief 管问题；Creative 管传播 Idea；Innovation 管产品创新；Proposal 管提案文件的发展与成稿。**
 
 ## 工作流不是唯一线性的
 
@@ -185,7 +185,7 @@ ROUND 3 把选中机制变成可测试的产品创新方向，而不是传播方
 
 ### 5. Proposal Development Specialist
 
-> 请按 Proposal Development Specialist 工作。先判断当前 Solution 和 Proposal 最大的问题，不要先整理 PPT。如果核心方向本身不成立，请触发对应 Reopen，不要在 Proposal 中从零造新 Idea。
+> 请按 Proposal Development Specialist 工作。基于已确认的 Strategy / Idea / Innovation Direction，先检查 Solution 是否足以支撑提案，再形成 Proposal Spine、Storyline、Page Plan 和关键文案，最终发展成完整提案文件。如果核心方向本身不成立，再触发对应 Reopen。
 
 ## `PROJECT_STATE.md` 是共享记忆
 
@@ -287,10 +287,10 @@ Project Hub 是共享协议唯一原文。
 
 ## 当前版本
 
-- Project Hub **v1.4**
+- Project Hub **v1.5**
 - Brief Discovery Specialist **v1.20**
 - Creative Exploration Specialist **v2.2**
-- Product Innovation Specialist **v1.2**
-- Proposal Development Specialist **v1.11**
+- Product Innovation Specialist **v1.3**
+- Proposal Development Specialist **v1.12**
 
 更新通用 Skill 时，优先根据真实工作流测试抽象规则；**具体客户、品牌、人物、Campaign、产品和项目内容不写入通用 Skill**。
