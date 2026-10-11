@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "scenario": "客户预设原因与竞品边界",
+    "prompt": "Brief 已明确写了客户认为销量下滑来自年轻人不喜欢传统品牌，并给了三个竞品。请完整拆解这个 Brief，不要把客户解释当事实，也不要先问我一堆问题。",
+    "expected": "区分 CLIENT ASK、原因假设和预设解法；建立 Problem Landscape；竞品名单不等于真实竞争边界；给 Current Best Judgment，并保持 SOURCE × STATUS。"
+  },
+  {
+    "id": 2,
+    "scenario": "路由到 Product Innovation",
+    "prompt": "客户要开发一款更便携、更有饱腹感的早餐产品。现有材料显示场景与需求基本清楚，但具体产品形态、配方和规格没有答案。请完成 Brief Discovery 并交接下一步。",
+    "expected": "将下一步路由到 Product Innovation Specialist；Project State 包含 HOLD；输出 OPEN INNOVATION QUESTION，不得硬编码到 Creative Exploration。"
+  }
+]
