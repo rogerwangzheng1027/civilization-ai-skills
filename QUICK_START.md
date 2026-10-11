@@ -3,7 +3,7 @@
 ## 新项目怎么开始
 
 1. 把客户 Brief / 会议纪要放进项目文件夹。
-2. 加载 **Project Hub v1.4**。
+2. 加载 **Project Hub v1.5**。
 3. 对它说：
 
 > 这是一个新项目。请建立 PROJECT_STATE.md，判断当前阶段，并告诉我下一步应该调用哪个 Specialist。不要做专业分析。
@@ -31,7 +31,7 @@ Brief 还没解清楚
 问题已清楚，需要产品 / SKU / 配方 / 风味 / 功能等创新
 → Product Innovation Specialist
 
-已有 Strategy / Idea / Innovation Direction，需要客户决策材料
+已有 Strategy / Idea / Innovation Direction，需要形成完整提案文件
 → Proposal Development Specialist
 ```
 
@@ -106,7 +106,7 @@ TESTABLE HYPOTHESIS / PROOF NEEDED
 - Consumer / prototype test
 - Business / channel validation
 
-只有需要形成客户决策材料时才进入 Proposal。
+只有需要把已确认方向发展成提案文件时才进入 Proposal Development Specialist。
 
 产品方向基本锁定、并明确需要传播探索时，再进入 Creative Exploration Specialist。
 
@@ -120,4 +120,4 @@ TESTABLE HYPOTHESIS / PROOF NEEDED
 
 ## 一句话记住
 
-> **Hub 管协议与交接；Brief 管问题；Creative 管传播 Idea；Innovation 管产品创新；Proposal 管成立、相信与决定。**
+> **Hub 管协议与交接；Brief 管问题；Creative 管传播 Idea；Innovation 管产品创新；Proposal 管提案文件的发展与成稿。**
