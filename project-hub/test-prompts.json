@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "scenario": "新项目路由与最小状态",
+    "prompt": "这是一个新项目。材料里有客户目标、两个尚未验证的原因假设和一个明确的硬约束。请建立 PROJECT_STATE，并判断下一步该进入哪个 Specialist。不要替 Specialist 做专业分析。",
+    "expected": "建立最小可继承状态；区分 LOCKED 与 LIVE HYPOTHESES；SOURCE 不明时用 UNKNOWN；给出 NEXT HANDOFF，但不展开专业解题。"
+  },
+  {
+    "id": 2,
+    "scenario": "Review 后的 Reopen 判断",
+    "prompt": "客户 Review 已经证伪当前产品创新的 Consumer Job，但原 Problem Definition 和 Strategy Territory 没变；同时之前有一个 HOLD 方向。请更新项目状态并判断下一步。",
+    "expected": "触发 INNOVATION REOPEN 而不是 BRIEF REOPEN；不得自动复活 HOLD；记录 REVIEW CHANGES 与 Decision Blockers；交接前通过 Handoff Integrity。"
+  }
+]
