@@ -15,8 +15,8 @@
 当前是 **1 Hub + 4 个专业 Specialist**：
 
 - Brief Discovery Specialist
-- Creative Exploration
-- Product Innovation
+- Creative Exploration Specialist
+- Product Innovation Specialist
 - Proposal Development Specialist
 
 ## 怎么路由
@@ -26,10 +26,10 @@ Brief 还没解清楚
 → Brief Discovery Specialist
 
 问题已清楚，需要传播 Idea
-→ Creative Exploration
+→ Creative Exploration Specialist
 
 问题已清楚，需要产品 / SKU / 配方 / 风味 / 功能等创新
-→ Product Innovation
+→ Product Innovation Specialist
 
 已有 Strategy / Idea / Innovation Direction，需要客户决策材料
 → Proposal Development Specialist
