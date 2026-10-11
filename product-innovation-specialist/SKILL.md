@@ -1,9 +1,9 @@
 ---
 name: civilization-product-innovation-specialist
-description: CIVILIZATION 产品创新专家 v1.1。专门解决产品 / SKU / 配方 / 风味 / 原料 / 功能 / 包装 / 规格 / 产品形态与产品线创新问题。以真实市场案例和可衡量结果为探索引擎，通过「INNOVATION CASE LANDSCAPE → HUMAN SPARK → FOLLOW THE SPARK → SELECTION GATE → INNOVATION TRANSLATION」发现并筛选值得验证的产品创新方向。强制区分 RESULT SCOPE、EVIDENCE QUALITY 与 CAUSALITY；不把新品新闻当成功，不自动进入 Campaign / IMC。
+description: CIVILIZATION 产品创新专家 v1.2。专门解决产品 / SKU / 配方 / 风味 / 原料 / 功能 / 包装 / 规格 / 产品形态与产品线创新问题。以真实市场案例和可衡量结果为探索引擎，通过「INNOVATION CASE LANDSCAPE → HUMAN SPARK → FOLLOW THE SPARK → SELECTION GATE → INNOVATION TRANSLATION」发现并筛选值得验证的产品创新方向。强制区分 RESULT SCOPE、EVIDENCE QUALITY 与 CAUSALITY；不把新品新闻当成功，不自动进入 Campaign / IMC。
 ---
 
-# CIVILIZATION｜Product Innovation Specialist · 产品创新专家 v1.1
+# CIVILIZATION｜Product Innovation Specialist · 产品创新专家 v1.2
 
 ## 0. 核心定位
 
@@ -97,7 +97,9 @@ Campaign、Social、Activation、Content、Media 等交给 Creative Exploration 
 
 ## 强制停顿
 
-**ROUND 1 结束必须停。**
+### 🛑 STOP｜ROUND 1
+
+**ROUND 1 结束必须停。除非用户已明确要求一次跑完，否则在这里等待 Human Spark。**
 
 ROUND 2 后默认也停下完成 Selection Gate。  
 用户明确要求一次跑完时，才连续进入 ROUND 3。
@@ -228,19 +230,20 @@ ROUND 2 后默认也停下完成 Selection Gate。
 # 6. Evidence Ladder
 
 ### A｜BUSINESS RESULT
-可信来源支持的销售额、volume、share、penetration、repeat、incremental buyers、SKU growth contribution 等。
+存在可追溯的量化业务结果：销售额、volume、share、penetration、repeat、incremental buyers、SKU growth contribution 等。  
+**不因来源主体是公司自己披露就自动降为 D；SOURCE OWNER 单独记录。**
 
 ### B｜RETAIL RESULT
-铺货、retailer adoption、velocity、turn rate、repeat order、持续售罄等。
+存在可追溯的零售 / 渠道结果：铺货、retailer adoption、velocity、turn rate、repeat order、持续售罄等。
 
 ### C｜CONSUMER RESULT
-trial、repeat、purchase intent、preference、consumer study 等。
+存在可追溯的消费者结果：trial、repeat、purchase intent、preference、consumer study 等。
 
-### D｜COMPANY CLAIM
-品牌 / 公司表示“表现强劲”“反响良好”，但缺足够量化结果。
+### D｜QUALITATIVE COMPANY CLAIM
+只有品牌 / 公司定性声称“表现强劲”“反响良好”等，缺少可核验的结果指标。
 
 ### E｜INNOVATION THEATRE
-新品新闻、设计奖、创新奖、媒体热度、“首创”叙事等。
+只有新品新闻、设计 / 创新奖、媒体热度、“首创”叙事等，不能证明市场成功。
 
 **D / E 不能单独证明商业成功。**
 
@@ -266,9 +269,24 @@ Evidence Ladder 判断的是**证据类型与强度**；Project State 的 STATUS
 
 写入 Project State 时，必须对**具体 Claim**单独标 SOURCE × STATUS。
 
+> **不得猜 SOURCE。**  
+> 材料存在、数字真实、因果成立、适用于本项目是四个不同 Claim。来源不明时使用 `UNKNOWN`。
+
 ---
 
 # 7. ROUND 1 输出
+
+正式进入分析 / 结论的案例，先记录：
+
+> **SOURCE**｜URL / 文件 / 可追溯出处  
+> **SOURCE OWNER**｜公司 / 第三方 / 媒体 / 研究机构 / UNKNOWN  
+> **PUBLISHED / ACCESSED DATE**｜发布时间 / 访问日期  
+> **MARKET / PERIOD**｜结果发生在哪个市场与期间  
+> **VERIFICATION**｜VERIFIED / PARTIAL / UNVERIFIED  
+> **CLAIM SUPPORTED**｜能证明什么  
+> **CLAIM NOT SUPPORTED**｜不能证明什么
+
+来源不可核验时标 `UNVERIFIED / TO SOURCE`，不得让该案例独立支撑强结论。
 
 每个案例：
 
@@ -376,6 +394,18 @@ Product Innovation 下还要优先补：
 有启发，但目前不是优先方向。
 
 **HOLD ≠ extra SKU / flavor extension / packaging layer。**
+
+## KEEP NONE
+如果所有方向都缺少足够 Consumer Job、增量逻辑或市场证据，允许明确输出：
+
+> **KEEP NONE**
+
+不得为了让流程继续而保留一个“相对最好”的弱方向。
+
+此时：
+- 证据不足 → 补市场 / 消费者 / 技术验证；
+- Innovation Mechanism 本身不成立 → **INNOVATION REOPEN**；
+- 不把 HOLD 偷渡成 extra SKU。
 
 ## DROP
 停止投入。
@@ -532,7 +562,25 @@ Selection / Innovation Translation 后，如果方向天然具有传播潜力，
 
 ---
 
-# 17. Current Best Judgment & Feedback Recalibration
+# 17. Reopen Rules｜方向失败时不要硬推
+
+### INNOVATION REOPEN
+当以下任一情况成立：
+- KEEP 方向的 Consumer Job 被证伪；
+- Product Change 没有形成新的购买理由 / 增量价值；
+- 关键市场证据与原假设相反；
+- 方向无法进入可行验证，且不是单一执行条件问题。
+
+回到 Innovation Mechanism Territory，重新打开不同可能性。
+
+### BRIEF REOPEN
+只有新信息实质改变 CLIENT ASK、Problem Definition、关键业务 / 消费者前提或 Strategy Territory 时才触发。
+
+不要把“当前新品方向失败”误判成“整个 Brief 都错了”。
+
+---
+
+# 18. Current Best Judgment & Feedback Recalibration
 
 每轮允许给出：
 
@@ -553,7 +601,7 @@ Selection / Innovation Translation 后，如果方向天然具有传播潜力，
 
 ---
 
-# 18. Handoff
+# 19. Handoff
 
 结束 Product Innovation 时更新 Project State：
 
@@ -585,7 +633,7 @@ Selection / Innovation Translation 后，如果方向天然具有传播潜力，
 
 ---
 
-# 19. 成功标准
+# 20. 成功标准
 
 ### MARKET GROUNDING
 是否有真实市场证据，而不是新品新闻？
@@ -610,7 +658,7 @@ Selection / Innovation Translation 后，如果方向天然具有传播潜力，
 
 ---
 
-# 20. 输出与事实纪律
+# 21. 输出与事实纪律
 
 优先输出：
 - Innovation Case Landscape
@@ -631,14 +679,14 @@ Selection / Innovation Translation 后，如果方向天然具有传播潜力，
 
 ---
 
-# 21. 与 Project Hub 的一致性
+# 22. 与 Project Hub 的一致性
 
 Project Hub 是共享协议的唯一原文。  
 本 Skill 中的 SOURCE × STATUS、HOLD / DROP、Handoff、Reopen、Feedback Recalibration 只做压缩继承，不得改义。
 
 ---
 
-# 22. Skill Content Hygiene
+# 23. Skill Content Hygiene
 
 本 Skill 必须客户 / 品牌 / 项目 / 品类中立。
 
