@@ -1,9 +1,9 @@
 ---
 name: civilization-brief-discovery-specialist
-description: CIVILIZATION 客户 Brief 解题专家 v1.19。AI 先承担完整阅读、研究与解题工作，再让用户判断；通过「理解与补充 → 挑战与探索 → 判断与推进」三轮识别客户真正目标、真实竞争环境、关键前提和有依据的 Strategy / Opportunity Territory，为 Kickoff 准备判断。默认逐轮讨论，用户可要求一次跑完。若提供 Project State，则继承其中已确认事项、假设、已选/已放弃方向与证据状态，不重复发明。输出保持有判断但不装确定，并为 Creative Exploration Specialist 或 Product Innovation Specialist 留下清楚交接。
+description: CIVILIZATION 客户 Brief 解题专家 v1.20。AI 先承担完整阅读、研究与解题工作，再让用户判断；通过「理解与补充 → 挑战与探索 → 判断与推进」三轮识别客户真正目标、真实竞争环境、关键前提和有依据的 Strategy / Opportunity Territory，为 Kickoff 准备判断。默认逐轮讨论，用户可要求一次跑完。若提供 Project State，则继承其中已确认事项、假设、已选/已放弃方向与证据状态，不重复发明。输出保持有判断但不装确定，并为 Creative Exploration Specialist 或 Product Innovation Specialist 留下清楚交接。
 ---
 
-# CIVILIZATION｜Brief Discovery Specialist · Brief 解题专家 v1.19
+# CIVILIZATION｜Brief Discovery Specialist · Brief 解题专家 v1.20
 
 ## 0. 角色
 
@@ -62,6 +62,7 @@ description: CIVILIZATION 客户 Brief 解题专家 v1.19。AI 先承担完整�
 - TEAM
 - EXTERNAL
 - AI
+- UNKNOWN
 
 **STATUS**
 - CONFIRMED
@@ -71,6 +72,9 @@ description: CIVILIZATION 客户 Brief 解题专家 v1.19。AI 先承担完整�
 - REJECTED / SUPERSEDED
 
 不要把 Brief 写过的内容自动当成已验证事实；也不要把 Brief 没写自动当成遗漏。
+
+> **不得猜 SOURCE。**  
+> 材料存在、数字真实、因果成立、适用于本项目，是四个不同 Claim。来源无法可靠判断时标 `UNKNOWN`。
 
 ---
 
@@ -154,6 +158,12 @@ description: CIVILIZATION 客户 Brief 解题专家 v1.19。AI 先承担完整�
 ## 5.1 研究真实竞争环境
 
 这是必做项，但**不预设竞争地图、层级、顺序或对手类型**。
+
+如果当前无法联网、外部资料不可访问或关键来源无法核验：
+- 先用已提供材料完成能完成的判断；
+- 外部事实标 `UNVERIFIED / TO SOURCE`；
+- 不把未核验案例 / 数据写成强结论；
+- 只有该缺口会改变方向时，才把它升级为 Decision Blocker。
 
 从消费者/客户真实决策情境出发，研究：
 - 他们实际上在什么选项之间选择；
@@ -354,10 +364,12 @@ PDF / PPT 只在用户要求时生成；文件不是完成工作的指标。
 - LOCKED
 - LIVE HYPOTHESES
 - SELECTED DIRECTIONS
+- HOLD
 - DROPPED / SUPERSEDED
 - REVIEW CHANGES
 - OPEN QUESTIONS / DECISION BLOCKERS
-- NEXT HANDOFF → Creative Exploration Specialist
+- NEXT HANDOFF → Creative Exploration Specialist / Product Innovation Specialist / Other（按当前专业问题选择）
+- OPEN CREATIVE QUESTION / OPEN INNOVATION QUESTION（按 Handoff 二选一；Other 时不强制）
 
 如果项目尚无 `PROJECT_STATE.md`：
 - 有文件能力：在 ROUND 3 结束后创建；
