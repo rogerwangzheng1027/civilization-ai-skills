@@ -233,7 +233,8 @@ civilization-ai-skills/
 ├── COMMERCIAL_USE.md
 ├── project-hub/
 │   ├── SKILL.md
-│   └── PROJECT_STATE_TEMPLATE.md
+│   ├── PROJECT_STATE_TEMPLATE.md
+│   └── test-prompts.json
 ├── brief-discovery-specialist/
 │   ├── SKILL.md
 │   └── test-prompts.json
@@ -243,12 +244,11 @@ civilization-ai-skills/
 ├── product-innovation-specialist/
 │   ├── SKILL.md
 │   └── test-prompts.json
-└── proposal-development-specialist/
-    ├── SKILL.md
-    └── test-prompts.json
-
-tests/
-└── protocol-consistency.json
+├── proposal-development-specialist/
+│   ├── SKILL.md
+│   └── test-prompts.json
+└── tests/
+    └── protocol-consistency.json
 ```
 
 ## 协议同步规则
