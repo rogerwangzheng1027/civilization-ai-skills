@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "scenario": "真实产品创新案例与市场结果",
+    "prompt": "请研究海外水果饮料中有哪些产品创新获得了可衡量市场反馈。重点判断什么真正创造了新的购买理由，而不是只列新品。",
+    "expected": "区分 SKU / PLATFORM / BRAND / CATEGORY；正式案例记录来源、日期、市场期间、Verification、能证明与不能证明什么；Evidence Level 与 SOURCE OWNER 分开；检查 Causality。"
+  },
+  {
+    "id": 2,
+    "scenario": "伪创新与 KEEP NONE",
+    "prompt": "我们有一个方向：热门功能成分 + 零糖 + 新风味。现在公开市场证据很弱。请判断这是不是值得推进的产品创新。",
+    "expected": "触发 First-answer Rejection Loop；检查 Consumer Job、增量逻辑与证据；数据不足时允许 KEEP NONE；方向机制本身不成立时触发 INNOVATION REOPEN，而不是硬包装成新品平台。"
+  }
+]
