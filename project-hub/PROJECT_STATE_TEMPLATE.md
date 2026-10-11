@@ -42,7 +42,8 @@
 最多 1–3 个真正阻止下一步的问题：
 
 ## EVIDENCE NOTES
-- 关键证据的 SOURCE + STATUS：
+- 关键证据的 SOURCE（可为 UNKNOWN）+ STATUS：
+- 不得猜 SOURCE；不同 Claim 分别标 STATUS：
 
 ## CROSS-WORKSTREAM SIGNALS
 - TO CREATIVE：POSSIBLE / NONE｜why：
