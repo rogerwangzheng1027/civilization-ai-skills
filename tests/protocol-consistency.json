@@ -1,5 +1,5 @@
 {
-  "version": "1.0",
+  "version": "1.1",
   "purpose": "Cross-skill regression assertions for shared protocol consistency.",
   "assertions": [
     {
@@ -65,6 +65,17 @@
       "rule": "Project Hub provides a no-file-write fallback through PROJECT STATE BLOCK and checks minimum handoff integrity.",
       "paths": [
         "project-hub/SKILL.md"
+      ]
+    },
+    {
+      "id": "P9",
+      "rule": "Proposal Development is routed and described as developing an existing Strategy / Idea / Innovation Direction into a complete proposal file; client decision is a diagnostic consideration, not the product definition.",
+      "paths": [
+        "project-hub/SKILL.md",
+        "proposal-development-specialist/SKILL.md",
+        "README.md",
+        "QUICK_START.md",
+        "product-innovation-specialist/SKILL.md"
       ]
     }
   ]
