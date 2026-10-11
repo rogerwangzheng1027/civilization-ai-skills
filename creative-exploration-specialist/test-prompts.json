@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "scenario": "ROUND 1 案例探索",
+    "prompt": "Strategy Territory 已基本确认。请按 Creative Exploration Specialist 做 ROUND 1，用真实跨界案例打开创意空间。不要直接给 Campaign Idea。",
+    "expected": "输出少量高质量案例；正式案例包含 Evidence Block；区分真实行为、Campaign Claim 和 Award Narrative；ROUND 1 后 🛑 STOP 等待 Human Spark。"
+  },
+  {
+    "id": 2,
+    "scenario": "KEEP mechanism 后生成 Idea",
+    "prompt": "我 KEEP 的机制是：让个体行为产生一个可被别人接住的后果。请进入 ROUND 3，发展值得推进的 Idea。不要把 Content、Social、Activation 自动拼成一套。",
+    "expected": "先形成参与结构或品牌动作真正不同的候选；做 Idea Role Check、Participation Cost、Retellability、De-media Test；弱候选不为凑数保留；必要时允许 KEEP NONE。"
+  }
+]
