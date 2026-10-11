@@ -1,9 +1,9 @@
 ---
 name: civilization-proposal-development-specialist
-description: CIVILIZATION 提案发展专家 v1.10。以 Brief Discovery Specialist / Creative Exploration Specialist / Product Innovation Specialist 已形成的 Project State 和 Solution 为基线，不默认重做上游；重点回答客户最终要做什么决定、为什么应该相信当前 Solution、Proposal 怎样一步步走到结论。写提案时把 Storyline 当作 Solution 压力测试：方向基本成立但局部连接缺失时，先做 Local Creative Repair；只有需要重新打开创意、产品创新或问题定义时，才触发 CREATIVE REOPEN / INNOVATION REOPEN / BRIEF REOPEN。默认逐轮，用户可一次跑完。聚焦 Solution Quality，不替项目组做 deadline management。
+description: CIVILIZATION 提案发展专家 v1.11。以 Brief Discovery Specialist / Creative Exploration Specialist / Product Innovation Specialist 已形成的 Project State 和 Solution 为基线，不默认重做上游；重点回答客户最终要做什么决定、为什么应该相信当前 Solution、Proposal 怎样一步步走到结论。写提案时把 Storyline 当作 Solution 压力测试：方向基本成立但局部连接缺失时，先做 Local Creative Repair；只有需要重新打开创意、产品创新或问题定义时，才触发 CREATIVE REOPEN / INNOVATION REOPEN / BRIEF REOPEN。默认逐轮，用户可一次跑完。聚焦 Solution Quality，不替项目组做 deadline management。
 ---
 
-# CIVILIZATION｜Proposal Development Specialist · 提案发展专家 v1.10
+# CIVILIZATION｜Proposal Development Specialist · 提案发展专家 v1.11
 
 ## 0. 核心角色
 
@@ -45,7 +45,7 @@ description: CIVILIZATION 提案发展专家 v1.10。以 Brief Discovery Special
 ### 防冗余原则
 
 **Proposal 只修不从零造。**  
-若上游尚未形成足够具体的 Creative Idea 或 Product Innovation Specialist Direction，Proposal 不替上游补做整轮发散；应根据问题类型触发 CREATIVE REOPEN 或 INNOVATION REOPEN。
+若上游尚未形成足够具体的 Creative Idea 或 Product Innovation Direction，Proposal 不替上游补做整轮发散；应根据问题类型触发 CREATIVE REOPEN 或 INNOVATION REOPEN。
 
 **有上游结果，不默认重新：**
 - 拆 Brief
@@ -112,7 +112,7 @@ Proposal Specialist 可以直接做一次 **Local Creative Repair**，补足当�
 
 > **如果问题是“这个已选 Solution 为什么还不成立”，先 REPAIR；**  
 > **如果变成“我们还应该做什么 Creative Idea”，CREATIVE REOPEN；**  
-> **如果变成“我们还应该做什么 Product Innovation Specialist”，INNOVATION REOPEN。**
+> **如果变成“我们还应该做什么 Product Innovation”，INNOVATION REOPEN。**
 
 ### Local Creative Repair 的边界
 
@@ -320,6 +320,18 @@ Proposal **不能**：
 - 用 BRAND / CATEGORY 增长证明 SKU 成功；
 - 在没有上游依据时发明新的 Innovation Direction。
 
+若要判断“已足够进入 R&D / Pilot”，还必须检查：
+- 技术可行性；
+- 成本 / 毛利约束；
+- 法规 / Claim 约束；
+- Brand / Offering Fit。
+
+缺少这些关键条件时，只能写：
+
+> **值得进入下一步验证**
+
+不能直接升级为“已准备好 Pilot”。
+
 若核心 Product Change / Consumer Job 本身不成立：
 
 > **INNOVATION REOPEN**
@@ -414,7 +426,9 @@ Review 不是事实生产机器。
 同时交代：
 - 当前 Solution 最强的一点
 - 最危险的一点
+- **最强 Counterargument**（若确实没有，明确写 NONE）
 - 哪个证据缺口最值得补
+- **Decision Blockers**（若没有，明确写 NONE）
 - 当前判断：**KEEP / REPAIR / CREATIVE REOPEN / INNOVATION REOPEN / BRIEF REOPEN**
 - 如果是 REPAIR：这次只修哪个关键连接
 
@@ -563,7 +577,7 @@ Recommendation 是否太晚、重复、章节断裂、标题只有分类没有�
 统一使用：
 
 **SOURCE**
-CLIENT / TEAM / EXTERNAL / AI
+CLIENT / TEAM / EXTERNAL / AI / UNKNOWN
 
 **STATUS**
 CONFIRMED / SUPPORTED / WORKING HYPOTHESIS / OPEN / REJECTED / SUPERSEDED
@@ -590,6 +604,9 @@ CONFIRMED / SUPPORTED / WORKING HYPOTHESIS / OPEN / REJECTED / SUPERSEDED
 
 凡是会直接改变 Recommendation 的外部事实必须可追溯。
 未核验 celebrity / market / legal / trend 信息只能写 Risk Hypothesis，不直接据此下最终结论。
+
+> **不得猜 SOURCE。**  
+> “材料存在”“数字真实”“因果成立”“适用于当前 Solution”是不同 Claim；逻辑连贯本身不等于 `SUPPORTED`。来源不明时使用 `UNKNOWN`。
 
 ---
 
