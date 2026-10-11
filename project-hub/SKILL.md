@@ -1,9 +1,9 @@
 ---
 name: civilization-project-hub
-description: CIVILIZATION Project Hub v1.3。1 个 Hub + 4 个专业 Specialist 的入口与状态管理 Skill。负责建立或读取 PROJECT_STATE.md、管理 SOURCE × STATUS、HOLD / DROP、Reopen 与 Handoff，并判断下一步应进入 Brief Discovery / Creative Exploration / Product Innovation / Proposal Development 哪个专业 Skill。Hub 不做专业分析；共享协议以 Hub 为唯一原文，专业方法各自独立。
+description: CIVILIZATION Project Hub v1.4。1 个 Hub + 4 个专业 Specialist 的入口与状态管理 Skill。负责建立或读取 PROJECT_STATE.md、管理 SOURCE × STATUS、HOLD / DROP、Reopen 与 Handoff，并判断下一步应进入 Brief Discovery / Creative Exploration / Product Innovation / Proposal Development 哪个专业 Skill。Hub 不做专业分析；共享协议以 Hub 为唯一原文，专业方法各自独立。
 ---
 
-# CIVILIZATION｜Project Hub v1.3
+# CIVILIZATION｜Project Hub v1.4
 
 ## 0. 核心角色
 
@@ -129,6 +129,7 @@ Project State 不是报告，长期尽量保持 1–3 页，只记录“现在�
 - `TEAM`：项目组经验、内部判断、已知业务背景
 - `EXTERNAL`：第三方研究、官方数据、真实案例、平台行为
 - `AI`：AI 基于现有信息形成的推断或解释
+- `UNKNOWN`：当前材料无法可靠判断来源
 
 ## STATUS
 - `CONFIRMED`
@@ -152,6 +153,10 @@ STATUS 标注的是**具体 Claim 被支持到什么程度**，不是给一份�
 - 对“同样做法适合本项目”仍可能是 OPEN。
 
 专业 Specialist 自己的 Evidence Ladder / Result Scope 等不能替代 SOURCE × STATUS。
+
+> **不得猜 SOURCE。**  
+> 材料存在、数字真实、因果成立、适用于本项目，是四个不同 Claim，必须分别判断 STATUS。  
+> 来源不明时使用 `UNKNOWN`，只有来源身份会改变方向时才追问。
 
 ---
 
@@ -413,11 +418,46 @@ Proposal 或其他下游 **不得擅自复活 HOLD / DROPPED / SUPERSEDED**。
 5. 提示下一步。
 
 ## 交接
-只检查缺失字段，不替对应 Specialist 做专业分析。
+
+### 🔴 CHECKPOINT｜Handoff Integrity
+
+跨 Specialist 交接前，先检查最小状态是否完整：
+
+- PROJECT / STAGE
+- CLIENT ASK
+- CURRENT PROBLEM DEFINITION
+- CURRENT BEST JUDGMENT
+- LOCKED / LIVE HYPOTHESES（如有）
+- HOLD / DROPPED（如有）
+- NEXT HANDOFF
+
+如果字段缺失或彼此冲突：
+1. 只继承可确认部分；
+2. 冲突项标 `OPEN`；
+3. 最多列 1–3 个 Decision Blockers；
+4. 不替专业 Specialist 猜出缺失答案。
+
+检查通过后即可交接；用户已经明确要求连续推进时，不额外制造审批步骤。
+
+若当前环境无法写入文件，输出可复制的：
+
+> **PROJECT STATE BLOCK**
+
+不得因为没有文件写入能力而丢失交接信息。
 
 ---
 
-# 10. 时间与项目管理边界
+# 10. 共享失败模式｜保持短小
+
+| 触发条件 | 一线处理 | 仍失败时 |
+|---|---|---|
+| Project State 缺失 / 冲突 | 只继承可确认字段；冲突项标 OPEN | 输出最小 PROJECT STATE BLOCK + 1–3 个 blocker |
+| SOURCE 不明 | 标 UNKNOWN，不猜 CLIENT / TEAM | 只有会改变方向时才追问 |
+| 无文件写入能力 | 输出 PROJECT STATE BLOCK | 由下一 Specialist 显式继承该 Block |
+
+---
+
+# 11. 时间与项目管理边界
 
 所有 Specialist 都直接承担专业工作，但不替项目组当项目经理。
 
@@ -428,7 +468,7 @@ Proposal 或其他下游 **不得擅自复活 HOLD / DROPPED / SUPERSEDED**。
 
 ---
 
-# 11. 版本与协议规则
+# 12. 版本与协议规则
 
 Project Hub 是共享协议的**唯一原文**。
 
@@ -455,7 +495,7 @@ Project Hub 是共享协议的**唯一原文**。
 
 ---
 
-# 12. 保密与存放
+# 13. 保密与存放
 
 `PROJECT_STATE.md` 可能包含客户未公开 Brief、未发布策略、Review、人名、资源、预算或商业判断。
 
@@ -467,7 +507,7 @@ Project Hub 是共享协议的**唯一原文**。
 
 ---
 
-# 13. Skill Content Hygiene
+# 14. Skill Content Hygiene
 
 所有公开 Skill 保持客户 / 品牌 / 项目 / 品类中立。
 
