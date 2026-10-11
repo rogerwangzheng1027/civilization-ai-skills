@@ -2,13 +2,13 @@
   {
     "id": 1,
     "scenario": "Storyline 断裂与 Local Repair",
-    "prompt": "Strategy 和核心 Idea 已经基本确认，但 Proposal 怎么排都觉得中间断了一步。请判断问题在 Storyline 还是 Solution，并帮我推进。",
-    "expected": "先做 Proposal Diagnosis 与 Solution Logic Check；区分 KEEP / REPAIR / REOPEN；若只是局部连接缺失，做 Local Repair 而不是重做 Brief 或大范围发散；输出最强 Counterargument 与 Decision Blockers。"
+    "prompt": "Strategy 和核心 Idea 已经基本确认，现在要把它形成一份完整提案文件，但 Storyline 怎么排都觉得中间断了一步。请按 Proposal Development Specialist 推进到 Proposal Spine、Page Plan 和关键页面内容。",
+    "expected": "先判断断点属于表达还是 Solution；必要时 Local Repair；然后继续形成 Proposal Spine、Storyline、Page Plan 和关键页面内容，不停在建议层，也不重做整个 Brief。"
   },
   {
     "id": 2,
     "scenario": "产品创新提案中的证据越级",
-    "prompt": "产品方向已确定，但目前只有品牌整体增长数据和一份来源身份不明的内部材料。请组织成客户决策 Proposal，并判断是否已经足够进入 R&D Pilot。",
-    "expected": "不得用品牌增长证明 SKU 成功；未知来源标 UNKNOWN；逻辑连贯不等于 SUPPORTED；缺成本、技术、法规、Brand Fit 时只能说值得进一步验证，不能直接宣布 ready for pilot。"
+    "prompt": "产品方向已确定，但目前只有品牌整体增长数据和一份来源身份不明的内部材料。请把这个方向发展成一份完整提案文件，并判断哪些结论可以写、哪些必须保留为验证项。",
+    "expected": "形成可用于提案文件的结构和关键内容；不得用品牌增长证明 SKU 成功；未知来源标 UNKNOWN；逻辑连贯不等于 SUPPORTED；缺成本、技术、法规、Brand Fit 时写为验证项而不是宣布 ready for pilot。"
   }
 ]
