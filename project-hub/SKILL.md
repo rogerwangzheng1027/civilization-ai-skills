@@ -1,9 +1,9 @@
 ---
 name: civilization-project-hub
-description: CIVILIZATION Project Hub v1.4。1 个 Hub + 4 个专业 Specialist 的入口与状态管理 Skill。负责建立或读取 PROJECT_STATE.md、管理 SOURCE × STATUS、HOLD / DROP、Reopen 与 Handoff，并判断下一步应进入 Brief Discovery / Creative Exploration / Product Innovation / Proposal Development 哪个专业 Skill。Hub 不做专业分析；共享协议以 Hub 为唯一原文，专业方法各自独立。
+description: CIVILIZATION Project Hub v1.5。1 个 Hub + 4 个专业 Specialist 的入口与状态管理 Skill。负责建立或读取 PROJECT_STATE.md、管理 SOURCE × STATUS、HOLD / DROP、Reopen 与 Handoff，并判断下一步应进入 Brief Discovery / Creative Exploration / Product Innovation / Proposal Development 哪个专业 Skill。Hub 不做专业分析；共享协议以 Hub 为唯一原文，专业方法各自独立。
 ---
 
-# CIVILIZATION｜Project Hub v1.4
+# CIVILIZATION｜Project Hub v1.5
 
 ## 0. 核心角色
 
@@ -39,7 +39,7 @@ description: CIVILIZATION Project Hub v1.4。1 个 Hub + 4 个专业 Specialist 
 - **Brief Discovery Specialist**：问题定义、关键前提、Strategy / Opportunity Territory
 - **Creative Exploration Specialist**：传播创意探索、Idea 形成与筛选
 - **Product Innovation Specialist**：产品创新探索、市场证据与可测试创新方向
-- **Proposal Development Specialist**：Solution 压力测试、局部 Repair、Proposal 结构与决策逻辑
+- **Proposal Development Specialist**：把已形成的 Solution 发展成完整提案文件，包括压力测试、局部 Repair、Storyline、Page Plan 与 file-ready content
 
 典型路径不是唯一线性流程：
 
@@ -49,7 +49,7 @@ Project Hub
 Brief Discovery
   ├─→ Creative Exploration → Proposal Development
   └─→ Product Innovation → R&D / Consumer Test / Business Validation
-                         └─→ Proposal Development（需要客户决策材料时）
+                         └─→ Proposal Development（需要形成提案文件时）
                          └─→ Creative Exploration（产品方向锁定后需要传播时）
 ```
 
