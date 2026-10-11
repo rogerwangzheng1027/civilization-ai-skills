@@ -91,7 +91,7 @@ CREATIVE REVIEW
 
 ROUND 1 / ROUND 2 先让案例与人的联想打开空间；完成 Selection 后，ROUND 3 对 KEEP 机制先形成**参与结构 / 品牌动作真正不同的候选 Idea**，再选择与锐化。Creative Review 同时检查 Participation Cost、Retellability 与 Idea Role。方向未筛选前，不自动拼成 IMC。
 
-### Product Innovation Specialist v1.2
+### Product Innovation Specialist v1.3
 
 专门研究：
 - Product / SKU
