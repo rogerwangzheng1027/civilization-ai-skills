@@ -3,7 +3,7 @@
 ## 新项目怎么开始
 
 1. 把客户 Brief / 会议纪要放进项目文件夹。
-2. 加载 **Project Hub v1.3**。
+2. 加载 **Project Hub v1.4**。
 3. 对它说：
 
 > 这是一个新项目。请建立 PROJECT_STATE.md，判断当前阶段，并告诉我下一步应该调用哪个 Specialist。不要做专业分析。
@@ -35,7 +35,7 @@ Brief 还没解清楚
 → Proposal Development Specialist
 ```
 
-## Creative Exploration Specialist v2.1
+## Creative Exploration Specialist v2.2
 
 ```text
 CASE LANDSCAPE
@@ -57,7 +57,7 @@ CREATIVE REVIEW
 
 R1 不急着出 Idea；Selection 后，R3 对 KEEP 机制先产生结构真正不同的 Idea Candidate，再选择、锐化，并检查 Participation Cost / Retellability / Idea Role。
 
-## Product Innovation Specialist v1.1
+## Product Innovation Specialist v1.2
 
 ```text
 INNOVATION CASE LANDSCAPE
@@ -79,6 +79,7 @@ TESTABLE HYPOTHESIS / PROOF NEEDED
 - **EVIDENCE QUALITY**：A / B / C / D / E
 - **CAUSALITY CHECK**：结果是否真能归因于创新
 - **CLAIM-SPECIFIC STATUS**：同一份证据对不同 Claim 可对应不同 STATUS
+- **SOURCE AUDIT**：正式案例保留来源、日期、Verification、能证明 / 不能证明什么
 
 不自动生成 Campaign / IMC。
 
