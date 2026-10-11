@@ -1,0 +1,71 @@
+{
+  "version": "1.0",
+  "purpose": "Cross-skill regression assertions for shared protocol consistency.",
+  "assertions": [
+    {
+      "id": "P1",
+      "rule": "SOURCE enum includes UNKNOWN and specialists must not guess SOURCE.",
+      "paths": [
+        "project-hub/SKILL.md",
+        "brief-discovery-specialist/SKILL.md",
+        "creative-exploration-specialist/SKILL.md",
+        "product-innovation-specialist/SKILL.md",
+        "proposal-development-specialist/SKILL.md"
+      ]
+    },
+    {
+      "id": "P2",
+      "rule": "Brief final handoff must support Creative Exploration Specialist / Product Innovation Specialist / Other and must preserve HOLD.",
+      "paths": [
+        "brief-discovery-specialist/SKILL.md"
+      ]
+    },
+    {
+      "id": "P3",
+      "rule": "Creative and Product formal cases require source audit fields and permit UNVERIFIED without promoting to strong evidence.",
+      "paths": [
+        "creative-exploration-specialist/SKILL.md",
+        "product-innovation-specialist/SKILL.md"
+      ]
+    },
+    {
+      "id": "P4",
+      "rule": "Creative and Product Selection Gate explicitly allow KEEP NONE.",
+      "paths": [
+        "creative-exploration-specialist/SKILL.md",
+        "product-innovation-specialist/SKILL.md"
+      ]
+    },
+    {
+      "id": "P5",
+      "rule": "Product Innovation encodes INNOVATION REOPEN and BRIEF REOPEN as separate failure branches.",
+      "paths": [
+        "product-innovation-specialist/SKILL.md"
+      ]
+    },
+    {
+      "id": "P6",
+      "rule": "Cross-workstream field name is CROSS-WORKSTREAM SIGNALS; legacy CREATIVE SIGNAL / PRODUCT INNOVATION SIGNAL must not be used as shared field names.",
+      "paths": [
+        "project-hub/SKILL.md",
+        "project-hub/PROJECT_STATE_TEMPLATE.md",
+        "creative-exploration-specialist/SKILL.md",
+        "product-innovation-specialist/SKILL.md"
+      ]
+    },
+    {
+      "id": "P7",
+      "rule": "Proposal may not infer SOURCE, may not equate logic coherence with SUPPORTED, and may not declare R&D/Pilot readiness without feasibility constraints.",
+      "paths": [
+        "proposal-development-specialist/SKILL.md"
+      ]
+    },
+    {
+      "id": "P8",
+      "rule": "Project Hub provides a no-file-write fallback through PROJECT STATE BLOCK and checks minimum handoff integrity.",
+      "paths": [
+        "project-hub/SKILL.md"
+      ]
+    }
+  ]
+}
