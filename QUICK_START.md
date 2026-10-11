@@ -57,7 +57,7 @@ CREATIVE REVIEW
 
 R1 不急着出 Idea；Selection 后，R3 对 KEEP 机制先产生结构真正不同的 Idea Candidate，再选择、锐化，并检查 Participation Cost / Retellability / Idea Role。
 
-## Product Innovation Specialist v1.2
+## Product Innovation Specialist v1.3
 
 ```text
 INNOVATION CASE LANDSCAPE
