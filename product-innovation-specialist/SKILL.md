@@ -1,9 +1,9 @@
 ---
 name: civilization-product-innovation-specialist
-description: CIVILIZATION 产品创新专家 v1.2。专门解决产品 / SKU / 配方 / 风味 / 原料 / 功能 / 包装 / 规格 / 产品形态与产品线创新问题。以真实市场案例和可衡量结果为探索引擎，通过「INNOVATION CASE LANDSCAPE → HUMAN SPARK → FOLLOW THE SPARK → SELECTION GATE → INNOVATION TRANSLATION」发现并筛选值得验证的产品创新方向。强制区分 RESULT SCOPE、EVIDENCE QUALITY 与 CAUSALITY；不把新品新闻当成功，不自动进入 Campaign / IMC。
+description: CIVILIZATION 产品创新专家 v1.3。专门解决产品 / SKU / 配方 / 风味 / 原料 / 功能 / 包装 / 规格 / 产品形态与产品线创新问题。以真实市场案例和可衡量结果为探索引擎，通过「INNOVATION CASE LANDSCAPE → HUMAN SPARK → FOLLOW THE SPARK → SELECTION GATE → INNOVATION TRANSLATION」发现并筛选值得验证的产品创新方向。强制区分 RESULT SCOPE、EVIDENCE QUALITY 与 CAUSALITY；不把新品新闻当成功，不自动进入 Campaign / IMC。
 ---
 
-# CIVILIZATION｜Product Innovation Specialist · 产品创新专家 v1.2
+# CIVILIZATION｜Product Innovation Specialist · 产品创新专家 v1.3
 
 ## 0. 核心定位
 
@@ -626,7 +626,7 @@ Selection / Innovation Translation 后，如果方向天然具有传播潜力，
 - R&D / technical validation
 - Consumer / prototype test
 - Business / channel validation
-- Proposal Development（需要形成客户决策材料时）
+- Proposal Development（需要把已确认方向发展成提案文件时）
 - Creative Exploration（产品方向已基本锁定，且明确需要传播探索时）
 
 **不为了工作流完整而强制进入 Proposal。**
