@@ -35,7 +35,7 @@ Brief 还没解清楚
 → Proposal Development Specialist
 ```
 
-## Creative Exploration Specialist v2.3
+## Creative Exploration Specialist v2.4
 
 ```text
 CASE LANDSCAPE
@@ -48,6 +48,8 @@ KEEP / HOLD / DROP
   ↓
 IDEA TRANSLATION
   ↓
+CONCEPT DEVELOPMENT
+  ↓
 CREATIVE REVIEW
 ```
 
@@ -55,7 +57,23 @@ CREATIVE REVIEW
 
 > **不是取消 Idea，而是推迟 Idea。**
 
-R1 不急着出 Idea；正式案例必须同时带**真实执行视觉 + 可追溯 SOURCE LINK**，缺图或缺链接的案例只能放 TO SOURCE / BACKUP；Selection 后，R3 对 KEEP 机制先产生结构真正不同的 Idea Candidate，再选择、锐化，并检查 Participation Cost / Retellability / Idea Role。
+R1 不急着出 Idea；正式案例必须同时带**真实执行视觉 + 可追溯 SOURCE LINK**，缺图或缺链接的案例只能放 TO SOURCE / BACKUP；Selection 后，R3 对 KEEP 机制先产生结构真正不同的 Idea Candidate。选中 Idea Seed 后先进入 **CONCEPT DEVELOPMENT**，把概念做强，再进入 Execution / IMC；已有角色、联名、包装、活动等先视为 Execution Hypotheses。
+
+### 已经有 Idea 雏形怎么办
+
+如果团队已经有一个明确 KEEP 的 Idea Seed，并希望：
+
+> **“先把概念优化完整，不要沿具体执行往下做。”**
+
+可以直接进入 Creative 的 **CONCEPT DEVELOPMENT**，不必强制重跑 ROUND 1 / ROUND 2。
+
+核心动作：
+
+- 拆 CORE CONCEPT 与 EXECUTION HYPOTHESES；
+- 压力测试 Human Truth、Brand Right、Task / Moment Necessity、Concept Meaning；
+- 定义 Expression System 与 Creative Requirements；
+- 输出 Refined Concept Platform；
+- 只有 **CONCEPT READY** 后才进入完整 Execution / IMC。
 
 ## Product Innovation Specialist v1.3
 
