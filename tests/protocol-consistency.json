@@ -1,5 +1,5 @@
 {
-  "version": "1.3",
+  "version": "1.4",
   "purpose": "Cross-skill regression assertions for shared protocol consistency.",
   "assertions": [
     {
@@ -94,6 +94,20 @@
       "paths": [
         "creative-exploration-specialist/SKILL.md",
         "creative-exploration-specialist/test-prompts.json",
+        "README.md",
+        "QUICK_START.md"
+      ]
+    },
+    {
+      "id": "P12",
+      "rule": "Project Hub is the single source of VERSION / UPDATE PROTOCOL: GitHub main is canonical, freshness check is triggered when explicitly requested, source is unknown, or last known check exceeds 7 days; updates are never silently applied; all four Specialists inherit this rule rather than redefining it; true weekly polling requires external automation.",
+      "paths": [
+        "project-hub/SKILL.md",
+        "project-hub/test-prompts.json",
+        "brief-discovery-specialist/SKILL.md",
+        "creative-exploration-specialist/SKILL.md",
+        "product-innovation-specialist/SKILL.md",
+        "proposal-development-specialist/SKILL.md",
         "README.md",
         "QUICK_START.md"
       ]
