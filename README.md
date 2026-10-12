@@ -1,10 +1,21 @@
-# CIVILIZATION · AI 协作 Skills
+# CIVILIZATION · AI Specialists
 
-> 把个人经验转化为团队可使用、可讨论、可持续迭代的工作方法。
+> **AI 专家协作系统**  
+> *A human-led AI specialist workflow for professional collaboration.*
 
-这是一个源于 CIVILIZATION 内部实践、现公开供学习、教育、研究与非商业实践使用的 AI 协作工具库。
+这是一套源于 CIVILIZATION 内部实践的 AI 协作方法，由 **1 个 Project Hub + 4 个专业 Specialist** 组成，帮助团队拆解 Brief、探索创意、寻找产品创新机会，并发展完整提案。
 
-**AI 是专业工作与共创伙伴：直接承担研究、判断、创造与组织工作，但不替团队做最终决策。**
+它不是让 AI 替人交作业，而是让 AI 成为研究、思考、探索和推进问题的专业协作伙伴。
+
+> **AI 先做实质工作，人负责判断和纠偏。**
+
+### 1 Hub + 4 Specialists
+
+- **Project Hub**｜我现在在哪里，下一步该找谁？
+- **Brief Discovery**｜真正的问题是什么？
+- **Creative Exploration**｜还有什么我们没有想到？
+- **Product Innovation**｜产品本身还能怎么变？
+- **Proposal Development**｜怎么把已有 Solution 发展成一份完整提案？
 
 > **Public Learning Edition / 公开学习版**  
 > 本仓库公开的是可学习、可讨论、可持续迭代的通用方法与基础 Skill。CIVILIZATION 的客户案例、专有数据、内部评估机制及其他未公开实现细节不属于本公开仓库的一部分。
@@ -21,15 +32,15 @@
 
 | Skill | 当前版本 | 什么时候用 | 核心作用 |
 | --- | --- | --- | --- |
-| [Project Hub](./project-hub/SKILL.md) | v1.6 | 新项目、阶段切换、重要 Review 后 | 管理 `PROJECT_STATE.md`、共享证据协议、HOLD / DROP、Reopen 与交接；判断下一步进入哪个专业 Specialist |
+| [Project Hub](./project-hub/SKILL.md) | v1.6 | 新项目、阶段切换、重要 Review 后 | 管理项目状态、共享协议与交接；判断当前在哪里、下一步该找哪个专业 Specialist |
 | [Brief Discovery Specialist](./brief-discovery-specialist/SKILL.md) | v1.20 | 刚收到 Brief、问题定义或关键前提不清楚 | 研究与拆 Brief，形成 Problem Landscape、Current Best Judgment、Strategy / Opportunity Territory |
-| [Creative Exploration Specialist](./creative-exploration-specialist/SKILL.md) | v2.4 | 问题基本清楚，需要寻找传播创意解法 | 用真实跨界案例打开参考系，经 Human Spark / Follow the Spark / Selection 后，把 KEEP 的机制转译成具体 Idea |
+| [Creative Exploration Specialist](./creative-exploration-specialist/SKILL.md) | v2.4 | 问题基本清楚，需要寻找传播创意解法，或已有 Idea Seed 需要继续做强 | 用真实跨界案例打开参考系，筛选并发展 Idea；选中后先做 Concept Development，再进入 Execution / IMC |
 | [Product Innovation Specialist](./product-innovation-specialist/SKILL.md) | v1.3 | 需要探索产品 / SKU / 配方 / 风味 / 功能 / 包装 / 规格等创新 | 用真实市场案例和可衡量结果筛选创新机制，形成可测试的产品创新方向与假设 |
 | [Proposal Development Specialist](./proposal-development-specialist/SKILL.md) | v1.12 | 已有 Strategy / Idea / Innovation Direction，需要形成完整提案文件 | 用 Storyline 压力测试并发展 Solution，形成 Proposal Spine、Page Plan、关键文案与可直接进入 PPT / PDF 的提案内容 |
 
 一句话记住：
 
-> **Hub 管协议与交接；Brief 管问题；Creative 管传播 Idea；Innovation 管产品创新；Proposal 管提案文件的发展与成稿。**
+> **Hub 管导航与交接；Brief 管问题；Creative 管传播创意与概念深化；Innovation 管产品创新；Proposal 管提案文件的发展与成稿。**
 
 ## 工作流不是唯一线性的
 
