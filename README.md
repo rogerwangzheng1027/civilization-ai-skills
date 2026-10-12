@@ -23,7 +23,7 @@
 | --- | --- | --- | --- |
 | [Project Hub](./project-hub/SKILL.md) | v1.5 | 新项目、阶段切换、重要 Review 后 | 管理 `PROJECT_STATE.md`、共享证据协议、HOLD / DROP、Reopen 与交接；判断下一步进入哪个专业 Specialist |
 | [Brief Discovery Specialist](./brief-discovery-specialist/SKILL.md) | v1.20 | 刚收到 Brief、问题定义或关键前提不清楚 | 研究与拆 Brief，形成 Problem Landscape、Current Best Judgment、Strategy / Opportunity Territory |
-| [Creative Exploration Specialist](./creative-exploration-specialist/SKILL.md) | v2.2 | 问题基本清楚，需要寻找传播创意解法 | 用真实跨界案例打开参考系，经 Human Spark / Follow the Spark / Selection 后，把 KEEP 的机制转译成具体 Idea |
+| [Creative Exploration Specialist](./creative-exploration-specialist/SKILL.md) | v2.3 | 问题基本清楚，需要寻找传播创意解法 | 用真实跨界案例打开参考系，经 Human Spark / Follow the Spark / Selection 后，把 KEEP 的机制转译成具体 Idea |
 | [Product Innovation Specialist](./product-innovation-specialist/SKILL.md) | v1.3 | 需要探索产品 / SKU / 配方 / 风味 / 功能 / 包装 / 规格等创新 | 用真实市场案例和可衡量结果筛选创新机制，形成可测试的产品创新方向与假设 |
 | [Proposal Development Specialist](./proposal-development-specialist/SKILL.md) | v1.12 | 已有 Strategy / Idea / Innovation Direction，需要形成完整提案文件 | 用 Storyline 压力测试并发展 Solution，形成 Proposal Spine、Page Plan、关键文案与可直接进入 PPT / PDF 的提案内容 |
 
@@ -60,7 +60,7 @@ Brief Discovery
 
 ## 两个探索 Specialist 为什么拆开
 
-### Creative Exploration Specialist v2.2
+### Creative Exploration Specialist v2.3
 
 专门研究：
 - Campaign / Communication
@@ -89,7 +89,7 @@ CREATIVE REVIEW
 
 > **不是取消 Idea，而是推迟 Idea。**
 
-ROUND 1 / ROUND 2 先让案例与人的联想打开空间；完成 Selection 后，ROUND 3 对 KEEP 机制先形成**参与结构 / 品牌动作真正不同的候选 Idea**，再选择与锐化。Creative Review 同时检查 Participation Cost、Retellability 与 Idea Role。方向未筛选前，不自动拼成 IMC。
+ROUND 1 / ROUND 2 先让案例与人的联想打开空间；**正式案例必须同时带真实执行视觉 + 可追溯来源链接**，让案例既可验证，也真正能刺激创意联想；缺图或缺链接的案例只进入 TO SOURCE / BACKUP。完成 Selection 后，ROUND 3 对 KEEP 机制先形成**参与结构 / 品牌动作真正不同的候选 Idea**，再选择与锐化。Creative Review 同时检查 Participation Cost、Retellability 与 Idea Role。方向未筛选前，不自动拼成 IMC。
 
 ### Product Innovation Specialist v1.3
 
@@ -289,7 +289,7 @@ Project Hub 是共享协议唯一原文。
 
 - Project Hub **v1.5**
 - Brief Discovery Specialist **v1.20**
-- Creative Exploration Specialist **v2.2**
+- Creative Exploration Specialist **v2.3**
 - Product Innovation Specialist **v1.3**
 - Proposal Development Specialist **v1.12**
 
