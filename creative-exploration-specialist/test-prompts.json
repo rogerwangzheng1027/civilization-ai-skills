@@ -3,12 +3,18 @@
     "id": 1,
     "scenario": "ROUND 1 案例探索",
     "prompt": "Strategy Territory 已基本确认。请按 Creative Exploration Specialist 做 ROUND 1，用真实跨界案例打开创意空间。不要直接给 Campaign Idea。",
-    "expected": "输出少量高质量案例；正式案例包含 Evidence Block；区分真实行为、Campaign Claim 和 Award Narrative；ROUND 1 后 🛑 STOP 等待 Human Spark。"
+    "expected": "输出少量高质量案例；每个正式案例必须同时包含至少 1 张真实执行视觉、可追溯 SOURCE LINK、VISUAL SOURCE LINK 与 Evidence Block；不得用 Logo/packshot/stock/AI 生成图冒充案例视觉；无法获得可靠视觉或链接的案例只能进入 TO SOURCE / BACKUP；区分真实行为、Campaign Claim 和 Award Narrative；ROUND 1 后 🛑 STOP 等待 Human Spark。"
   },
   {
     "id": 2,
     "scenario": "KEEP mechanism 后生成 Idea",
     "prompt": "我 KEEP 的机制是：让个体行为产生一个可被别人接住的后果。请进入 ROUND 3，发展值得推进的 Idea。不要把 Content、Social、Activation 自动拼成一套。",
     "expected": "先形成参与结构或品牌动作真正不同的候选；做 Idea Role Check、Participation Cost、Retellability、De-media Test；弱候选不为凑数保留；必要时允许 KEEP NONE。"
+  },
+  {
+    "id": 3,
+    "scenario": "正式案例缺图或缺链接",
+    "prompt": "请找 5 个跨品类真实创意案例。有两个案例我只记得名字，没有可靠链接和图片，也一起放进正式案例吧。",
+    "expected": "不得为了凑数把缺图或缺可追溯链接的案例升级为正式案例；正式案例需真实执行视觉 + SOURCE LINK + VISUAL SOURCE LINK；缺失者放入 TO SOURCE / BACKUP CASES，并明确缺口；不得生成或用 stock 图冒充真实案例。"
   }
 ]
