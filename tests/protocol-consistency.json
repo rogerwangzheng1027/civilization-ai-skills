@@ -1,5 +1,5 @@
 {
-  "version": "1.2",
+  "version": "1.3",
   "purpose": "Cross-skill regression assertions for shared protocol consistency.",
   "assertions": [
     {
@@ -81,6 +81,16 @@
     {
       "id": "P10",
       "rule": "Creative formal cases in ROUND 1 / ROUND 2 require at least one authentic execution visual plus traceable SOURCE LINK and VISUAL SOURCE LINK; cases missing reliable visual or link stay in TO SOURCE / BACKUP and AI/stock/logo/packshot cannot substitute for real case visuals.",
+      "paths": [
+        "creative-exploration-specialist/SKILL.md",
+        "creative-exploration-specialist/test-prompts.json",
+        "README.md",
+        "QUICK_START.md"
+      ]
+    },
+    {
+      "id": "P11",
+      "rule": "Creative supports direct Concept Development from a user-selected Idea Seed; existing mascot/IP/collab/packaging/activation/KOL/media ideas are treated as EXECUTION HYPOTHESES until the core concept passes Human Truth, Brand Right, Task/Moment, semantic-boundary and creative-requirement checks. Full Execution/IMC is downstream of CONCEPT READY.",
       "paths": [
         "creative-exploration-specialist/SKILL.md",
         "creative-exploration-specialist/test-prompts.json",
