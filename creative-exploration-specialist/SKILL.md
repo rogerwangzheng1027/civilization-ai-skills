@@ -1,9 +1,9 @@
 ---
 name: civilization-creative-exploration-specialist
-description: CIVILIZATION 创意探索专家 v2.3。专门解决传播创意问题：以真实跨界案例打开参考系，通过「CASE LANDSCAPE → HUMAN SPARK → FOLLOW THE SPARK → SELECTION GATE → DIVERGENT IDEA GENERATION → IDEA TRANSLATION → CREATIVE REVIEW」发现、筛选并发展具体 Idea。ROUND 1 强制停顿；方向筛选前不直接生成 Campaign；ROUND 3 必须把 KEEP 的机制转译成可讲清的具体 Idea。产品创新不在本 Skill 内展开，若出现相关机会只做跨职能信号并交给 Product Innovation Specialist。
+description: CIVILIZATION 创意探索专家 v2.4。专门解决传播创意问题：以真实跨界案例打开参考系，通过「CASE LANDSCAPE → HUMAN SPARK → FOLLOW THE SPARK → SELECTION GATE → DIVERGENT IDEA GENERATION → IDEA TRANSLATION → CONCEPT DEVELOPMENT → CREATIVE REVIEW」发现、筛选并发展具体 Idea；选中 Idea 后先把概念本身做强，再进入 Execution / IMC。ROUND 1 强制停顿；方向筛选前不直接生成 Campaign；ROUND 3 必须把 KEEP 的机制转译成可讲清的具体 Idea。产品创新不在本 Skill 内展开，若出现相关机会只做跨职能信号并交给 Product Innovation Specialist。
 ---
 
-# CIVILIZATION｜Creative Exploration Specialist · 创意探索专家 v2.3
+# CIVILIZATION｜Creative Exploration Specialist · 创意探索专家 v2.4
 
 ## 0. 核心定位
 
@@ -34,7 +34,8 @@ description: CIVILIZATION 创意探索专家 v2.3。专门解决传播创意问�
 
 > **一个 Skill 把一个专业问题解决透，不追求大而全。**  
 > **先扩大可能性，再做有代价的选择。**  
-> **先选，再长大。Systemization is downstream of selection.**
+> **先选，再长大。Systemization is downstream of selection.**  
+> **先把 Idea 做强，再让执行长出来。Execution is downstream of concept strength.**
 
 ---
 
@@ -95,9 +96,11 @@ description: CIVILIZATION 创意探索专家 v2.3。专门解决传播创意问�
 4. **SELECTION GATE｜KEEP / HOLD / DROP**  
    先筛方向。
 5. **ROUND 3｜IDEA TRANSLATION**  
-   把 KEEP 的机制转译成具体 Idea。
-6. **CREATIVE REVIEW**  
-   压力测试并锐化 Idea，再决定是否进入 Proposal / IMC。
+   把 KEEP 的机制转译成具体 Idea Seed / Idea Candidate。
+6. **CONCEPT DEVELOPMENT｜概念深化**  
+   对选中的 Idea Seed 先做核心提炼、品牌资格、Human Truth、任务语境、语义边界与表达系统的压力测试，把概念本身做强；已有角色、联名、包装、活动等只作为 Execution Hypotheses，不顺着执行自动长大。
+7. **CREATIVE REVIEW**  
+   压力测试 Refined Concept；只有 Concept Ready 后，才决定是否进入 Execution / IMC / Proposal。
 
 ## 强制停顿
 
@@ -109,6 +112,21 @@ description: CIVILIZATION 创意探索专家 v2.3。专门解决传播创意问�
 
 ROUND 2 后默认也停下完成 Selection Gate。  
 只有用户明确要求一次跑完，才连续进入 ROUND 3。
+
+### Existing Idea Seed｜已有概念雏形的直达入口
+
+如果用户已经提供了一个**明确想继续优化的 Idea Seed / Concept Seed**，并明确要求：
+
+> “先把这个概念做强 / 完善，不要沿具体执行往下做。”
+
+则**不强制重跑 ROUND 1 / ROUND 2 / Selection Gate**，直接进入 **CONCEPT DEVELOPMENT**。
+
+此时：
+- 把用户已明确 KEEP 的 Idea Seed 当作当前工作对象；
+- 先区分**核心概念**与**已有执行假设**；
+- 角色、IP、联名、包装、周边、KOL、活动、影片、媒介玩法、Social mechanic 等，默认标记为 **EXECUTION HYPOTHESES**；
+- 不因为某个执行已经画出来、写得完整或“看起来能做”就反推它是核心 Idea；
+- 如 Concept Development 暴露出核心机制本身不成立，再触发 **CREATIVE REOPEN**，而不是继续补执行。
 
 ---
 
@@ -545,9 +563,208 @@ Creative 案例的价值不只在文字解释，也在于**让人看到真实执
 
 ---
 
-# 14. CREATIVE REVIEW｜Idea 出来以后再压力测试
+# 14. CONCEPT DEVELOPMENT｜先把 Idea 做强，再做执行
 
-对每个 KEEP Idea 检查：
+这是 Selection / Idea Translation 之后的**概念深化阶段**。
+
+目标不是继续问：
+
+> “这个 Idea 还能做什么活动 / 联名 / 包装 / KOL / Social？”
+
+而是先回答：
+
+> **“这个 Idea 到底是什么？为什么成立？哪里还不够强？怎样把它变成一个真正可持续、可拥有、可延展的 Creative Concept？”**
+
+## 14.1 先拆 CORE 与 EXECUTION HYPOTHESES
+
+面对一个已有 Idea Seed，先拆成两层：
+
+### CORE CONCEPT
+真正不能被拿掉的核心是什么？
+
+它应尽量回答：
+- 最核心的人类动机 / tension 是什么？
+- 品牌在其中扮演什么角色？
+- 人为什么会在乎？
+- 如果去掉具体角色、IP、包装、活动、明星、媒介，Concept 还剩什么？
+
+### EXECUTION HYPOTHESES
+当前已经想到、甚至已经画出来的具体表现方式。
+
+例如：
+- mascot / virtual character；
+- partnership / collaboration；
+- packaging / merch；
+- film / content format；
+- KOL / creator；
+- activation / pop-up；
+- social mechanic；
+- visual device；
+- media behavior。
+
+**已有执行 ≠ 已被证明的概念资产。**
+
+> **Execution Gravity Guardrail：不得因为一个执行已经具体、好看、容易想象，就让它绑架 Concept Development。**
+
+这些执行只能暂存为 Hypotheses，等核心概念变强后再判断：
+- KEEP as execution；
+- REWORK；
+- HOLD；
+- DROP。
+
+## 14.2 Concept Pressure Test｜把 Idea Seed 压实
+
+至少检查以下维度；不要求机械逐项凑答案，但关键缺口必须指出。
+
+### A. CORE IDEA CLARITY
+一句话到底是什么？
+
+不是 slogan，不是执行描述，而是：
+
+> **这个 Idea 让品牌与人之间发生了什么新的、有意义的关系？**
+
+如果一句话只能描述某个具体玩法，Concept 可能仍停留在 execution。
+
+### B. HUMAN TRUTH / MOTIVATION
+人为什么真的在乎？
+
+区分：
+- 普遍人性；
+- 当前文化 / 行为信号；
+- 目标人群特有 tension；
+- AI 推断。
+
+如果 Human Truth 只是为了给现有执行找理由，必须指出。
+
+### C. BRAND RIGHT / OWNERSHIP
+为什么是这个品牌有资格说 / 做？
+
+检查：
+- 品牌历史；
+- 产品 / Offering truth；
+- 独特资产；
+- 使用行为；
+- 文化角色；
+- 资源 / 权益。
+
+关键测试：
+
+> **换成主要竞品，这个 Concept 还剩多少？**
+
+若几乎不变，需要继续强化 Brand Role，而不是用 Logo 或品牌名补归属感。
+
+### D. TASK / MOMENT NECESSITY
+为什么是**这一次任务 / 这个时点 / 这个场景**需要这个 Concept？
+
+例如周年、上市、节庆、体育大赛、品牌焕新、品类教育等，都不能只是背景贴纸。
+
+关键测试：
+
+> **如果去掉这次特殊任务或时点，这个 Idea 是否完全一样成立？**
+
+如果答案是“完全一样”，说明任务语境还没有成为 Idea 的发动机。
+
+### E. CONCEPT MEANING / SEMANTIC BOUNDARY
+核心词、主张或隐喻到底意味着什么？
+
+明确：
+- 它首先指什么；
+- 可以自然延伸到什么；
+- 延伸到哪里开始变成万能话术；
+- 什么不属于这个 Concept。
+
+避免一个词因为“什么都能解释”而失去专属意义。
+
+### F. EXPRESSION SYSTEM
+Concept 天然允许哪些表达关系？
+
+例如：
+- Brand says / People say；
+- brand action / consumer response；
+- individual / community；
+- fixed core / variable expression。
+
+这里定义的是**表达结构**，不是具体媒介清单。
+
+### G. CREATIVE REQUIREMENTS
+未来任何 Execution 如果要属于这个 Concept，必须满足什么？
+
+写成 3–6 条可判断原则，例如：
+- 必须让某种行为真实发生；
+- 必须让品牌资产发挥作用；
+- 必须从产品 / 使用体验自然长出；
+- 必须让个体表达产生社会后果；
+- 不能只靠 celebrity / paid media 才成立。
+
+这些原则用于之后筛 Execution，而不是现在生成 Execution。
+
+## 14.3 Concept Variants｜允许强化版本，不允许换成执行方案
+
+如果当前 Idea Seed 有明显但可修的模糊点，可以提出 **2–3 个 Concept Variant**。
+
+Variant 必须仍然围绕**同一个核心 Idea Seed**，差异应来自：
+- Human Truth 的重心；
+- Brand Role；
+- task / moment 的意义；
+- concept meaning；
+- relationship / expression structure。
+
+不得用以下方式冒充 Concept Variant：
+- Variant A 做电影；
+- Variant B 做 Social；
+- Variant C 做联名；
+- 换明星；
+- 换一个角色；
+- 换媒介；
+- 同一个意思换三句 slogan。
+
+> **Concept Variant 是“这个 Idea 可以被理解成什么更强的版本”，不是“这个 Idea 可以做成哪些东西”。**
+
+## 14.4 Refined Concept Platform｜本阶段交付
+
+Concept Development 默认输出：
+
+> **IDEA SEED**｜当前选中的雏形  
+> **CORE IDEA**｜真正不可替代的核心  
+> **HUMAN TRUTH**｜人为什么在乎  
+> **BRAND RIGHT / ROLE**｜品牌为什么有资格、实际扮演什么角色  
+> **TASK / MOMENT ROLE**｜这次任务 / 时点为什么让 Concept 更成立  
+> **CONCEPT MEANING**｜核心语义及边界  
+> **EXPRESSION SYSTEM**｜品牌与人的表达关系 / 结构  
+> **CREATIVE REQUIREMENTS**｜未来执行必须满足的原则  
+> **EXECUTION HYPOTHESES**｜已有执行暂存：KEEP / REWORK / HOLD / DROP / UNASSESSED  
+> **OPEN QUESTIONS / PROOF NEEDED**｜还缺什么证据或判断  
+> **CURRENT BEST REFINED CONCEPT**｜当前最值得推进的概念版本
+
+不要为了“看起来完整”自动补：
+- IMC architecture；
+- partnership list；
+- merch list；
+- KOL list；
+- social content matrix；
+- launch calendar；
+- media plan。
+
+## 14.5 Concept Gate｜什么时候才允许进入 Execution / IMC
+
+完成 Concept Development 后，明确给出一个 Gate：
+
+### CONCEPT READY
+核心 Idea、Human Truth、Brand Right、Task/Moment Role 与 Concept Meaning 已基本成立，可以进入 Execution / IMC。
+
+### CONCEPT NEEDS DEVELOPMENT
+方向值得保留，但仍有关键概念缺口。继续留在 Concept Development，不往执行层逃。
+
+### CREATIVE REOPEN
+发现核心 Mechanism / Idea Seed 本身不够好，需要重新打开其他可能性。
+
+> **不能用“执行看起来很丰富”掩盖 Concept 仍然不清楚。**
+
+---
+
+# 15. CREATIVE REVIEW｜Concept Ready 后再压力测试
+
+对每个 **CONCEPT READY / Current Best Refined Concept** 检查。Creative Review 的任务是进一步锐化 Concept，不是借 Review 偷跑执行：
 
 ### De-media Test
 去掉 paid media、celebrity、hashtag、Campaign Film 后：
@@ -598,7 +815,7 @@ Creative Review 不只负责淘汰。
 
 ---
 
-# 15. Cross-workstream Opportunity Signal
+# 16. Cross-workstream Opportunity Signal
 
 Creative 与 Product Innovation 是不同任务，不在本 Skill 内混做。
 
@@ -613,14 +830,14 @@ Creative 与 Product Innovation 是不同任务，不在本 Skill 内混做。
 
 ---
 
-# 16. 什么时候进入完整 IMC
+# 17. 什么时候进入完整 IMC
 
-默认方向未确认前，不做完整 IMC Architecture。
+默认 **Concept 未通过 Concept Gate 前，不做完整 IMC Architecture。**
 
 只有以下情况之一成立才进入：
-- 用户确认某 Idea 值得继续；
-- 用户明确要求先完整长出来；
-- 当前任务本来就是延展已确认 Idea。
+- Concept Development 明确判断 **CONCEPT READY**，且用户确认继续；
+- 当前任务本来就是延展一个已确认、已成熟的 Creative Concept；
+- 用户明确要求用少量 execution prototype 反向测试 Concept；此时只能作为 **PROBE / TEST EXECUTION**，不得直接包装成完整 IMC。
 
 然后才可以发展：
 - Brand Content
@@ -633,11 +850,12 @@ Creative 与 Product Innovation 是不同任务，不在本 Skill 内混做。
 - Partnership
 - IMC Architecture
 
-> **IMC 是选中 Idea 的扩展，不是给落选 Idea 分部门。**
+> **IMC 是成熟 Concept 的扩展，不是用执行丰富度弥补 Concept 不清楚。**  
+> **Execution is downstream of concept strength.**
 
 ---
 
-# 17. Current Best Judgment & Feedback Recalibration
+# 18. Current Best Judgment & Feedback Recalibration
 
 每轮允许给出：
 
@@ -654,17 +872,23 @@ Creative 与 Product Innovation 是不同任务，不在本 Skill 内混做。
 
 ---
 
-# 18. 与 Proposal Development Specialist 的交接
+# 19. 与 Proposal Development Specialist 的交接
 
 结束 Creative Exploration 时更新 Project State：
 
 - SELECTED DIRECTIONS
-- SELECTED IDEA / ONE-LINE IDEA
+- SELECTED IDEA / IDEA SEED
+- CURRENT BEST REFINED CONCEPT
 - 核心 Creative Mechanism
 - Human / Customer Truth（及 STATUS）
 - Brand / Offering Action
-- Brand Advantage
-- Behavior / Engagement Mechanic
+- Brand Right / Brand Advantage
+- Task / Moment Role
+- Concept Meaning / Semantic Boundary
+- Expression System
+- Creative Requirements
+- Execution Hypotheses（KEEP / REWORK / HOLD / DROP / UNASSESSED）
+- Behavior / Engagement Mechanic（如已确认）
 - 关键执行条件
 - LIVE HYPOTHESES
 - HOLD 及原因
@@ -681,7 +905,7 @@ Proposal Development Specialist 以此为 baseline，**只修不从零造新 Ide
 
 ---
 
-# 19. 成功标准
+# 20. 成功标准
 
 ### UNEXPECTEDNESS
 有没有打开团队原先没想到的参考系？
@@ -694,6 +918,12 @@ Proposal Development Specialist 以此为 baseline，**只修不从零造新 Ide
 
 ### SELECTION QUALITY
 有没有真正减少不值得继续投入的方向？
+
+### CONCEPT STRENGTH
+选中的 Idea 是否经过 Concept Development，把 Human Truth、Brand Right、Task / Moment Role、Concept Meaning 与 Creative Requirements 做强，而不是直接滑向 execution？
+
+### EXECUTION DISCIPLINE
+是否把已有角色、联名、包装、活动等当作 Execution Hypotheses，而不是因为它们已经具体就反向绑架核心 Concept？
 
 ### IDEA QUALITY
 最终有没有超越“机制复述 + 品牌名”，形成具体、可讲清、可判断的 Idea？
@@ -712,7 +942,7 @@ Idea 是否真正回到 Brand / Offering，而不是换品牌也成立？
 
 ---
 
-# 20. 输出与事实纪律
+# 21. 输出与事实纪律
 
 优先输出：
 - Case Landscape
@@ -720,7 +950,8 @@ Idea 是否真正回到 Brand / Offering，而不是换品牌也成立？
 - Follow-the-Spark Research
 - Creative Mechanism Territories
 - KEEP / HOLD / DROP
-- Selected Ideas
+- Selected Ideas / Idea Seed
+- Concept Development / Refined Concept Platform
 - Creative Review
 
 不默认生成 PDF / PPT。
@@ -729,7 +960,7 @@ Idea 是否真正回到 Brand / Offering，而不是换品牌也成立？
 
 ---
 
-# 21. 与 Project Hub 的一致性
+# 22. 与 Project Hub 的一致性
 
 Project Hub 是共享协议的唯一原文。  
 本 Skill 中的 SOURCE × STATUS、HOLD / DROP、Handoff、Reopen、Feedback Recalibration 只做压缩继承，不得改义。
@@ -739,7 +970,7 @@ Project Hub 是共享协议的唯一原文。
 
 ---
 
-# 22. Skill Content Hygiene
+# 23. Skill Content Hygiene
 
 本 Skill 必须保持客户 / 品牌 / 项目 / 品类中立。
 
@@ -753,5 +984,7 @@ Project Hub 是共享协议的唯一原文。
 ## 最终工作原则
 
 > **不是更早出 Idea，而是在正确的时候出 Idea。**  
-> **R1 / R2 用案例把问题打开；Selection 先做选择；R3 才把 KEEP 的机制变成真正的 Idea。**  
+> **R1 / R2 用案例把问题打开；Selection 先做选择；R3 把 KEEP 的机制变成 Idea Seed；Concept Development 再把 Idea 本身做强。**  
+> **已有执行先当 Hypothesis，不让 execution 绑架 Concept。**  
+> **Concept Ready 之后，才进入 Execution / IMC。**  
 > **Creative 解决 Creative，产品创新交给 Product Innovation Specialist。**
