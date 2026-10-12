@@ -21,7 +21,7 @@
 
 | Skill | 当前版本 | 什么时候用 | 核心作用 |
 | --- | --- | --- | --- |
-| [Project Hub](./project-hub/SKILL.md) | v1.5 | 新项目、阶段切换、重要 Review 后 | 管理 `PROJECT_STATE.md`、共享证据协议、HOLD / DROP、Reopen 与交接；判断下一步进入哪个专业 Specialist |
+| [Project Hub](./project-hub/SKILL.md) | v1.6 | 新项目、阶段切换、重要 Review 后 | 管理 `PROJECT_STATE.md`、共享证据协议、HOLD / DROP、Reopen 与交接；判断下一步进入哪个专业 Specialist |
 | [Brief Discovery Specialist](./brief-discovery-specialist/SKILL.md) | v1.20 | 刚收到 Brief、问题定义或关键前提不清楚 | 研究与拆 Brief，形成 Problem Landscape、Current Best Judgment、Strategy / Opportunity Territory |
 | [Creative Exploration Specialist](./creative-exploration-specialist/SKILL.md) | v2.4 | 问题基本清楚，需要寻找传播创意解法 | 用真实跨界案例打开参考系，经 Human Spark / Follow the Spark / Selection 后，把 KEEP 的机制转译成具体 Idea |
 | [Product Innovation Specialist](./product-innovation-specialist/SKILL.md) | v1.3 | 需要探索产品 / SKU / 配方 / 风味 / 功能 / 包装 / 规格等创新 | 用真实市场案例和可衡量结果筛选创新机制，形成可测试的产品创新方向与假设 |
@@ -261,6 +261,18 @@ Project Hub 是共享协议唯一原文。
 - Specialist 如要新增共享标签或交接字段，必须先或同时更新 Hub。
 - 专业内部方法不写进 Hub，避免 Hub 变成超级 Skill。
 
+### 版本与更新
+
+公开正式版本以 GitHub 仓库 main branch 为 Canonical Source：
+
+> https://github.com/rogerwangzheng1027/civilization-ai-skills
+
+版本检查规则统一定义在 **Project Hub v1.6 的 VERSION / UPDATE PROTOCOL**。四个 Specialist 只继承，不重复维护。
+
+若已知距上次版本检查超过 7 天、版本来源不明，或用户明确要求检查最新版，且当前环境可以访问仓库，则先检查更新。发现新版本时必须提示差异，**不得静默覆盖当前 Skill**。
+
+> Skill 本身不能后台定时运行；真正的每周主动检查需要外部 Automation / Scheduler。
+
 ## License & 使用边界
 
 **Free to learn. Not free to commercialize.**
@@ -289,7 +301,7 @@ Project Hub 是共享协议唯一原文。
 
 ## 当前版本
 
-- Project Hub **v1.5**
+- Project Hub **v1.6**
 - Brief Discovery Specialist **v1.20**
 - Creative Exploration Specialist **v2.4**
 - Product Innovation Specialist **v1.3**
