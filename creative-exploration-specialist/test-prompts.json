@@ -16,5 +16,17 @@
     "scenario": "正式案例缺图或缺链接",
     "prompt": "请找 5 个跨品类真实创意案例。有两个案例我只记得名字，没有可靠链接和图片，也一起放进正式案例吧。",
     "expected": "不得为了凑数把缺图或缺可追溯链接的案例升级为正式案例；正式案例需真实执行视觉 + SOURCE LINK + VISUAL SOURCE LINK；缺失者放入 TO SOURCE / BACKUP CASES，并明确缺口；不得生成或用 stock 图冒充真实案例。"
+  },
+  {
+    "id": 4,
+    "scenario": "已有 Idea 雏形，要求先优化概念而不是发展执行",
+    "prompt": "我们已经有一个 Idea 雏形，也已经顺手想了一些角色、联名、包装和活动。这个 Idea 我想 KEEP。请先帮我把概念本身优化完善，不要沿这些具体执行往下做。",
+    "expected": "直接进入 Concept Development，不强制重跑 ROUND 1/2；先拆 CORE CONCEPT 与 EXECUTION HYPOTHESES；角色/联名/包装/活动不因已有雏形而自动 KEEP；压力测试 Human Truth、Brand Right、Task/Moment Necessity、Concept Meaning/Semantic Boundary、Expression System 与 Creative Requirements；可给同一 Idea Seed 下的 Concept Variants，但不得用不同媒介/活动冒充 Variant；输出 Refined Concept Platform 和 CONCEPT READY / NEEDS DEVELOPMENT / CREATIVE REOPEN Gate，不生成完整 IMC。"
+  },
+  {
+    "id": 5,
+    "scenario": "执行雏形很吸引人但 Concept 仍不清楚",
+    "prompt": "这个角色形象已经很好看，也已经想好了周边、联名、短片和社交玩法。先按这些执行把整套 campaign 做完整吧。",
+    "expected": "如果核心 Concept 尚未通过 Concept Gate，应抵抗 Execution Gravity；把现有执行降为 EXECUTION HYPOTHESES，先检查核心 Idea、Human Truth、Brand Right、Task/Moment Role 和 Concept Meaning；不能用执行丰富度替代概念成立；只有 CONCEPT READY 后才进入完整 IMC。"
   }
 ]
