@@ -678,3 +678,13 @@ Project Hub 是共同协议的唯一原文。本 Skill 中的 SOURCE × STATUS�
 
 本 Skill 正文与示例必须保持客户 / 品牌 / 项目 / 品类中立。  
 真实案例只能作为运行时输入，不固化进 Skill 文件；从案例获得的方法学习只能抽象成通用判断规则。
+
+---
+
+## VERSION / UPDATE PROTOCOL｜继承声明
+
+版本与更新检查统一继承 **Project Hub 的 VERSION / UPDATE PROTOCOL**。
+
+> 本 Skill 不单独定义更新频率、Canonical Source 或覆盖规则。  
+> 如发现版本可能过期，先按 Project Hub 协议检查；不得静默用远端版本覆盖当前正在使用的 Skill。
+
