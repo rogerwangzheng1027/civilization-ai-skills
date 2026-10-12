@@ -1,9 +1,9 @@
 ---
 name: civilization-project-hub
-description: CIVILIZATION Project Hub v1.5。1 个 Hub + 4 个专业 Specialist 的入口与状态管理 Skill。负责建立或读取 PROJECT_STATE.md、管理 SOURCE × STATUS、HOLD / DROP、Reopen 与 Handoff，并判断下一步应进入 Brief Discovery / Creative Exploration / Product Innovation / Proposal Development 哪个专业 Skill。Hub 不做专业分析；共享协议以 Hub 为唯一原文，专业方法各自独立。
+description: CIVILIZATION Project Hub v1.6。1 个 Hub + 4 个专业 Specialist 的入口与状态管理 Skill。负责建立或读取 PROJECT_STATE.md、管理 SOURCE × STATUS、HOLD / DROP、Reopen 与 Handoff，并判断下一步应进入 Brief Discovery / Creative Exploration / Product Innovation / Proposal Development 哪个专业 Skill。Hub 不做专业分析；共享协议以 Hub 为唯一原文，专业方法各自独立。
 ---
 
-# CIVILIZATION｜Project Hub v1.5
+# CIVILIZATION｜Project Hub v1.6
 
 ## 0. 核心角色
 
@@ -492,6 +492,56 @@ Project Hub 是共享协议的**唯一原文**。
 - Proposal 的 Page Job
 
 这些保持专业独立，避免 Hub 变成超级 Skill。
+
+### 12.1 VERSION / UPDATE PROTOCOL｜版本与更新检查
+
+**Canonical Source：**
+
+> https://github.com/rogerwangzheng1027/civilization-ai-skills
+
+以该仓库 **main branch** 的对应 `SKILL.md` 为公开正式版本来源。
+
+#### Freshness Check
+
+如果当前环境支持联网 / GitHub 访问，并满足以下任一情况，在开始正式专业工作前先检查对应 Skill 的最新版：
+
+- 用户明确要求“检查最新版 / 更新 Skill / 看仓库有没有更新”；
+- 当前 Skill 的版本来源不明；
+- 已知距上次版本检查超过 **7 天**；
+- 无法确认上次检查日期，且当前任务将长期或重复使用该 Skill。
+
+检查至少比较：
+- 当前版本号；
+- GitHub main 上的版本号；
+- 最近相关 commit / changelog 信息（若可得）。
+
+#### 发现更新时
+
+如果远端有更新：
+
+1. 告知用户**当前版本 → 最新版本**；
+2. 简要说明本次更新会影响什么；
+3. **不得静默覆盖当前 Skill**；
+4. 正在进行中的项目，默认保持当前方法稳定，除非用户确认采用最新版；
+5. 用户确认后，才按最新版继续，必要时更新相关 README / Quick Start / regression tests。
+
+#### 无法联网时
+
+不要猜测最新版。
+
+标记：
+
+> **VERSION CHECK: NOT AVAILABLE**
+
+然后继续使用当前已加载版本，并明确它可能不是最新。
+
+#### 重要边界
+
+> **Skill 本身不能在后台按周自动唤醒。**
+
+“每周主动去仓库检查一次”必须由外部 Automation / Scheduler 实现；本协议定义的是**检查条件与发现更新后的处理方式**。
+
+四个专业 Specialist 只继承本协议，不各自复制维护一套版本规则。
 
 ---
 
