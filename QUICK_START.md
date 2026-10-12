@@ -35,7 +35,7 @@ Brief 还没解清楚
 → Proposal Development Specialist
 ```
 
-## Creative Exploration Specialist v2.2
+## Creative Exploration Specialist v2.3
 
 ```text
 CASE LANDSCAPE
@@ -55,7 +55,7 @@ CREATIVE REVIEW
 
 > **不是取消 Idea，而是推迟 Idea。**
 
-R1 不急着出 Idea；Selection 后，R3 对 KEEP 机制先产生结构真正不同的 Idea Candidate，再选择、锐化，并检查 Participation Cost / Retellability / Idea Role。
+R1 不急着出 Idea；正式案例必须同时带**真实执行视觉 + 可追溯 SOURCE LINK**，缺图或缺链接的案例只能放 TO SOURCE / BACKUP；Selection 后，R3 对 KEEP 机制先产生结构真正不同的 Idea Candidate，再选择、锐化，并检查 Participation Cost / Retellability / Idea Role。
 
 ## Product Innovation Specialist v1.3
 
