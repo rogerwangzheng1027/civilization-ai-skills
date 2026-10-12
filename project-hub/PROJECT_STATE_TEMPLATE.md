@@ -53,3 +53,17 @@
 下一环节：
 下一环节应继承什么：
 下一环节最值得继续解决什么：
+
+
+---
+
+## SKILL VERSION / FRESHNESS｜可选运行信息
+
+仅在当前工作环境需要记录版本检查时使用，不属于客户项目判断本身。
+
+- LOADED SKILL / VERSION：
+- LAST VERSION CHECK：
+- CANONICAL SOURCE：https://github.com/rogerwangzheng1027/civilization-ai-skills
+- VERSION CHECK STATUS：CURRENT / UPDATE AVAILABLE / NOT AVAILABLE / UNKNOWN
+
+> 不要求每个项目都维护此区块；无法可靠知道上次检查时间时，不要猜。
