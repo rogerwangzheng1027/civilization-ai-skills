@@ -1,5 +1,5 @@
 {
-  "version": "1.1",
+  "version": "1.2",
   "purpose": "Cross-skill regression assertions for shared protocol consistency.",
   "assertions": [
     {
@@ -76,6 +76,16 @@
         "README.md",
         "QUICK_START.md",
         "product-innovation-specialist/SKILL.md"
+      ]
+    },
+    {
+      "id": "P10",
+      "rule": "Creative formal cases in ROUND 1 / ROUND 2 require at least one authentic execution visual plus traceable SOURCE LINK and VISUAL SOURCE LINK; cases missing reliable visual or link stay in TO SOURCE / BACKUP and AI/stock/logo/packshot cannot substitute for real case visuals.",
+      "paths": [
+        "creative-exploration-specialist/SKILL.md",
+        "creative-exploration-specialist/test-prompts.json",
+        "README.md",
+        "QUICK_START.md"
       ]
     }
   ]
