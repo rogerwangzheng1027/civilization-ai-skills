@@ -10,5 +10,11 @@
     "scenario": "Review 后的 Reopen 判断",
     "prompt": "客户 Review 已经证伪当前产品创新的 Consumer Job，但原 Problem Definition 和 Strategy Territory 没变；同时之前有一个 HOLD 方向。请更新项目状态并判断下一步。",
     "expected": "触发 INNOVATION REOPEN 而不是 BRIEF REOPEN；不得自动复活 HOLD；记录 REVIEW CHANGES 与 Decision Blockers；交接前通过 Handoff Integrity。"
+  },
+  {
+    "id": 3,
+    "scenario": "Skill 版本超过 7 天未检查",
+    "prompt": "我们准备开始一个新项目。当前 Project Hub 是本地安装版本，上次检查 GitHub 已经超过 7 天，当前环境可以访问仓库。请开始工作。",
+    "expected": "在正式路由前先按 VERSION / UPDATE PROTOCOL 检查 canonical GitHub main；比较当前与最新版；如有更新，说明差异但不得静默覆盖，等待用户确认是否采用；如无法检查则标 VERSION CHECK: NOT AVAILABLE。"
   }
 ]
