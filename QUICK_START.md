@@ -3,8 +3,9 @@
 ## 新项目怎么开始
 
 1. 把客户 Brief / 会议纪要放进项目文件夹。
-2. 加载 **Project Hub v1.5**。
-3. 对它说：
+2. 加载 **Project Hub v1.6**。
+3. 如果已知距上次 Skill 版本检查超过 **7 天**、版本来源不明，或你想确认最新版，并且当前环境可以访问 GitHub，先让 Project Hub 按 **VERSION / UPDATE PROTOCOL** 检查仓库 main branch。
+4. 对它说：
 
 > 这是一个新项目。请建立 PROJECT_STATE.md，判断当前阶段，并告诉我下一步应该调用哪个 Specialist。不要做专业分析。
 
@@ -139,3 +140,16 @@ TESTABLE HYPOTHESIS / PROOF NEEDED
 ## 一句话记住
 
 > **Hub 管协议与交接；Brief 管问题；Creative 管传播 Idea；Innovation 管产品创新；Proposal 管提案文件的发展与成稿。**
+
+
+## 版本更新怎么处理
+
+Canonical Source：
+
+> https://github.com/rogerwangzheng1027/civilization-ai-skills
+
+- Project Hub 统一管理版本检查协议；
+- 四个 Specialist 继承，不各自维护；
+- 发现更新时先说明“当前版本 → 最新版本”及关键变化；
+- **不静默覆盖**正在使用的 Skill；
+- Skill 本身不能后台每周自动运行；需要主动周检时，用外部 Automation / Scheduler。
