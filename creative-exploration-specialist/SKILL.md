@@ -988,3 +988,13 @@ Project Hub 是共享协议的唯一原文。
 > **已有执行先当 Hypothesis，不让 execution 绑架 Concept。**  
 > **Concept Ready 之后，才进入 Execution / IMC。**  
 > **Creative 解决 Creative，产品创新交给 Product Innovation Specialist。**
+
+---
+
+## VERSION / UPDATE PROTOCOL｜继承声明
+
+版本与更新检查统一继承 **Project Hub 的 VERSION / UPDATE PROTOCOL**。
+
+> 本 Skill 不单独定义更新频率、Canonical Source 或覆盖规则。  
+> 如发现版本可能过期，先按 Project Hub 协议检查；不得静默用远端版本覆盖当前正在使用的 Skill。
+
