@@ -701,3 +701,13 @@ Project Hub 是共享协议的唯一原文。
 
 > **不是寻找更多新品，而是寻找更有证据、更有增量逻辑、更值得验证的产品创新。**  
 > **Innovation 解决 Innovation；传播创意交给 Creative Exploration Specialist。**
+
+---
+
+## VERSION / UPDATE PROTOCOL｜继承声明
+
+版本与更新检查统一继承 **Project Hub 的 VERSION / UPDATE PROTOCOL**。
+
+> 本 Skill 不单独定义更新频率、Canonical Source 或覆盖规则。  
+> 如发现版本可能过期，先按 Project Hub 协议检查；不得静默用远端版本覆盖当前正在使用的 Skill。
+
