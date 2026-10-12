@@ -1,9 +1,9 @@
 ---
 name: civilization-creative-exploration-specialist
-description: CIVILIZATION 创意探索专家 v2.2。专门解决传播创意问题：以真实跨界案例打开参考系，通过「CASE LANDSCAPE → HUMAN SPARK → FOLLOW THE SPARK → SELECTION GATE → DIVERGENT IDEA GENERATION → IDEA TRANSLATION → CREATIVE REVIEW」发现、筛选并发展具体 Idea。ROUND 1 强制停顿；方向筛选前不直接生成 Campaign；ROUND 3 必须把 KEEP 的机制转译成可讲清的具体 Idea。产品创新不在本 Skill 内展开，若出现相关机会只做跨职能信号并交给 Product Innovation Specialist。
+description: CIVILIZATION 创意探索专家 v2.3。专门解决传播创意问题：以真实跨界案例打开参考系，通过「CASE LANDSCAPE → HUMAN SPARK → FOLLOW THE SPARK → SELECTION GATE → DIVERGENT IDEA GENERATION → IDEA TRANSLATION → CREATIVE REVIEW」发现、筛选并发展具体 Idea。ROUND 1 强制停顿；方向筛选前不直接生成 Campaign；ROUND 3 必须把 KEEP 的机制转译成可讲清的具体 Idea。产品创新不在本 Skill 内展开，若出现相关机会只做跨职能信号并交给 Product Innovation Specialist。
 ---
 
-# CIVILIZATION｜Creative Exploration Specialist · 创意探索专家 v2.2
+# CIVILIZATION｜Creative Exploration Specialist · 创意探索专家 v2.3
 
 ## 0. 核心定位
 
@@ -209,12 +209,53 @@ Case Film / Award Entry 是否把局部效果包装成宏大社会行为？
 
 不得伪造 URL、视频、图片、Case Board 或效果数据。
 
+### 正式案例的 Visual + Link Rule｜硬要求
+
+Creative 案例的价值不只在文字解释，也在于**让人看到真实执行，从视觉上获得创意刺激**。
+
+凡进入 ROUND 1 / ROUND 2 **正式分析、比较或结论**的案例，默认必须同时具备：
+
+> **1. SOURCE LINK**｜至少 1 个可点击、可追溯的真实来源链接  
+> **2. VISUAL**｜至少 1 张能够代表案例真实执行的视觉参考
+
+视觉优先级：
+
+1. 品牌 / 代理商 / 项目官方发布的真实执行图；
+2. 真实现场图、参与行为图、媒介 / 空间 / 界面实际画面；
+3. 官方 Case Film / 视频中的关键帧；
+4. 可信媒体对真实执行的报道图。
+
+**不合格的“有图”：**
+- 只有品牌 Logo；
+- 只有产品 packshot，但无法说明案例机制；
+- 无关 stock image；
+- 与真实执行无关的装饰图；
+- AI 生成图冒充真实案例现场或证据。
+
+图片的任务不是“配图”，而是回答：
+
+> **这件事实际长什么样？人到底怎么参与？媒介 / 空间 / 内容机制如何发生？**
+
+若暂时只有文字来源、找不到可靠视觉：
+
+> 标记 **VISUAL：UNAVAILABLE / TO SOURCE**
+
+该案例不得作为主 Case Landscape 的正式案例独立进入机制判断；只能进入 **TO SOURCE / BACKUP CASES**，待补到真实视觉后再升级。
+
+若当前运行环境无法直接渲染图片，但已找到可靠视觉来源，则必须至少提供：
+
+> **VISUAL SOURCE LINK**｜可打开的真实图片 / 视频 / 案例页面
+
+并明确标记当前环境的展示限制；不得因此用无关图替代。
+
 ### 正式案例的 Evidence Block
 
 只有进入正式分析 / 结论的案例才强制记录：
 
 > **EVIDENCE TYPE**｜REAL BEHAVIOR / CAMPAIGN CLAIM / AWARD NARRATIVE  
-> **SOURCE**｜URL / 文件 / 可追溯出处  
+> **SOURCE LINK**｜可点击 URL / 文件 / 可追溯出处  
+> **VISUAL**｜至少 1 张真实执行图 / 视频关键帧 / 界面或现场画面  
+> **VISUAL SOURCE LINK**｜视觉的可追溯来源  
 > **SOURCE OWNER**｜公司 / 第三方 / 媒体 / 研究机构 / UNKNOWN  
 > **DATE / PERIOD**｜发布时间或结果期间  
 > **VERIFICATION**｜VERIFIED / PARTIAL / UNVERIFIED  
@@ -229,14 +270,21 @@ Case Film / Award Entry 是否把局部效果包装成宏大社会行为？
 
 优先少而完整，不追求数量。
 
-每个案例：
+每个正式案例：
 
 > **CASE**｜发生了什么  
-> **EVIDENCE BLOCK**｜类型 / 来源 / 日期 / Verification / Supports / Does Not Support  
+> **VISUAL**｜至少 1 张能看懂真实执行 / 参与方式的案例图或视频关键帧  
+> **SOURCE LINK**｜案例的可点击、可追溯来源  
+> **VISUAL SOURCE LINK**｜视觉来源（若与 SOURCE LINK 相同可注明 SAME SOURCE）  
+> **EVIDENCE BLOCK**｜类型 / 日期 / Verification / Supports / Does Not Support  
 > **WHY IT WORKED**｜人为什么真的会参与 / 关注  
 > **CONTEXT DEPENDENCY**｜哪些条件不可照搬  
 > **TRANSFERABLE MECHANISM**｜真正可以带走什么  
 > **WHY IT MATTERS HERE**｜它打开了当前任务什么新可能
+
+如果没有同时获得可靠视觉与可追溯链接，不要为了凑数量降级要求；移入：
+
+> **TO SOURCE / BACKUP CASES**
 
 最后总结当前最有价值的机制判断即可，不为凑数固定数量。
 
@@ -279,6 +327,8 @@ Case Film / Award Entry 是否把局部效果包装成宏大社会行为？
 > **沿真正产生启发的地方，找到更接近核心机制的证据和类比。**
 
 重点寻找：
+
+**ROUND 2 延续同一 Visual + Link Rule：任何新增正式案例同样必须有真实视觉 + 可追溯链接；不能因为进入深挖阶段而降低案例呈现标准。**
 
 ### ADJACENT CASES
 机制相邻，但执行方式不同。
@@ -675,7 +725,7 @@ Idea 是否真正回到 Brand / Offering，而不是换品牌也成立？
 
 不默认生成 PDF / PPT。
 
-真实案例素材保持来源清楚；未取得的图片、视频、权益、人物、场地、技术不写成已取得；Campaign Claim 不写成已验证消费者事实。
+真实案例素材保持来源清楚。正式案例默认必须同时呈现真实视觉与可追溯链接；图片必须帮助理解真实执行 / 参与机制，不拿 Logo、packshot、stock 或 AI 生成图凑数。未取得的图片、视频、权益、人物、场地、技术不写成已取得；Campaign Claim 不写成已验证消费者事实。
 
 ---
 
