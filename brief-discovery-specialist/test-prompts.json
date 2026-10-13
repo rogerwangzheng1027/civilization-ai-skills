@@ -3,12 +3,42 @@
     "id": 1,
     "scenario": "客户预设原因与竞品边界",
     "prompt": "Brief 已明确写了客户认为销量下滑来自年轻人不喜欢传统品牌，并给了三个竞品。请完整拆解这个 Brief，不要把客户解释当事实，也不要先问我一堆问题。",
-    "expected": "区分 CLIENT ASK、原因假设和预设解法；建立 Problem Landscape；竞品名单不等于真实竞争边界；给 Current Best Judgment，并保持 SOURCE × STATUS。"
+    "expected": "先基于市场发展、竞争趋势、消费者行为与品牌资产形成独立Reality Baseline，再完整理解客户Brief和动机；区分CLIENT ASK、CLIENT DIAGNOSIS与预设解法，提出Problem Landscape、Current Best Judgment，并保持SOURCE × STATUS。"
   },
   {
     "id": 2,
     "scenario": "路由到 Product Innovation",
     "prompt": "客户要开发一款更便携、更有饱腹感的早餐产品。现有材料显示场景与需求基本清楚，但具体产品形态、配方和规格没有答案。请完成 Brief Discovery 并交接下一步。",
     "expected": "将下一步路由到 Product Innovation Specialist；Project State 包含 HOLD；输出 OPEN INNOVATION QUESTION，不得硬编码到 Creative Exploration。"
+  },
+  {
+    "id": 3,
+    "scenario": "有既定品牌主张、但缺少已验证的消费理解",
+    "prompt": "收到一个成熟品牌升级Brief。客户提出一条新主张，并预设目标人群。请按v1.22推进，先做外部研究再评价主张。",
+    "expected": "在分析主张前先研究市场变化、竞争趋势、消费者行为与品牌资产；随后检查目标人群、产品与主张之间真实存在的Gap，不把词义推断当消费者调研，也不强制未来12个月Roadmap。"
+  },
+  {
+    "id": 4,
+    "scenario": "没有既定品牌定位的新项目",
+    "prompt": "这是一个新品牌的传播Brief，客户尚未形成品牌定位，也没有明确的未来产品计划。请主动研究并完成Brief Discovery。",
+    "expected": "按顺序完成Outside-In四个视角和Client Intent；将不存在的Positioning/Proposition与Roadmap Gap标为不适用，不编造客户既定主张或规划。"
+  },
+  {
+    "id": 5,
+    "scenario": "低资料可得性的新B2B领域",
+    "prompt": "客户委托研究一个公开资料很少的专业B2B服务行业，希望判断品牌差异与增长机会。",
+    "expected": "主动尝试市场、竞争、用户行为与品牌资产四个视角；注明来源和证据缺口，按决策价值深化，不能伪造消费者调查、财务数字与品牌资产。"
+  },
+  {
+    "id": 6,
+    "scenario": "用户否定所有早期Strategy Territory",
+    "prompt": "用户说‘这些方向都不够核心，不要换个名字再给我三个。’请继续Brief Discovery。",
+    "expected": "重新检查外部Reality Baseline、客户真实动机与Gap，不对原方向换名再推；如新知识不足，主动继续关键研究或保留OPEN，而不是强制用户选择。"
+  },
+  {
+    "id": 7,
+    "scenario": "小型执行Brief，控制研究规模",
+    "prompt": "收到一个小型区域陈列优化Brief，预算有限，交付时间很短。请完成Brief Discovery。",
+    "expected": "快速扫描市场、竞争、消费者与品牌，不强制深度品牌考古、五年增长模型或完整行业白皮书；理解任务动机，聚焦影响执行决策的真实Gap。"
   }
 ]
