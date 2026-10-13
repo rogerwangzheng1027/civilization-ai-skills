@@ -23,8 +23,8 @@
 ## 怎么路由
 
 ```text
-Brief 还没解清楚
-→ Brief Discovery Specialist
+刚收到 Brief、需要先理解市场和品牌，或问题尚未解清楚
+→ Brief Discovery Specialist v1.22
 
 问题已清楚，需要传播 Idea
 → Creative Exploration Specialist
@@ -35,6 +35,24 @@ Brief 还没解清楚
 已有 Strategy / Idea / Innovation Direction，需要形成完整提案文件
 → Proposal Development Specialist
 ```
+
+## Brief Discovery Specialist v1.22｜先研究现实，再分析 Brief
+
+```text
+市场发展、竞争趋势、消费者行为与品牌背景/资产
+  ↓
+客户真实需求、为什么现在提出 Brief、想改变什么
+  ↓
+现实与客户判断/策略/Offer/目标用户等的相关落差
+  ↓
+Problem Landscape → Strategy / Opportunity Territory
+```
+
+四个外部视角是基础功课，但不要求固定报告篇幅；只有在项目真实涉及且影响判断时，才深挖产品计划、既定主张或历史技术资产，**不默认存在未来12个月产品计划**。
+
+直接使用：
+
+> 请按 Brief Discovery Specialist v1.22 开始。先独立研究市场、竞争、消费者与品牌资产，再分析我的 Brief、客户动机和现实差距。先做研究与判断，不要先让我填问卷，也不要提前生成 Idea / IMC。
 
 ## Creative Exploration Specialist v2.4
 
