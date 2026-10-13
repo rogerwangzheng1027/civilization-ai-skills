@@ -3,7 +3,7 @@
 > **AI 专家协作系统**  
 > *A human-led AI specialist workflow for professional collaboration.*
 
-这是一套源于 CIVILIZATION 内部实践的 AI 协作方法，由 **1 个 Project Hub + 4 个专业 Specialist** 组成，帮助团队拆解 Brief、探索创意、寻找产品创新机会，并发展完整提案。
+这是一套源于 CIVILIZATION 内部实践的 AI 协作方法，由 **1 个 Project Hub + 4 个专业 Specialist** 组成，帮助团队先研究市场与品牌现实、理解客户真正的商业动机，再拆解 Brief、探索创意、寻找产品创新机会，并发展完整提案。
 
 它不是让 AI 替人交作业，而是让 AI 成为研究、思考、探索和推进问题的专业协作伙伴。
 
@@ -12,7 +12,7 @@
 ### 1 Hub + 4 Specialists
 
 - **Project Hub**｜我现在在哪里，下一步该找谁？
-- **Brief Discovery**｜真正的问题是什么？
+- **Brief Discovery**｜市场与消费者正在发生什么？客户为什么提出这道题？真正的问题在哪里？
 - **Creative Exploration**｜还有什么我们没有想到？
 - **Product Innovation**｜产品本身还能怎么变？
 - **Proposal Development**｜怎么把已有 Solution 发展成一份完整提案？
@@ -33,7 +33,7 @@
 | Skill | 当前版本 | 什么时候用 | 核心作用 |
 | --- | --- | --- | --- |
 | [Project Hub](./project-hub/SKILL.md) | v1.6 | 新项目、阶段切换、重要 Review 后 | 管理项目状态、共享协议与交接；判断当前在哪里、下一步该找哪个专业 Specialist |
-| [Brief Discovery Specialist](./brief-discovery-specialist/SKILL.md) | v1.20 | 刚收到 Brief、问题定义或关键前提不清楚 | 研究与拆 Brief，形成 Problem Landscape、Current Best Judgment、Strategy / Opportunity Territory |
+| [Brief Discovery Specialist](./brief-discovery-specialist/SKILL.md) | v1.22 | 刚收到 Brief、问题定义或关键前提不清楚 | **先研究市场、竞争、用户行为与品牌资产**；再理解客户目标和提出 Brief 的动机；最后诊断现实与客户期待的落差，形成有证据的解题判断与机会方向 |
 | [Creative Exploration Specialist](./creative-exploration-specialist/SKILL.md) | v2.4 | 问题基本清楚，需要寻找传播创意解法，或已有 Idea Seed 需要继续做强 | 用真实跨界案例打开参考系，筛选并发展 Idea；选中后先做 Concept Development，再进入 Execution / IMC |
 | [Product Innovation Specialist](./product-innovation-specialist/SKILL.md) | v1.3 | 需要探索产品 / SKU / 配方 / 风味 / 功能 / 包装 / 规格等创新 | 用真实市场案例和可衡量结果筛选创新机制，形成可测试的产品创新方向与假设 |
 | [Proposal Development Specialist](./proposal-development-specialist/SKILL.md) | v1.12 | 已有 Strategy / Idea / Innovation Direction，需要形成完整提案文件 | 用 Storyline 压力测试并发展 Solution，形成 Proposal Spine、Page Plan、关键文案与可直接进入 PPT / PDF 的提案内容 |
@@ -41,6 +41,26 @@
 一句话记住：
 
 > **Hub 管导航与交接；Brief 管问题；Creative 管传播创意与概念深化；Innovation 管产品创新；Proposal 管提案文件的发展与成稿。**
+
+## Brief Discovery v1.22：先理解现实，再理解 Brief
+
+**不要先用客户的 Brief 定义市场，再回头寻找能证明它的资料。** 新版要求 AI 在评价 Brief 前，先建立相对独立的外部现实基准，然后才理解客户需求及其背后的商业动机。
+
+```text
+OUTSIDE-IN RESEARCH｜研究市场发展、竞争趋势、用户行为和品牌资产
+    ↓
+CLIENT INTENT｜理解客户真正的目标、提出 Brief 的原因与约束
+    ↓
+REALITY × INTENT GAP｜对照客户预期与现实，发现关键落差
+    ↓
+STRATEGIC JUDGMENT｜形成 Problem Landscape 与有证据边界的 Strategy / Opportunity Territory
+```
+
+三个 ROUND 保留，**AI先主动研究，用户只在关键判断处校准**。外部研究的四个视角是必做的基础功课，但研究深度按项目需要调整；不会要求每个项目都做行业白皮书。
+
+品牌主张、产品计划、目标用户或沟通方向等 **只在客户实际提出、且对决策重要时** 才进行 Gap Diagnosis。不会假设每个 Brief 都有既定定位，也不会机械要求每个项目检查未来12个月的产品规划。深度品牌考古、医学或技术研究同样按实际问题触发，不是固定清单。
+
+新版明确要求，在进入 Strategy Selection 前回答：**外部研究究竟让我们发现了什么，改变了什么判断？** 没有新发现时继续查证最重要的盲区，或诚实保留证据缺口；不为“有洞察”制造结论。
 
 ## 工作流不是唯一线性的
 
@@ -177,7 +197,7 @@ proposal-development-specialist/SKILL.md
 
 ### 2. Brief Discovery Specialist
 
-> 请按 Brief Discovery Specialist 工作。先完整阅读材料并主动形成判断，不要先让我回答一堆问题。默认逐轮推进。
+> 请按 Brief Discovery Specialist v1.22 工作。先根据项目范围独立研究市场发展、竞争趋势、消费者行为及品牌背景与资产；再完整阅读 Brief、会议材料，理解客户真正的需求和提出这道题的动机；最后分析与现实的关键落差，形成有证据的判断。不要先让我回答一堆问题，默认逐轮推进。
 
 Brief 结束时应明确下一步属于：
 - Creative Exploration
@@ -313,7 +333,7 @@ Project Hub 是共享协议唯一原文。
 ## 当前版本
 
 - Project Hub **v1.6**
-- Brief Discovery Specialist **v1.20**
+- Brief Discovery Specialist **v1.22**
 - Creative Exploration Specialist **v2.4**
 - Product Innovation Specialist **v1.3**
 - Proposal Development Specialist **v1.12**
