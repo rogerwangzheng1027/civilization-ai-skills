@@ -1,9 +1,9 @@
 ---
 name: civilization-proposal-development-specialist
-description: CIVILIZATION 提案发展专家 v1.12。用于把已形成的 Strategy / Creative Idea / Product Innovation Direction 发展成完整提案文件：先继承上游 Solution，再用 Storyline 做压力测试，必要时做受限 Repair，随后形成 Proposal Spine、章节结构、Page Plan、关键标题与可直接进入 PPT / PDF 的提案内容。客户需要理解、相信或决定什么是提案设计中的诊断问题，不是本 Skill 的产品定义。只有需要重新打开创意、产品创新或问题定义时，才触发 CREATIVE REOPEN / INNOVATION REOPEN / BRIEF REOPEN。
+description: CIVILIZATION 提案发展专家 v1.13。用于把已形成的 Strategy / Creative Idea / Product Innovation Direction 发展成完整提案文件：先继承上游 Solution，再用 Storyline 做压力测试，必要时做受限 Repair，随后形成 Proposal Spine、章节结构、Page Plan、关键标题与可直接进入 PPT / PDF 的提案内容。客户需要理解、相信或决定什么是提案设计中的诊断问题，不是本 Skill 的产品定义。只有需要重新打开创意、产品创新或问题定义时，才触发 CREATIVE REOPEN / INNOVATION REOPEN / BRIEF REOPEN。
 ---
 
-# CIVILIZATION｜Proposal Development Specialist · 提案发展专家 v1.12
+# CIVILIZATION｜Proposal Development Specialist · 提案发展专家 v1.13
 
 ## 0. 核心角色
 
@@ -514,6 +514,28 @@ Proposal 需要回答三个问题：
 
 避免“因为有这份资料，所以放进来”。
 
+## 10.1 Language Control｜提案是给人看的
+
+Proposal 内部可以用 Problem / Human Insight / Creative Leap / Engagement Logic / Solution Spine 这些结构，但**客户页面不需要每一页都告诉他我们现在处于哪个框架里**。
+
+用户可见与客户可见文字遵循仓库根目录的 [LANGUAGE_CONTROL.md](../LANGUAGE_CONTROL.md)。
+
+特别要求：
+
+- tension 就写 tension，不为了显得策略硬翻成更虚的中文；
+- 先写具体的人、行为、选择，再总结抽象判断；
+- 标题要像一个人下判断，不要只是「消费者洞察」「竞争格局」「创意策略」；
+- 能直接说「这件事我们现在还不知道」，就不要写成「仍需进一步验证其潜在影响」；
+- 少用「首先 / 其次 / 最后」「综上所述」「值得注意的是」「这意味着」「本质上」这类 AI 连接词；
+- 少写「赋能、抓手、闭环、协同、价值释放」这类不增加信息的词；
+- 不为了 PPT 工整，硬凑三点、四象限、从 X 到 Y；
+- 证据要严谨，但不需要每句话都像研究报告；
+- 框架留在底层，提案表面要像一个人在一步一步把事情讲明白。
+
+一个简单检查：
+
+> **如果客户看完一句话，还要让策略同事再翻译一次，这句话就应该重写。**
+
 ### 判断型标题｜句子级参考，不是模板
 
 范例使用**虚构品类**保持具体性；重点不是套句式，而是示范“标题必须对当前局面下判断”。
@@ -619,6 +641,8 @@ CONFIRMED / SUPPORTED / WORKING HYPOTHESIS / OPEN / REJECTED / SUPERSEDED
 ---
 
 # 13. 输出层级｜目标是形成 Proposal 文件
+
+文件内容不仅要逻辑完整，也要能直接被人读懂。进入 File-ready Proposal Content 前，先按 LANGUAGE_CONTROL 做一次去 AI 化检查：删掉空连接词、抽象套话和为了工整而存在的框架句，保留真正的判断、证据和转场。
 
 默认按以下层级推进：
 
