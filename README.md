@@ -324,7 +324,7 @@ Project Hub 是共享协议唯一原文。
 
 > https://github.com/rogerwangzheng1027/civilization-ai-skills
 
-版本检查规则统一定义在 **Project Hub v1.6 的 VERSION / UPDATE PROTOCOL**。四个 Specialist 只继承，不重复维护。
+版本检查规则统一定义在 **Project Hub v1.7 的 VERSION / UPDATE PROTOCOL**。四个 Specialist 只继承，不重复维护。
 
 若已知距上次版本检查超过 7 天、版本来源不明，或用户明确要求检查最新版，且当前环境可以访问仓库，则先检查更新。发现新版本时必须提示差异，**不得静默覆盖当前 Skill**。
 
