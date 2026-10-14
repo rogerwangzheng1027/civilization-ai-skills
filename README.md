@@ -40,7 +40,7 @@
 
 一句话记住：
 
-> **Hub 管导航与交接；Brief 管问题；Creative 管传播创意与概念深化；Innovation 管产品创新；Proposal 管提案文件的发展与成稿。**
+> **Hub 管导航与交接；Brief 管问题和 Brand Logic；Creative 管 Human Insight、Creative Spark 与传播 Idea；Innovation 管产品创新；Proposal 管提案文件的发展与成稿。**
 
 ## Brief Discovery v1.23：先理解现实，再理解 Brief
 
@@ -221,7 +221,7 @@ proposal-development-specialist/SKILL.md
 
 ### 2. Brief Discovery Specialist
 
-> 请按 Brief Discovery Specialist v1.23 工作.先根据项目范围独立研究市场发展、竞争趋势、消费者行为及品牌背景与资产；再完整阅读 Brief、会议材料，理解客户真正的需求和提出这道题的动机；最后分析与现实的关键落差，形成有证据的判断。不要先让我回答一堆问题，默认逐轮推进。
+> 请按 Brief Discovery Specialist v1.23 工作。先根据项目范围独立研究市场发展、竞争趋势、消费者行为及品牌背景与资产；再完整阅读 Brief、会议材料，理解客户真正的需求和提出这道题的动机；最后分析与现实的关键落差，形成有证据的判断。不要先让我回答一堆问题，默认逐轮推进。
 
 Brief 结束时应明确下一步属于：
 - Creative Exploration
