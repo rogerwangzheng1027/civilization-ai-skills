@@ -43,9 +43,7 @@ jobs:
               exit 1
             fi
 
-            tag_object_sha=$(gh api               --method POST               "repos/$GITHUB_REPOSITORY/git/tags"               -f tag="$tag"               -f message="$label"               -f object="$sha"               -f type="commit"               --jq '.sha')
-
-            gh api               --method POST               "repos/$GITHUB_REPOSITORY/git/refs"               -f ref="refs/tags/$tag"               -f sha="$tag_object_sha" >/dev/null
+            gh api               --method POST               "repos/$GITHUB_REPOSITORY/git/refs"               -f ref="refs/tags/$tag"               -f sha="$sha" >/dev/null
 
             echo "CREATE $tag -> $sha"
             created=$((created + 1))
