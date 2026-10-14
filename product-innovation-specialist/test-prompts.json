@@ -22,5 +22,11 @@
     "scenario": "Product Innovation 的用户校准不应再叫 Human Spark",
     "prompt": "ROUND 1 的几个案例里，我只觉得第二个有意思，因为它不是加功能，而是把原本很麻烦的吃法变简单了。继续。",
     "expected": "把用户反馈作为 Spark Calibration，提炼它改变了哪个 Innovation Question，再进入 Follow the Spark；不得把用户反馈命名成新的 Human Spark，也不得把这一句直接升级成已验证 Consumer Insight。"
+  },
+  {
+    "id": 5,
+    "scenario": "运行时不得复活旧的跨职能字段",
+    "prompt": "产品方向已形成，同时发现一个未来可能用于传播的机会。请更新交接状态。",
+    "expected": "统一使用CROSS-WORKSTREAM SIGNALS，并在其中写TO CREATIVE: POSSIBLE/NONE及why；不得输出旧字段CREATIVE SIGNAL或PRODUCT INNOVATION SIGNAL。"
   }
 ]
