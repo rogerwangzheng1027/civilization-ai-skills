@@ -1,5 +1,5 @@
 {
-  "version": "1.6",
+  "version": "1.7",
   "purpose": "Cross-skill regression assertions for shared protocol consistency.",
   "assertions": [
     {
@@ -159,6 +159,38 @@
         "LANGUAGE_CONTROL.md",
         "README.md",
         "QUICK_START.md"
+      ]
+    },
+    {
+      "id": "P17",
+      "rule": "SELECTED is reserved for explicit human/team/client selection or reliable upstream inheritance. AI may recommend and conditionally continue through CURRENT BEST JUDGMENT, but AI preference, 'continue', relative superiority, or evidence strength must never be rewritten as SELECTED.",
+      "paths": [
+        "project-hub/SKILL.md",
+        "project-hub/PROJECT_STATE_TEMPLATE.md",
+        "project-hub/test-prompts.json",
+        "brief-discovery-specialist/SKILL.md",
+        "brief-discovery-specialist/test-prompts.json",
+        "creative-exploration-specialist/SKILL.md",
+        "README.md",
+        "QUICK_START.md"
+      ]
+    },
+    {
+      "id": "P18",
+      "rule": "Proposal evidence status must survive rewriting into Storyline, titles and file-ready copy: CONFIRMED/SUPPORTED/WORKING HYPOTHESIS/OPEN require matching language strength, and PPT brevity must not convert a hypothesis into fact.",
+      "paths": [
+        "proposal-development-specialist/SKILL.md",
+        "proposal-development-specialist/test-prompts.json",
+        "README.md",
+        "QUICK_START.md"
+      ]
+    },
+    {
+      "id": "P19",
+      "rule": "Product Innovation runtime handoff must use CROSS-WORKSTREAM SIGNALS and must not emit legacy CREATIVE SIGNAL or PRODUCT INNOVATION SIGNAL field names.",
+      "paths": [
+        "product-innovation-specialist/test-prompts.json",
+        "tests/protocol-consistency.json"
       ]
     }
   ]
