@@ -10,5 +10,17 @@
     "scenario": "伪创新与 KEEP NONE",
     "prompt": "我们有一个方向：热门功能成分 + 零糖 + 新风味。现在公开市场证据很弱。请判断这是不是值得推进的产品创新。",
     "expected": "触发 First-answer Rejection Loop；检查 Consumer Job、增量逻辑与证据；数据不足时允许 KEEP NONE；方向机制本身不成立时触发 INNOVATION REOPEN，而不是硬包装成新品平台。"
+  },
+  {
+    "id": 3,
+    "scenario": "产品创新逻辑没问题，但表达太像研发/咨询模板",
+    "prompt": "方向已经有一定证据了，但现在写法全是 Consumer Job、Innovation Mechanism、Incremental Logic、功能成分和规格，看起来很AI也不够像消费者会说的话。请继续优化，不改变证据结论。",
+    "expected": "保留 Result Scope、Evidence Quality、Causality 与 Testable Hypothesis 等底层严谨性；用户可见输出按 LANGUAGE_CONTROL 重写，先讲清谁为什么会想买、产品哪里变了、吃到/用到时有什么不同，再补内部字段；不得把功能成分堆叠直接当产品概念，也不得用‘蓝海、趋势叠加、多维价值协同’替代具体判断。"
+  },
+  {
+    "id": 4,
+    "scenario": "Product Innovation 的用户校准不应再叫 Human Spark",
+    "prompt": "ROUND 1 的几个案例里，我只觉得第二个有意思，因为它不是加功能，而是把原本很麻烦的吃法变简单了。继续。",
+    "expected": "把用户反馈作为 Spark Calibration，提炼它改变了哪个 Innovation Question，再进入 Follow the Spark；不得把用户反馈命名成新的 Human Spark，也不得把这一句直接升级成已验证 Consumer Insight。"
   }
 ]
