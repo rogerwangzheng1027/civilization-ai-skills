@@ -1,23 +1,30 @@
 # VERSION HISTORY｜版本历史
 
-这个仓库采用两层版本管理：
+这个仓库现在采用三层版本管理：
 
 > **main = 当前最新版**  
-> **Git Tags = 已确认正式版本的不可变历史快照**
+> **System Release Tags = 可安装、可回退的完整系统快照**  
+> **Component Tags = 早期与关键单项 Skill 版本的历史快照**
 
-仓库包含 1 个 Project Hub 与 4 个独立 Specialist，因此每个组件分别维护自己的版本号与 Tag；不要求五个组件同步升版。
+仓库包含 1 个 Project Hub 与 4 个独立 Specialist，各组件仍分别维护自己的方法版本号；完整安装包则由 Personal Plugin Release 自动保存为系统版本。
 
 ## 当前版本
 
 | Component | Current |
 | --- | --- |
-| Project Hub | `project-hub-v1.9` |
-| Brief Discovery | `brief-discovery-v1.24` |
-| Creative Exploration | `creative-exploration-v2.5.1` |
-| Product Innovation | `product-innovation-v1.4` |
-| Proposal Development | `proposal-development-v1.14` |
+| Project Hub | v1.9 |
+| Brief Discovery | v1.24 |
+| Creative Exploration | v2.5.1 |
+| Product Innovation | v1.4 |
+| Proposal Development | v1.14 |
 
-## 已归档的正式版本
+当前完整系统快照：
+
+> **`civilization-ai-specialists-v1.0.4`**
+
+该 Release 已包含以上五个当前 Skill 版本，可用于安装、比较和整体回退。
+
+## 已归档的 Component Tags
 
 ### Project Hub
 
@@ -28,8 +35,7 @@
 `project-hub-v1.5`  
 `project-hub-v1.6`  
 `project-hub-v1.7`  
-`project-hub-v1.8`  
-`project-hub-v1.9`
+`project-hub-v1.8`
 
 ### Brief Discovery
 
@@ -39,8 +45,7 @@
 `brief-discovery-v1.19`  
 `brief-discovery-v1.20`  
 `brief-discovery-v1.22`  
-`brief-discovery-v1.23`  
-`brief-discovery-v1.24`
+`brief-discovery-v1.23`
 
 ### Creative Exploration
 
@@ -53,8 +58,7 @@
 `creative-exploration-v2.2`  
 `creative-exploration-v2.3`  
 `creative-exploration-v2.4`  
-`creative-exploration-v2.5`  
-`creative-exploration-v2.5.1`
+`creative-exploration-v2.5`
 
 ### Product Innovation
 
@@ -71,50 +75,44 @@
 `proposal-development-v1.10`  
 `proposal-development-v1.11`  
 `proposal-development-v1.12`  
-`proposal-development-v1.13`  
-`proposal-development-v1.14`
+`proposal-development-v1.13`
+
+## System Releases
+
+从 Personal Plugin Distribution 建立后，完整系统版本由自动 Release 保存：
+
+> `civilization-ai-specialists-v1.0.x`
+
+系统 Release 同时保存：
+- 五个 canonical `SKILL.md` 的同步快照；
+- Plugin package；
+- 可下载 ZIP；
+- 对应 source / snapshot commit。
+
+因此后续不要求每次单个 Skill 升版都再创建一个 Component Tag；**完整系统回退优先使用 System Release Tag。**
 
 ## Tagging principle
 
-只为**可以从 Git 历史明确验证的正式版本节点**建立 Tag。
-
-因此：
+历史 Component Tags 只保留**可以从 Git 历史明确验证的正式版本节点**：
 
 - 不因为版本号中间有缺口就补造 Tag；
-- 一个版本如果在升到下一版前还有同版本修订，Tag 指向该版本的最后稳定状态；
-- 已存在的 Tag 不自动移动或覆盖；
-- 新版本仍先更新 `main`，确认正式后再加入 Tag manifest。
+- 已存在的 Tag 不移动、不覆盖；
+- 历史映射保留在 `.github/version-tags.tsv`。
 
-Tag manifest：
-
-> `.github/version-tags.tsv`
-
-自动建 Tag workflow：
-
-> `.github/workflows/version-tags.yml`
-
-当 manifest 增加新版本时，GitHub Actions 会创建缺失 Tag；已经存在的 Tag 会跳过，不会改写历史。
+未来的稳定回退点以 **System Release Tag** 为主，由 Personal Plugin Release workflow 自动生成。
 
 ## Plugin 安装包的单独版本
 
 ChatGPT Plugin ZIP 使用独立版本 `civilization-ai-specialists-vX.Y.Z`。原始五个 Skill 或共享源文件在 `main` 更新后，GitHub Actions 自动校验、同步原文并发布新的 ZIP。这个分发版本**不等于**各 Skill 的专业方法版本，旧版 ZIP 保留，已经安装的个人 Plugin 需要使用者确认后更新。
 
-## 为什么不用每个 Skill 版本都建 GitHub Release
+## Component Version 与 System Release 的关系
 
-GitHub Release 是**整个仓库**的发布对象，而这个仓库里的五个组件各自独立升版。
+组件版本用于说明某一个 Skill 的方法演进；System Release 用于保存一次可安装、可回退的完整组合。
 
-如果每次某一个 Skill 升版都创建一个仓库级 Release，会让 Release 历史误以为整个系统同时升级。
+> **Component Version = 方法版本**  
+> **System Release = 分发与整体回退版本**
 
-因此当前建议：
-
-> **组件版本 → Git Tag**  
-> **多个组件协同形成重要系统节点 → GitHub Release**
-
-未来如果要做系统级 Release，可采用类似：
-
-`system-2026-10-14`
-
-或在形成更稳定的整体版本规则后采用统一 System Version。
+两者不要求同步升版。
 
 ## 回退与比较
 
