@@ -202,3 +202,9 @@ Canonical Source：
 - 发现更新时先说明“当前版本 → 最新版本”及关键变化；
 - **不静默覆盖**正在使用的 Skill；
 - Skill 本身不能后台每周自动运行；需要主动周检时，用外部 Automation / Scheduler。
+
+## ChatGPT Plugin 的团队安装包
+
+如果你是在 ChatGPT 中通过 Plugin Creator 使用本系统，直接查看 [个人安装说明](./INSTALL_CHATGPT.md)，从 [GitHub Releases](https://github.com/rogerwangzheng1027/civilization-ai-skills/releases) 下载最新的 `civilization-ai-specialists-vX.Y.Z` ZIP。
+
+维护者只需要在 `main` 更新原始 `SKILL.md`（或共享源文件）；GitHub Actions 会自动同步原文并发布新版 ZIP。**不会自动改写原始 Skill，也不会静默更新已经安装的个人 Plugin。** 每位使用者先阅读版本变化，再确认是否更新自己正在使用的插件。
