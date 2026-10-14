@@ -1,59 +1,181 @@
 name: Publish Personal Plugin ZIP
 
+# Releases are automatic when canonical sources change. User installations are not.
 on:
   push:
     branches: [main]
     paths:
+      - "project-hub/SKILL.md"
+      - "brief-discovery-specialist/SKILL.md"
+      - "creative-exploration-specialist/SKILL.md"
+      - "product-innovation-specialist/SKILL.md"
+      - "proposal-development-specialist/SKILL.md"
+      - "project-hub/PROJECT_STATE_TEMPLATE.md"
+      - "LANGUAGE_CONTROL.md"
+      - "QUICK_START.md"
+      - "LICENSE"
       - ".github/workflows/publish-plugin-zip.yml"
   workflow_dispatch:
 
 permissions:
   contents: write
 
+concurrency:
+  group: civilization-ai-specialists-personal-plugin-main
+  cancel-in-progress: false
+
 jobs:
   build-and-release:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout canonical repository and tags
+      - name: Checkout current main and full tag history
         uses: actions/checkout@v4
         with:
+          ref: main
           fetch-depth: 0
+          persist-credentials: true
 
-      - name: Build validated distribution archive
-        run: python3 scripts/build_plugin_distribution.py
-
-      - name: Create versioned immutable release (no overwrite)
+      - name: Check original sources against last release
+        id: source
         shell: bash
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           set -euo pipefail
-          VERSION="$(python3 -c 'import json; print(json.load(open("plugins/civilization-ai-specialists/plugin.json"))["version"])')"
-          TAG="civilization-ai-specialists-v$VERSION"
-          ASSET="dist/CIVILIZATION-AI-Specialists-v$VERSION.zip"
-
-          if git show-ref --verify --quiet "refs/tags/$TAG"; then
-            TAG_SHA="$(git rev-list -n 1 "$TAG")"
-            if [[ "$TAG_SHA" != "$GITHUB_SHA" ]]; then
-              echo "::error::Version $VERSION is already tagged at $TAG_SHA. Bump the plugin version to release changed content. No existing archive will be replaced."
-              exit 1
-            fi
-          fi
-
-          if gh release view "$TAG" >/dev/null 2>&1; then
-            echo "Release $TAG exists. Preserving existing version, no overwrite."
+          git fetch origin main --tags
+          git checkout main
+          git pull --ff-only origin main
+          LAST_TAG="$(git tag -l 'civilization-ai-specialists-v*' | grep -E '^civilization-ai-specialists-v[0-9]+\.[0-9]+\.[0-9]+$' | sort -V | tail -n 1 || true)"
+          set -- project-hub/SKILL.md brief-discovery-specialist/SKILL.md \
+            creative-exploration-specialist/SKILL.md product-innovation-specialist/SKILL.md \
+            proposal-development-specialist/SKILL.md \
+            project-hub/PROJECT_STATE_TEMPLATE.md LANGUAGE_CONTROL.md QUICK_START.md LICENSE
+          if [[ -n "$LAST_TAG" ]] && git diff --quiet "$LAST_TAG" HEAD -- "$@"; then
+            echo "No canonical source changes since $LAST_TAG; nothing to publish."
+            echo "publish=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
 
-          cat > dist/RELEASE_NOTES.md <<'NOTES'
-          CIVILIZATION AI Specialists — personal, private-installable Plugin package.
-          Contains original Project Hub and four independent Specialist SKILL.md files,
-          LANGUAGE_CONTROL.md, PROJECT_STATE_TEMPLATE.md, and related documentation.
-          The ZIP has plugin.json at its root. No MCP server.
-          To install, download the ZIP and upload it to Plugin Creator in your own ChatGPT.
-          This is a fixed release snapshot, not an automatic sync. Later updates require
-          a new version and the user's explicit approval before replacement.
-          NOTES
+          if [[ -z "$LAST_TAG" ]]; then
+            VERSION="$(python3 -c 'import json; print(json.load(open("plugins/civilization-ai-specialists/plugin.json"))["version"])')"
+          else
+            PREVIOUS="$(printf '%s\n' "$LAST_TAG" | sed 's/^civilization-ai-specialists-v//')"
+            IFS='.' read -r MAJOR MINOR PATCH <<< "$PREVIOUS"
+            VERSION="$MAJOR.$MINOR.$((PATCH + 1))"
+          fi
 
-          gh release create "$TAG" "$ASSET" --target "$GITHUB_SHA" --title "CIVILIZATION AI Specialists v$VERSION" --notes-file dist/RELEASE_NOTES.md
-          echo "RELEASED $TAG"
+          echo "publish=true" >> "$GITHUB_OUTPUT"
+          echo "version=$VERSION" >> "$GITHUB_OUTPUT"
+          echo "source_sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+          echo "Packaging canonical sources as v$VERSION"
+
+      - name: Validate existing Plugin snapshot when nothing changed
+        if: steps.source.outputs.publish == 'false'
+        run: python3 scripts/build_plugin_distribution.py
+
+      - name: Sync original bytes and automatically bump package version
+        if: steps.source.outputs.publish == 'true'
+        shell: bash
+        env:
+          VERSION: ${{ steps.source.outputs.version }}
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import hashlib, json, os, re, runpy, shutil
+          from pathlib import Path
+          settings = runpy.run_path("scripts/build_plugin_distribution.py", run_name="plugin_sync_only")
+          root = Path(".")
+          pkg = root / "plugins/civilization-ai-specialists"
+          files = settings["FILES"]
+          slugs = settings["SKILL_DIRS"]
+          for destination, source in files.items():
+              path = pkg / destination
+              path.parent.mkdir(parents=True, exist_ok=True)
+              shutil.copyfile(root / source, path)
+
+          manifest_path = pkg / "plugin.json"
+          manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+          if manifest.get("name") != "civilization-ai-specialists":
+              raise SystemExit("Unexpected plugin identity")
+          manifest["version"] = os.environ["VERSION"]
+          manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+          doc = pkg / "README_PLUGIN.md"
+          original = doc.read_text(encoding="utf-8")
+          lines = original.splitlines()
+          for slug in slugs:
+              src = (root / slug / "SKILL.md").read_text(encoding="utf-8")
+              match = re.search(r"^# CIVILIZATION[^\n]*?\bv(\d+(?:\.\d+)*)\s*$", src, re.MULTILINE)
+              if not match:
+                  raise SystemExit("No Skill version found for " + slug)
+              prefix = "- " + chr(96) + "skills/" + slug + "/SKILL.md" + chr(96) + " — v"
+              matching = [i for i, line in enumerate(lines) if line.startswith(prefix)]
+              if len(matching) != 1:
+                  raise SystemExit("README version line missing or repeated: " + slug)
+              lines[matching[0]] = prefix + match.group(1)
+
+          heading = "## Source integrity (Git blob SHA)"
+          text = "\n".join(lines) + "\n"
+          if text.count(heading) != 1:
+              raise SystemExit("README integrity section invalid")
+          prefix = text.split(heading, 1)[0]
+          shas = []
+          for source in files.values():
+              raw = (root / source).read_bytes()
+              sha = hashlib.sha1(b"blob " + str(len(raw)).encode() + b"\0" + raw).hexdigest()
+              shas.append(f"{source:<45} {sha}")
+          doc.write_text(prefix + heading + "\n\n" + chr(96)*3 + "text\n" +
+                         "\n".join(shas) + "\n" + chr(96)*3 + "\n",
+                         encoding="utf-8")
+          print("Synced exact source bytes for", len(files), "files")
+          PY
+          python3 scripts/build_plugin_distribution.py
+
+      - name: Commit versioned Plugin snapshot back to main
+        if: steps.source.outputs.publish == 'true'
+        id: snapshot
+        shell: bash
+        env:
+          VERSION: ${{ steps.source.outputs.version }}
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A plugins/civilization-ai-specialists
+          if git diff --cached --quiet; then
+            echo "::error::Original source changed but no Plugin snapshot changed"
+            exit 1
+          fi
+          git commit -m "chore(plugin): sync canonical sources for v$VERSION"
+          git push origin HEAD:main
+          echo "commit=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+
+      - name: Publish immutable ZIP release
+        if: steps.source.outputs.publish == 'true'
+        shell: bash
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          VERSION: ${{ steps.source.outputs.version }}
+          SOURCE_SHA: ${{ steps.source.outputs.source_sha }}
+          SNAPSHOT_SHA: ${{ steps.snapshot.outputs.commit }}
+        run: |
+          set -euo pipefail
+          TAG="civilization-ai-specialists-v$VERSION"
+          ASSET="dist/CIVILIZATION-AI-Specialists-v$VERSION.zip"
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            echo "::error::Refusing to overwrite existing version $TAG"
+            exit 1
+          fi
+          cat > dist/RELEASE_NOTES.md <<EOF
+          CIVILIZATION AI Specialists v$VERSION - private personal Plugin ZIP.
+
+          Canonical Skill source commit: $SOURCE_SHA.
+          Verified package snapshot commit: $SNAPSHOT_SHA.
+          The five SKILL.md files are unmodified originals.
+          Includes LANGUAGE_CONTROL.md and PROJECT_STATE_TEMPLATE.md; no MCP server.
+
+          Download ZIP and provide it to Plugin Creator.
+          Existing personal installations require explicit user approval to update.
+          EOF
+          gh release create "$TAG" "$ASSET" --target "$SNAPSHOT_SHA" \
+            --title "CIVILIZATION AI Specialists v$VERSION" \
+            --notes-file dist/RELEASE_NOTES.md
+          echo "PUBLISHED $TAG"
