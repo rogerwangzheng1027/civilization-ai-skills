@@ -3,7 +3,7 @@
 ## 新项目怎么开始
 
 1. 把客户 Brief / 会议纪要放进项目文件夹。
-2. 加载 **Project Hub v1.8**。
+2. 加载 **Project Hub v1.9**。
 3. 如果已知距上次 Skill 版本检查超过 **7 天**、版本来源不明，或你想确认最新版，并且当前环境可以访问 GitHub，先让 Project Hub 按 **VERSION / UPDATE PROTOCOL** 检查仓库 main branch。
 4. 对它说：
 
@@ -24,7 +24,7 @@
 
 ```text
 刚收到 Brief、需要先理解市场和品牌，或问题尚未解清楚
-→ Brief Discovery Specialist v1.23
+→ Brief Discovery Specialist v1.24
 
 问题已清楚，需要传播 Idea
 → Creative Exploration Specialist
@@ -33,10 +33,16 @@
 → Product Innovation Specialist v1.4
 
 已有 Strategy / Idea / Innovation Direction，需要形成完整提案文件
-→ Proposal Development Specialist v1.13
+→ Proposal Development Specialist v1.14
 ```
 
-## Brief Discovery Specialist v1.23｜先研究现实，再分析 Brief
+## 推荐不等于选择
+
+AI 可以主动推荐最值得推进的方向，也可以在没有明确否决项时条件性继续做深；但只有用户 / 团队 / 客户明确选择，或上游已经可靠记录为已选时，才写入 `SELECTED DIRECTIONS`。
+
+> **“继续” ≠ “我选择这个方向”。**
+
+## Brief Discovery Specialist v1.24｜先研究现实，再分析 Brief
 
 ```text
 市场发展、竞争趋势、消费者行为与品牌背景/资产
@@ -55,9 +61,9 @@ Human Spark → Brand Belief → Brand Role → Product / Offering Truth → Com
 
 直接使用：
 
-> 请按 Brief Discovery Specialist v1.23 开始。先独立研究市场、竞争、消费者与品牌资产，再分析我的 Brief、客户动机和现实差距。品牌策略类任务请继续推到 Human Spark、Brand Logic 与 Positioning Difference；不要先让我填问卷，也不要提前生成 Idea / IMC。
+> 请按 Brief Discovery Specialist v1.24 开始。先独立研究市场、竞争、消费者与品牌资产，再分析我的 Brief、客户动机和现实差距。品牌策略类任务请继续推到 Human Spark、Brand Logic 与 Positioning Difference；不要先让我填问卷，也不要提前生成 Idea / IMC。
 
-## Creative Exploration Specialist v2.5
+## Creative Exploration Specialist v2.5.1
 
 ```text
 CASE LANDSCAPE
@@ -165,6 +171,12 @@ TESTABLE HYPOTHESIS / PROOF NEEDED
 只有需要把已确认方向发展成提案文件时才进入 Proposal Development Specialist。
 
 产品方向基本锁定、并明确需要传播探索时，再进入 Creative Exploration Specialist。
+
+## Proposal 的证据语言
+
+> **Evidence status must survive rewriting.**
+
+即使进入 PPT 标题或客户文案，WORKING HYPOTHESIS 也不能被改写成确定事实。语言强度必须跟着证据状态走，但不要求把 STATUS 标签直接展示给客户。
 
 ## 没有文件读写能力怎么办
 
