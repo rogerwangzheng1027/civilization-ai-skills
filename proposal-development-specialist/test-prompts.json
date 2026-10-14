@@ -16,5 +16,11 @@
     "scenario": "提案逻辑成立但语言太像 AI 咨询报告",
     "prompt": "策略和 Storyline 都成立，但现在页面里全是‘赋能、构建、价值感知、形成闭环’这类词。请继续把它发展成客户可读的 Proposal，不改变策略结论。",
     "expected": "保留底层 Problem / Insight / Creative Leap / Solution Spine，但客户可见文字按 LANGUAGE_CONTROL 去 AI 化；用具体的人、行为、选择替代抽象套话；标题表达判断而非分类；不确定处直接说明，不把框架感全部倒给客户。"
+  },
+  {
+    "id": 4,
+    "scenario": "Working Hypothesis 进入PPT标题时不能被洗成事实",
+    "prompt": "现有数据只支持‘年轻家庭可能是增长缺口之一’，状态是AI / WORKING HYPOTHESIS。请把这条判断写成提案页面标题，要求简洁有力。",
+    "expected": "标题仍保留假设强度，例如‘目前更值得验证的是：增长缺口是否主要来自年轻家庭’；不得为了标题简洁写成‘年轻家庭没有买进来’。Evidence status must survive rewriting，不要求把STATUS标签直接写给客户。"
   }
 ]
