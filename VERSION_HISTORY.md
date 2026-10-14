@@ -11,11 +11,11 @@
 
 | Component | Current |
 | --- | --- |
-| Project Hub | `project-hub-v1.8` |
-| Brief Discovery | `brief-discovery-v1.23` |
-| Creative Exploration | `creative-exploration-v2.5` |
+| Project Hub | `project-hub-v1.9` |
+| Brief Discovery | `brief-discovery-v1.24` |
+| Creative Exploration | `creative-exploration-v2.5.1` |
 | Product Innovation | `product-innovation-v1.4` |
-| Proposal Development | `proposal-development-v1.13` |
+| Proposal Development | `proposal-development-v1.14` |
 
 ## 已归档的正式版本
 
@@ -28,7 +28,8 @@
 `project-hub-v1.5`  
 `project-hub-v1.6`  
 `project-hub-v1.7`  
-`project-hub-v1.8`
+`project-hub-v1.8`  
+`project-hub-v1.9`
 
 ### Brief Discovery
 
@@ -38,7 +39,8 @@
 `brief-discovery-v1.19`  
 `brief-discovery-v1.20`  
 `brief-discovery-v1.22`  
-`brief-discovery-v1.23`
+`brief-discovery-v1.23`  
+`brief-discovery-v1.24`
 
 ### Creative Exploration
 
@@ -51,7 +53,8 @@
 `creative-exploration-v2.2`  
 `creative-exploration-v2.3`  
 `creative-exploration-v2.4`  
-`creative-exploration-v2.5`
+`creative-exploration-v2.5`  
+`creative-exploration-v2.5.1`
 
 ### Product Innovation
 
@@ -68,7 +71,8 @@
 `proposal-development-v1.10`  
 `proposal-development-v1.11`  
 `proposal-development-v1.12`  
-`proposal-development-v1.13`
+`proposal-development-v1.13`  
+`proposal-development-v1.14`
 
 ## Tagging principle
 
