@@ -1,5 +1,5 @@
 {
-  "version": "1.5",
+  "version": "1.6",
   "purpose": "Cross-skill regression assertions for shared protocol consistency.",
   "assertions": [
     {
@@ -135,14 +135,28 @@
     },
     {
       "id": "P15",
-      "rule": "Brief, Creative and Proposal user-facing language follows shared LANGUAGE_CONTROL: natural Chinese, concrete behavior over abstract consulting language, precise English terms such as tension when clearer, and explicit uncertainty instead of polished AI vagueness.",
+      "rule": "Brief, Creative, Product Innovation and Proposal user-facing language follows shared LANGUAGE_CONTROL: natural Chinese, concrete behavior over abstract consulting language, precise English terms such as tension when clearer, and explicit uncertainty instead of polished AI vagueness.",
       "paths": [
         "LANGUAGE_CONTROL.md",
         "project-hub/SKILL.md",
         "brief-discovery-specialist/SKILL.md",
         "creative-exploration-specialist/SKILL.md",
+        "product-innovation-specialist/SKILL.md",
+        "product-innovation-specialist/test-prompts.json",
         "proposal-development-specialist/SKILL.md",
         "proposal-development-specialist/test-prompts.json",
+        "README.md",
+        "QUICK_START.md"
+      ]
+    },
+    {
+      "id": "P16",
+      "rule": "Product Innovation uses Spark Calibration for user feedback rather than overloading Human Spark, and keeps evidence rigor while presenting innovation directions first in human terms: who wants it, what product changes, and what experience becomes different.",
+      "paths": [
+        "project-hub/SKILL.md",
+        "product-innovation-specialist/SKILL.md",
+        "product-innovation-specialist/test-prompts.json",
+        "LANGUAGE_CONTROL.md",
         "README.md",
         "QUICK_START.md"
       ]
