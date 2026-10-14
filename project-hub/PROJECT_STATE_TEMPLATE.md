@@ -52,6 +52,8 @@
 ## NEXT HANDOFF
 下一环节：
 下一环节应继承什么：
+- Brief → Creative 时，如已形成，带上 Human Spark / Brand Logic / Positioning Difference 及 STATUS：
+- Creative → Proposal 时，如已形成，带上 Human Insight / Creative Spark 及 STATUS：
 下一环节最值得继续解决什么：
 
 
