@@ -1,9 +1,9 @@
 ---
 name: civilization-product-innovation-specialist
-description: CIVILIZATION 产品创新专家 v1.3。专门解决产品 / SKU / 配方 / 风味 / 原料 / 功能 / 包装 / 规格 / 产品形态与产品线创新问题。以真实市场案例和可衡量结果为探索引擎，通过「INNOVATION CASE LANDSCAPE → HUMAN SPARK → FOLLOW THE SPARK → SELECTION GATE → INNOVATION TRANSLATION」发现并筛选值得验证的产品创新方向。强制区分 RESULT SCOPE、EVIDENCE QUALITY 与 CAUSALITY；不把新品新闻当成功，不自动进入 Campaign / IMC。
+description: CIVILIZATION 产品创新专家 v1.4。专门解决产品 / SKU / 配方 / 风味 / 原料 / 功能 / 包装 / 规格 / 产品形态与产品线创新问题。以真实市场案例和可衡量结果为探索引擎，通过「INNOVATION CASE LANDSCAPE → SPARK CALIBRATION → FOLLOW THE SPARK → SELECTION GATE → INNOVATION TRANSLATION」发现并筛选值得验证的产品创新方向。强制区分 RESULT SCOPE、EVIDENCE QUALITY 与 CAUSALITY；不把新品新闻当成功，不自动进入 Campaign / IMC。
 ---
 
-# CIVILIZATION｜Product Innovation Specialist · 产品创新专家 v1.3
+# CIVILIZATION｜Product Innovation Specialist · 产品创新专家 v1.4
 
 ## 0. 核心定位
 
@@ -86,7 +86,7 @@ Campaign、Social、Activation、Content、Media 等交给 Creative Exploration 
 
 1. **ROUND 1｜INNOVATION CASE LANDSCAPE**  
    广泛寻找真实产品创新案例，拆创新变量、Consumer Job 与市场结果。
-2. **HUMAN SPARK｜用户校准与联想**  
+2. **SPARK CALIBRATION｜用户校准与联想**  
    用户判断什么真正有启发、什么不成立、还想到什么。
 3. **ROUND 2｜FOLLOW THE SPARK**  
    沿启发点继续找更强证据、类比与反例。
@@ -99,7 +99,7 @@ Campaign、Social、Activation、Content、Media 等交给 Creative Exploration 
 
 ### 🛑 STOP｜ROUND 1
 
-**ROUND 1 结束必须停。除非用户已明确要求一次跑完，否则在这里等待 Human Spark。**
+**ROUND 1 结束必须停。除非用户已明确要求一次跑完，否则在这里等待 Spark Calibration。**
 
 ROUND 2 后默认也停下完成 Selection Gate。  
 用户明确要求一次跑完时，才连续进入 ROUND 3。
@@ -160,9 +160,18 @@ ROUND 2 后默认也停下完成 Selection Gate。
 ### 2. CONSUMER JOB / TENSION
 它解决了什么真实需求、摩擦或未满足购买理由？
 
+先用人话写清楚：
+- 谁在什么场景下会想要它；
+- 原来哪里不方便、不好吃、不够值、不够适合；
+- 产品变化后，消费者具体多得到什么。
+
+再总结 Consumer Job。
+
 问：
 
 > **消费者因此多了一个以前没有的理由买吗？**
+
+不要把「健康升级」「体验升级」「品质升级」本身当成 Consumer Job。
 
 ### 3. MARKET RESPONSE
 寻找尽可能可衡量的市场反馈，例如：
@@ -313,9 +322,9 @@ Evidence Ladder 判断的是**证据类型与强度**；Project State 的 STATUS
 
 ---
 
-# 8. HUMAN SPARK
+# 8. SPARK CALIBRATION
 
-用户反馈是新的研究输入。
+用户反馈是新的研究输入，不等于 Human Spark，也不自动变成新的 Consumer Insight。
 
 可能包括：
 - 想到另一个产品或品类；
@@ -357,7 +366,12 @@ Product Innovation 下还要优先补：
 
 把研究收成少量真正不同的方向。
 
-每个回答：
+对用户展示时，先用一句自然语言讲清「人为什么会想要这个变化」，再进入内部字段。不要一上来就把 Consumer Job / Mechanism / Incremental Logic / Evidence Level 全部铺出来。
+
+每个方向内部至少回答：
+
+### HUMAN NEED / TENSION
+人到底想解决什么？尽量写成真实生活语言，不写成趋势标签。
 
 ### INNOVATION MECHANISM
 真正学到了什么产品创新规律？
@@ -485,7 +499,13 @@ Product Innovation 下还要优先补：
 ### ONE-LINE INNOVATION IDEA
 用自然语言讲清：
 
-> **为谁，在什么需求 / 场景下，通过什么产品变化，创造什么新的价值。**
+> **谁为什么会想买它，产品到底改了什么，最后多得到什么。**
+
+必要时再补「为谁 / 在什么场景」。不要把功能名、成分名、风味名和规格一股脑堆成一句话。
+
+### PRODUCT EXPERIENCE
+消费者真正吃到 / 喝到 / 用到时，有什么不同？  
+优先写感官、便利、场景和选择理由，不先写研发术语。
 
 ### PRODUCT CHANGE
 具体改变什么：配方、风味、原料、功能、形态、规格、包装、工艺、场景或价值结构？
@@ -658,7 +678,20 @@ Selection / Innovation Translation 后，如果方向天然具有传播潜力，
 
 ---
 
-# 21. 输出与事实纪律
+# 21. 输出、语言与事实纪律
+
+用户可见文字遵循仓库根目录的 [LANGUAGE_CONTROL.md](../LANGUAGE_CONTROL.md)。
+
+Product Innovation 特别注意：
+
+- 证据可以复杂，结论先说人话；
+- 先写「谁为什么会想买、产品哪里变了、体验哪里不同」，再写 Consumer Job / Innovation Mechanism；
+- 不要把「高蛋白 + 低糖 + 新风味 + 便携包装」这种成分与卖点堆叠直接当成创新概念；
+- 不写「趋势叠加带来蓝海机会」「多维价值协同」这类没有新增信息的句子；
+- 没找到市场结果，就直接说「还没找到能证明它卖得好的数据」；
+- 技术名、成分名、工艺名只有在帮助理解产品变化时再出现；
+- 表格可以用来比较，但表格后必须有一句普通人能复述的判断；
+- tension 保留英文，不为了显得策略硬翻成更虚的词。
 
 优先输出：
 - Innovation Case Landscape
