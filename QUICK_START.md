@@ -3,7 +3,7 @@
 ## 新项目怎么开始
 
 1. 把客户 Brief / 会议纪要放进项目文件夹。
-2. 加载 **Project Hub v1.7**。
+2. 加载 **Project Hub v1.8**。
 3. 如果已知距上次 Skill 版本检查超过 **7 天**、版本来源不明，或你想确认最新版，并且当前环境可以访问 GitHub，先让 Project Hub 按 **VERSION / UPDATE PROTOCOL** 检查仓库 main branch。
 4. 对它说：
 
@@ -30,7 +30,7 @@
 → Creative Exploration Specialist
 
 问题已清楚，需要产品 / SKU / 配方 / 风味 / 功能等创新
-→ Product Innovation Specialist
+→ Product Innovation Specialist v1.4
 
 已有 Strategy / Idea / Innovation Direction，需要形成完整提案文件
 → Proposal Development Specialist v1.13
@@ -103,9 +103,9 @@ Selection 后，R3 对 KEEP 或条件性推进的方向先产生结构真正不�
 - 输出 Refined Concept Platform；
 - 只有 **CONCEPT READY** 后才进入完整 Execution / IMC。
 
-## Proposal / Brief / Creative 的语言控制
+## 四个 Specialist 的语言控制
 
-Brief、Creative、Proposal 的用户可见输出共同参考 [LANGUAGE_CONTROL.md](./LANGUAGE_CONTROL.md)：
+Brief、Creative、Product Innovation、Proposal 的用户可见输出共同参考 [LANGUAGE_CONTROL.md](./LANGUAGE_CONTROL.md)：
 
 - tension 保留英文，不为了策略感硬翻成更虚的词；
 - 具体行为优先于抽象名词；
@@ -113,12 +113,12 @@ Brief、Creative、Proposal 的用户可见输出共同参考 [LANGUAGE_CONTROL.
 - 少用 AI 套话和咨询黑话；
 - 框架留在底层，不把框架感全部倒给用户或客户。
 
-## Product Innovation Specialist v1.3
+## Product Innovation Specialist v1.4
 
 ```text
 INNOVATION CASE LANDSCAPE
   ↓
-HUMAN SPARK
+SPARK CALIBRATION
   ↓
 FOLLOW THE SPARK
   ↓
@@ -137,7 +137,7 @@ TESTABLE HYPOTHESIS / PROOF NEEDED
 - **CLAIM-SPECIFIC STATUS**：同一份证据对不同 Claim 可对应不同 STATUS
 - **SOURCE AUDIT**：正式案例保留来源、日期、Verification、能证明 / 不能证明什么
 
-不自动生成 Campaign / IMC。
+不自动生成 Campaign / IMC。用户可见输出先把产品机会讲清楚：谁为什么会想买、产品到底改了什么、吃到 / 用到时有什么不同，再补 Consumer Job、Innovation Mechanism 和证据。
 
 ## HOLD / DROP
 
@@ -176,7 +176,7 @@ TESTABLE HYPOTHESIS / PROOF NEEDED
 
 ## 一句话记住
 
-> **Hub 管协议与交接；Brief 管问题和 Brand Logic；Creative 管 Human Insight、Creative Spark 与传播 Idea；Innovation 管产品创新；Proposal 管提案文件的发展与成稿。**
+> **Hub 管协议与交接；Brief 管问题和 Brand Logic；Creative 管 Human Insight、Creative Spark 与传播 Idea；Innovation 管产品机会、证据和可测试方向；Proposal 管提案文件的发展与成稿。**
 
 
 ## 版本更新怎么处理
