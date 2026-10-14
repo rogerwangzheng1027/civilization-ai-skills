@@ -32,17 +32,17 @@
 
 | Skill | 当前版本 | 什么时候用 | 核心作用 |
 | --- | --- | --- | --- |
-| [Project Hub](./project-hub/SKILL.md) | v1.6 | 新项目、阶段切换、重要 Review 后 | 管理项目状态、共享协议与交接；判断当前在哪里、下一步该找哪个专业 Specialist |
-| [Brief Discovery Specialist](./brief-discovery-specialist/SKILL.md) | v1.22 | 刚收到 Brief、问题定义或关键前提不清楚 | **先研究市场、竞争、用户行为与品牌资产**；再理解客户目标和提出 Brief 的动机；最后诊断现实与客户期待的落差，形成有证据的解题判断与机会方向 |
-| [Creative Exploration Specialist](./creative-exploration-specialist/SKILL.md) | v2.4 | 问题基本清楚，需要寻找传播创意解法，或已有 Idea Seed 需要继续做强 | 用真实跨界案例打开参考系，筛选并发展 Idea；选中后先做 Concept Development，再进入 Execution / IMC |
+| [Project Hub](./project-hub/SKILL.md) | v1.7 | 新项目、阶段切换、重要 Review 后 | 管理项目状态、共享协议与交接；判断当前在哪里、下一步该找哪个专业 Specialist |
+| [Brief Discovery Specialist](./brief-discovery-specialist/SKILL.md) | v1.23 | 刚收到 Brief、问题定义或关键前提不清楚 | **先研究市场、竞争、用户行为与品牌资产**；再理解客户目标和提出 Brief 的动机；最后诊断现实与客户期待的落差，形成有证据的解题判断与机会方向 |
+| [Creative Exploration Specialist](./creative-exploration-specialist/SKILL.md) | v2.5 | 问题基本清楚，需要寻找传播创意解法，或已有 Idea Seed 需要继续做强 | 用真实跨界案例打开参考系，筛选并发展 Idea；选中后先做 Concept Development，再进入 Execution / IMC |
 | [Product Innovation Specialist](./product-innovation-specialist/SKILL.md) | v1.3 | 需要探索产品 / SKU / 配方 / 风味 / 功能 / 包装 / 规格等创新 | 用真实市场案例和可衡量结果筛选创新机制，形成可测试的产品创新方向与假设 |
-| [Proposal Development Specialist](./proposal-development-specialist/SKILL.md) | v1.12 | 已有 Strategy / Idea / Innovation Direction，需要形成完整提案文件 | 用 Storyline 压力测试并发展 Solution，形成 Proposal Spine、Page Plan、关键文案与可直接进入 PPT / PDF 的提案内容 |
+| [Proposal Development Specialist](./proposal-development-specialist/SKILL.md) | v1.13 | 已有 Strategy / Idea / Innovation Direction，需要形成完整提案文件 | 用 Storyline 压力测试并发展 Solution，形成 Proposal Spine、Page Plan、关键文案与可直接进入 PPT / PDF 的提案内容 |
 
 一句话记住：
 
 > **Hub 管导航与交接；Brief 管问题；Creative 管传播创意与概念深化；Innovation 管产品创新；Proposal 管提案文件的发展与成稿。**
 
-## Brief Discovery v1.22：先理解现实，再理解 Brief
+## Brief Discovery v1.23：先理解现实，再理解 Brief
 
 **不要先用客户的 Brief 定义市场，再回头寻找能证明它的资料。** 新版要求 AI 在评价 Brief 前，先建立相对独立的外部现实基准，然后才理解客户需求及其背后的商业动机。
 
@@ -61,6 +61,24 @@ STRATEGIC JUDGMENT｜形成 Problem Landscape 与有证据边界的 Strategy / O
 品牌主张、产品计划、目标用户或沟通方向等 **只在客户实际提出、且对决策重要时** 才进行 Gap Diagnosis。不会假设每个 Brief 都有既定定位，也不会机械要求每个项目检查未来12个月的产品规划。深度品牌考古、医学或技术研究同样按实际问题触发，不是固定清单。
 
 新版明确要求，在进入 Strategy Selection 前回答：**外部研究究竟让我们发现了什么，改变了什么判断？** 没有新发现时继续查证最重要的盲区，或诚实保留证据缺口；不为“有洞察”制造结论。
+
+如果任务本身就是 Brand Restage / Repositioning / Brand Platform / Proposition，Brief 不再因为客户没有现成定位就跳过品牌逻辑。它会按需形成一条 **Brand Logic Bridge**：
+
+```text
+Human Spark
+  ↓
+Brand Belief
+  ↓
+Brand Role
+  ↓
+Product / Offering Truth
+  ↓
+Competitive Contrast
+  ↓
+Positioning Difference
+```
+
+Human Spark 是对真实 human tension 的策略综合，不是假装成消费者原话；Brand Belief 也不是 Human Insight。
 
 ## 工作流不是唯一线性的
 
@@ -91,7 +109,7 @@ Brief Discovery
 
 ## 两个探索 Specialist 为什么拆开
 
-### Creative Exploration Specialist v2.4
+### Creative Exploration Specialist v2.5
 
 专门研究：
 - Campaign / Communication
@@ -105,7 +123,9 @@ Brief Discovery
 ```text
 CASE LANDSCAPE
   ↓
-HUMAN SPARK
+SPARK CALIBRATION
+  ↓
+HUMAN INSIGHT → CREATIVE SPARK
   ↓
 FOLLOW THE SPARK
   ↓
@@ -122,7 +142,11 @@ CREATIVE REVIEW
 
 > **不是取消 Idea，而是推迟 Idea。**
 
-ROUND 1 / ROUND 2 先让案例与人的联想打开空间；**正式案例必须同时带真实执行视觉 + 可追溯来源链接**，让案例既可验证，也真正能刺激创意联想；缺图或缺链接的案例只进入 TO SOURCE / BACKUP。完成 Selection 后，ROUND 3 对 KEEP 机制先形成**参与结构 / 品牌动作真正不同的候选 Idea**。选中 Idea Seed 后进入 **Concept Development**：先把 Human Truth、Brand Right、Task / Moment Role、Concept Meaning、Expression System 与 Creative Requirements 做强；已有角色、联名、包装、活动等只作为 Execution Hypotheses，不因已经具体就自动向下发展。只有 Concept Ready 后才进入完整 Execution / IMC。
+ROUND 1 先用案例打开空间，用户做 Spark Calibration；ROUND 2 不只是继续找案例，而要把研究推进到更具体的 **Human Insight → Creative Spark**。Creative Spark 是「这里可能有件值得做的事」，还不是 Idea。**正式案例必须同时带真实执行视觉 + 可追溯来源链接**，缺图或缺链接的案例只进入 TO SOURCE / BACKUP。
+
+Selection Gate 保留三个 Viability Checkpoints，但它们是检查点，不是三道必须全部清零的拦截门。证据仍是 AMBER 时可以条件性继续；只有方向建立在虚假事实、不可获得资源、明显法规风险或品牌根本接不住的前提上，才真正停止。用户只说「继续」时，AI 应给出推荐判断并在没有明确否决项时继续往下，不把用户困在无限研究循环里。
+
+完成 Selection 后，ROUND 3 对 KEEP 或条件性推进的方向先形成**参与结构 / 品牌动作真正不同的候选 Idea**。选中 Idea Seed 后进入 **Concept Development**：先把 Human Truth、Brand Right、Task / Moment Role、Concept Meaning、Expression System 与 Creative Requirements 做强；已有角色、联名、包装、活动等只作为 Execution Hypotheses，不因已经具体就自动向下发展。只有 Concept Ready 后才进入完整 Execution / IMC。
 
 ### Product Innovation Specialist v1.3
 
@@ -197,7 +221,7 @@ proposal-development-specialist/SKILL.md
 
 ### 2. Brief Discovery Specialist
 
-> 请按 Brief Discovery Specialist v1.22 工作。先根据项目范围独立研究市场发展、竞争趋势、消费者行为及品牌背景与资产；再完整阅读 Brief、会议材料，理解客户真正的需求和提出这道题的动机；最后分析与现实的关键落差，形成有证据的判断。不要先让我回答一堆问题，默认逐轮推进。
+> 请按 Brief Discovery Specialist v1.23 工作.先根据项目范围独立研究市场发展、竞争趋势、消费者行为及品牌背景与资产；再完整阅读 Brief、会议材料，理解客户真正的需求和提出这道题的动机；最后分析与现实的关键落差，形成有证据的判断。不要先让我回答一堆问题，默认逐轮推进。
 
 Brief 结束时应明确下一步属于：
 - Creative Exploration
@@ -206,7 +230,7 @@ Brief 结束时应明确下一步属于：
 
 ### 3. Creative Exploration Specialist
 
-> 请按 Creative Exploration Specialist 开始 ROUND 1。先根据当前 Creative Problem 寻找跨界真实案例并拆机制，不要直接生成 Idea。案例之后停下来让我校准和补充联想。
+> 请按 Creative Exploration Specialist v2.5 开始 ROUND 1。先根据当前 Creative Problem 寻找跨界真实案例并拆机制，不要直接生成 Idea。案例之后停下来做 Spark Calibration；下一轮继续找 Human Insight 和 Creative Spark，再进入 Selection。
 
 ROUND 3 把选中机制变成具体 Idea Seed；如果已经有 KEEP 的 Idea 雏形，也可以直接进入 Concept Development，先优化 Concept，再决定是否发展 Execution / IMC。
 
@@ -218,7 +242,7 @@ ROUND 3 把选中机制变成可测试的产品创新方向，而不是传播方
 
 ### 5. Proposal Development Specialist
 
-> 请按 Proposal Development Specialist 工作。基于已确认的 Strategy / Idea / Innovation Direction，先检查 Solution 是否足以支撑提案，再形成 Proposal Spine、Storyline、Page Plan 和关键文案，最终发展成完整提案文件。如果核心方向本身不成立，再触发对应 Reopen。
+> 请按 Proposal Development Specialist v1.13 工作。基于已确认的 Strategy / Idea / Innovation Direction，先检查 Solution 是否足以支撑提案，再形成 Proposal Spine、Storyline、Page Plan 和关键文案，最终发展成完整提案文件。如果核心方向本身不成立，再触发对应 Reopen。客户可见文字要讲人话，内部框架不要原样倒给客户。
 
 ## `PROJECT_STATE.md` 是共享记忆
 
@@ -253,6 +277,7 @@ ROUND 3 把选中机制变成可测试的产品创新方向，而不是传播方
 - **先选择，再体系化。** `Systemization is downstream of selection.`
 - **Proposal 只修不从零造。** 缺 Idea 就 Creative Reopen；缺 Product Innovation Direction 就 Innovation Reopen。
 - **Storyline 是诊断工具，不只是排版工具。**
+- **底层判断可以很严谨，表面语言不要很费劲。** Brief / Creative / Proposal 的用户可见文字共同参考 [LANGUAGE_CONTROL.md](./LANGUAGE_CONTROL.md)，其中吸收了 Khazix Writer 的去 AI 化、自然语言化原则。
 - **PDF / PPT 是按需交付，不是完成工作的指标。**
 - **注意客户保密与素材权限。**
 
@@ -262,6 +287,7 @@ ROUND 3 把选中机制变成可测试的产品创新方向，而不是传播方
 civilization-ai-skills/
 ├── README.md
 ├── QUICK_START.md
+├── LANGUAGE_CONTROL.md
 ├── LICENSE
 ├── COMMERCIAL_USE.md
 ├── project-hub/
@@ -332,10 +358,10 @@ Project Hub 是共享协议唯一原文。
 
 ## 当前版本
 
-- Project Hub **v1.6**
-- Brief Discovery Specialist **v1.22**
-- Creative Exploration Specialist **v2.4**
+- Project Hub **v1.7**
+- Brief Discovery Specialist **v1.23**
+- Creative Exploration Specialist **v2.5**
 - Product Innovation Specialist **v1.3**
-- Proposal Development Specialist **v1.12**
+- Proposal Development Specialist **v1.13**
 
 更新通用 Skill 时，优先根据真实工作流测试抽象规则；**具体客户、品牌、人物、Campaign、产品和项目内容不写入通用 Skill**。
