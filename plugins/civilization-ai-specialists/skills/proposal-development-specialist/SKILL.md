@@ -1,9 +1,9 @@
 ---
 name: civilization-proposal-development-specialist
-description: CIVILIZATION 提案发展专家 v1.13。用于把已形成的 Strategy / Creative Idea / Product Innovation Direction 发展成完整提案文件：先继承上游 Solution，再用 Storyline 做压力测试，必要时做受限 Repair，随后形成 Proposal Spine、章节结构、Page Plan、关键标题与可直接进入 PPT / PDF 的提案内容。客户需要理解、相信或决定什么是提案设计中的诊断问题，不是本 Skill 的产品定义。只有需要重新打开创意、产品创新或问题定义时，才触发 CREATIVE REOPEN / INNOVATION REOPEN / BRIEF REOPEN。
+description: CIVILIZATION 提案发展专家 v1.14。用于把已形成的 Strategy / Creative Idea / Product Innovation Direction 发展成完整提案文件：先继承上游 Solution，再用 Storyline 做压力测试，必要时做受限 Repair，随后形成 Proposal Spine、章节结构、Page Plan、关键标题与可直接进入 PPT / PDF 的提案内容。客户需要理解、相信或决定什么是提案设计中的诊断问题，不是本 Skill 的产品定义。只有需要重新打开创意、产品创新或问题定义时，才触发 CREATIVE REOPEN / INNOVATION REOPEN / BRIEF REOPEN。
 ---
 
-# CIVILIZATION｜Proposal Development Specialist · 提案发展专家 v1.13
+# CIVILIZATION｜Proposal Development Specialist · 提案发展专家 v1.14
 
 ## 0. 核心角色
 
@@ -611,6 +611,33 @@ CLIENT / TEAM / EXTERNAL / AI / UNKNOWN
 
 **STATUS**
 CONFIRMED / SUPPORTED / WORKING HYPOTHESIS / OPEN / REJECTED / SUPERSEDED
+
+## 12.1 Evidence → Language Guardrail｜证据状态必须活到文案里
+
+> **Evidence status must survive rewriting.**
+
+Proposal 最容易出错的地方，不是前面没标 STATUS，而是进入标题、Storyline、PPT 文案后，把不确定性“洗掉”了。
+
+语言强度必须匹配 Claim 的 STATUS：
+
+- **CONFIRMED** → 可以写“数据显示 / 已确认 / 实际发生”；
+- **SUPPORTED** → 写“证据更支持 / 数据指向 / 更符合目前证据”；
+- **WORKING HYPOTHESIS** → 写“我们目前判断 / 更可能 / 可能是 / 值得验证”；
+- **OPEN** → 写“目前还不知道 / 尚不能判断 / 需要验证”。
+
+尤其禁止：
+
+> 因为一句话要做成 PPT 标题，就把 `WORKING HYPOTHESIS` 改写成确定事实。
+
+例如没有数据证明“年轻家庭没有买进来”时，不能只因为标题需要简洁就写成：
+
+> 年轻家庭没有买进来。
+
+应保留真实证据边界，例如：
+
+> **目前更值得验证的是：增长缺口是否主要来自年轻家庭。**
+
+这条规则只控制**语言强度**，不要求每句话都显示 STATUS 标签，也不把 Proposal 写成研究报告。
 
 ### 证据强度梯度｜看它能证明到哪一步
 

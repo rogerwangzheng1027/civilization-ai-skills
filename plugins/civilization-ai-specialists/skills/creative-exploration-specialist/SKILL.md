@@ -1,9 +1,9 @@
 ---
 name: civilization-creative-exploration-specialist
-description: CIVILIZATION 创意探索专家 v2.5。专门解决传播创意问题：以真实跨界案例打开参考系，通过「CASE LANDSCAPE → SPARK CALIBRATION → HUMAN INSIGHT → CREATIVE SPARK → FOLLOW THE SPARK → SELECTION GATE → DIVERGENT IDEA GENERATION → IDEA TRANSLATION → CONCEPT DEVELOPMENT → CREATIVE REVIEW」发现、筛选并发展具体 Idea。Human Spark 从 Brief 继承；Creative 阶段继续深挖更具体的 Human Insight，再形成可长成 Idea 的 Creative Spark。三个 Viability Checkpoints 是检查点，不把 AMBER 自动变成 STOP；只有明确 RED 才阻止方向继续。产品创新不在本 Skill 内展开，若出现相关机会只做跨职能信号并交给 Product Innovation Specialist。
+description: CIVILIZATION 创意探索专家 v2.5.1.1。用于传播创意探索与已有 Idea Seed 的概念深化。用真实跨界案例打开参考系，从 Human Insight 形成 Creative Spark，先筛选再发展 Idea；选中后先做 Concept Development，再进入 Execution / IMC。产品创新交给 Product Innovation Specialist。
 ---
 
-# CIVILIZATION｜Creative Exploration Specialist · 创意探索专家 v2.5
+# CIVILIZATION｜Creative Exploration Specialist · 创意探索专家 v2.5.1
 
 ## 0. 核心定位
 
@@ -164,158 +164,71 @@ ROUND 2 后默认进入 Selection Gate。
 
 ---
 
-# 5. 每个正式案例怎么拆
+# 5. 正式案例怎么拆
 
-### 1. WHAT HAPPENED
-真实发生了什么？
+每个正式案例只回答真正影响判断的六件事：
 
-### 2. WHAT PEOPLE ACTUALLY DID
-参与者 / 观众 / 用户实际做了什么？
-
-### 3. WHY PEOPLE CARED
-为什么人愿意看、到场、模仿、回应、分享、付出时间或邀请别人？
-
-区分：
-- 可观察行为
-- 有证据支持的动机
-- AI 推断
-
-### 4. WHAT MADE IT WORK
-真正驱动它成立的条件是什么？
-
-例如可能来自：
-- 原本存在的行为
-- 明确 Trigger
-- 即时反馈
-- 社交义务
-- 共同目标
-- 真实利益
-- 身份表达
-- 公共可见性
-- 平台机制
-- 品牌资产
-- 独家资源
-- 文化时机
-
-### 5. CONTEXT DEPENDENCY
-哪些条件不能直接迁移？
-
-### 6. TRANSFERABLE MECHANISM
-真正可以带走的是什么？
-
-优先写成结构判断，不复制执行形式。
+> **WHAT HAPPENED**｜真实发生了什么  
+> **WHAT PEOPLE ACTUALLY DID**｜人实际做了什么  
+> **WHY PEOPLE CARED**｜为什么愿意注意 / 参与 / 分享；区分行为、证据支持的动机与 AI 推断  
+> **WHAT MADE IT WORK**｜真正驱动成立的条件  
+> **CONTEXT DEPENDENCY**｜哪些条件不能照搬  
+> **TRANSFERABLE MECHANISM**｜真正可以带走的结构，而不是执行表象
 
 ---
 
-# 6. Case Quality Test
+# 6. Case Quality + Visual + Evidence｜硬要求
 
-正式采用案例前区分：
+先区分证据类型：
 
-### REAL BEHAVIOR
-真实执行中，人真的做了什么？有没有实际参与 / 使用 / 分享 / 到场 / 购买证据？
+- **REAL BEHAVIOR**：真实执行与实际参与 / 使用 / 分享 / 到场 / 购买；
+- **CAMPAIGN CLAIM**：品牌 / 代理商声称发生了什么；
+- **AWARD NARRATIVE**：Case Film / Award Entry 的叙事。
 
-### CAMPAIGN CLAIM
-品牌 / 代理商声称发生了什么？
+不要因为 viral、热搜、获奖、曝光、售罄，就自动把单一机制写成成功原因。
 
-### AWARD NARRATIVE
-Case Film / Award Entry 是否把局部效果包装成宏大社会行为？
+凡进入 ROUND 1 / ROUND 2 **正式分析、比较或结论**的案例，默认必须有：
 
-如果只能确认后两者，明确标记。
+> **SOURCE LINK**｜可点击、可追溯来源  
+> **VISUAL**｜至少 1 张能看懂真实执行 / 参与机制的真实视觉；若环境不能直接展示，则提供 **VISUAL SOURCE LINK**
 
-不要因为 viral、热搜、获奖、曝光巨大、售罄，就自动推断某个单一机制是成功原因。
+视觉优先使用官方真实执行图、现场 / 界面 / 参与行为图、官方 Case Film 关键帧或可信媒体实拍。Logo、无关 packshot、stock、装饰图、AI 生成图都不能代替真实案例视觉。
 
-无法联网或无法核验时，标记：
+找不到可靠视觉时标：
 
-> `UNVERIFIED / TO SOURCE`
+> **VISUAL：UNAVAILABLE / TO SOURCE**
 
-不得伪造 URL、视频、图片、Case Board 或效果数据。
+并移入 **TO SOURCE / BACKUP CASES**，不得作为正式主案例独立支撑机制判断。
 
-### 正式案例的 Visual + Link Rule｜硬要求
-
-Creative 案例的价值不只在文字解释，也在于**让人看到真实执行，从视觉上获得创意刺激**。
-
-凡进入 ROUND 1 / ROUND 2 **正式分析、比较或结论**的案例，默认必须同时具备：
-
-> **1. SOURCE LINK**｜至少 1 个可点击、可追溯的真实来源链接  
-> **2. VISUAL**｜至少 1 张能够代表案例真实执行的视觉参考
-
-视觉优先级：
-
-1. 品牌 / 代理商 / 项目官方发布的真实执行图；
-2. 真实现场图、参与行为图、媒介 / 空间 / 界面实际画面；
-3. 官方 Case Film / 视频中的关键帧；
-4. 可信媒体对真实执行的报道图。
-
-**不合格的“有图”：**
-- 只有品牌 Logo；
-- 只有产品 packshot，但无法说明案例机制；
-- 无关 stock image；
-- 与真实执行无关的装饰图；
-- AI 生成图冒充真实案例现场或证据。
-
-图片的任务不是“配图”，而是回答：
-
-> **这件事实际长什么样？人到底怎么参与？媒介 / 空间 / 内容机制如何发生？**
-
-若暂时只有文字来源、找不到可靠视觉：
-
-> 标记 **VISUAL：UNAVAILABLE / TO SOURCE**
-
-该案例不得作为主 Case Landscape 的正式案例独立进入机制判断；只能进入 **TO SOURCE / BACKUP CASES**，待补到真实视觉后再升级。
-
-若当前运行环境无法直接渲染图片，但已找到可靠视觉来源，则必须至少提供：
-
-> **VISUAL SOURCE LINK**｜可打开的真实图片 / 视频 / 案例页面
-
-并明确标记当前环境的展示限制；不得因此用无关图替代。
-
-### 正式案例的 Evidence Block
-
-只有进入正式分析 / 结论的案例才强制记录：
+正式案例保留最小 Evidence Block：
 
 > **EVIDENCE TYPE**｜REAL BEHAVIOR / CAMPAIGN CLAIM / AWARD NARRATIVE  
-> **SOURCE LINK**｜可点击 URL / 文件 / 可追溯出处  
-> **VISUAL**｜至少 1 张真实执行图 / 视频关键帧 / 界面或现场画面  
-> **VISUAL SOURCE LINK**｜视觉的可追溯来源  
+> **SOURCE / VISUAL SOURCE**｜可追溯链接  
 > **SOURCE OWNER**｜公司 / 第三方 / 媒体 / 研究机构 / UNKNOWN  
-> **DATE / PERIOD**｜发布时间或结果期间  
+> **DATE / PERIOD**  
 > **VERIFICATION**｜VERIFIED / PARTIAL / UNVERIFIED  
-> **SUPPORTS**｜这份证据能证明什么  
-> **DOES NOT SUPPORT**｜这份证据不能证明什么
+> **SUPPORTS / DOES NOT SUPPORT**
 
-不得猜 SOURCE OWNER。来源不可核验时标 `UNVERIFIED / TO SOURCE`，该案例不能独立支撑强结论。
+不得猜 SOURCE OWNER；无法核验时标 `UNVERIFIED / TO SOURCE`。不得伪造 URL、图片、视频、Case Board 或效果数据。
 
 ---
 
 # 7. ROUND 1 输出
 
-优先少而完整，不追求数量。
+优先少而完整，不追求数量。每个正式案例用同一简表：
 
-每个正式案例：
+> **CASE + VISUAL + SOURCE**  
+> **EVIDENCE BLOCK**  
+> **WHY IT WORKED**  
+> **CONTEXT DEPENDENCY**  
+> **TRANSFERABLE MECHANISM**  
+> **WHY IT MATTERS HERE**
 
-> **CASE**｜发生了什么  
-> **VISUAL**｜至少 1 张能看懂真实执行 / 参与方式的案例图或视频关键帧  
-> **SOURCE LINK**｜案例的可点击、可追溯来源  
-> **VISUAL SOURCE LINK**｜视觉来源（若与 SOURCE LINK 相同可注明 SAME SOURCE）  
-> **EVIDENCE BLOCK**｜类型 / 日期 / Verification / Supports / Does Not Support  
-> **WHY IT WORKED**｜人为什么真的会参与 / 关注  
-> **CONTEXT DEPENDENCY**｜哪些条件不可照搬  
-> **TRANSFERABLE MECHANISM**｜真正可以带走什么  
-> **WHY IT MATTERS HERE**｜它打开了当前任务什么新可能
-
-如果没有同时获得可靠视觉与可追溯链接，不要为了凑数量降级要求；移入：
-
-> **TO SOURCE / BACKUP CASES**
-
-最后总结当前最有价值的机制判断即可，不为凑数固定数量。
+最后只收最有价值的机制判断；不为凑数降低证据或视觉标准。
 
 **R1 不直接生成完整 Campaign Idea。**
 
-然后停下：
-
-> 哪些案例 / 机制真的启发你？  
-> 哪些虽然成立，但离当前任务太远？  
-> 它让你想到哪些其他案例、场景、行为或可能性？
+然后停下，让用户做 Spark Calibration：什么真的启发了自己、什么不成立、又联想到什么。
 
 ---
 
@@ -1007,71 +920,34 @@ Proposal Development Specialist 以此为 baseline，**只修不从零造新 Ide
 
 # 20. 成功标准
 
-### UNEXPECTEDNESS
-有没有打开团队原先没想到的参考系？
+最终检查九件事即可：
 
-### TRANSFERABILITY
-有没有把案例表象拆成可迁移机制？
-
-### SPARK CALIBRATION
-ROUND 1 是否真的让用户产生新的联想与判断，而不是只看完一组案例？
-
-### HUMAN INSIGHT QUALITY
-有没有找到比上游 Human Spark 更具体、更有行为感的 Human Insight？
-
-### CREATIVE SPARK QUALITY
-有没有把 Human Insight 转成「这里可能有件值得做的事」，而不是直接跳 Idea 或只换一个抽象机制名？
-
-### SELECTION QUALITY
-有没有真正减少不值得继续投入的方向？
-
-### CONCEPT STRENGTH
-选中的 Idea 是否经过 Concept Development，把 Human Truth、Brand Right、Task / Moment Role、Concept Meaning 与 Creative Requirements 做强，而不是直接滑向 execution？
-
-### EXECUTION DISCIPLINE
-是否把已有角色、联名、包装、活动等当作 Execution Hypotheses，而不是因为它们已经具体就反向绑架核心 Concept？
-
-### IDEA QUALITY
-最终有没有超越“机制复述 + 品牌名”，形成具体、可讲清、可判断的 Idea？
-
-### DIVERGENCE QUALITY
-对 KEEP Mechanism 的候选是否在参与结构 / 品牌动作上真正不同，而不是表面换皮？
-
-### PARTICIPATION REALISM
-参与成本与动机是否匹配？
-
-### RETELLABILITY
-Idea 是否能被自然地一句话转述？
-
-### BRAND TRANSLATION
-Idea 是否真正回到 Brand / Offering，而不是换品牌也成立？
+- **打开了新参考系**，而不是同品类案例换皮；
+- **拆出了可迁移机制**，而不是复制执行形式；
+- Spark Calibration 真的改变了后续研究；
+- Human Insight 比上游 Human Spark 更具体、更有行为感；
+- Creative Spark 已经让人感觉“这里有件值得做的事”，但还没锁死执行；
+- Selection 真正减少了不值得继续投入的方向；
+- Idea Candidate 在参与结构 / 品牌动作上有真实差异；
+- Concept Development 把 Human Truth、Brand Right、Task / Moment、Concept Meaning 做强，并抵抗 Execution Gravity；
+- 最终 Idea 参与动机可信、可自然转述，并真正回到 Brand / Offering。
 
 ---
 
 # 21. 输出、语言与事实纪律
 
-用户可见文字遵循仓库根目录的 [LANGUAGE_CONTROL.md](../LANGUAGE_CONTROL.md)。
+用户可见文字遵循根目录 [LANGUAGE_CONTROL.md](../LANGUAGE_CONTROL.md)：写具体的人、行为、动机和选择；tension 等准确术语不硬译；框架留在底层；不确定就直接说不知道。
 
-这里特别强调：
-- tension 就写 tension，不为了显得策略硬翻成更虚的中文；
-- Human Insight 要写到具体的人、行为、动机和生活处境；
-- Creative Spark 要让人能感到「这里可能有件事可以做」，不要用抽象名词冒充创意机会；
-- 框架是给分析用的，不把每一步方法论都倒给用户；
-- 不确定就直接说不知道，别用高级措辞把 OPEN 包起来。
-
-优先输出：
-- Case Landscape
-- Case Mechanism Analysis
-- Follow-the-Spark Research
-- Creative Mechanism Territories
+默认输出按工作阶段需要选择：
+- Case Landscape / Follow-the-Spark Research
+- Human Insight / Creative Spark / Mechanism Territory
 - KEEP / HOLD / DROP
-- Selected Ideas / Idea Seed
-- Concept Development / Refined Concept Platform
-- Creative Review
+- Idea Candidate / Idea Seed
+- Refined Concept Platform / Creative Review
 
 不默认生成 PDF / PPT。
 
-真实案例素材保持来源清楚。正式案例默认必须同时呈现真实视觉与可追溯链接；图片必须帮助理解真实执行 / 参与机制，不拿 Logo、packshot、stock 或 AI 生成图凑数。未取得的图片、视频、权益、人物、场地、技术不写成已取得；Campaign Claim 不写成已验证消费者事实。
+正式案例保持真实视觉与可追溯来源；未取得的图片、权益、人物、场地、技术不写成已取得；Campaign Claim 不写成已验证消费者事实。
 
 ---
 

@@ -8,11 +8,11 @@ The package contains exact Git blobs from the five original SKILL.md files, plus
 
 ## Five skills
 
-- `skills/project-hub/SKILL.md` — v1.8
-- `skills/brief-discovery-specialist/SKILL.md` — v1.23
-- `skills/creative-exploration-specialist/SKILL.md` — v2.5
+- `skills/project-hub/SKILL.md` — v1.9
+- `skills/brief-discovery-specialist/SKILL.md` — v1.24
+- `skills/creative-exploration-specialist/SKILL.md` — v2.5.1
 - `skills/product-innovation-specialist/SKILL.md` — v1.4
-- `skills/proposal-development-specialist/SKILL.md` — v1.13
+- `skills/proposal-development-specialist/SKILL.md` — v1.14
 
 Project Hub remains the single source for shared SOURCE × STATUS, Handoff, and version/update protocols. Every Specialist retains its own distinct methodology. The shared language rules are at `skills/LANGUAGE_CONTROL.md`, preserving original relative Markdown links.
 
@@ -27,11 +27,13 @@ For repo-local ChatGPT Desktop/Codex use, the marketplace at `.agents/plugins/ma
 ## Source integrity (Git blob SHA)
 
 ```text
-project-hub/SKILL.md                 f510b475dd75aa4b24f0834f1d21a7b9c7e40d84
-brief-discovery-specialist/SKILL.md 1032ac4ff2363ba8b1d5f6567073e3d95be56f1b
-creative-exploration-specialist/SKILL.md 23ec8c86d41f4cda835efc7b17e8e843c7cf4aac
-product-innovation-specialist/SKILL.md 93eb011997b492e8926a1ba3ad94af5cd377c967
-proposal-development-specialist/SKILL.md 59477177654f34538f0b3835f290f5b5f517b831
-LANGUAGE_CONTROL.md                  a0e8cf9f83947c33c59f2ec69954afc4f234bc29
-project-hub/PROJECT_STATE_TEMPLATE.md d21ecc1181cafb9edcefd84057609dc4dd0b1fa1
+project-hub/SKILL.md                          025575c884d0b850f84e77942ba58a49acc87c21
+project-hub/PROJECT_STATE_TEMPLATE.md         d21ecc1181cafb9edcefd84057609dc4dd0b1fa1
+brief-discovery-specialist/SKILL.md           f142607f55d0a80de3599432e482be95e855bf64
+creative-exploration-specialist/SKILL.md      6d386909d86b917a597687c342f02898fc947203
+product-innovation-specialist/SKILL.md        93eb011997b492e8926a1ba3ad94af5cd377c967
+proposal-development-specialist/SKILL.md      f8d1c5eff57c320ed378f65edd4b7b39d323943d
+LANGUAGE_CONTROL.md                           a0e8cf9f83947c33c59f2ec69954afc4f234bc29
+QUICK_START.md                                c6169de26fb7f7da7ae00de4a347f0f760da1370
+LICENSE                                       baee873b679e36a4123c83b8a29e0fb17fad14eb
 ```
