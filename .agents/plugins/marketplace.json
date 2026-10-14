@@ -1,0 +1,20 @@
+{
+  "name": "civilization-personal",
+  "interface": {
+    "displayName": "CIVILIZATION Personal Plugins"
+  },
+  "plugins": [
+    {
+      "name": "civilization-ai-specialists",
+      "source": {
+        "source": "local",
+        "path": "./plugins/civilization-ai-specialists"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

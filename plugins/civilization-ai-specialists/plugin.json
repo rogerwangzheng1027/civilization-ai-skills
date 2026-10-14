@@ -1,0 +1,37 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "civilization-ai-specialists",
+  "version": "1.0.0",
+  "description": "CIVILIZATION AI 专家协作系统：1 个 Project Hub + 4 个独立 Specialists，先研究现实，再解题、探索创意、产品创新和发展提案。",
+  "author": {
+    "name": "CIVILIZATION",
+    "url": "https://github.com/rogerwangzheng1027/civilization-ai-skills"
+  },
+  "homepage": "https://github.com/rogerwangzheng1027/civilization-ai-skills",
+  "repository": "https://github.com/rogerwangzheng1027/civilization-ai-skills",
+  "license": "CC-BY-NC-SA-4.0",
+  "keywords": [
+    "brand-strategy",
+    "brief-discovery",
+    "creative-exploration",
+    "product-innovation",
+    "proposal-development"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "CIVILIZATION AI Specialists",
+        "shortDescription": "1 Project Hub + 4 AI Specialists",
+        "longDescription": "以原始 SKILL.md 为依据的 AI 专家协作系统。Project Hub 管状态与交接；Brief Discovery 研究与解题；Creative Exploration 发展传播创意；Product Innovation 发展产品创新；Proposal Development 发展提案文件。五项专业能力独立，不合并成一个超级 Prompt。",
+        "developerName": "CIVILIZATION",
+        "category": "Productivity",
+        "websiteURL": "https://github.com/rogerwangzheng1027/civilization-ai-skills",
+        "defaultPrompt": [
+          "用 CIVILIZATION Project Hub 为新项目建立 PROJECT_STATE，判断下一步交给哪个 Specialist。",
+          "用 Brief Discovery Specialist 先研究市场、消费者和品牌，再诊断这个 Brief。",
+          "用 Creative Exploration Specialist 深挖真实案例与 Human Insight，筛选并发展值得推进的 Idea。"
+        ]
+      }
+    }
+  }
+}
