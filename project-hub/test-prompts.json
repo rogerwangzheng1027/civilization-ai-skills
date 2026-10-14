@@ -16,5 +16,11 @@
     "scenario": "Skill 版本超过 7 天未检查",
     "prompt": "我们准备开始一个新项目。当前 Project Hub 是本地安装版本，上次检查 GitHub 已经超过 7 天，当前环境可以访问仓库。请开始工作。",
     "expected": "在正式路由前先按 VERSION / UPDATE PROTOCOL 检查 canonical GitHub main；比较当前与最新版；如有更新，说明差异但不得静默覆盖，等待用户确认是否采用；如无法检查则标 VERSION CHECK: NOT AVAILABLE。"
+  },
+  {
+    "id": 4,
+    "scenario": "AI 推荐方向但用户尚未选择",
+    "prompt": "目前三个方向里你最建议A，我只回复‘继续’，请更新PROJECT_STATE并推进下一步。",
+    "expected": "AI可以把A写成CURRENT BEST JUDGMENT并条件性继续，但不得写入SELECTED DIRECTIONS；‘继续’不等于用户选择。SELECTED仅来自用户/团队/客户明确选择或可靠上游继承。"
   }
 ]
