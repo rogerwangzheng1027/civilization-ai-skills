@@ -10,5 +10,11 @@
     "scenario": "产品创新提案中的证据越级",
     "prompt": "产品方向已确定，但目前只有品牌整体增长数据和一份来源身份不明的内部材料。请把这个方向发展成一份完整提案文件，并判断哪些结论可以写、哪些必须保留为验证项。",
     "expected": "形成可用于提案文件的结构和关键内容；不得用品牌增长证明 SKU 成功；未知来源标 UNKNOWN；逻辑连贯不等于 SUPPORTED；缺成本、技术、法规、Brand Fit 时写为验证项而不是宣布 ready for pilot。"
+  },
+  {
+    "id": 3,
+    "scenario": "提案逻辑成立但语言太像 AI 咨询报告",
+    "prompt": "策略和 Storyline 都成立，但现在页面里全是‘赋能、构建、价值感知、形成闭环’这类词。请继续把它发展成客户可读的 Proposal，不改变策略结论。",
+    "expected": "保留底层 Problem / Insight / Creative Leap / Solution Spine，但客户可见文字按 LANGUAGE_CONTROL 去 AI 化；用具体的人、行为、选择替代抽象套话；标题表达判断而非分类；不确定处直接说明，不把框架感全部倒给客户。"
   }
 ]
