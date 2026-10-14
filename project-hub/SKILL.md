@@ -1,9 +1,9 @@
 ---
 name: civilization-project-hub
-description: CIVILIZATION Project Hub v1.6。1 个 Hub + 4 个专业 Specialist 的入口与状态管理 Skill。负责建立或读取 PROJECT_STATE.md、管理 SOURCE × STATUS、HOLD / DROP、Reopen 与 Handoff，并判断下一步应进入 Brief Discovery / Creative Exploration / Product Innovation / Proposal Development 哪个专业 Skill。Hub 不做专业分析；共享协议以 Hub 为唯一原文，专业方法各自独立。
+description: CIVILIZATION Project Hub v1.7。1 个 Hub + 4 个专业 Specialist 的入口与状态管理 Skill。负责建立或读取 PROJECT_STATE.md、管理 SOURCE × STATUS、HOLD / DROP、Reopen 与 Handoff，并判断下一步应进入 Brief Discovery / Creative Exploration / Product Innovation / Proposal Development 哪个专业 Skill。Hub 不做专业分析；共享协议以 Hub 为唯一原文，专业方法各自独立。
 ---
 
-# CIVILIZATION｜Project Hub v1.6
+# CIVILIZATION｜Project Hub v1.7
 
 ## 0. 核心角色
 
@@ -268,8 +268,10 @@ Proposal 或其他下游 **不得擅自复活 HOLD / DROPPED / SUPERSEDED**。
 ### Exploration Specialist 的默认停顿
 
 **Creative Exploration**
-- ROUND 1 后强制停
-- ROUND 2 后默认停，先做 Selection Gate
+- ROUND 1 后强制停，做 Spark Calibration
+- ROUND 2 后默认停，进入 Selection Gate
+- 如果用户只说“继续”而没有明确 KEEP / HOLD / DROP，Creative 可以基于当前证据给出推荐判断，并在没有明确否决项时**条件性继续发展**；不得因为仍有 OPEN 证据就无限回到研究循环
+- 条件性继续不自动把方向写成 SELECTED；用户明确选择前，仍按 WORKING HYPOTHESIS 管理
 
 **Product Innovation**
 - ROUND 1 后强制停
@@ -287,8 +289,9 @@ Proposal 或其他下游 **不得擅自复活 HOLD / DROPPED / SUPERSEDED**。
 - CLIENT ASK
 - CURRENT PROBLEM DEFINITION
 - CURRENT BEST JUDGMENT
-- Human / Customer Truth 或 tension
+- Human Spark / Human / Customer Truth / tension（已有哪一层就继承哪一层，并保留 STATUS）
 - Strategic / Opportunity Territory
+- Brand Logic / Positioning Difference（仅在品牌策略、Restage、Repositioning、Brand Platform / Proposition 等项目中存在时）
 - Brand / Offering Advantage
 - LOCKED
 - LIVE HYPOTHESES
@@ -316,6 +319,9 @@ Proposal 或其他下游 **不得擅自复活 HOLD / DROPPED / SUPERSEDED**。
 至少继承：
 - SELECTED DIRECTIONS
 - SELECTED IDEA / ONE-LINE IDEA
+- Human Spark（如上游已有）
+- Human Insight 及 STATUS
+- Creative Spark
 - Creative Mechanism
 - Human / Customer Truth 及 STATUS
 - Brand / Offering Action
@@ -558,6 +564,8 @@ Project Hub 是共享协议的**唯一原文**。
 ---
 
 # 14. Skill Content Hygiene
+
+Brief Discovery、Creative Exploration、Proposal Development 的用户可见文字共同参考仓库根目录 [LANGUAGE_CONTROL.md](../LANGUAGE_CONTROL.md)。底层协议可以结构化，用户看到的表达要自然、具体、少套话；专业术语以准确为先，不为了汉化制造更虚的词。
 
 所有公开 Skill 保持客户 / 品牌 / 项目 / 品类中立。
 
