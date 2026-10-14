@@ -40,5 +40,11 @@
     "scenario": "小型执行Brief，控制研究规模",
     "prompt": "收到一个小型区域陈列优化Brief，预算有限，交付时间很短。请完成Brief Discovery。",
     "expected": "快速扫描市场、竞争、消费者与品牌，不强制深度品牌考古、五年增长模型或完整行业白皮书；理解任务动机，聚焦影响执行决策的真实Gap。"
+  },
+  {
+    "id": 8,
+    "scenario": "Brand Restage 没有现成定位，但需要从 Human Spark 推到定位差异",
+    "prompt": "这是一个成熟品牌 Restage Brief。客户没有锁定最终定位，只给了业务目标、品牌资产和一些消费者研究。请完成 Brief Discovery，不要提前做 Campaign。",
+    "expected": "在 Outside-In 与 Gap Diagnosis 后触发 Brand Logic Bridge；形成 Human Spark → Brand Belief → Brand Role → Product / Offering Truth → Competitive Contrast → Positioning Difference；Human Spark 保留证据状态且不伪装成消费者逐字原话；Brand Belief 不当作 Human Insight；不因为客户没有现成定位就把 Positioning Gap 标成不适用。"
   }
 ]
