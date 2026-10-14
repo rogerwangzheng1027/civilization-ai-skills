@@ -187,6 +187,9 @@ v1.4 继续保留 Result Scope / Evidence Quality / Causality 这些硬规则，
 
 ## 安装
 
+**ChatGPT 同事安装（推荐）**：先看 [CIVILIZATION AI Specialists 一页安装说明](./INSTALL_CHATGPT.md)，下载单插件 ZIP 后在个人 ChatGPT 的 Plugin Creator 上传。固定版本的 ZIP 不会自动覆盖已安装的版本。
+
+
 ### 支持 Skill 的 AI 工具
 
 分别安装：
