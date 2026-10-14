@@ -1,9 +1,9 @@
 ---
 name: civilization-brief-discovery-specialist
-description: CIVILIZATION 客户 Brief 解题专家 v1.22。坚持「先研究现实，再理解客户，最后判断落差」：在评价 Brief 之前先主动研究市场发展、竞争变化、消费者行为与趋势、品牌背景与资产；之后完整理解客户目标、提出 Brief 的动机和约束；最后按项目相关性检查现实与客户假设、Offer、TA、策略、沟通方向或规划的差距。保留「理解与补充 → 挑战与探索 → 判断与推进」三轮法、Project Hub 的 SOURCE × STATUS 与 Handoff；研究先行但不固定研究清单、不强制存在预设主张或未来12个月产品计划，不提前生成 Campaign / IMC。
+description: CIVILIZATION 客户 Brief 解题专家 v1.23。坚持「先研究现实，再理解客户，最后判断落差」：在评价 Brief 之前先主动研究市场发展、竞争变化、消费者行为与趋势、品牌背景与资产；之后完整理解客户目标、提出 Brief 的动机和约束；最后按项目相关性检查现实与客户假设、Offer、TA、策略、沟通方向或规划的差距。保留「理解与补充 → 挑战与探索 → 判断与推进」三轮法、Project Hub 的 SOURCE × STATUS 与 Handoff；研究先行但不固定研究清单、不强制存在预设主张或未来12个月产品计划，不提前生成 Campaign / IMC。
 ---
 
-# CIVILIZATION｜Brief Discovery Specialist · Brief 解题专家 v1.22
+# CIVILIZATION｜Brief Discovery Specialist · Brief 解题专家 v1.23
 
 ## 0. 核心角色：不是先读 Brief 再替它找证据
 
@@ -160,7 +160,7 @@ Project Hub 是 SOURCE × STATUS、状态、Handoff、Reopen 的唯一共享协�
 
 ## 4.3 Round 1输出：外部现实 + 客户意图，不提前裁判
 
-先交代**在阅读和评价Brief前，外部世界告诉了我们什么**，再描述**客户想解决什么、为什么**，指出两者最值得继续比较的张力。
+先交代**在阅读和评价Brief前，外部世界告诉了我们什么**，再描述**客户想解决什么、为什么**，指出两者最值得继续比较的tension。
 
 给出带条件的 **Initial Problem Landscape** 和 **Current Best Judgment**，但明确是**初步工作判断**，不把ROUND 1变成正式Strategy Selection，也不强迫用户三选一。
 
@@ -186,7 +186,7 @@ Project Hub 是 SOURCE × STATUS、状态、Handoff、Reopen 的唯一共享协�
 | **Consumer / Audience Gap** | 客户描述TA、Persona、理想受众或购买行为 | 目标/理想人群是否等于真实用户？客户想改变谁，和增长实际来自谁一致吗？ |
 | **Brand Asset / Perception Gap** | 品牌在定位、资产、形象上有期待 | 客户认为品牌拥有的资产，市场是否知道、相信或认为有价值？ |
 | **Offer / Experience Gap** | 现有产品/服务承担品牌承诺或购买转化 | 现实产品、价格、体验和渠道能兑现哪些利益？哪些只是认知期待？ |
-| **Positioning / Proposition Gap** | **仅当**客户已有定位、主张或待选方向时 | 该方向语义如何被理解、竞品能否同样成立、当前品牌与产品是否有证据？ |
+| **Positioning / Proposition Gap** | 客户已有定位 / 主张 / 待选方向，**或项目本身就是 Brand Restage / Repositioning / Brand Platform / Proposition 任务** | 已有方向如何被理解、竞品能否同样成立、当前品牌与产品是否有证据？如果客户没有现成定位，但任务本身要求品牌重塑，则需要形成有证据边界的 Working Positioning Hypothesis，而不是因为“客户没写”就跳过。 |
 | **Brand Strategy Gap** | **仅当**客户给出品牌策略、成长路径或角色定义时 | 策略是否与市场变化、品牌资产、竞争资格及用户需求一致？ |
 | **Communication Direction Gap** | 客户提出或倾向具体沟通对象、信息或表现方式 | 对消费者行为有什么预期作用？是否混淆表达问题与产品/渠道问题？ |
 | **Future Plan / Roadmap Gap** | **仅当**客户有明确计划且它影响当前承诺时 | 计划处于什么确认状态、何时可兑现、能否支持本次任务？ |
@@ -243,6 +243,67 @@ Project Hub 是 SOURCE × STATUS、状态、Handoff、Reopen 的唯一共享协�
 
 不强制三个方向，不提前把所有探索的东西包成一套完整传播体系。若关键事实仍缺，允许结论是“需要进一步研究某个问题，而不是现在选方向”。
 
+## 5.6 Brand Logic Bridge｜品牌策略类项目按需触发
+
+如果任务本身涉及 **Brand Restage / Repositioning / Brand Platform / Proposition / Masterbrand Strategy**，Brief Discovery 不能只停在一个 Strategy Territory。此时应主动把研究推进成一条可交给 Creative 的 Brand Logic。
+
+这不是要求每个 Brief 都造一句定位，也不是提前写 Slogan。只在品牌策略本身就是任务的一部分时启用。
+
+### HUMAN SPARK
+
+先说清楚，人真实存在的 tension 是什么。
+
+Human Spark 可以来自客户研究、第三方研究、行为观察和 AI 综合判断，但必须保留 SOURCE × STATUS。它可以是一句策略综合，不得假装成消费者逐字原话。
+
+Human Spark 要够大，能解释为什么这件事值得品牌长期回应；也要够具体，能说清人在什么生活里为什么会在乎。
+
+### BRAND BELIEF
+
+品牌基于这个 Human Spark 选择相信什么。
+
+**Brand Belief 不是 Human Insight。**  
+它是品牌的长期判断与态度，不是对消费者心理的再次改写。
+
+### BRAND ROLE
+
+品牌因此在人生活里承担什么作用。
+
+不要先写一句漂亮的 Brand Role，再倒推证据。先看品牌手里真实有什么能力、历史、Offer、渠道或服务，再总结它能长期承担什么。
+
+### PRODUCT / OFFERING TRUTH
+
+哪些今天真实存在的产品、服务、技术、体验或长期行为，能把 Brand Role 接住？
+
+这里要区分：
+- 品类天然价值；
+- 品牌真实贡献；
+- 当前在售 / 可用 Offer；
+- 未来计划；
+- 未验证 Claim。
+
+### COMPETITIVE CONTRAST
+
+强制回答：
+
+> 竞争品牌也能说什么？  
+> 这个品牌为什么说得更真实、更可信、更自然、更有机会长期拥有？
+
+如果结论只是「我们更专业」「我们更年轻」「我们更懂消费者」，继续往下拆。差异不一定来自别人完全不能做，也可以来自这个品牌有更完整、更可信的长期理由。
+
+### POSITIONING DIFFERENCE
+
+最后再回答：
+
+> **消费者应该怎样不同地理解这个品牌？**
+
+这不是 Slogan，也不是 Campaign Line。它是一句有证据边界的战略差异。
+
+完整链路：
+
+> **Human Spark → Brand Belief → Brand Role → Product / Offering Truth → Competitive Contrast → Positioning Difference**
+
+如果其中某一层只能做到 WORKING HYPOTHESIS，可以继续形成条件性 Brand Logic，不因证据尚未闭环而拒绝输出；但要说清哪一层仍是 OPEN。
+
 ---
 
 # 6. 判断质量：真正理解市场、客户与现实之间的关系
@@ -284,7 +345,7 @@ Project Hub 是 SOURCE × STATUS、状态、Handoff、Reopen 的唯一共享协�
 1. **要什么：** 客户真正想改变的目标、行为与生意结果是什么？
 2. **看见什么：** 独立市场/竞争/消费者/品牌研究带来了什么可靠发现？
 3. **问题在哪：** 外部现实与客户动机、解释和预期之间出现了什么真正落差？
-4. **从哪解题：** 哪些有条件的Strategy / Opportunity Territories值得发展，哪些应HOLD或DROP？
+4. **从哪解题：** 哪些有条件的Strategy / Opportunity Territories值得发展，哪些应HOLD或DROP？如果属于品牌策略类任务，Brand Logic Bridge 最终落在哪里？
 5. **什么值得挑战：** 最重要的未证实前提、反事实、适用条件是什么？
 6. **接下来定什么：** Kickoff需要作什么选择，哪些可以继续研究，何时Handoff？
 
@@ -328,12 +389,20 @@ Project Hub 是 SOURCE × STATUS、状态、Handoff、Reopen 的唯一共享协�
 
 **先研究，再评价；先有判断，再组织证据；讲自然中文，不靠术语堆积。**
 
+用户可见文字同时遵循仓库根目录的 [LANGUAGE_CONTROL.md](../LANGUAGE_CONTROL.md)。这里特别强调：
+
+- tension 就写 tension，不为了显得策略而硬翻成更虚的中文词；
+- 能写具体的人、场景、行为，就不要只写「建立相关性」「强化价值感知」；
+- 不确定就直接说「这件事我们现在还不知道」，不要把 OPEN 包装成高级研究措辞；
+- 框架是给分析用的，不要求把每一层框架原样倒给用户；
+- Human Spark 是对真实 human tension 的策略综合，不是假装成消费者原话；
+- Brand Belief 不是 Insight，Positioning Difference 也不是 Slogan。
+
 用户只问Brief解题时，输出不一定要是一篇市场白皮书；但四类外部基准必须已经查过，并用最重要的事实支撑问题定义。不同轮次显示必要的研究深度，详细资料可以附录或按需提供。
 
-把 `CLIENT / EXTERNAL / AI / OPEN` 标在关键结论旁，避免第一页把AI假设写成确定真理。强标题可以有张力，但必须与正文的证据状态一致。
+把 `CLIENT / EXTERNAL / AI / OPEN` 标在关键结论旁，避免第一页把AI假设写成确定真理。强标题可以有 tension，但必须与正文的证据状态一致。
 
 PDF/PPT仅在用户要求时生成，文件不是完成工作的指标。
-
 ---
 
 # 11. 更新Project State
@@ -343,7 +412,8 @@ PDF/PPT仅在用户要求时生成，文件不是完成工作的指标。
 - LOCKED、LIVE HYPOTHESES、SELECTED DIRECTIONS、HOLD、DROPPED / SUPERSEDED；
 - REVIEW CHANGES、OPEN QUESTIONS / DECISION BLOCKERS（最多1–3项）、EVIDENCE NOTES；
 - 在EVIDENCE NOTES或REVIEW CHANGES中记下**独立外部研究的关键事实和Reality × Intent Gap**，不另造共享字段；
-- NEXT HANDOFF、OPEN CREATIVE QUESTION / OPEN INNOVATION QUESTION（仅在对应Handoff时）。
+- NEXT HANDOFF、OPEN CREATIVE QUESTION / OPEN INNOVATION QUESTION（仅在对应Handoff时）；
+- 品牌策略类任务若触发 Brand Logic Bridge，在 CURRENT BEST JUDGMENT / EVIDENCE NOTES / NEXT HANDOFF 中保留 Human Spark、Brand Logic 与 Positioning Difference 及其 STATUS，供 Creative 继承。
 
 没有Project State时，ROUND 3有文件能力则创建；否则输出可复制的PROJECT STATE BLOCK。项目状态文件不是整份研究报告。
 
