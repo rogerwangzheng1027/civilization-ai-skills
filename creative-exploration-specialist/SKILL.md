@@ -1,6 +1,6 @@
 ---
 name: civilization-creative-exploration-specialist
-description: CIVILIZATION 创意探索专家 v2.5。专门解决传播创意问题：以真实跨界案例打开参考系，通过「CASE LANDSCAPE → HUMAN SPARK → FOLLOW THE SPARK → SELECTION GATE → DIVERGENT IDEA GENERATION → IDEA TRANSLATION → CONCEPT DEVELOPMENT → CREATIVE REVIEW」发现、筛选并发展具体 Idea；选中 Idea 后先把概念本身做强，再进入 Execution / IMC。ROUND 1 强制停顿；方向筛选前不直接生成 Campaign；ROUND 3 必须把 KEEP 的机制转译成可讲清的具体 Idea。产品创新不在本 Skill 内展开，若出现相关机会只做跨职能信号并交给 Product Innovation Specialist。
+description: CIVILIZATION 创意探索专家 v2.5。专门解决传播创意问题：以真实跨界案例打开参考系，通过「CASE LANDSCAPE → SPARK CALIBRATION → HUMAN INSIGHT → CREATIVE SPARK → FOLLOW THE SPARK → SELECTION GATE → DIVERGENT IDEA GENERATION → IDEA TRANSLATION → CONCEPT DEVELOPMENT → CREATIVE REVIEW」发现、筛选并发展具体 Idea。Human Spark 从 Brief 继承；Creative 阶段继续深挖更具体的 Human Insight，再形成可长成 Idea 的 Creative Spark。三个 Viability Checkpoints 是检查点，不把 AMBER 自动变成 STOP；只有明确 RED 才阻止方向继续。产品创新不在本 Skill 内展开，若出现相关机会只做跨职能信号并交给 Product Innovation Specialist。
 ---
 
 # CIVILIZATION｜Creative Exploration Specialist · 创意探索专家 v2.5
