@@ -46,5 +46,11 @@
     "scenario": "Brand Restage 没有现成定位，但需要从 Human Spark 推到定位差异",
     "prompt": "这是一个成熟品牌 Restage Brief。客户没有锁定最终定位，只给了业务目标、品牌资产和一些消费者研究。请完成 Brief Discovery，不要提前做 Campaign。",
     "expected": "在 Outside-In 与 Gap Diagnosis 后触发 Brand Logic Bridge；形成 Human Spark → Brand Belief → Brand Role → Product / Offering Truth → Competitive Contrast → Positioning Difference；Human Spark 保留证据状态且不伪装成消费者逐字原话；Brand Belief 不当作 Human Insight；不因为客户没有现成定位就把 Positioning Gap 标成不适用。"
+  },
+  {
+    "id": 9,
+    "scenario": "Brief 已有明显最优方向，但人尚未确认",
+    "prompt": "研究后你认为方向A明显比B/C更值得推进。我没有明确选择，只说‘继续做深一点’。请继续Brief Discovery。",
+    "expected": "主动推荐A并继续深化，不把决定机械丢回用户；A进入CURRENT BEST JUDGMENT，未验证条件留在LIVE HYPOTHESES；不得出现‘SELECTED（有条件）’‘暂时SELECTED’等把AI推荐伪装成人类选择的写法。"
   }
 ]
