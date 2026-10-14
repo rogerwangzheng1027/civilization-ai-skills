@@ -1,0 +1,58 @@
+name: Version Tags
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/version-tags.tsv"
+      - ".github/workflows/version-tags.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  create-tags:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout full history
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Create verified version tags
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          created=0
+          skipped=0
+
+          while IFS=$'\t' read -r tag sha label; do
+            [[ -z "${tag:-}" || "${tag:0:1}" == "#" ]] && continue
+
+            if git rev-parse -q --verify "refs/tags/$tag" >/dev/null; then
+              echo "SKIP existing tag: $tag"
+              skipped=$((skipped + 1))
+              continue
+            fi
+
+            if ! git cat-file -e "$sha^{commit}" 2>/dev/null; then
+              echo "ERROR missing commit for $tag: $sha" >&2
+              exit 1
+            fi
+
+            git tag -a "$tag" "$sha" -m "$label"
+            echo "CREATE $tag -> $sha"
+            created=$((created + 1))
+          done < .github/version-tags.tsv
+
+          if [[ "$created" -gt 0 ]]; then
+            git push origin --tags
+          fi
+
+          echo "Created: $created"
+          echo "Skipped existing: $skipped"
