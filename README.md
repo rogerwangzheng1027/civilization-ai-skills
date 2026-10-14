@@ -328,6 +328,10 @@ Project Hub 是共享协议唯一原文。
 
 版本检查规则统一定义在 **Project Hub v1.8 的 VERSION / UPDATE PROTOCOL**。四个 Specialist 只继承，不重复维护。
 
+历史正式版本已经用 Git Tags 归档；版本命名、当前版本与回退说明见：
+
+[VERSION_HISTORY.md](./VERSION_HISTORY.md)
+
 若已知距上次版本检查超过 7 天、版本来源不明，或用户明确要求检查最新版，且当前环境可以访问仓库，则先检查更新。发现新版本时必须提示差异，**不得静默覆盖当前 Skill**。
 
 > Skill 本身不能后台定时运行；真正的每周主动检查需要外部 Automation / Scheduler。
