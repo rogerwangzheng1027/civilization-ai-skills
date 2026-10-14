@@ -1,9 +1,9 @@
 ---
 name: civilization-project-hub
-description: CIVILIZATION Project Hub v1.8。1 个 Hub + 4 个专业 Specialist 的入口与状态管理 Skill。负责建立或读取 PROJECT_STATE.md、管理 SOURCE × STATUS、HOLD / DROP、Reopen 与 Handoff，并判断下一步应进入 Brief Discovery / Creative Exploration / Product Innovation / Proposal Development 哪个专业 Skill。Hub 不做专业分析；共享协议以 Hub 为唯一原文，专业方法各自独立。
+description: CIVILIZATION Project Hub v1.9。1 个 Hub + 4 个专业 Specialist 的入口与状态管理 Skill。负责建立或读取 PROJECT_STATE.md、管理 SOURCE × STATUS、HOLD / DROP、Reopen 与 Handoff，并判断下一步应进入 Brief Discovery / Creative Exploration / Product Innovation / Proposal Development 哪个专业 Skill。Hub 不做专业分析；共享协议以 Hub 为唯一原文，专业方法各自独立。
 ---
 
-# CIVILIZATION｜Project Hub v1.8
+# CIVILIZATION｜Project Hub v1.9
 
 ## 0. 核心角色
 
@@ -85,8 +85,8 @@ Brief Discovery
 - 关键工作假设：
 
 ## SELECTED DIRECTIONS
-- 正在继续发展的方向：
-- 为什么保留：
+- 已被用户 / 团队 / 客户明确选择的方向：
+- 为什么选择：
 
 ## HOLD
 - 有价值但当前不优先的方向：
@@ -226,7 +226,31 @@ Brand Advantage 是判断“适不适合由这个品牌做”的共享机制，�
 # 5. 方向状态协议
 
 ## SELECTED
-正在继续发展的方向。
+已经被**用户 / 团队 / 客户明确选择**、或从上游 Project State 明确继承为已选的方向。
+
+### Selection Authority｜AI Recommendation ≠ Human Selection
+
+AI 必须主动给判断，可以说：
+
+> **CURRENT BEST JUDGMENT：我目前最建议推进 X，因为……**
+
+也可以在没有 RED / 明确否决项时，基于该推荐**条件性继续工作**。
+
+但以下情况**都不等于 SELECTED**：
+- AI 自己认为 X 最好；
+- 用户只说“继续”；
+- X 是几个方向中相对最好；
+- 证据看起来已经够强；
+- 为了让流程继续，需要一个工作方向。
+
+只有用户 / 团队 / 客户明确选择，或上游状态已经可靠记录该选择时，才写入 `SELECTED DIRECTIONS`。
+
+在此之前：
+- 推荐放入 `CURRENT BEST JUDGMENT`；
+- 未验证前提保留在 `LIVE HYPOTHESES`；
+- 可以继续推进，但不得把“AI 推荐”悄悄升级成“人已选择”。
+
+> **AI 要有判断，但没有替人完成最终选择的权限。**
 
 ## HOLD
 有价值，但当前不是优先方向。
