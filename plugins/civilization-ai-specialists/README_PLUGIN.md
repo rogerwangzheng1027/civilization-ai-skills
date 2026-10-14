@@ -34,6 +34,6 @@ creative-exploration-specialist/SKILL.md      d881bdd0999a17a89ecca33803034d414b
 product-innovation-specialist/SKILL.md        93eb011997b492e8926a1ba3ad94af5cd377c967
 proposal-development-specialist/SKILL.md      f8d1c5eff57c320ed378f65edd4b7b39d323943d
 LANGUAGE_CONTROL.md                           a0e8cf9f83947c33c59f2ec69954afc4f234bc29
-QUICK_START.md                                f9245eb77529b86e24e7d43c06b7c23a642f6e95
+QUICK_START.md                                f07a45fae0b2b6d971913c060eb804cb0dd9228a
 LICENSE                                       baee873b679e36a4123c83b8a29e0fb17fad14eb
 ```
