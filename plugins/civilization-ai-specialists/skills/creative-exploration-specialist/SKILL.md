@@ -1,6 +1,6 @@
 ---
 name: civilization-creative-exploration-specialist
-description: CIVILIZATION 创意探索专家 v2.5.1.1。用于传播创意探索与已有 Idea Seed 的概念深化。用真实跨界案例打开参考系，从 Human Insight 形成 Creative Spark，先筛选再发展 Idea；选中后先做 Concept Development，再进入 Execution / IMC。产品创新交给 Product Innovation Specialist。
+description: CIVILIZATION 创意探索专家 v2.5.1。用于传播创意探索与已有 Idea Seed 的概念深化。用真实跨界案例打开参考系，从 Human Insight 形成 Creative Spark，先筛选再发展 Idea；选中后先做 Concept Development，再进入 Execution / IMC。产品创新交给 Product Innovation Specialist。
 ---
 
 # CIVILIZATION｜Creative Exploration Specialist · 创意探索专家 v2.5.1

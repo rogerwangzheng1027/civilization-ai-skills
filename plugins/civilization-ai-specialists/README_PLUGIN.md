@@ -30,7 +30,7 @@ For repo-local ChatGPT Desktop/Codex use, the marketplace at `.agents/plugins/ma
 project-hub/SKILL.md                          025575c884d0b850f84e77942ba58a49acc87c21
 project-hub/PROJECT_STATE_TEMPLATE.md         1051ba6be86923a5b602bbd5bc036738c8cba941
 brief-discovery-specialist/SKILL.md           f142607f55d0a80de3599432e482be95e855bf64
-creative-exploration-specialist/SKILL.md      6d386909d86b917a597687c342f02898fc947203
+creative-exploration-specialist/SKILL.md      d881bdd0999a17a89ecca33803034d414b523b7f
 product-innovation-specialist/SKILL.md        93eb011997b492e8926a1ba3ad94af5cd377c967
 proposal-development-specialist/SKILL.md      f8d1c5eff57c320ed378f65edd4b7b39d323943d
 LANGUAGE_CONTROL.md                           a0e8cf9f83947c33c59f2ec69954afc4f234bc29
