@@ -95,6 +95,10 @@ Tag manifest：
 
 当 manifest 增加新版本时，GitHub Actions 会创建缺失 Tag；已经存在的 Tag 会跳过，不会改写历史。
 
+## Plugin 安装包的单独版本
+
+ChatGPT Plugin ZIP 使用独立版本 `civilization-ai-specialists-vX.Y.Z`。原始五个 Skill 或共享源文件在 `main` 更新后，GitHub Actions 自动校验、同步原文并发布新的 ZIP。这个分发版本**不等于**各 Skill 的专业方法版本，旧版 ZIP 保留，已经安装的个人 Plugin 需要使用者确认后更新。
+
 ## 为什么不用每个 Skill 版本都建 GitHub Release
 
 GitHub Release 是**整个仓库**的发布对象，而这个仓库里的五个组件各自独立升版。

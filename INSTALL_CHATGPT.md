@@ -6,9 +6,9 @@
 
 ## 1. 下载独立的正式 ZIP（不要解压）
 
-**当前固定版本：v1.0.0**
+**下载最新版本**：打开 [GitHub Releases](https://github.com/rogerwangzheng1027/civilization-ai-skills/releases)，选择最新的 `civilization-ai-specialists-vX.Y.Z` 发布页，在 Assets 中下载 `CIVILIZATION-AI-Specialists-vX.Y.Z.zip`。
 
-[下载 CIVILIZATION AI Specialists v1.0.0 插件 ZIP](https://github.com/rogerwangzheng1027/civilization-ai-skills/releases/download/civilization-ai-specialists-v1.0.0/CIVILIZATION-AI-Specialists-v1.0.0.zip)
+[历史版本 v1.0.0 下载](https://github.com/rogerwangzheng1027/civilization-ai-skills/releases/download/civilization-ai-specialists-v1.0.0/CIVILIZATION-AI-Specialists-v1.0.0.zip)
 
 若直链不可用，请先访问 [GitHub Releases](https://github.com/rogerwangzheng1027/civilization-ai-skills/releases) 查看发布状态。**不要误用仓库首页的 Code → Download ZIP**：那是整个源代码仓库，不是可直接安装的单插件 ZIP。
 
@@ -42,4 +42,8 @@
 - [Project Hub 版本协议](https://github.com/rogerwangzheng1027/civilization-ai-skills/blob/main/project-hub/SKILL.md)
 - [历史版本与标签](https://github.com/rogerwangzheng1027/civilization-ai-skills/blob/main/VERSION_HISTORY.md)
 
-维护者发布新版本时：先更新原始 SKILL.md，再同步其原文到打包目录；运行 `python3 scripts/build_plugin_distribution.py` 校验，升级 `plugin.json` 的版本号，然后手动触发 GitHub Actions 的 `Publish Personal Plugin ZIP`。旧版本 ZIP 保留，不会被覆盖。
+**自动发布**：在 `main` 分支更新原始 `SKILL.md` 或语言规范、项目状态模板等共享源文件后，GitHub Actions 会自动同步原文、检查内容一致性、递增 Plugin 的补丁版本，并发布新版 ZIP。旧版本保留，不用手动打包或点击 Run workflow。只有源文件变化才会发布；重复执行不会制造新版本。
+
+**更新已经安装的个人 Plugin**：同事需要主动下载新版 ZIP，在 Plugin Creator 中选择更新原来的 Plugin（不要重新创建），确认后升级。已经安装的个人 Plugin 不会自动更新。
+
+**版本区别**：各 Specialist 的专业方法版本由原始 SKILL.md 独立管理；Plugin 安装包另用 `1.0.x` 等分发版本号。

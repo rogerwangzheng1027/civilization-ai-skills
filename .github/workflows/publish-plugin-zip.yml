@@ -15,6 +15,7 @@ on:
       - "QUICK_START.md"
       - "LICENSE"
       - ".github/workflows/publish-plugin-zip.yml"
+      - "scripts/sync_plugin_sources.py"
   workflow_dispatch:
 
 permissions:
@@ -78,55 +79,7 @@ jobs:
           VERSION: ${{ steps.source.outputs.version }}
         run: |
           set -euo pipefail
-          python3 - <<'PY'
-          import hashlib, json, os, re, runpy, shutil
-          from pathlib import Path
-          settings = runpy.run_path("scripts/build_plugin_distribution.py", run_name="plugin_sync_only")
-          root = Path(".")
-          pkg = root / "plugins/civilization-ai-specialists"
-          files = settings["FILES"]
-          slugs = settings["SKILL_DIRS"]
-          for destination, source in files.items():
-              path = pkg / destination
-              path.parent.mkdir(parents=True, exist_ok=True)
-              shutil.copyfile(root / source, path)
-
-          manifest_path = pkg / "plugin.json"
-          manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
-          if manifest.get("name") != "civilization-ai-specialists":
-              raise SystemExit("Unexpected plugin identity")
-          manifest["version"] = os.environ["VERSION"]
-          manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-
-          doc = pkg / "README_PLUGIN.md"
-          original = doc.read_text(encoding="utf-8")
-          lines = original.splitlines()
-          for slug in slugs:
-              src = (root / slug / "SKILL.md").read_text(encoding="utf-8")
-              match = re.search(r"^# CIVILIZATION[^\n]*?\bv(\d+(?:\.\d+)*)\s*$", src, re.MULTILINE)
-              if not match:
-                  raise SystemExit("No Skill version found for " + slug)
-              prefix = "- " + chr(96) + "skills/" + slug + "/SKILL.md" + chr(96) + " — v"
-              matching = [i for i, line in enumerate(lines) if line.startswith(prefix)]
-              if len(matching) != 1:
-                  raise SystemExit("README version line missing or repeated: " + slug)
-              lines[matching[0]] = prefix + match.group(1)
-
-          heading = "## Source integrity (Git blob SHA)"
-          text = "\n".join(lines) + "\n"
-          if text.count(heading) != 1:
-              raise SystemExit("README integrity section invalid")
-          prefix = text.split(heading, 1)[0]
-          shas = []
-          for source in files.values():
-              raw = (root / source).read_bytes()
-              sha = hashlib.sha1(b"blob " + str(len(raw)).encode() + b"\0" + raw).hexdigest()
-              shas.append(f"{source:<45} {sha}")
-          doc.write_text(prefix + heading + "\n\n" + chr(96)*3 + "text\n" +
-                         "\n".join(shas) + "\n" + chr(96)*3 + "\n",
-                         encoding="utf-8")
-          print("Synced exact source bytes for", len(files), "files")
-          PY
+          python3 scripts/sync_plugin_sources.py "$VERSION"
           python3 scripts/build_plugin_distribution.py
 
       - name: Commit versioned Plugin snapshot back to main
@@ -145,8 +98,33 @@ jobs:
             exit 1
           fi
           git commit -m "chore(plugin): sync canonical sources for v$VERSION"
-          git push origin HEAD:main
+          pushed=false
+          for attempt in 1 2 3 4 5; do
+            git fetch origin main
+            if [[ "$(git rev-parse HEAD^)" != "$(git rev-parse origin/main)" ]]; then
+              echo "main changed during packaging; re-syncing latest original sources (attempt $attempt)"
+              git reset --hard origin/main
+              python3 scripts/sync_plugin_sources.py "$VERSION"
+              python3 scripts/build_plugin_distribution.py
+              git add -A plugins/civilization-ai-specialists
+              if git diff --cached --quiet; then
+                echo "::error::Expected a changed package snapshot after re-sync"
+                exit 1
+              fi
+              git commit -m "chore(plugin): sync canonical sources for v$VERSION"
+            fi
+            if git push origin HEAD:main; then
+              pushed=true
+              break
+            fi
+            sleep 2
+          done
+          if [[ "$pushed" != "true" ]]; then
+            echo "::error::main advanced during all five attempts; please re-run this workflow"
+            exit 1
+          fi
           echo "commit=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+          echo "source_commit=$(git rev-parse HEAD^)" >> "$GITHUB_OUTPUT"
 
       - name: Publish immutable ZIP release
         if: steps.source.outputs.publish == 'true'
@@ -154,7 +132,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           VERSION: ${{ steps.source.outputs.version }}
-          SOURCE_SHA: ${{ steps.source.outputs.source_sha }}
+          SOURCE_SHA: ${{ steps.snapshot.outputs.source_commit }}
           SNAPSHOT_SHA: ${{ steps.snapshot.outputs.commit }}
         run: |
           set -euo pipefail

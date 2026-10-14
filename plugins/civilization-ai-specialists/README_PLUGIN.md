@@ -18,11 +18,11 @@ Project Hub remains the single source for shared SOURCE × STATUS, Handoff, and 
 
 ## Personal installation
 
-In ChatGPT install Plugin Creator, invoke `@plugin-creator` in Work mode, and ask it to install a personal skills-only plugin from this folder, keeping all five original SKILL.md files unchanged. No custom MCP server is required.
+In ChatGPT open Plugin Creator and upload the latest ZIP from [GitHub Releases](https://github.com/rogerwangzheng1027/civilization-ai-skills/releases). Keep all five original SKILL.md files unchanged. No custom MCP server is required.
 
 For repo-local ChatGPT Desktop/Codex use, the marketplace at `.agents/plugins/marketplace.json` points to `./plugins/civilization-ai-specialists`. Open that repository as a trusted project, refresh/restart, then install from the `CIVILIZATION Personal Plugins` marketplace if supported by your client.
 
-**Updating**: The content here is a Git snapshot, **not** a live auto-sync with main. Repackage after source changes. Follow the Project Hub's VERSION / UPDATE PROTOCOL, including explicit consent before replacing an in-use skill.
+**Updating**: Changes to canonical Skill files or shared source documents on main automatically sync exact original bytes, update this checked-in package snapshot, increment the Plugin package patch version and publish an immutable ZIP Release. Installed personal Plugins never automatically upgrade; explicit approval is required under the Project Hub VERSION / UPDATE PROTOCOL.
 
 ## Source integrity (Git blob SHA)
 
