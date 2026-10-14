@@ -1,6 +1,6 @@
 # CIVILIZATION｜Language Control · 用户可见文字控制
 
-> 适用范围：Brief Discovery、Creative Exploration、Proposal Development 的用户可见输出与提案文案。  
+> 适用范围：Brief Discovery、Creative Exploration、Product Innovation、Proposal Development 的用户可见输出与提案文案。  
 > 目的：底层判断可以严谨，表面语言要自然。不要让方法论、框架和 AI 连接词盖住真正的判断。
 
 这套规则参考了 [Khazix Writer](https://github.com/KKKKhazix/khazix-skills/tree/main/khazix-writer) 对「去 AI 化、自然语言化」的控制，但这里只吸收通用写作原则，不复制个人口癖、公众号格式或娱乐化表达。
@@ -150,7 +150,7 @@
 
 就重写。
 
-## 10. 三个 Skill 的额外要求
+## 10. 四个 Specialist 的额外要求
 
 ### Brief Discovery
 研究可以复杂，结论要直接。  
@@ -161,6 +161,12 @@ Brand Belief 不是 Insight。Positioning Difference 不是 Slogan。
 Human Insight 要具体到行为、动机或生活处境。  
 Creative Spark 是「这里可能有件值得做的事」，还不是 Idea。  
 不要用抽象机制名替代真正的创意机会。
+
+### Product Innovation
+内部可以保留 Consumer Job / Innovation Mechanism / Incremental Logic / Result Scope / Causality Check。  
+用户看到的方向要先说清「谁为什么会想买、产品到底改了什么、吃到 / 用到时有什么不同」，再补证据和技术语言。  
+不要把成分、功能、风味、规格堆成一句话冒充产品概念，也不要把「潜力巨大、蓝海机会、趋势叠加」当判断。  
+如果一个方向必须读完五个标签才能懂，它还没有被讲清楚。
 
 ### Proposal Development
 内部可以有 Problem / Insight / Creative Leap / Engagement Logic。  
