@@ -1,5 +1,5 @@
 {
-  "version": "1.4",
+  "version": "1.5",
   "purpose": "Cross-skill regression assertions for shared protocol consistency.",
   "assertions": [
     {
@@ -108,6 +108,41 @@
         "creative-exploration-specialist/SKILL.md",
         "product-innovation-specialist/SKILL.md",
         "proposal-development-specialist/SKILL.md",
+        "README.md",
+        "QUICK_START.md"
+      ]
+    },
+    {
+      "id": "P13",
+      "rule": "Brand-strategy Briefs may produce a Brand Logic Bridge from Human Spark through Brand Belief, Brand Role, Product/Offering Truth, Competitive Contrast and Positioning Difference; Human Spark is evidence-bounded synthesis, not fabricated verbatim consumer language.",
+      "paths": [
+        "brief-discovery-specialist/SKILL.md",
+        "brief-discovery-specialist/test-prompts.json",
+        "README.md",
+        "QUICK_START.md"
+      ]
+    },
+    {
+      "id": "P14",
+      "rule": "Creative distinguishes inherited Human Spark from Creative-stage Human Insight and later Creative Spark; viability checkpoints are non-blocking when evidence is AMBER, and a user saying continue may trigger conditional progress without falsely marking the route SELECTED.",
+      "paths": [
+        "project-hub/SKILL.md",
+        "creative-exploration-specialist/SKILL.md",
+        "creative-exploration-specialist/test-prompts.json",
+        "README.md",
+        "QUICK_START.md"
+      ]
+    },
+    {
+      "id": "P15",
+      "rule": "Brief, Creative and Proposal user-facing language follows shared LANGUAGE_CONTROL: natural Chinese, concrete behavior over abstract consulting language, precise English terms such as tension when clearer, and explicit uncertainty instead of polished AI vagueness.",
+      "paths": [
+        "LANGUAGE_CONTROL.md",
+        "project-hub/SKILL.md",
+        "brief-discovery-specialist/SKILL.md",
+        "creative-exploration-specialist/SKILL.md",
+        "proposal-development-specialist/SKILL.md",
+        "proposal-development-specialist/test-prompts.json",
         "README.md",
         "QUICK_START.md"
       ]
