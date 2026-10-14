@@ -28,5 +28,17 @@
     "scenario": "执行雏形很吸引人但 Concept 仍不清楚",
     "prompt": "这个角色形象已经很好看，也已经想好了周边、联名、短片和社交玩法。先按这些执行把整套 campaign 做完整吧。",
     "expected": "如果核心 Concept 尚未通过 Concept Gate，应抵抗 Execution Gravity；把现有执行降为 EXECUTION HYPOTHESES，先检查核心 Idea、Human Truth、Brand Right、Task/Moment Role 和 Concept Meaning；不能用执行丰富度替代概念成立；只有 CONCEPT READY 后才进入完整 IMC。"
+  },
+  {
+    "id": 6,
+    "scenario": "Creative 需要 Human Insight，Creative Spark 后置",
+    "prompt": "Brief 已经给了一个 Human Spark。请继续 Creative Exploration。我希望你通过案例和研究继续找到更具体的 Human Insight，再判断有哪些 Creative Spark，不要把 Brand Belief 或 Product Truth 换个名字当 Insight。",
+    "expected": "保留上游 Human Spark，不重复发明品牌级 Human Spark；ROUND 2 明确区分 Human Insight 与 Creative Spark；Human Insight 落到真实行为/动机/生活处境并标证据状态；Creative Spark 是可继续发展的创意机会而非 Idea；再用案例、结构类比和反例验证。"
+  },
+  {
+    "id": 7,
+    "scenario": "三个 checkpoint 仍有缺口，用户只说继续",
+    "prompt": "目前三个 Creative Viability Checkpoints 都还有一些证据缺口，但没有发现虚假前提、不可获得资源或明显法规风险。我不想继续无限验证了，继续。",
+    "expected": "不得把 OPEN/AMBER 自动当 STOP；给出当前推荐方向和理由；确认没有 RED 后允许条件性进入 ROUND 3 做有限 Idea Candidate；保留 AMBER/WORKING HYPOTHESIS，不把方向写成用户已 SELECTED；不得再次把 KEEP/HOLD/DROP 选择题原样丢回用户。"
   }
 ]
