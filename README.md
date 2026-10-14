@@ -32,17 +32,23 @@
 
 | Skill | 当前版本 | 什么时候用 | 核心作用 |
 | --- | --- | --- | --- |
-| [Project Hub](./project-hub/SKILL.md) | v1.8 | 新项目、阶段切换、重要 Review 后 | 管理项目状态、共享协议与交接；判断当前在哪里、下一步该找哪个专业 Specialist |
-| [Brief Discovery Specialist](./brief-discovery-specialist/SKILL.md) | v1.23 | 刚收到 Brief、问题定义或关键前提不清楚 | **先研究市场、竞争、用户行为与品牌资产**；再理解客户目标和提出 Brief 的动机；最后诊断现实与客户期待的落差，形成有证据的解题判断与机会方向 |
-| [Creative Exploration Specialist](./creative-exploration-specialist/SKILL.md) | v2.5 | 问题基本清楚，需要寻找传播创意解法，或已有 Idea Seed 需要继续做强 | 用真实跨界案例打开参考系，筛选并发展 Idea；选中后先做 Concept Development，再进入 Execution / IMC |
+| [Project Hub](./project-hub/SKILL.md) | v1.9 | 新项目、阶段切换、重要 Review 后 | 管理项目状态、共享协议与交接；判断当前在哪里、下一步该找哪个专业 Specialist |
+| [Brief Discovery Specialist](./brief-discovery-specialist/SKILL.md) | v1.24 | 刚收到 Brief、问题定义或关键前提不清楚 | **先研究市场、竞争、用户行为与品牌资产**；再理解客户目标和提出 Brief 的动机；最后诊断现实与客户期待的落差，形成有证据的解题判断与机会方向 |
+| [Creative Exploration Specialist](./creative-exploration-specialist/SKILL.md) | v2.5.1 | 问题基本清楚，需要寻找传播创意解法，或已有 Idea Seed 需要继续做强 | 用真实跨界案例打开参考系，筛选并发展 Idea；选中后先做 Concept Development，再进入 Execution / IMC |
 | [Product Innovation Specialist](./product-innovation-specialist/SKILL.md) | v1.4 | 需要探索产品 / SKU / 配方 / 风味 / 功能 / 包装 / 规格等创新 | 用真实市场案例和可衡量结果筛选创新机制，形成可测试的产品创新方向与假设 |
-| [Proposal Development Specialist](./proposal-development-specialist/SKILL.md) | v1.13 | 已有 Strategy / Idea / Innovation Direction，需要形成完整提案文件 | 用 Storyline 压力测试并发展 Solution，形成 Proposal Spine、Page Plan、关键文案与可直接进入 PPT / PDF 的提案内容 |
+| [Proposal Development Specialist](./proposal-development-specialist/SKILL.md) | v1.14 | 已有 Strategy / Idea / Innovation Direction，需要形成完整提案文件 | 用 Storyline 压力测试并发展 Solution；证据状态必须保留到标题与文案，最终形成可直接进入 PPT / PDF 的提案内容 |
 
 一句话记住：
 
 > **Hub 管导航与交接；Brief 管问题和 Brand Logic；Creative 管 Human Insight、Creative Spark 与传播 Idea；Innovation 管产品创新；Proposal 管提案文件的发展与成稿。**
 
-## Brief Discovery v1.23：先理解现实，再理解 Brief
+### 推荐不等于选择
+
+AI 应该主动给出 **CURRENT BEST JUDGMENT**，必要时可以沿最值得推进的方向继续做深；但 **AI Recommendation ≠ SELECTED**。
+
+只有用户 / 团队 / 客户明确选择，或上游 Project State 已可靠记录为已选时，才进入 `SELECTED DIRECTIONS`。用户只说“继续”不算选择。
+
+## Brief Discovery v1.24：先理解现实，再理解 Brief
 
 **不要先用客户的 Brief 定义市场，再回头寻找能证明它的资料。** 新版要求 AI 在评价 Brief 前，先建立相对独立的外部现实基准，然后才理解客户需求及其背后的商业动机。
 
@@ -109,7 +115,7 @@ Brief Discovery
 
 ## 两个探索 Specialist 为什么拆开
 
-### Creative Exploration Specialist v2.5
+### Creative Exploration Specialist v2.5.1
 
 专门研究：
 - Campaign / Communication
@@ -226,7 +232,7 @@ proposal-development-specialist/SKILL.md
 
 ### 2. Brief Discovery Specialist
 
-> 请按 Brief Discovery Specialist v1.23 工作。先根据项目范围独立研究市场发展、竞争趋势、消费者行为及品牌背景与资产；再完整阅读 Brief、会议材料，理解客户真正的需求和提出这道题的动机；最后分析与现实的关键落差，形成有证据的判断。不要先让我回答一堆问题，默认逐轮推进。
+> 请按 Brief Discovery Specialist v1.24 工作。先根据项目范围独立研究市场发展、竞争趋势、消费者行为及品牌背景与资产；再完整阅读 Brief、会议材料，理解客户真正的需求和提出这道题的动机；最后分析与现实的关键落差，形成有证据的判断。不要先让我回答一堆问题，默认逐轮推进。
 
 Brief 结束时应明确下一步属于：
 - Creative Exploration
@@ -235,7 +241,7 @@ Brief 结束时应明确下一步属于：
 
 ### 3. Creative Exploration Specialist
 
-> 请按 Creative Exploration Specialist v2.5 开始 ROUND 1。先根据当前 Creative Problem 寻找跨界真实案例并拆机制，不要直接生成 Idea。案例之后停下来做 Spark Calibration；下一轮继续找 Human Insight 和 Creative Spark，再进入 Selection。
+> 请按 Creative Exploration Specialist v2.5.1 开始 ROUND 1。先根据当前 Creative Problem 寻找跨界真实案例并拆机制，不要直接生成 Idea。案例之后停下来做 Spark Calibration；下一轮继续找 Human Insight 和 Creative Spark，再进入 Selection。
 
 ROUND 3 把选中机制变成具体 Idea Seed；如果已经有 KEEP 的 Idea 雏形，也可以直接进入 Concept Development，先优化 Concept，再决定是否发展 Execution / IMC。
 
@@ -247,7 +253,7 @@ ROUND 3 把选中机制变成可测试的产品创新方向，而不是传播方
 
 ### 5. Proposal Development Specialist
 
-> 请按 Proposal Development Specialist v1.13 工作。基于已确认的 Strategy / Idea / Innovation Direction，先检查 Solution 是否足以支撑提案，再形成 Proposal Spine、Storyline、Page Plan 和关键文案，最终发展成完整提案文件。如果核心方向本身不成立，再触发对应 Reopen。客户可见文字要讲人话，内部框架不要原样倒给客户。
+> 请按 Proposal Development Specialist v1.14 工作。基于已确认的 Strategy / Idea / Innovation Direction，先检查 Solution 是否足以支撑提案，再形成 Proposal Spine、Storyline、Page Plan 和关键文案，最终发展成完整提案文件。如果核心方向本身不成立，再触发对应 Reopen。客户可见文字要讲人话，内部框架不要原样倒给客户。
 
 ## `PROJECT_STATE.md` 是共享记忆
 
@@ -329,7 +335,7 @@ Project Hub 是共享协议唯一原文。
 
 > https://github.com/rogerwangzheng1027/civilization-ai-skills
 
-版本检查规则统一定义在 **Project Hub v1.8 的 VERSION / UPDATE PROTOCOL**。四个 Specialist 只继承，不重复维护。
+版本检查规则统一定义在 **Project Hub v1.9 的 VERSION / UPDATE PROTOCOL**。四个 Specialist 只继承，不重复维护。
 
 历史正式版本已经用 Git Tags 归档；版本命名、当前版本与回退说明见：
 
@@ -367,10 +373,10 @@ Project Hub 是共享协议唯一原文。
 
 ## 当前版本
 
-- Project Hub **v1.8**
-- Brief Discovery Specialist **v1.23**
-- Creative Exploration Specialist **v2.5**
+- Project Hub **v1.9**
+- Brief Discovery Specialist **v1.24**
+- Creative Exploration Specialist **v2.5.1**
 - Product Innovation Specialist **v1.4**
-- Proposal Development Specialist **v1.13**
+- Proposal Development Specialist **v1.14**
 
 更新通用 Skill 时，优先根据真实工作流测试抽象规则；**具体客户、品牌、人物、Campaign、产品和项目内容不写入通用 Skill**。
