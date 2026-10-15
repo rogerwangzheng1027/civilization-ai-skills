@@ -20,9 +20,11 @@
 
 当前完整系统快照：
 
-> **`civilization-ai-specialists-v1.0.4`**
+> **`civilization-ai-specialists-v1.0.5`**
 
 该 Release 已包含以上五个当前 Skill 版本，可用于安装、比较和整体回退。
+
+从 `v1.0.5` 起，Plugin 包新增 `VERSION_MANIFEST.json` 与安装后版本自检：安装版本与 GitHub 远端版本必须分开验证；无法实际读取 GitHub 时必须返回 `VERSION CHECK: NOT AVAILABLE`，不得根据旧对话、README 或记忆推断。
 
 ## 已归档的 Component Tags
 
