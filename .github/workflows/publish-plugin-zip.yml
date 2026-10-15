@@ -2,6 +2,22 @@ name: Publish Personal Plugin ZIP
 
 # Releases are automatic when canonical sources change. User installations are not.
 on:
+  push:
+    branches: [main]
+    paths:
+      - "project-hub/SKILL.md"
+      - "brief-discovery-specialist/SKILL.md"
+      - "creative-exploration-specialist/SKILL.md"
+      - "product-innovation-specialist/SKILL.md"
+      - "proposal-development-specialist/SKILL.md"
+      - "project-hub/PROJECT_STATE_TEMPLATE.md"
+      - "LANGUAGE_CONTROL.md"
+      - "QUICK_START.md"
+      - "INSTALL_CHATGPT.md"
+      - "LICENSE"
+      - ".github/workflows/publish-plugin-zip.yml"
+      - "scripts/sync_plugin_sources.py"
+      - "scripts/build_plugin_distribution.py"
   workflow_dispatch:
 
 permissions:
@@ -34,7 +50,8 @@ jobs:
           set -- project-hub/SKILL.md brief-discovery-specialist/SKILL.md \
             creative-exploration-specialist/SKILL.md product-innovation-specialist/SKILL.md \
             proposal-development-specialist/SKILL.md \
-            project-hub/PROJECT_STATE_TEMPLATE.md LANGUAGE_CONTROL.md QUICK_START.md LICENSE
+            project-hub/PROJECT_STATE_TEMPLATE.md LANGUAGE_CONTROL.md QUICK_START.md \
+            INSTALL_CHATGPT.md LICENSE scripts/sync_plugin_sources.py scripts/build_plugin_distribution.py
           if [[ -n "$LAST_TAG" ]] && git diff --quiet "$LAST_TAG" HEAD -- "$@"; then
             echo "No canonical source changes since $LAST_TAG; nothing to publish."
             echo "publish=false" >> "$GITHUB_OUTPUT"
@@ -134,8 +151,10 @@ jobs:
           Canonical Skill source commit: $SOURCE_SHA.
           Verified package snapshot commit: $SNAPSHOT_SHA.
           The five SKILL.md files are unmodified originals.
-          Includes LANGUAGE_CONTROL.md and PROJECT_STATE_TEMPLATE.md; no MCP server.
+          Includes LANGUAGE_CONTROL.md, PROJECT_STATE_TEMPLATE.md, INSTALL_CHATGPT.md
+          and a generated VERSION_MANIFEST.json; no MCP server.
 
+          VERSION_MANIFEST.json is validated against the actual SKILL.md headers at build time.
           Download ZIP and provide it to Plugin Creator.
           Existing personal installations require explicit user approval to update.
           EOF
