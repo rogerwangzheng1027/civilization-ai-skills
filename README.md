@@ -195,6 +195,8 @@ v1.4 继续保留 Result Scope / Evidence Quality / Causality 这些硬规则，
 
 **ChatGPT 同事安装（推荐）**：先看 [CIVILIZATION AI Specialists 一页安装说明](./INSTALL_CHATGPT.md)，下载单插件 ZIP 后在个人 ChatGPT 的 Plugin Creator 上传。固定版本的 ZIP 不会自动覆盖已安装的版本。
 
+安装后先读取 Plugin 根目录的 `VERSION_MANIFEST.json`，再与五个实际 `SKILL.md` 标题版本交叉验证。**不要让模型依据旧对话、README 或记忆猜“当前版本”。** 检查 GitHub 远端最新版是另一件事；如果当前环境无法实际访问 GitHub，应返回 `VERSION CHECK: NOT AVAILABLE`，不能声称“已核对 GitHub”。
+
 
 ### 支持 Skill 的 AI 工具
 
