@@ -2,20 +2,6 @@ name: Publish Personal Plugin ZIP
 
 # Releases are automatic when canonical sources change. User installations are not.
 on:
-  push:
-    branches: [main]
-    paths:
-      - "project-hub/SKILL.md"
-      - "brief-discovery-specialist/SKILL.md"
-      - "creative-exploration-specialist/SKILL.md"
-      - "product-innovation-specialist/SKILL.md"
-      - "proposal-development-specialist/SKILL.md"
-      - "project-hub/PROJECT_STATE_TEMPLATE.md"
-      - "LANGUAGE_CONTROL.md"
-      - "QUICK_START.md"
-      - "LICENSE"
-      - ".github/workflows/publish-plugin-zip.yml"
-      - "scripts/sync_plugin_sources.py"
   workflow_dispatch:
 
 permissions:
