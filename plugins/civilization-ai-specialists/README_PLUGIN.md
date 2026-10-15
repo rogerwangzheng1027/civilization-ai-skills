@@ -24,6 +24,26 @@ For repo-local ChatGPT Desktop/Codex use, the marketplace at `.agents/plugins/ma
 
 **Updating**: Changes to canonical Skill files or shared source documents on main automatically sync exact original bytes, update this checked-in package snapshot, increment the Plugin package patch version and publish an immutable ZIP Release. Installed personal Plugins never automatically upgrade; explicit approval is required under the Project Hub VERSION / UPDATE PROTOCOL.
 
+## Version verification
+
+The package root contains `VERSION_MANIFEST.json`, generated from the actual canonical `SKILL.md` headers at release time.
+
+Use it to answer:
+
+> **What is actually installed in this Plugin package?**
+
+Then cross-check against the five installed `SKILL.md` headers.
+
+Do **not** infer installed versions from memory, README text, or conversation context.
+
+Checking whether GitHub has a newer version is a separate operation. It requires actual access to the canonical GitHub `main` branch. If GitHub cannot be accessed, return:
+
+> **VERSION CHECK: NOT AVAILABLE**
+
+Never claim that GitHub was checked when it was not actually read.
+
+`INSTALL_CHATGPT.md` in this package contains copy-ready prompts for both installed-version verification and remote-version verification.
+
 ## Source integrity (Git blob SHA)
 
 ```text
