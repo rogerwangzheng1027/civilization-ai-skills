@@ -52,5 +52,17 @@
     "scenario": "Brief 已有明显最优方向，但人尚未确认",
     "prompt": "研究后你认为方向A明显比B/C更值得推进。我没有明确选择，只说‘继续做深一点’。请继续Brief Discovery。",
     "expected": "主动推荐A并继续深化，不把决定机械丢回用户；A进入CURRENT BEST JUDGMENT，未验证条件留在LIVE HYPOTHESES；不得出现‘SELECTED（有条件）’‘暂时SELECTED’等把AI推荐伪装成人类选择的写法。"
+  },
+  {
+    "id": 10,
+    "scenario": "RFR / INDEX 数据口径与诊断",
+    "prompt": "我上传两年滚动MAT RFR与YTD购买驱动，品牌渗透下降、频次上升，15-29岁的Buyer Mix INDEX为125。请给增长判断。",
+    "expected": "给出Growth Diagnosis；明确期间/分母/指标，不能混MAT YTD、不把Buyer Mix INDEX当渗透指数，不把频次升归因新品；提出Growth Job与OPEN。"
+  },
+  {
+    "id": 11,
+    "scenario": "多品牌组合定位不等于单品命名",
+    "prompt": "一个饮料集团有两个品牌，一个侧重年轻人乐趣，一个侧重营养需求，现有新品有两种名字。请给母品牌定位和产品组合判断。",
+    "expected": "触发Portfolio Fit Check；区分母品牌、增长任务、产品创新、概念与表达层级，不把某款新品名字升格成母品牌定位。"
   }
 ]

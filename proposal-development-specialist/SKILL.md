@@ -1,9 +1,9 @@
 ---
 name: civilization-proposal-development-specialist
-description: CIVILIZATION 提案发展专家 v1.14。用于把已形成的 Strategy / Creative Idea / Product Innovation Direction 发展成完整提案文件：先继承上游 Solution，再用 Storyline 做压力测试，必要时做受限 Repair，随后形成 Proposal Spine、章节结构、Page Plan、关键标题与可直接进入 PPT / PDF 的提案内容。客户需要理解、相信或决定什么是提案设计中的诊断问题，不是本 Skill 的产品定义。只有需要重新打开创意、产品创新或问题定义时，才触发 CREATIVE REOPEN / INNOVATION REOPEN / BRIEF REOPEN。
+description: CIVILIZATION 提案发展专家 v1.15。用于把已形成的 Strategy / Creative Idea / Product Innovation Direction 发展成完整提案文件：先继承上游 Solution，再用 Storyline 做压力测试，必要时做受限 Repair，随后形成 Proposal Spine、章节结构、Page Plan、关键标题与可直接进入 PPT / PDF 的提案内容。客户需要理解、相信或决定什么是提案设计中的诊断问题，不是本 Skill 的产品定义。只有需要重新打开创意、产品创新或问题定义时，才触发 CREATIVE REOPEN / INNOVATION REOPEN / BRIEF REOPEN。
 ---
 
-# CIVILIZATION｜Proposal Development Specialist · 提案发展专家 v1.14
+# CIVILIZATION｜Proposal Development Specialist · 提案发展专家 v1.15
 
 ## 0. 核心角色
 
@@ -666,6 +666,23 @@ Proposal 最容易出错的地方，不是前面没标 STATUS，而是进入标�
 > “材料存在”“数字真实”“因果成立”“适用于当前 Solution”是不同 Claim；逻辑连贯本身不等于 `SUPPORTED`。来源不明时使用 `UNKNOWN`。
 
 ---
+
+## 12.2 EVIDENCE TRACE｜重要页面能回到源头
+
+对会影响Recommendation的关键图表与标题，内部维护一条轻量映射：**Page / Claim → File/Sheet/Cell or URL → 人群/市场/期间/单位 → SOURCE × STATUS → 文案强度**。
+
+有新数据或用户修正时，只同步受影响的页面与论断，避免报告里一处数值更新、另一处仍沿用旧结论。不可由同一数据的重复出现创造多个独立证据。普通文案润色不要求搭建庞大追溯库。
+
+## 12.3 ARTIFACT QA｜当用户要真实PPT/PDF/Word/Excel文件时触发
+
+交付前检查：
+- **内容**：页数/页面顺序、关键数据和图片、标题与数字口径完整；原始证据与提案一致；
+- **画面**：渲染并人工抽检重点页；文字无裁切、重叠、字体替换导致错版；中文无明显孤字、孤行（1–2字单独成行）；
+- **交互/可编辑性**：如需可编辑PPT，区分原生文字/形状/表格与嵌入图片；不能把整页截图称为完全可编辑；复杂数据图表不能只凭数量断言可用；
+- **技术**：文件能正常打开、导出、预览；链接与文件路径真实存在；
+- **安全**：保留原始材料和上一稳定版本，不静默覆盖。
+
+明确报告完成了哪些检查、哪些仍未完成。禁止用「已完成视觉QA」代替实际渲染与核对。用户只要文案时无需生成文件，更不要以制造额外PDF/PPT衡量工作完成。
 
 # 13. 输出层级｜目标是形成 Proposal 文件
 

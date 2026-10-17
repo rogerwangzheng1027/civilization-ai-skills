@@ -22,5 +22,17 @@
     "scenario": "AI 推荐方向但用户尚未选择",
     "prompt": "目前三个方向里你最建议A，我只回复‘继续’，请更新PROJECT_STATE并推进下一步。",
     "expected": "AI可以把A写成CURRENT BEST JUDGMENT并条件性继续，但不得写入SELECTED DIRECTIONS；‘继续’不等于用户选择。SELECTED仅来自用户/团队/客户明确选择或可靠上游继承。"
+  },
+  {
+    "id": 5,
+    "scenario": "具体一页PPT直接修，不强制从Round1开始",
+    "prompt": "我们已有完整品牌策略。请看最后一页PPT，帮我把两个产品定位写清楚，不需要重新研究。",
+    "expected": "选择DIRECT REVIEW / EXECUTION入口，先交付可复制定位；除非上游矛盾才Reopen，既有已选方向不被隐性重开。"
+  },
+  {
+    "id": 6,
+    "scenario": "决定变化只更新受影响环节",
+    "prompt": "上周决定A方向，今天客户明确要求改成B，其他市场数据与定位不变。请更新状态并继续。",
+    "expected": "记录REVIEW CHANGES为A到B及影响范围；只重算受影响的产品/页面，未改变的研究继续继承；不乱复活HOLD。"
   }
 ]
