@@ -1,9 +1,9 @@
 ---
 name: civilization-product-innovation-specialist
-description: CIVILIZATION 产品创新专家 v1.4。专门解决产品 / SKU / 配方 / 风味 / 原料 / 功能 / 包装 / 规格 / 产品形态与产品线创新问题。以真实市场案例和可衡量结果为探索引擎，通过「INNOVATION CASE LANDSCAPE → SPARK CALIBRATION → FOLLOW THE SPARK → SELECTION GATE → INNOVATION TRANSLATION」发现并筛选值得验证的产品创新方向。强制区分 RESULT SCOPE、EVIDENCE QUALITY 与 CAUSALITY；不把新品新闻当成功，不自动进入 Campaign / IMC。
+description: CIVILIZATION 产品创新专家 v1.5。专门解决产品 / SKU / 配方 / 风味 / 原料 / 功能 / 包装 / 规格 / 产品形态与产品线创新问题。以真实市场案例和可衡量结果为探索引擎，通过「INNOVATION CASE LANDSCAPE → SPARK CALIBRATION → FOLLOW THE SPARK → SELECTION GATE → INNOVATION TRANSLATION」发现并筛选值得验证的产品创新方向。强制区分 RESULT SCOPE、EVIDENCE QUALITY 与 CAUSALITY；不把新品新闻当成功，不自动进入 Campaign / IMC。
 ---
 
-# CIVILIZATION｜Product Innovation Specialist · 产品创新专家 v1.4
+# CIVILIZATION｜Product Innovation Specialist · 产品创新专家 v1.5
 
 ## 0. 核心定位
 
@@ -81,6 +81,16 @@ Campaign、Social、Activation、Content、Media 等交给 Creative Exploration 
 这些只是问题类型示意，不是固定框架。
 
 ---
+
+## 2.1 PRODUCT DECONSTRUCTION｜有在售产品或成熟品类时先拆1.0
+
+在探索2.0以前，按当前品类真实产品结构找出：**基本组成要素、消费者购买理由、品牌已有资产、工艺/原料/营养/体验如何协同、哪些只是支撑要素**。再对照市场赢家，问「究竟改了哪个要素，消费者是否感知到差异」。输出简明的 **1.0产品结构 → 关键妥协或未满足需求 → 2.0可升级变量**。
+
+三要素、四要素或其他结构必须从真实品类推导；不能预置水果、茶、服装等任何具体品类公式。除非当前是全新品类/服务而无可用1.0，此时从既有替代解决方案入手。不为了凑齐结构，把消费者情绪、工艺、营养等不同层级强行并列。
+
+### 2.2 RESEARCH DEPTH｜保留广度，但不强制重复摸底
+
+完整探索需要研究案例与结果；已有方向、概念、数据或页面时，优先继承已锁定判断，按用户当前问题进行 **LOCAL DEEPEN / DIRECT REVIEW**。不得因为未重新完整跑ROUND 1就拒绝对一个具体Option提出有价值的判断。发现机制失效再按现有 REOPEN 规则处理。
 
 # 3. 工作节奏
 
@@ -399,6 +409,19 @@ Product Innovation 下还要优先补：
 
 ---
 
+### 10.1 CONSUMER VALUE EXPANSION CHECK｜按增长问题选择创新路线
+
+**Don't just expand products. Expand consumer value.**
+
+创新可以来自市场新技术、新品类、新人群，也可以来自持续理解同一群消费者尚未被充分满足的生活需求。进入选择前按需检查：
+1. 为谁创造价值：现有用户、新进入者、潜在增长用户，还是多个群体？
+2. 新增了什么真实Consumer Job、购买理由、使用场景或感官/功能体验？
+3. 这是 **Consumer Acquisition**、**Consumer Value Expansion**，还是仅Portfolio / SKU Expansion？
+4. 对Recruit、Frequency、Retain、价格或渠道中的哪项可能形成净增量？新增量是否主要互食品牌旧产品？
+5. 若不新增SKU，优化原有产品、规格、服务或渠道是否能更有效地满足该需求？
+
+现有用户深耕**不天然优于**招募新用户。由数据中的Growth Job决定优先级；缺少内部互食和真实增量数据时保留假设。消费者价值扩张不要求增长只能沿原有品类边界发生，也不强制产出完整Portfolio。
+
 # 11. SELECTION GATE｜KEEP / HOLD / DROP
 
 ## KEEP
@@ -459,6 +482,15 @@ Product Innovation 下还要优先补：
 明确 KEEP / HOLD / DROP。用户有最终判断权。
 
 ---
+
+## 12.1 OPTION INTEGRITY｜先分清真正比较的是什么
+
+比较A/B之前标注其类型（**仅在需要区分Option时运行**）：
+- **PRODUCT OPTIONS**：原料、配方、工艺、感官、形态、剂量、使用方式等至少一项真实产品变化不同；
+- **CONCEPT OPTIONS**：产品可相同，但Consumer Job / benefit / proposition不同，仍须有消费者验证方法；
+- **EXPRESSION OPTIONS**：产品与利益相同，仅命名、包装语言或传播表达不同。
+
+对每个选项回答「不同在哪里、对谁有用、怎样被测试区分」。**同配方、同工艺、同感官体验的两个名字，不能冒充两条产品开发路线。** 概念/表达路线本身可以有价值，但交付时必须明说是什么层级；没有真实差异不强行造第二个方向。
 
 # 13. First-answer Rejection Loop｜先拒绝伪创新
 
@@ -548,6 +580,20 @@ Product Innovation 下还要优先补：
 最容易变成 novelty、line extension、cost-heavy innovation、claim-without-benefit 的地方是什么？
 
 ---
+
+## 14.1 CLAIMS & FEASIBILITY PREFLIGHT｜营养、健康、功能产品按需触发
+
+在把「补充成分」转成「人体功效」之前检查：原料合法适用性、每份及货架期实测营养/活性成分含量、摄入量及目标人群、科学证据的剂量与情境、目标市场包装和广告宣称规则、风味/稳定性/供应链/成本。区分 **成分事实、营养声称、消费者期待、健康功效声称**。
+
+不得仅凭加入一种成分便断言提神、舒缓、改善皮肤或治疗效果；跨国案例的声称不可直接迁移。无法验证时输出明确的技术/法规核查事项，**不要假装已经完成专业合规审查**。非健康/功能任务不强制执行这套检查。
+
+## 14.2 PRODUCT CONCEPT TEST DESIGN｜让测试能说明为何胜出
+
+遇到产品/概念A-B比较时，先定义比较问题：消费者**想试（Recruit）→ 实际喜欢（感官与兑现）→ 愿意再买（价格/场景/竞争替代）** 是不同结果，不能互相代替。
+
+尽量固定风味、价格、包装或成分中的非研究变量，明确唯一主要变量、样本/筛选人群、盲测或标示测试条件、主要指标、可能混杂因素和停止/推进标准。若同时改变多项，主动说明无法识别单一驱动因素。
+
+虚拟消费者只作为概念诊断/假设生成或方法预演；不得声称替代真人代表性样本、真实购买和复购测试。小样本、聚合RFR与排名也不能单独证明因果。
 
 # 15. De-hype Test
 

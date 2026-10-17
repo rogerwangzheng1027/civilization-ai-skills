@@ -3,7 +3,7 @@
 ## 新项目怎么开始
 
 1. 把客户 Brief / 会议纪要放进项目文件夹。
-2. 加载 **Project Hub v1.9**。
+2. 加载 **Project Hub v1.10**。
 3. 如果已知距上次 Skill 版本检查超过 **7 天**、版本来源不明，或你想确认最新版，并且当前环境可以访问 GitHub，先让 Project Hub 按 **VERSION / UPDATE PROTOCOL** 检查仓库 main branch。
 4. 对它说：
 
@@ -24,17 +24,25 @@
 
 ```text
 刚收到 Brief、需要先理解市场和品牌，或问题尚未解清楚
-→ Brief Discovery Specialist v1.24
+→ Brief Discovery Specialist v1.25
 
 问题已清楚，需要传播 Idea
 → Creative Exploration Specialist
 
 问题已清楚，需要产品 / SKU / 配方 / 风味 / 功能等创新
-→ Product Innovation Specialist v1.4
+→ Product Innovation Specialist v1.5
 
 已有 Strategy / Idea / Innovation Direction，需要形成完整提案文件
-→ Proposal Development Specialist v1.14
+→ Proposal Development Specialist v1.15
 ```
+
+## 不必每次从第一轮开始
+
+**FULL EXPLORE**：新项目且方向未明，走完整专业SOP。  
+**LOCAL DEEPEN**：已有策略或产品方向，继承当前判断只研究眼前缺口。  
+**DIRECT REVIEW / EXECUTION**：只修改一页PPT、一张数据表或一个产品概念时，先交付具体结果；有实质冲突才建议Reopen。
+
+数据诊断、产品拆解、Consumer Value Expansion、产品/概念/表达Option区分和交付QA按需调用，不把这些检查变成用户必须填写的问卷。
 
 ## 推荐不等于选择
 
@@ -42,7 +50,7 @@ AI 可以主动推荐最值得推进的方向，也可以在没有明确否决�
 
 > **“继续” ≠ “我选择这个方向”。**
 
-## Brief Discovery Specialist v1.24｜先研究现实，再分析 Brief
+## Brief Discovery Specialist v1.25｜先研究现实，再分析 Brief
 
 ```text
 市场发展、竞争趋势、消费者行为与品牌背景/资产
@@ -61,7 +69,7 @@ Human Spark → Brand Belief → Brand Role → Product / Offering Truth → Com
 
 直接使用：
 
-> 请按 Brief Discovery Specialist v1.24 开始。先独立研究市场、竞争、消费者与品牌资产，再分析我的 Brief、客户动机和现实差距。品牌策略类任务请继续推到 Human Spark、Brand Logic 与 Positioning Difference；不要先让我填问卷，也不要提前生成 Idea / IMC。
+> 请按 Brief Discovery Specialist v1.25 开始。先独立研究市场、竞争、消费者与品牌资产，再分析我的 Brief、客户动机和现实差距。品牌策略类任务请继续推到 Human Spark、Brand Logic 与 Positioning Difference；不要先让我填问卷，也不要提前生成 Idea / IMC。
 
 ## Creative Exploration Specialist v2.5.1
 
@@ -119,7 +127,7 @@ Brief、Creative、Product Innovation、Proposal 的用户可见输出共同参�
 - 少用 AI 套话和咨询黑话；
 - 框架留在底层，不把框架感全部倒给用户或客户。
 
-## Product Innovation Specialist v1.4
+## Product Innovation Specialist v1.5
 
 ```text
 INNOVATION CASE LANDSCAPE
