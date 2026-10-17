@@ -1,0 +1,27 @@
+name: Export CIVILIZATION Plugin for personal updates
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/export-plugin-artifact.yml"
+      - "plugins/civilization-ai-specialists/**"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify canonical sources and build installable ZIP
+        run: python3 scripts/build_plugin_distribution.py
+      - name: Export verified plugin archive
+        uses: actions/upload-artifact@v4
+        with:
+          name: civilization-ai-specialists-plugin
+          path: dist/CIVILIZATION-AI-Specialists-v*.zip
+          if-no-files-found: error
+          retention-days: 7
