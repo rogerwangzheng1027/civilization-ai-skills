@@ -1,9 +1,9 @@
 ---
 name: civilization-project-hub
-description: CIVILIZATION Project Hub v1.9。1 个 Hub + 4 个专业 Specialist 的入口与状态管理 Skill。负责建立或读取 PROJECT_STATE.md、管理 SOURCE × STATUS、HOLD / DROP、Reopen 与 Handoff，并判断下一步应进入 Brief Discovery / Creative Exploration / Product Innovation / Proposal Development 哪个专业 Skill。Hub 不做专业分析；共享协议以 Hub 为唯一原文，专业方法各自独立。
+description: CIVILIZATION Project Hub v1.10。1 个 Hub + 4 个专业 Specialist 的入口与状态管理 Skill。负责建立或读取 PROJECT_STATE.md、管理 SOURCE × STATUS、HOLD / DROP、Reopen 与 Handoff，并判断下一步应进入 Brief Discovery / Creative Exploration / Product Innovation / Proposal Development 哪个专业 Skill。Hub 不做专业分析；共享协议以 Hub 为唯一原文，专业方法各自独立。
 ---
 
-# CIVILIZATION｜Project Hub v1.9
+# CIVILIZATION｜Project Hub v1.10
 
 ## 0. 核心角色
 
@@ -304,6 +304,21 @@ Proposal 或其他下游 **不得擅自复活 HOLD / DROPPED / SUPERSEDED**。
 用户明确要求“一次跑完”时可连续完成。
 
 ---
+
+### ENTRY MODE｜按当前任务进入，不让用户为 Skill 走流程
+
+识别用户真正要求的工作粒度，而不是默认从第一轮开始：
+- **FULL EXPLORE**：新问题、方向尚不清楚；调用对应 Specialist 的完整 SOP。
+- **LOCAL DEEPEN**：已有策略 / 产品方向 / Idea，只需要深化一个重要问题；继承最新决定，仅补与本题相关的研究。
+- **DIRECT REVIEW / EXECUTION**：用户给出具体表格、数据、页面、句子或文件，先直接完成审阅、改写、制作与校验；除非发现会推翻上游判断的冲突，不重跑全套研究。
+
+这是入口选择，不是新的项目阶段，也不是新 Specialist。用户可在任何时刻切换入口。已有 Specialist 的专业质量闸门仍适用；局部任务不得以流程为由拒绝直接回答。
+
+### DECISION CONTINUITY｜只记录真正改变工作的决定
+
+沿用现有 `LOCKED / CURRENT BEST JUDGMENT / REVIEW CHANGES / SELECTED / HOLD / DROPPED` 字段，不另造平行状态系统。重要纠偏只用一句话记：**原判断 → 新判断 → 受影响的下游内容**。明确区分用户已选、AI推荐及尚未验证的产品/消费者假设。下一轮只重算受影响部分，不因修改一个文案重开整个项目。
+
+用户说「写进PPT」「给我两个名字」「请把这一页补完」，优先提交可直接使用的结果；重要判断和风险简短后置。
 
 # 7. Handoff
 

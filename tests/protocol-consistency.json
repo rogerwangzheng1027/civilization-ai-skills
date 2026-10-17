@@ -192,6 +192,39 @@
         "product-innovation-specialist/test-prompts.json",
         "tests/protocol-consistency.json"
       ]
+    },
+    {
+      "id": "P20",
+      "rule": "Brief has opt-in Growth Diagnosis with DATA CONTRACT; RFR, buyer-mix, MAT/YTD and causality caveats remain separate.",
+      "paths": [
+        "brief-discovery-specialist/SKILL.md",
+        "brief-discovery-specialist/test-prompts.json"
+      ]
+    },
+    {
+      "id": "P21",
+      "rule": "Product Innovation supports category-derived Product Deconstruction, Consumer Value Expansion, OPTION INTEGRITY, regulated claim preflight and controlled test design; no examples hard-coded.",
+      "paths": [
+        "product-innovation-specialist/SKILL.md",
+        "product-innovation-specialist/test-prompts.json"
+      ]
+    },
+    {
+      "id": "P22",
+      "rule": "Hub differentiates FULL EXPLORE, LOCAL DEEPEN and DIRECT REVIEW without adding a fifth Specialist or changing Selection Authority.",
+      "paths": [
+        "project-hub/SKILL.md",
+        "project-hub/test-prompts.json",
+        "QUICK_START.md"
+      ]
+    },
+    {
+      "id": "P23",
+      "rule": "Proposal evidence trace and artifact QA distinguish full-slide screenshots from editable originals and include visual render/Chinese typography checks.",
+      "paths": [
+        "proposal-development-specialist/SKILL.md",
+        "proposal-development-specialist/test-prompts.json"
+      ]
     }
   ]
 }

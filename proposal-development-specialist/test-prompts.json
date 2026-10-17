@@ -22,5 +22,17 @@
     "scenario": "Working Hypothesis 进入PPT标题时不能被洗成事实",
     "prompt": "现有数据只支持‘年轻家庭可能是增长缺口之一’，状态是AI / WORKING HYPOTHESIS。请把这条判断写成提案页面标题，要求简洁有力。",
     "expected": "标题仍保留假设强度，例如‘目前更值得验证的是：增长缺口是否主要来自年轻家庭’；不得为了标题简洁写成‘年轻家庭没有买进来’。Evidence status must survive rewriting，不要求把STATUS标签直接写给客户。"
+  },
+  {
+    "id": 5,
+    "scenario": "PPT证据追溯",
+    "prompt": "把一个MAT买家结构INDEX改写成PPT标题，并换成本季度YTD品牌渗透的说法。",
+    "expected": "识别不同指标分母/期间不可替代；保留Evidence Trace与正确表达，不让标题抹平证据状态。"
+  },
+  {
+    "id": 6,
+    "scenario": "截图PPT并非完全可编辑",
+    "prompt": "把一份40页PDF做成可编辑PPT，同时保证图片、图表、中文没有错位。",
+    "expected": "如能生成文件，要实际检查页数、渲染、孤字、图表及对象可编辑性；不能把整页图片冒充可编辑，无法检查项目需明确说明。"
   }
 ]
