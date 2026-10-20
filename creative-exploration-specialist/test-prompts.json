@@ -43,26 +43,20 @@
   },
   {
     "id": 8,
-    "scenario": "系统案例研究的 Coverage Gap Audit",
-    "prompt": "请为某个长期品牌的传播课题建立全球案例研究 Atlas。先搜海外巨头，再补中国本土、相邻品类与长尾品牌，尽可能覆盖；无需此刻给 Campaign Idea。",
-    "expected": "采用 RESEARCH ATLAS MODE；自主明确地域、时期、行业、目标传播对象、案例行为等边界，先宽搜再做覆盖缺口审计；不能只给最熟悉的获奖品牌；说明仍未覆盖或无法核实的区域，不虚称穷尽；按相关性精选深入，不把每个候选强制写成完整 Case Anatomy，不用固定三级案例分类；不强制转入 Idea / IMC。"
+    "scenario": "跨领域案例研究的覆盖缺口检查",
+    "prompt": "请围绕一个品牌传播课题系统研究不同媒介与参与方式的真实案例。覆盖相关行业、区域、受众与执行机制，并主动检查遗漏；先不要发展 Campaign Idea。",
+    "expected": "采用 RESEARCH ATLAS MODE；先确定与问题相关的行业、地域、时间、受众、案例机制和素材边界，再进行广搜与覆盖缺口检查；说明未覆盖或无法核实之处，不虚称穷尽；按启发性与证据强弱精选案例深拆，不要求全体候选使用相同模板，不强制转入 Idea/IMC。"
   },
   {
     "id": 9,
-    "scenario": "从品牌任务识别消费者价值与机制依赖",
-    "prompt": "我想看一批品牌在重大时刻如何把自己的事变成消费者愿意参与的事。请比较案例的实际行为和可借鉴机制。",
-    "expected": "对重点案例说明 BRAND JOB → CONSUMER VALUE、真实发生的 WHAT PEOPLE ACTUALLY DID、WHY PEOPLE CARED 的证据或假设，以及 CONTEXT / MECHANISM DEPENDENCY；区分品牌宣称的效果与真实行为，不把宣传愿景冒充已发生；迁移的机制有具体品牌/时刻/资源边界。"
+    "scenario": "案例目的、受众价值与机制条件的比较",
+    "prompt": "比较几个传播与品牌体验案例：品牌分别想促成什么改变、受众为什么愿意回应、真实发生了哪些行为？哪些机制可以迁移？",
+    "expected": "对重点案例说明 BRAND JOB → AUDIENCE VALUE、观察到的 WHAT PEOPLE ACTUALLY DID、WHY PEOPLE CARED 的证据或假设，以及 CONTEXT / MECHANISM DEPENDENCY；品牌目标、传播表达、实际行为、效果与因果归因严格区分；迁移建议写清行为、资源和市场适用条件。"
   },
   {
     "id": 10,
     "scenario": "Casebook PDF 和离线 HTML 的真实图片交付",
     "prompt": "请交付可内部转发的案例 PDF 和单文件离线 HTML。每个正式案例包含真实 Campaign 执行画面与可点击来源；不要给我只有外链的空图或用 AI 机制图代替实拍。",
-    "expected": "保持真实执行图与 SOURCE / VISUAL SOURCE 可追溯；按用户要求将获授权/可合规使用的真实图片实际嵌入 PDF 与单文件离线 HTML；逐项检查断图、点击链接、离线展示、缺失视觉和示意图标识；若环境无法下载/嵌入/验证，明确未完成的案例或媒体项，不把外部 URL、stock、生成示意图算作真实素材完成；可向 Proposal/文档制作能力交付文件 QA，不用固定三级分类。"
-  },
-  {
-    "id": 11,
-    "scenario": "用户不需要案例等级管理",
-    "prompt": "帮我做一次跨品类的系统案例搜集，但不要再给每个案例打三层资格等级或加新的分类标签。",
-    "expected": "保留有用的覆盖审计、真实性、证据、图链以及深拆，不添加 Anniversary Milestone / Campaign Verified / Featured Creative Case 或任何等价三级分级；对不足材料用自然语言说明缺口及是否可进入正式结论，不把分类管理本身变成交付。"
+    "expected": "保持真实执行图与 SOURCE / VISUAL SOURCE 可追溯；按用户要求将获授权/可合规使用的真实图片实际嵌入 PDF 与单文件离线 HTML；逐项检查断图、点击链接、离线展示、缺失视觉和示意图标识；若环境无法下载/嵌入/验证，明确未完成的案例或媒体项，不把外部 URL、stock、生成示意图算作真实素材完成；可向 Proposal/文档制作能力交付文件 QA。"
   }
 ]
