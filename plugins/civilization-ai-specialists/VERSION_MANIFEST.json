@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "plugin": "civilization-ai-specialists",
-  "plugin_version": "1.0.8",
+  "plugin_version": "1.0.9",
   "canonical_source": "https://github.com/rogerwangzheng1027/civilization-ai-skills",
   "canonical_branch": "main",
   "skills": {
