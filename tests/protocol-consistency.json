@@ -1,5 +1,5 @@
 {
-  "version": "1.7",
+  "version": "1.8",
   "purpose": "Cross-skill regression assertions for shared protocol consistency.",
   "assertions": [
     {
@@ -224,6 +224,17 @@
       "paths": [
         "proposal-development-specialist/SKILL.md",
         "proposal-development-specialist/test-prompts.json"
+      ]
+    },
+    {
+      "id": "P24",
+      "rule": "Creative Exploration has Explore versus opt-in Research Atlas entry. Atlas searches broadly and audits coverage gaps, deepens selected mechanisms without fixed case tiers, preserves Brand Job -> Consumer Value and context dependencies, and requires actual embedded real case visuals plus link/offline QA when an artifact is requested. No forced Idea/IMC or premature Spark Calibration stop for a requested Casebook.",
+      "paths": [
+        "creative-exploration-specialist/SKILL.md",
+        "creative-exploration-specialist/test-prompts.json",
+        "README.md",
+        "QUICK_START.md",
+        "tests/protocol-consistency.json"
       ]
     }
   ]
