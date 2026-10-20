@@ -14,17 +14,19 @@
 | --- | --- |
 | Project Hub | v1.10 |
 | Brief Discovery | v1.25 |
-| Creative Exploration | v2.6 |
+| Creative Exploration | v2.6.1 |
 | Product Innovation | v1.5 |
 | Proposal Development | v1.15 |
 
 当前完整系统快照：
 
-> **`civilization-ai-specialists-v1.0.9`**
+> **`civilization-ai-specialists-v1.0.11`**
 
 该 Release 已包含以上五个当前 Skill 版本，可用于安装、比较和整体回退。
 
-**v1.0.9 / Creative v2.6**：定向升级案例研究能力。新增 Explore / Research Atlas 两种入口、Coverage Gap Audit、Brand Job → Consumer Value / Mechanism Dependency 深拆，以及正式 Casebook 的真实图片嵌入和离线文件 QA。**不引入候选案例固定三级分类**；保持 Human Insight → Creative Spark → Selection → Concept Development 原有方法不变。v1.0.7–v1.0.8 为本轮文档及 Skill 同步过程的历史快照。
+**v1.0.11 / Creative v2.6.1**：对案例研究规则和测试样本进行通用性清理，去掉特定项目语境、历史纠偏痕迹与不必要的反向禁令；保留 Explore / Research Atlas、Coverage Gap Audit、Brand Job → Audience Value、可迁移条件及真实素材交付 QA。v1.0.10 为本轮说明文件先行同步的历史快照。
+
+**此前 v1.0.9 / Creative v2.6**：增加系统性案例搜索、覆盖缺口检查、机制深拆及 Casebook 图片/链接/离线质量要求；保留 Human Insight → Creative Spark → Selection → Concept Development 原有方法。v1.0.7–v1.0.8 为此前文档与 Skill 同步过程的历史快照。
 
 **此前 v1.0.6**：升级 Growth Diagnosis / DATA CONTRACT、Product Deconstruction、Consumer Value Expansion、Product vs Concept vs Expression Option、功能成分与宣称预检、概念测试设计，以及 Hub 的局部任务入口和 Proposal 的 Evidence Trace / Artifact QA。
 
