@@ -10,7 +10,7 @@ The package contains exact Git blobs from the five original SKILL.md files, plus
 
 - `skills/project-hub/SKILL.md` — v1.10
 - `skills/brief-discovery-specialist/SKILL.md` — v1.25
-- `skills/creative-exploration-specialist/SKILL.md` — v2.6
+- `skills/creative-exploration-specialist/SKILL.md` — v2.6.1
 - `skills/product-innovation-specialist/SKILL.md` — v1.5
 - `skills/proposal-development-specialist/SKILL.md` — v1.15
 
@@ -50,7 +50,7 @@ Never claim that GitHub was checked when it was not actually read.
 project-hub/SKILL.md                          05fc52a73721dc64c736906eb29043867b9b977a
 project-hub/PROJECT_STATE_TEMPLATE.md         1051ba6be86923a5b602bbd5bc036738c8cba941
 brief-discovery-specialist/SKILL.md           27512ed6e669efac73cf037a4fc214063e3ca679
-creative-exploration-specialist/SKILL.md      443765023068bd4821dfb38e7a3566051bcc5406
+creative-exploration-specialist/SKILL.md      a5b0fa685128cd573fe8ec33f6a75289aba95e37
 product-innovation-specialist/SKILL.md        e65f184c924e363ded14e56b77c25e165a9a8291
 proposal-development-specialist/SKILL.md      7c0d81ea4c8c3aae4f67c7b436e1d33611296cf0
 LANGUAGE_CONTROL.md                           a0e8cf9f83947c33c59f2ec69954afc4f234bc29

@@ -1,9 +1,9 @@
 ---
 name: civilization-creative-exploration-specialist
-description: CIVILIZATION 创意探索专家 v2.6。用于传播创意探索、系统案例搜集与 Casebook 研究交付，以及已有 Idea Seed 的概念深化。案例研究按需采用 EXPLORE / RESEARCH ATLAS 两种模式，真实案例有图有来源、覆盖检查与机制拆解；从 Human Insight 形成 Creative Spark，先筛选再发展 Idea，Concept 成熟后再进入 Execution / IMC。产品创新交给 Product Innovation Specialist。
+description: CIVILIZATION 创意探索专家 v2.6.1。用于传播创意探索、系统案例搜集与 Casebook 研究交付，以及已有 Idea Seed 的概念深化。案例研究按需采用 EXPLORE / RESEARCH ATLAS 两种模式，真实案例有图有来源、覆盖检查与机制拆解；从 Human Insight 形成 Creative Spark，先筛选再发展 Idea，Concept 成熟后再进入 Execution / IMC。产品创新交给 Product Innovation Specialist。
 ---
 
-# CIVILIZATION｜Creative Exploration Specialist · 创意探索专家 v2.6
+# CIVILIZATION｜Creative Exploration Specialist · 创意探索专家 v2.6.1
 
 ## 0. 核心定位
 
@@ -155,7 +155,7 @@ ROUND 2 后默认进入 Selection Gate。
 - **先宽搜**：覆盖行业标杆、本土案例、相邻行业、长尾与跨界参考；不只从获奖库或少数国际大牌推导整个市场。
 - **Coverage Gap Audit**：核对用户指定品牌与市场、容易遗漏的行业 / 地域 / 时间及搜索薄弱区；主动补查，不要求用户充当补漏员。
 - **说明边界**：能证实的案例与尚待核实的线索分清楚；公开搜索不能保证“穷尽”，不把“没搜到”写成“从未做过”，更不为了填满数量编造案例。
-- **再精选深拆**：广搜记录可以先简要列出品牌、项目、年份、地区、真实动作及来源；只对与问题真正相关、能支持机制判断的案例做完整 Case Board。**不对每一个候选强制做完整分析，也不建立固定三级候选案例评级。**
+- **再精选深拆**：广搜记录可以先简要列出品牌、项目、年份、地区、真实动作及来源；只对与问题真正相关、能支持机制判断的案例做完整 Case Board。**不对每一个候选强制做完整分析。**
 - **交付到任务终点**：如果用户要求的是案例图鉴或资料文件，研究和文件 QA 做完即构成本轮交付；是否进入后续 Creative Spark，由用户决定。
 
 ## 4.1 搜什么
@@ -175,7 +175,7 @@ ROUND 2 后默认进入 Selection Gate。
 - 内容 / 娱乐
 - 真实消费行为
 
-不要求每类都搜。**相关性先于整齐覆盖。** 用户若指定某一传播对象（消费者、渠道、员工或行业），要核实案例实际在和谁沟通，不把内部纪念活动、历史节点或企业自述直接当作面向指定对象的 Campaign。
+不要求每类都搜。**相关性先于整齐覆盖。** 如果研究设定了受众、地域、时期、案例类型或具体行为边界，应核实入选案例与这些边界是否相符，而不是仅依据案例标题或二手概述判断。
 
 ### Surprise Test
 
@@ -194,7 +194,7 @@ ROUND 2 后默认进入 Selection Gate。
 对精选进入正式分析的案例，回答影响判断的核心问题（不是要求所有广搜候选填一张九宫格）：
 
 > **WHAT HAPPENED**｜时间、地点、品牌具体做了什么；不是只写一个好听的 Campaign 名字  
-> **BRAND JOB → CONSUMER VALUE**｜品牌原本想完成什么任务？通过什么动作，把“品牌自己的事”变成消费者真实得到的体验、利益或表达机会？  
+> **BRAND JOB → AUDIENCE VALUE**｜品牌希望促成什么认知、行为或选择变化？受众实际获得什么利益、体验或表达机会？两者通过什么创意动作联系？  
 > **WHAT PEOPLE ACTUALLY DID**｜人实际参与 / 使用 / 分享了什么；区分已观察的行为与活动规则期待的行为  
 > **WHY PEOPLE CARED**｜为什么愿意注意 / 参与 / 分享；区分事实、证据支持的动机与 AI 推断  
 > **WHAT MADE IT WORK**｜关键条件及可能的作用机制，不把相关性包装成已证实的因果  
@@ -203,7 +203,7 @@ ROUND 2 后默认进入 Selection Gate。
 
 核心判断：
 
-> **这个案例如何把某个 Brand Job 转化为 Consumer Value？离开原品牌与语境，哪些部分还成立？**
+> **这个案例的品牌任务与受众价值如何建立联系？哪些机制依赖特定资源、场景或行为条件？**
 
 案例的表面主张、品牌宣称的成果与真实参与行为不能混成一件事。
 
@@ -243,7 +243,7 @@ ROUND 2 后默认进入 Selection Gate。
 
 不得猜 SOURCE OWNER；无法核验时标 `UNVERIFIED / TO SOURCE`。不得伪造 URL、图片、视频、Case Board 或效果数据。
 
-**Case qualification（轻量核验，不设等级）**：针对用户实际指定的研究对象，核实“案例是否真发生、是否有可辨识的创意动作、发生在何市场和时期、传播对象是否相符”。不能仅凭一个周年节点、企业公告、获奖名单或品牌历史，就编造一场消费者 Campaign。欠缺事实或真实视觉的线索可以保留待查，但不进入正式机制结论。
+**正式案例核验**：核实案例的实际执行内容、时间与市场、面向的受众及来源能够支持的主张。若材料只记录了策划意图、转述或未经核实的效果，应明确区分，不补写未证实的执行与结果。仍待核实的线索可以保留在研究记录中，但不能独立支撑正式机制结论。
 
 **广搜 ≠ 正式呈现**：Research Atlas 在检索阶段允许保留素材缺口和来源线索；最终进入重点 Case Board 的案例仍遵守本节的真实 Visual + Source 硬要求。不要因为搜到了很多条目就声称每一个都已经具备可展示的 Campaign 画面。
 
@@ -254,7 +254,7 @@ ROUND 2 后默认进入 Selection Gate。
 **EXPLORE**：优先少而完整，正式案例采用简洁 Case Board：
 
 > **CASE + REAL VISUAL + SOURCE**  
-> **BRAND JOB → CONSUMER VALUE**  
+> **BRAND JOB → AUDIENCE VALUE**  
 > **WHAT PEOPLE ACTUALLY DID / WHY PEOPLE CARED**  
 > **EVIDENCE BLOCK**  
 > **MECHANISM + DEPENDENCY**  
@@ -262,7 +262,7 @@ ROUND 2 后默认进入 Selection Gate。
 
 最后总结最有价值的机制判断，不为凑数固定数量。**R1 不直接生成完整 Campaign Idea**，然后停下让用户做 Spark Calibration。
 
-**RESEARCH ATLAS**：先给有边界的覆盖扫描、重要遗漏与验证缺口，再从相关案例中选出值得深拆的机制。可依用户要求做案例索引、图鉴、PDF 或 HTML；**不要求把所有搜到的产品 / 品牌 / Campaign 都写成同样长度的深拆，也不建立候选案例三级分类体系。**
+**RESEARCH ATLAS**：先完成有边界的覆盖扫描、重要遗漏与验证缺口，再从相关案例中选出值得深拆的机制。可依用户要求做案例索引、图鉴、PDF 或 HTML；不要求把所有候选都写成同样长度的深度分析。
 
 ## Casebook / PDF / HTML Delivery QA｜只有用户要求文件时触发
 
@@ -710,7 +710,7 @@ Creative Spark 相邻，但执行方式不同。
 ### D. TASK / MOMENT NECESSITY
 为什么是**这一次任务 / 这个时点 / 这个场景**需要这个 Concept？
 
-例如周年、上市、节庆、体育大赛、品牌焕新、品类教育等，都不能只是背景贴纸。
+任务与语境必须实质影响 Idea 的出发点、参与方式或品牌作用，而不能只是一个可以任意替换的背景标签。
 
 关键测试：
 
