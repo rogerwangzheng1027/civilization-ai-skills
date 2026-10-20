@@ -14,17 +14,19 @@
 | --- | --- |
 | Project Hub | v1.10 |
 | Brief Discovery | v1.25 |
-| Creative Exploration | v2.5.1 |
+| Creative Exploration | v2.6 |
 | Product Innovation | v1.5 |
 | Proposal Development | v1.15 |
 
 当前完整系统快照：
 
-> **`civilization-ai-specialists-v1.0.6`**
+> **`civilization-ai-specialists-v1.0.9`**
 
 该 Release 已包含以上五个当前 Skill 版本，可用于安装、比较和整体回退。
 
-本次 v1.0.6 重点升级：Growth Diagnosis / DATA CONTRACT、Product Deconstruction、Consumer Value Expansion、Product vs Concept vs Expression Option、功能成分与宣称预检、概念测试设计，以及 Hub 的局部任务入口和 Proposal 的 Evidence Trace / Artifact QA。保留 1 Hub + 4 Specialists，不在通用 Skill 中硬编码具体客户或商业案例。
+**v1.0.9 / Creative v2.6**：定向升级案例研究能力。新增 Explore / Research Atlas 两种入口、Coverage Gap Audit、Brand Job → Consumer Value / Mechanism Dependency 深拆，以及正式 Casebook 的真实图片嵌入和离线文件 QA。**不引入候选案例固定三级分类**；保持 Human Insight → Creative Spark → Selection → Concept Development 原有方法不变。v1.0.7–v1.0.8 为本轮文档及 Skill 同步过程的历史快照。
+
+**此前 v1.0.6**：升级 Growth Diagnosis / DATA CONTRACT、Product Deconstruction、Consumer Value Expansion、Product vs Concept vs Expression Option、功能成分与宣称预检、概念测试设计，以及 Hub 的局部任务入口和 Proposal 的 Evidence Trace / Artifact QA。
 
 从 `v1.0.5` 起，Plugin 包新增 `VERSION_MANIFEST.json` 与安装后版本自检：安装版本与 GitHub 远端版本必须分开验证；无法实际读取 GitHub 时必须返回 `VERSION CHECK: NOT AVAILABLE`，不得根据旧对话、README 或记忆推断。
 
