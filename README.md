@@ -34,7 +34,7 @@
 | --- | --- | --- | --- |
 | [Project Hub](./project-hub/SKILL.md) | v1.10 | 新项目、阶段切换、重要 Review 后 | 管理项目状态、共享协议与交接；判断当前在哪里、下一步该找哪个专业 Specialist |
 | [Brief Discovery Specialist](./brief-discovery-specialist/SKILL.md) | v1.25 | 刚收到 Brief、问题定义或关键前提不清楚 | **先研究市场、竞争、用户行为与品牌资产**；再理解客户目标和提出 Brief 的动机；最后诊断现实与客户期待的落差，形成有证据的解题判断与机会方向 |
-| [Creative Exploration Specialist](./creative-exploration-specialist/SKILL.md) | v2.6 | 问题基本清楚，需要寻找传播创意解法，或已有 Idea Seed 需要继续做强 | 用真实跨界案例打开参考系，筛选并发展 Idea；选中后先做 Concept Development，再进入 Execution / IMC |
+| [Creative Exploration Specialist](./creative-exploration-specialist/SKILL.md) | v2.6.1 | 问题基本清楚，需要寻找传播创意解法，或已有 Idea Seed 需要继续做强 | 用真实跨界案例打开参考系，筛选并发展 Idea；选中后先做 Concept Development，再进入 Execution / IMC |
 | [Product Innovation Specialist](./product-innovation-specialist/SKILL.md) | v1.5 | 需要探索产品 / SKU / 配方 / 风味 / 功能 / 包装 / 规格等创新 | 用真实市场案例和可衡量结果筛选创新机制，形成可测试的产品创新方向与假设 |
 | [Proposal Development Specialist](./proposal-development-specialist/SKILL.md) | v1.15 | 已有 Strategy / Idea / Innovation Direction，需要形成完整提案文件 | 用 Storyline 压力测试并发展 Solution；证据状态必须保留到标题与文案，最终形成可直接进入 PPT / PDF 的提案内容 |
 
@@ -125,7 +125,7 @@ Brief Discovery
 
 ## 两个探索 Specialist 为什么拆开
 
-### Creative Exploration Specialist v2.6
+### Creative Exploration Specialist v2.6.1
 
 专门研究：
 - Campaign / Communication
@@ -158,7 +158,7 @@ CREATIVE REVIEW
 
 > **不是取消 Idea，而是推迟 Idea。**
 
-ROUND 1 提供 **EXPLORE（少量深拆）/ RESEARCH ATLAS（先广搜、查遗漏、再精选深拆）** 两种入口：只在用户要求系统案例研究时做 Search Coverage / Gap Audit，不新增固定案例分级。Case Anatomy 加强 **Brand Job → Consumer Value** 和成立条件的迁移边界；Casebook 的 PDF / HTML 要核实真实执行图已实际嵌入而非只贴 URL，缺图不能冒充完整交付。
+ROUND 1 提供 **EXPLORE（少量深拆）/ RESEARCH ATLAS（先广搜、查遗漏、再精选深拆）** 两种入口：只在用户要求系统案例研究时做 Search Coverage / Gap Audit，按研究价值选出值得深拆的案例。Case Anatomy 关注 **Brand Job → Audience Value** 与机制成立的条件；Casebook 的 PDF / HTML 要核实真实执行图已实际嵌入而非只贴 URL，缺图不能冒充完整交付。
 
 ROUND 1 先用案例打开空间，用户做 Spark Calibration；ROUND 2 不只是继续找案例，而要把研究推进到更具体的 **Human Insight → Creative Spark**。Creative Spark 是「这里可能有件值得做的事」，还不是 Idea。**正式案例必须同时带真实执行视觉 + 可追溯来源链接**，缺图或缺链接的案例只进入 TO SOURCE / BACKUP。
 
@@ -255,7 +255,7 @@ Brief 结束时应明确下一步属于：
 
 ### 3. Creative Exploration Specialist
 
-> 请按 Creative Exploration Specialist v2.6 开始 ROUND 1。先根据当前 Creative Problem 寻找跨界真实案例并拆机制，不要直接生成 Idea。案例之后停下来做 Spark Calibration；下一轮继续找 Human Insight 和 Creative Spark，再进入 Selection。
+> 请按 Creative Exploration Specialist v2.6.1 开始 ROUND 1。先根据当前 Creative Problem 寻找跨界真实案例并拆机制，不要直接生成 Idea。案例之后停下来做 Spark Calibration；下一轮继续找 Human Insight 和 Creative Spark，再进入 Selection。
 
 ROUND 3 把选中机制变成具体 Idea Seed；如果已经有 KEEP 的 Idea 雏形，也可以直接进入 Concept Development，先优化 Concept，再决定是否发展 Execution / IMC。
 
@@ -389,7 +389,7 @@ Project Hub 是共享协议唯一原文。
 
 - Project Hub **v1.10**
 - Brief Discovery Specialist **v1.25**
-- Creative Exploration Specialist **v2.6**
+- Creative Exploration Specialist **v2.6.1**
 - Product Innovation Specialist **v1.5**
 - Proposal Development Specialist **v1.15**
 
