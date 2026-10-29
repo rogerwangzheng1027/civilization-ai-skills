@@ -1,5 +1,5 @@
 {
-  "version": "1.8",
+  "version": "1.9",
   "purpose": "Cross-skill regression assertions for shared protocol consistency.",
   "assertions": [
     {
@@ -189,7 +189,10 @@
       "id": "P19",
       "rule": "Product Innovation runtime handoff must use CROSS-WORKSTREAM SIGNALS and must not emit legacy CREATIVE SIGNAL or PRODUCT INNOVATION SIGNAL field names.",
       "paths": [
+        "project-hub/SKILL.md",
+        "product-innovation-specialist/SKILL.md",
         "product-innovation-specialist/test-prompts.json",
+        "scripts/build_plugin_distribution.py",
         "tests/protocol-consistency.json"
       ]
     },
@@ -235,6 +238,22 @@
         "README.md",
         "QUICK_START.md",
         "tests/protocol-consistency.json"
+      ]
+    },
+    {
+      "id": "P25",
+      "rule": "Product Innovation checks the alignment of consumer promise, experienced benefit, product evidence and feasibility at Selection without creating a fourth round; distinguish missing proof from proven impossibility and preserve user Selection Authority.",
+      "paths": [
+        "product-innovation-specialist/SKILL.md",
+        "product-innovation-specialist/test-prompts.json"
+      ]
+    },
+    {
+      "id": "P26",
+      "rule": "Brief Discovery checks original definitions and applicability of externally named frameworks and terminology, distinguishes client usage from external source meaning, and does not invent an equivalent theory or treat verified definition as proof of business applicability.",
+      "paths": [
+        "brief-discovery-specialist/SKILL.md",
+        "brief-discovery-specialist/test-prompts.json"
       ]
     }
   ]
