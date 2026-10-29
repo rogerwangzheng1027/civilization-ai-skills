@@ -82,6 +82,20 @@ def validate_version_manifest(plugin_version: str) -> None:
         raise SystemExit("VERSION_MANIFEST verification_rule mismatch")
 
 
+def validate_handoff_contract() -> None:
+    """Fail packaging if a Specialist reintroduces an obsolete active handoff field."""
+    hub = (ROOT / "project-hub/SKILL.md").read_text(encoding="utf-8")
+    product = (ROOT / "product-innovation-specialist/SKILL.md").read_text(encoding="utf-8")
+    if "## CROSS-WORKSTREAM SIGNALS" not in hub:
+        raise SystemExit("Missing canonical CROSS-WORKSTREAM SIGNALS in Project Hub")
+    if not re.search(r"(?m)^> \*\*CROSS-WORKSTREAM SIGNALS\*\*", product):
+        raise SystemExit("Product must hand off using the canonical CROSS-WORKSTREAM SIGNALS field")
+    if not re.search(r"(?m)^> - TO CREATIVE：POSSIBLE / NONE｜why：", product):
+        raise SystemExit("Product must use Project Hub's TO CREATIVE signal structure")
+    if re.search(r"(?m)^> \*\*(?:CREATIVE SIGNAL|PRODUCT INNOVATION SIGNAL)[：:]", product):
+        raise SystemExit("Obsolete Product handoff field found")
+
+
 def main() -> None:
     manifest = json.loads((PKG / "plugin.json").read_text(encoding="utf-8"))
     assert manifest["name"] == "civilization-ai-specialists"
@@ -90,6 +104,7 @@ def main() -> None:
         raise SystemExit("Plugin version must be MAJOR.MINOR.PATCH")
 
     validate_version_manifest(version)
+    validate_handoff_contract()
 
     payload: dict[str, bytes] = {}
     for destination, source in FILES.items():

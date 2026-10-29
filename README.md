@@ -33,9 +33,9 @@
 | Skill | 当前版本 | 什么时候用 | 核心作用 |
 | --- | --- | --- | --- |
 | [Project Hub](./project-hub/SKILL.md) | v1.10 | 新项目、阶段切换、重要 Review 后 | 管理项目状态、共享协议与交接；判断当前在哪里、下一步该找哪个专业 Specialist |
-| [Brief Discovery Specialist](./brief-discovery-specialist/SKILL.md) | v1.25 | 刚收到 Brief、问题定义或关键前提不清楚 | **先研究市场、竞争、用户行为与品牌资产**；再理解客户目标和提出 Brief 的动机；最后诊断现实与客户期待的落差，形成有证据的解题判断与机会方向 |
+| [Brief Discovery Specialist](./brief-discovery-specialist/SKILL.md) | v1.26 | 刚收到 Brief、问题定义或关键前提不清楚 | **先研究市场、竞争、用户行为与品牌资产**；再理解客户目标和提出 Brief 的动机；最后诊断现实与客户期待的落差，形成有证据的解题判断与机会方向 |
 | [Creative Exploration Specialist](./creative-exploration-specialist/SKILL.md) | v2.6.1 | 问题基本清楚，需要寻找传播创意解法，或已有 Idea Seed 需要继续做强 | 用真实跨界案例打开参考系，筛选并发展 Idea；选中后先做 Concept Development，再进入 Execution / IMC |
-| [Product Innovation Specialist](./product-innovation-specialist/SKILL.md) | v1.5 | 需要探索产品 / SKU / 配方 / 风味 / 功能 / 包装 / 规格等创新 | 用真实市场案例和可衡量结果筛选创新机制，形成可测试的产品创新方向与假设 |
+| [Product Innovation Specialist](./product-innovation-specialist/SKILL.md) | v1.6 | 需要探索产品 / SKU / 配方 / 风味 / 功能 / 包装 / 规格等创新 | 用真实市场案例和可衡量结果筛选创新机制，形成可测试的产品创新方向与假设 |
 | [Proposal Development Specialist](./proposal-development-specialist/SKILL.md) | v1.15 | 已有 Strategy / Idea / Innovation Direction，需要形成完整提案文件 | 用 Storyline 压力测试并发展 Solution；证据状态必须保留到标题与文案，最终形成可直接进入 PPT / PDF 的提案内容 |
 
 一句话记住：
@@ -48,7 +48,9 @@ AI 应该主动给出 **CURRENT BEST JUDGMENT**，必要时可以沿最值得推
 
 只有用户 / 团队 / 客户明确选择，或上游 Project State 已可靠记录为已选时，才进入 `SELECTED DIRECTIONS`。用户只说“继续”不算选择。
 
-## Brief Discovery v1.25：先理解现实，再理解 Brief
+## Brief Discovery v1.26：先理解现实，再理解 Brief
+
+引用外部理论、研究模型或专业术语时，先核实原始定义与适用条件，区分客户用法和原义，不能以自行推断替代。该检查只在影响解题判断时触发。
 
 **不要先用客户的 Brief 定义市场，再回头寻找能证明它的资料。** 新版要求 AI 在评价 Brief 前，先建立相对独立的外部现实基准，然后才理解客户需求及其背后的商业动机。
 
@@ -166,7 +168,9 @@ Selection Gate 保留三个 Viability Checkpoints，但它们是检查点，不�
 
 完成 Selection 后，ROUND 3 对 KEEP 或条件性推进的方向先形成**参与结构 / 品牌动作真正不同的候选 Idea**。选中 Idea Seed 后进入 **Concept Development**：先把 Human Truth、Brand Right、Task / Moment Role、Concept Meaning、Expression System 与 Creative Requirements 做强；已有角色、联名、包装、活动等只作为 Execution Hypotheses，不因已经具体就自动向下发展。只有 Concept Ready 后才进入完整 Execution / IMC。
 
-### Product Innovation Specialist v1.5
+### Product Innovation Specialist v1.6
+
+新增轻量 **Promise → Experience → Proof Fit** 一致性检查：不把概念利益直接当实际体验或产品事实，区分已知不可行与尚待验证。跨职能交接统一使用 Hub 的 `CROSS-WORKSTREAM SIGNALS`。
 
 专门研究：
 - Product / SKU
@@ -201,7 +205,7 @@ TESTABLE HYPOTHESIS / PROOF NEEDED
 
 Product Innovation 不自动进入 Campaign / IMC。产品方向基本锁定、且明确需要传播探索时，再进入 Creative Exploration。
 
-v1.5 继续保留 Result Scope / Evidence Quality / Causality 这些硬规则，但用户可见输出会先把产品机会讲成人话：谁为什么会想买、产品到底改了什么、吃到 / 用到时有什么不同，再补 Consumer Job、Innovation Mechanism 与证据。Product 内部的用户校准环节也统一改为 Spark Calibration，避免与 Brief 的 Human Spark 混淆。
+v1.6 继续保留 Result Scope / Evidence Quality / Causality 这些硬规则，但用户可见输出会先把产品机会讲成人话：谁为什么会想买、产品到底改了什么、吃到 / 用到时有什么不同，再补 Consumer Job、Innovation Mechanism 与证据。Product 内部的用户校准环节也统一改为 Spark Calibration，避免与 Brief 的 Human Spark 混淆。
 
 ## 安装
 
@@ -246,7 +250,7 @@ proposal-development-specialist/SKILL.md
 
 ### 2. Brief Discovery Specialist
 
-> 请按 Brief Discovery Specialist v1.25 工作。先根据项目范围独立研究市场发展、竞争趋势、消费者行为及品牌背景与资产；再完整阅读 Brief、会议材料，理解客户真正的需求和提出这道题的动机；最后分析与现实的关键落差，形成有证据的判断。不要先让我回答一堆问题，默认逐轮推进。
+> 请按 Brief Discovery Specialist v1.26 工作。先根据项目范围独立研究市场发展、竞争趋势、消费者行为及品牌背景与资产；再完整阅读 Brief、会议材料，理解客户真正的需求和提出这道题的动机；最后分析与现实的关键落差，形成有证据的判断。不要先让我回答一堆问题，默认逐轮推进。
 
 Brief 结束时应明确下一步属于：
 - Creative Exploration
@@ -261,7 +265,7 @@ ROUND 3 把选中机制变成具体 Idea Seed；如果已经有 KEEP 的 Idea �
 
 ### 4. Product Innovation Specialist
 
-> 请按 Product Innovation Specialist v1.5 开始 ROUND 1。寻找真实产品创新案例，优先验证市场结果，并区分 Result Scope、Evidence Quality 与 Causality。案例之后停下来做 Spark Calibration；输出方向时先讲清谁为什么会想买、产品哪里变了、体验哪里不同。
+> 请按 Product Innovation Specialist v1.6 开始 ROUND 1。寻找真实产品创新案例，优先验证市场结果，并区分 Result Scope、Evidence Quality 与 Causality。案例之后停下来做 Spark Calibration；输出方向时先讲清谁为什么会想买、产品哪里变了、体验哪里不同。
 
 ROUND 3 把选中机制变成可测试的产品创新方向，而不是传播方案。
 
@@ -388,9 +392,9 @@ Project Hub 是共享协议唯一原文。
 ## 当前版本
 
 - Project Hub **v1.10**
-- Brief Discovery Specialist **v1.25**
+- Brief Discovery Specialist **v1.26**
 - Creative Exploration Specialist **v2.6.1**
-- Product Innovation Specialist **v1.5**
+- Product Innovation Specialist **v1.6**
 - Proposal Development Specialist **v1.15**
 
 更新通用 Skill 时，优先根据真实工作流测试抽象规则；**具体客户、品牌、人物、Campaign、产品和项目内容不写入通用 Skill**。
