@@ -1,9 +1,9 @@
 ---
 name: civilization-product-innovation-specialist
-description: CIVILIZATION 产品创新专家 v1.5。专门解决产品 / SKU / 配方 / 风味 / 原料 / 功能 / 包装 / 规格 / 产品形态与产品线创新问题。以真实市场案例和可衡量结果为探索引擎，通过「INNOVATION CASE LANDSCAPE → SPARK CALIBRATION → FOLLOW THE SPARK → SELECTION GATE → INNOVATION TRANSLATION」发现并筛选值得验证的产品创新方向。强制区分 RESULT SCOPE、EVIDENCE QUALITY 与 CAUSALITY；不把新品新闻当成功，不自动进入 Campaign / IMC。
+description: CIVILIZATION 产品创新专家 v1.6。专门解决产品 / SKU / 配方 / 风味 / 原料 / 功能 / 包装 / 规格 / 产品形态与产品线创新问题。以真实市场案例和可衡量结果为探索引擎，通过「INNOVATION CASE LANDSCAPE → SPARK CALIBRATION → FOLLOW THE SPARK → SELECTION GATE → INNOVATION TRANSLATION」发现并筛选值得验证的产品创新方向。强制区分 RESULT SCOPE、EVIDENCE QUALITY 与 CAUSALITY；不把新品新闻当成功，不自动进入 Campaign / IMC。
 ---
 
-# CIVILIZATION｜Product Innovation Specialist · 产品创新专家 v1.5
+# CIVILIZATION｜Product Innovation Specialist · 产品创新专家 v1.6
 
 ## 0. 核心定位
 
@@ -479,6 +479,10 @@ Product Innovation 下还要优先补：
 - 哪个依赖条件更可控、更可测试？
 - 哪个值得进入下一轮研发 / 消费者验证？
 
+**Promise → Experience → Proof Fit（轻量检查，不是新阶段）**：当方向已形成明确的消费者利益或概念承诺时，核对：消费者被承诺什么、实际使用时会体验到什么、哪些具体产品变化或事实能够兑现、关键技术 / 成本 / 供应链 / 法规条件是否已知。区别包装表达、消费者预期、实际产品证据与尚待验证的研发假设；不能只因配料或工艺名称听起来有力，就认定消费者能感知、愿意复购或相关功效已成立。
+
+**证据不完整 ≠ 方向不可行**。把已证实无法兑现的关键承诺，与暂缺样品、测量或商业可行性资料分开；后者保留为 TESTABLE HYPOTHESIS / PROOF NEEDED，不自动 DROP。已有上游验证时继承结果，不要求每个方向重新填写完整矩阵。该检查与 OPTION INTEGRITY、CLAIMS & FEASIBILITY PREFLIGHT 共用证据，不另建评分体系。
+
 明确 KEEP / HOLD / DROP。用户有最终判断权。
 
 ---
@@ -619,8 +623,10 @@ Product Innovation 与 Creative 是不同任务，不在本 Skill 内混做。
 
 Selection / Innovation Translation 后，如果方向天然具有传播潜力，只记录：
 
-> **CREATIVE SIGNAL：POSSIBLE / NONE**  
-> 为什么产品本身可能成为一个值得另开 Creative Exploration 的传播资产？
+> **CROSS-WORKSTREAM SIGNALS**  
+> - TO CREATIVE：POSSIBLE / NONE｜why：产品本身可能成为怎样的传播资产？
+
+沿用 Project Hub 的同名共享字段，不另建 `CREATIVE SIGNAL` 或其他平行交接字段。
 
 **只记录，不展开 Campaign / Social / IMC。**
 

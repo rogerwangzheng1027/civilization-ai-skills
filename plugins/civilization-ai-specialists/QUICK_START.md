@@ -24,13 +24,13 @@
 
 ```text
 刚收到 Brief、需要先理解市场和品牌，或问题尚未解清楚
-→ Brief Discovery Specialist v1.25
+→ Brief Discovery Specialist v1.26
 
 问题已清楚，需要传播 Idea
 → Creative Exploration Specialist
 
 问题已清楚，需要产品 / SKU / 配方 / 风味 / 功能等创新
-→ Product Innovation Specialist v1.5
+→ Product Innovation Specialist v1.6
 
 已有 Strategy / Idea / Innovation Direction，需要形成完整提案文件
 → Proposal Development Specialist v1.15
@@ -50,7 +50,9 @@ AI 可以主动推荐最值得推进的方向，也可以在没有明确否决�
 
 > **“继续” ≠ “我选择这个方向”。**
 
-## Brief Discovery Specialist v1.25｜先研究现实，再分析 Brief
+## Brief Discovery Specialist v1.26｜先研究现实，再分析 Brief
+
+若 Brief 引用了外部模型或专业术语，先核实定义及适用边界，不把 AI 自创解释当成原始理论；只查与决策有关的概念。
 
 ```text
 市场发展、竞争趋势、消费者行为与品牌背景/资产
@@ -69,7 +71,7 @@ Human Spark → Brand Belief → Brand Role → Product / Offering Truth → Com
 
 直接使用：
 
-> 请按 Brief Discovery Specialist v1.25 开始。先独立研究市场、竞争、消费者与品牌资产，再分析我的 Brief、客户动机和现实差距。品牌策略类任务请继续推到 Human Spark、Brand Logic 与 Positioning Difference；不要先让我填问卷，也不要提前生成 Idea / IMC。
+> 请按 Brief Discovery Specialist v1.26 开始。先独立研究市场、竞争、消费者与品牌资产，再分析我的 Brief、客户动机和现实差距。品牌策略类任务请继续推到 Human Spark、Brand Logic 与 Positioning Difference；不要先让我填问卷，也不要提前生成 Idea / IMC。
 
 ## Creative Exploration Specialist v2.6.1
 
@@ -129,7 +131,9 @@ Brief、Creative、Product Innovation、Proposal 的用户可见输出共同参�
 - 少用 AI 套话和咨询黑话；
 - 框架留在底层，不把框架感全部倒给用户或客户。
 
-## Product Innovation Specialist v1.5
+## Product Innovation Specialist v1.6
+
+选产品方向时轻量核对承诺、实际使用体验、产品事实与可行性；不以尚缺研发证明自动否决有潜力的方向。跨职能信号只写入 Hub 的 `CROSS-WORKSTREAM SIGNALS`。
 
 ```text
 INNOVATION CASE LANDSCAPE

@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "civilization-ai-specialists",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "CIVILIZATION AI 专家协作系统：1 个 Project Hub + 4 个独立 Specialists，先研究现实，再解题、探索创意、产品创新和发展提案。",
   "author": {
     "name": "CIVILIZATION",

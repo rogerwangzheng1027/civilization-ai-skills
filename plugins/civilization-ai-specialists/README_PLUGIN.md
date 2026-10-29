@@ -9,9 +9,9 @@ The package contains exact Git blobs from the five original SKILL.md files, plus
 ## Five skills
 
 - `skills/project-hub/SKILL.md` — v1.10
-- `skills/brief-discovery-specialist/SKILL.md` — v1.25
+- `skills/brief-discovery-specialist/SKILL.md` — v1.26
 - `skills/creative-exploration-specialist/SKILL.md` — v2.6.1
-- `skills/product-innovation-specialist/SKILL.md` — v1.5
+- `skills/product-innovation-specialist/SKILL.md` — v1.6
 - `skills/proposal-development-specialist/SKILL.md` — v1.15
 
 Project Hub remains the single source for shared SOURCE × STATUS, Handoff, and version/update protocols. Every Specialist retains its own distinct methodology. The shared language rules are at `skills/LANGUAGE_CONTROL.md`, preserving original relative Markdown links.
@@ -49,12 +49,12 @@ Never claim that GitHub was checked when it was not actually read.
 ```text
 project-hub/SKILL.md                          05fc52a73721dc64c736906eb29043867b9b977a
 project-hub/PROJECT_STATE_TEMPLATE.md         1051ba6be86923a5b602bbd5bc036738c8cba941
-brief-discovery-specialist/SKILL.md           27512ed6e669efac73cf037a4fc214063e3ca679
+brief-discovery-specialist/SKILL.md           8cc2111819c543f8a496228382559c5fedd89fb1
 creative-exploration-specialist/SKILL.md      a5b0fa685128cd573fe8ec33f6a75289aba95e37
-product-innovation-specialist/SKILL.md        e65f184c924e363ded14e56b77c25e165a9a8291
+product-innovation-specialist/SKILL.md        7ac0f58ba818638d7f55a6e3426316d1c49b8de1
 proposal-development-specialist/SKILL.md      7c0d81ea4c8c3aae4f67c7b436e1d33611296cf0
 LANGUAGE_CONTROL.md                           a0e8cf9f83947c33c59f2ec69954afc4f234bc29
-QUICK_START.md                                9b318960a16a3ba20e6ca21b1fdb0c752c17d8cd
+QUICK_START.md                                9a5d823237b0f50b5f50c7f37f94c7a2c305e758
 INSTALL_CHATGPT.md                            6588a530ccc26581217f56d79805210ce388f798
 LICENSE                                       baee873b679e36a4123c83b8a29e0fb17fad14eb
 ```

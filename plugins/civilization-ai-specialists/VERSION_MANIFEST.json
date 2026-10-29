@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
   "plugin": "civilization-ai-specialists",
-  "plugin_version": "1.0.11",
+  "plugin_version": "1.0.12",
   "canonical_source": "https://github.com/rogerwangzheng1027/civilization-ai-skills",
   "canonical_branch": "main",
   "skills": {
     "project-hub": "1.10",
-    "brief-discovery-specialist": "1.25",
+    "brief-discovery-specialist": "1.26",
     "creative-exploration-specialist": "2.6.1",
-    "product-innovation-specialist": "1.5",
+    "product-innovation-specialist": "1.6",
     "proposal-development-specialist": "1.15"
   },
   "verification_rule": "Read VERSION_MANIFEST.json or the actual installed SKILL.md files. Never infer installed or GitHub versions from memory, README text, or conversation context."
