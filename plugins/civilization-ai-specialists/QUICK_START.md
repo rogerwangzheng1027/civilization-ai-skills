@@ -73,7 +73,7 @@ Human Spark → Brand Belief → Brand Role → Product / Offering Truth → Com
 
 > 请按 Brief Discovery Specialist v1.26 开始。先独立研究市场、竞争、消费者与品牌资产，再分析我的 Brief、客户动机和现实差距。品牌策略类任务请继续推到 Human Spark、Brand Logic 与 Positioning Difference；不要先让我填问卷，也不要提前生成 Idea / IMC。
 
-## Creative Exploration Specialist v2.6.1
+## Creative Exploration Specialist v2.6.2
 
 ```text
 CASE LANDSCAPE
@@ -99,7 +99,7 @@ CREATIVE REVIEW
 
 R1 不急着出 Idea；正式案例必须同时带**真实执行视觉 + 可追溯 SOURCE LINK**，缺图或缺链接的案例只能放 TO SOURCE / BACKUP。
 
-案例研究分两种入口：**EXPLORE** 少量高启发深拆，**RESEARCH ATLAS** 按明确研究范围系统广搜、查覆盖缺口，再精选机制案例。深入比较时看 **BRAND JOB → AUDIENCE VALUE** 与机制成立条件；要求交付 PDF / 离线 HTML 时必须核实**真实案例图片实际嵌入**、链接可点、离线可用，不把示意图或外链算作完成。EXPLORE 在案例之后进入 Spark Calibration；RESEARCH ATLAS 按用户指定范围先完成研究交付。
+案例研究分两种入口：**EXPLORE** 少量高启发深拆，**RESEARCH ATLAS** 按明确研究范围系统广搜、查覆盖缺口，再精选机制案例。深入比较时看 **BRAND JOB → AUDIENCE VALUE** 与机制成立条件；要求交付 PDF / 离线 HTML 时必须核实**真实案例图片实际嵌入**、链接可点、离线可用，不把示意图或外链算作完成。EXPLORE 在案例之后进入 Spark Calibration；RESEARCH ATLAS 按用户指定范围先完成研究交付。仅在竞争差异对 Idea 成立关键时检查继承资料和必要事实缺口；内容、叙事、感官型任务不强制创造互动。
 
 Selection Gate 的三个 Viability Checkpoints 是检查点，不是三道必须全部清零的门。AMBER 可以条件性推进；只有明确 RED 才停止。用户只说「继续」时，AI 应给出自己的推荐并继续，不反复把选择题丢回用户。
 
