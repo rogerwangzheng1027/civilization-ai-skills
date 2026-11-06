@@ -14,17 +14,19 @@
 | --- | --- |
 | Project Hub | v1.10 |
 | Brief Discovery | v1.26 |
-| Creative Exploration | v2.6.1 |
+| Creative Exploration | v2.6.2 |
 | Product Innovation | v1.6 |
 | Proposal Development | v1.15 |
 
 当前完整系统快照：
 
-> **`civilization-ai-specialists-v1.0.12`**
+> **`civilization-ai-specialists-v1.0.13`**
 
 该 Release 已包含以上五个当前 Skill 版本，可用于安装、比较和整体回退。
 
-**v1.0.12 / Brief v1.26 + Product v1.6**：保持原三轮工作流。Brief 新增对引用理论/模型/术语的原义保真；Product 在 Selection 轻量核对概念承诺、体验、证据与可行性，修复交接字段为 Hub 统一的 CROSS-WORKSTREAM SIGNALS，并在 Plugin 构建中新增静态协议校验。无客户项目素材写入通用 Skill。
+**v1.0.13 / Creative v2.6.2**：轻量补强关键竞争依据的继承与缺口核查；根据传播任务评估叙事、内容、感官、品牌行动或互动机制，避免强制添加参与环节。保留原有 Explore / Research Atlas、Selection、Concept Development 与真实案例交付 QA；相关回归测试采用跨行业通用情景。实际文件嵌入与离线检查另以制作工具验证，不通过增加 Skill 限制解决。
+
+**此前 v1.0.12 / Brief v1.26 + Product v1.6**：保持原三轮工作流。Brief 新增对引用理论/模型/术语的原义保真；Product 在 Selection 轻量核对概念承诺、体验、证据与可行性，修复交接字段为 Hub 统一的 CROSS-WORKSTREAM SIGNALS，并在 Plugin 构建中新增静态协议校验。无客户项目素材写入通用 Skill。
 
 **此前 v1.0.11 / Creative v2.6.1**：对案例研究规则和测试样本进行通用性清理，去掉特定项目语境、历史纠偏痕迹与不必要的反向禁令；保留 Explore / Research Atlas、Coverage Gap Audit、Brand Job → Audience Value、可迁移条件及真实素材交付 QA。v1.0.10 为本轮说明文件先行同步的历史快照。
 
