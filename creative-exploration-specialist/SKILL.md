@@ -278,255 +278,54 @@ Human Insight、Creative Spark、文化观察与真实案例**可以**在这里�
 
 ---
 
-# 14. CONCEPT DEVELOPMENT｜先把 Idea 做强，再做执行
+# 14. CONCEPT DEVELOPMENT｜把已经有新意的 Idea 做强
 
-这是 Selection / Idea Translation 之后的**概念深化阶段**。
+只对已值得推进的 Idea 使用。目标是**让创意更准确、更有力量、更适合品牌与任务**，不是反过来用一套 Strategy Story 证明普通执行也很伟大。
 
-目标不是继续问：
+## 14.1 CORE IDEA 与 EXECUTION HYPOTHESES
 
-> “这个 Idea 还能做什么活动 / 联名 / 包装 / KOL / Social？”
+先判断最精彩、不能被替换的部分是什么。对于长期 Big Idea，要找到能反复产生新表达的核心；对于一部电影、一种声音、一场独立 Activation，**作品或事件本身也可以是完整 Idea**，不能因为没有宏大的传播平台就被降级。
 
-而是先回答：
+已有的角色、联名、影片、周边、媒介、线下活动、Social 等，只在它们属于本题的必要组成时保留。不因为具体执行已画出来就自动形成完整 IMC。
 
-> **“这个 Idea 到底是什么？为什么成立？哪里还不够强？怎样把它变成一个真正可持续、可拥有、可延展的 Creative Concept？”**
+## 14.2 只检验真正会影响方向的缺口
 
-## 14.1 先拆 CORE 与 EXECUTION HYPOTHESES
+- **IDEA CLARITY / LEAP**：一句话能否让人想象这件事？意外感是真实的还是靠形容词制造？
+- **AUDIENCE MOTIVATION**：受众为什么在乎、观看、记住或参与？事实与 AI 猜想分开。不要事后虚构 Human Truth。
+- **BRAND RIGHT**：什么产品 / 品牌事实或历史资产让这个创意有归属？若换成竞品同样成立，应想办法改变创意本身，而不是用文字强辩。
+- **PROBLEM FIT**：它究竟改善原任务中的什么；独特表达不能脱离问题。
+- **MEANING / BOUNDARY**：核心意涵明确吗？能否判断什么属于它、什么不属于？不用让一个词解释一切。
+- **FEASIBILITY / ETHICS**：重要资源、真实执行、受众负担、合规或权益是否有明显障碍？未证实条件应标 OPEN。
 
-面对一个已有 Idea Seed，先拆成两层：
+这些是**按需使用的压力测试**，不是让每个 Idea 逐格填写「洞察 / 品牌信念 / 社会情绪 / 传播动作」的固定答案。若某项只靠自圆其说才成立，要质疑 Idea 而不是补更长的解释。
 
-### CORE CONCEPT
-真正不能被拿掉的核心是什么？
+## 14.3 提纯或替换，不靠增加执行掩盖平庸
 
-它应尽量回答：
-- 最核心的人类动机 / tension 是什么？
-- 品牌在其中扮演什么角色？
-- 人为什么会在乎？
-- 如果去掉具体角色、IP、包装、活动、明星、媒介，Concept 还剩什么？
+- 核心有新意、表达还弱：可提出少量真正不同的**强化版本**，必要时写短片、情节、品牌行动或感官原型去试。
+- 核心无新意、只是合理：返回 #9，重新想，不为它加 360° IMC。
+- 同一 Idea 的不同媒体执行不是两个独立 Big Idea；若只是不同表达，明说层级即可。
+- 输出以用户实际需要为准：Refined Idea Board / Content Prototype / Activation Prototype / Concept Platform，不强制一律产出完整平台。
 
-### EXECUTION HYPOTHESES
-当前已经想到、甚至已经画出来的具体表现方式。
+## 14.4 Ready / Develop / Reopen
 
-例如：
-- mascot / virtual character；
-- partnership / collaboration；
-- packaging / merch；
-- film / content format；
-- KOL / creator；
-- activation / pop-up；
-- social mechanic；
-- visual device；
-- media behavior。
+- **CONCEPT READY**：对当前任务来说，创意核心清晰、问题相关、品牌有归属，关键假设可合理推进。
+- **CONCEPT NEEDS DEVELOPMENT**：有明显新意，但关键表达或成立条件需要继续打磨。
+- **CREATIVE REOPEN**：核心缺乏新意、与问题偏离或根本不成立；回到发散，**不要写更多辩护文本**。
 
-**已有执行 ≠ 已被证明的概念资产。**
+# 15. CREATIVE REVIEW｜像评审一样寻找真正的缺点
 
-> **Execution Gravity Guardrail：不得因为一个执行已经具体、好看、容易想象，就让它绑架 Concept Development。**
+对已精选的 Idea 做诚实审查，而不只是检查文档是否逻辑完整：
 
-这些执行只能暂存为 Hypotheses，等核心概念变强后再判断：
-- KEEP as execution；
-- REWORK；
-- HOLD；
-- DROP。
+- **First impression**：如果没有策略解释，这件事有什么令人印象深刻？
+- **Brand swap**：换成其他品牌，它是否几乎一样成立？如何通过创意动作而不是文案解释增加归属？
+- **Problem return**：回到原始 Brief，是否真的回应了那个问题？是否偷偷更换了任务？
+- **Anti-generic**：是不是换名字的挑战、快闪、联名、常见故事模板、空洞品牌态度或普通短片？
+- **Audience cost**：互动要评估参与负担；内容要评估注意力、观看与理解成本。不强制每个 Idea 都做互动。
+- **Missing leap**：如果目前只是一个正确的策略判断而不是可感知的 Idea，直接指出缺少 Creative Leap。
 
-## 14.2 Concept Pressure Test｜把 Idea Seed 压实
+不必要时不重开大范围发散；如果 Review 揭示了一个此前没尝试的关键解法，可以补一个新候选。任何新想法同样要遵守事实与品牌边界。
 
-至少检查以下维度；不要求机械逐项凑答案，但关键缺口必须指出。
-
-### A. CORE IDEA CLARITY
-一句话到底是什么？
-
-不是 slogan，不是执行描述，而是：
-
-> **这个 Idea 让品牌与人之间发生了什么新的、有意义的关系？**
-
-如果一句话只能描述某个具体玩法，Concept 可能仍停留在 execution。
-
-### B. HUMAN TRUTH / MOTIVATION
-人为什么真的在乎？
-
-区分：
-- 普遍人性；
-- 当前文化 / 行为信号；
-- 目标人群特有 tension；
-- AI 推断。
-
-如果 Human Truth 只是为了给现有执行找理由，必须指出。
-
-### C. BRAND RIGHT / OWNERSHIP
-为什么是这个品牌有资格说 / 做？
-
-检查：
-- 品牌历史；
-- 产品 / Offering truth；
-- 独特资产；
-- 使用行为；
-- 文化角色；
-- 资源 / 权益。
-
-关键测试：
-
-> **换成主要竞品，这个 Concept 还剩多少？**
-
-若几乎不变，需要继续强化 Brand Role，而不是用 Logo 或品牌名补归属感。
-
-### D. TASK / MOMENT NECESSITY
-为什么是**这一次任务 / 这个时点 / 这个场景**需要这个 Concept？
-
-任务与语境必须实质影响 Idea 的出发点、参与方式或品牌作用，而不能只是一个可以任意替换的背景标签。
-
-关键测试：
-
-> **如果去掉这次特殊任务或时点，这个 Idea 是否完全一样成立？**
-
-如果答案是“完全一样”，说明任务语境还没有成为 Idea 的发动机。
-
-### E. CONCEPT MEANING / SEMANTIC BOUNDARY
-核心词、主张或隐喻到底意味着什么？
-
-明确：
-- 它首先指什么；
-- 可以自然延伸到什么；
-- 延伸到哪里开始变成万能话术；
-- 什么不属于这个 Concept。
-
-避免一个词因为“什么都能解释”而失去专属意义。
-
-### F. EXPRESSION SYSTEM
-Concept 天然允许哪些表达关系？
-
-例如：
-- Brand says / People say；
-- brand action / consumer response；
-- individual / community；
-- fixed core / variable expression。
-
-这里定义的是**表达结构**，不是具体媒介清单。
-
-### G. CREATIVE REQUIREMENTS
-未来任何 Execution 如果要属于这个 Concept，必须满足什么？
-
-写成 3–6 条可判断原则，例如：
-- 必须让某种行为真实发生；
-- 必须让品牌资产发挥作用；
-- 必须从产品 / 使用体验自然长出；
-- 必须让个体表达产生社会后果；
-- 不能只靠 celebrity / paid media 才成立。
-
-这些原则用于之后筛 Execution，而不是现在生成 Execution。
-
-## 14.3 Concept Variants｜允许强化版本，不允许换成执行方案
-
-如果当前 Idea Seed 有明显但可修的模糊点，可以提出 **2–3 个 Concept Variant**。
-
-Variant 必须仍然围绕**同一个核心 Idea Seed**，差异应来自：
-- Human Truth 的重心；
-- Brand Role；
-- task / moment 的意义；
-- concept meaning；
-- relationship / expression structure。
-
-不得用以下方式冒充 Concept Variant：
-- Variant A 做电影；
-- Variant B 做 Social；
-- Variant C 做联名；
-- 换明星；
-- 换一个角色；
-- 换媒介；
-- 同一个意思换三句 slogan。
-
-> **Concept Variant 是“这个 Idea 可以被理解成什么更强的版本”，不是“这个 Idea 可以做成哪些东西”。**
-
-## 14.4 Refined Concept Platform｜本阶段交付
-
-Concept Development 默认输出：
-
-> **IDEA SEED**｜当前选中的雏形  
-> **CORE IDEA**｜真正不可替代的核心  
-> **HUMAN TRUTH**｜人为什么在乎  
-> **BRAND RIGHT / ROLE**｜品牌为什么有资格、实际扮演什么角色  
-> **TASK / MOMENT ROLE**｜这次任务 / 时点为什么让 Concept 更成立  
-> **CONCEPT MEANING**｜核心语义及边界  
-> **EXPRESSION SYSTEM**｜品牌与人的表达关系 / 结构  
-> **CREATIVE REQUIREMENTS**｜未来执行必须满足的原则  
-> **EXECUTION HYPOTHESES**｜已有执行暂存：KEEP / REWORK / HOLD / DROP / UNASSESSED  
-> **OPEN QUESTIONS / PROOF NEEDED**｜还缺什么证据或判断  
-> **CURRENT BEST REFINED CONCEPT**｜当前最值得推进的概念版本
-
-不要为了“看起来完整”自动补：
-- IMC architecture；
-- partnership list；
-- merch list；
-- KOL list；
-- social content matrix；
-- launch calendar；
-- media plan。
-
-## 14.5 Concept Gate｜什么时候才允许进入 Execution / IMC
-
-完成 Concept Development 后，明确给出一个 Gate：
-
-### CONCEPT READY
-核心 Idea、Human Truth、Brand Right、Task/Moment Role 与 Concept Meaning 已基本成立，可以进入 Execution / IMC。
-
-### CONCEPT NEEDS DEVELOPMENT
-方向值得保留，但仍有关键概念缺口。继续留在 Concept Development，不往执行层逃。
-
-### CREATIVE REOPEN
-发现核心 Mechanism / Idea Seed 本身不够好，需要重新打开其他可能性。
-
-> **不能用“执行看起来很丰富”掩盖 Concept 仍然不清楚。**
-
----
-
-# 15. CREATIVE REVIEW｜Concept Ready 后再压力测试
-
-对每个 **CONCEPT READY / Current Best Refined Concept** 检查。Creative Review 的任务是进一步锐化 Concept，不是借 Review 偷跑执行：
-
-### De-media Test
-去掉 paid media、celebrity、hashtag、Campaign Film 后：
-
-> **Idea 本身还剩下什么真实价值、体验或行为？**
-
-纯内容任务则问：
-
-> **去掉媒介投放与明星光环后，内容是否仍值得主动看完、转述或记住？**
-
-### First-answer Rejection Loop
-如果只是：
-- 明星 + hashtag
-- 普通投票
-- 普通快闪
-- 普通打卡
-- 普通挑战
-- 漂亮视觉 + 模仿
-- 换品牌也成立的态度宣言
-
-继续追问：
-- 人为什么真的在乎？
-- 品牌改变了什么？
-- 这个机制有什么后果？
-- 什么让它不是普通 execution？
-
-默认只展示锐化后的 Idea。
-
-### MISSING IDEA OPPORTUNITY｜Review 后允许补空白
-
-Creative Review 不只负责淘汰。
-
-如果 Review 暴露出一个**清楚、重要、但当前候选完全没有覆盖**的 Human Motivation / Brand Action / participation structure，可以主动提出**一个新的 Idea Candidate**补这个空白。
-
-边界：
-- 只针对 Review 暴露的明确缺口；
-- 不重新大范围发散；
-- 不复活 HOLD / DROP；
-- 如果需要重新打开明显不同的 Mechanism Territory，触发 **CREATIVE REOPEN**。
-
-### 展示锐化过程｜可选
-
-默认只展示锐化后的 Idea。
-
-用户明确说“展示锐化过程”，或进行 A/B / 方法测试时，可显示：
-
-> 第一反应 → 为什么泛 → 锐化版 → 改了什么
+默认只展示经过锐化的表达；仅用户要求复盘或 A/B 测试时展示「初稿 → 问题 → 改动」。
 
 ---
 
@@ -534,7 +333,7 @@ Creative Review 不只负责淘汰。
 
 Creative 与 Product Innovation 是不同任务，不在本 Skill 内混做。
 
-但 Selection Gate 之后，如果某个 KEEP Idea 明显暴露出产品 / 服务创新机会，可以只记录：
+但真正选出值得推进的 Idea 后，如果明显暴露出产品 / 服务创新机会，可以只记录：
 
 > **CROSS-WORKSTREAM SIGNALS**  
 > **TO PRODUCT INNOVATION：POSSIBLE / NONE｜why**
@@ -547,12 +346,12 @@ Creative 与 Product Innovation 是不同任务，不在本 Skill 内混做。
 
 # 17. 什么时候进入完整 IMC
 
-默认 **Concept 未通过 Concept Gate 前，不做完整 IMC Architecture。**
+默认**没有足够强、已被团队选定的核心创意之前，不做完整 IMC Architecture。**
 
 只有以下情况之一成立才进入：
-- Concept Development 明确判断 **CONCEPT READY**，且用户确认继续；
+- 当前 Idea / Concept 已足够清晰、用户确认需要完整 IMC；
 - 当前任务本来就是延展一个已确认、已成熟的 Creative Concept；
-- 用户明确要求用少量 execution prototype 反向测试 Concept；此时只能作为 **PROBE / TEST EXECUTION**，不得直接包装成完整 IMC。
+- 用户明确要求用少量执行原型反向测试创意；此时作为 **PROBE / TEST EXECUTION**，不得直接包装成完整 IMC。
 
 然后才可以发展：
 - Brand Content
@@ -565,7 +364,7 @@ Creative 与 Product Innovation 是不同任务，不在本 Skill 内混做。
 - Partnership
 - IMC Architecture
 
-> **IMC 是成熟 Concept 的扩展，不是用执行丰富度弥补 Concept 不清楚。**  
+ > **IMC 是强 Idea 被选择后的扩展，不是用执行丰富度弥补创意平庸。**  
 > **Execution is downstream of concept strength.**
 
 ---
