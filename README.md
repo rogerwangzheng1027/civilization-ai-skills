@@ -33,7 +33,7 @@
 | Skill | 当前版本 | 什么时候用 | 核心作用 |
 | --- | --- | --- | --- |
 | [Project Hub](./project-hub/SKILL.md) | v1.11 | 新项目、阶段切换、重要 Review 后 | 管理项目状态、共享协议与交接；判断当前在哪里、下一步该找哪个专业 Specialist |
-| [Brief Discovery Specialist](./brief-discovery-specialist/SKILL.md) | v1.26 | 刚收到 Brief、问题定义或关键前提不清楚 | **先研究市场、竞争、用户行为与品牌资产**；再理解客户目标和提出 Brief 的动机；最后诊断现实与客户期待的落差，形成有证据的解题判断与机会方向 |
+| [Brief Discovery Specialist](./brief-discovery-specialist/SKILL.md) | v1.27 | 刚收到 Brief、问题定义或关键前提不清楚 | **先研究市场、竞争、用户行为与品牌资产**；再理解客户目标和提出 Brief 的动机；最后诊断现实与客户期待的落差，形成有证据的解题判断与机会方向 |
 | [Creative Exploration Specialist](./creative-exploration-specialist/SKILL.md) | v3.0 | 问题基本清楚，需要寻找传播创意解法，或已有 Idea Seed 需要继续做强 | 从原始问题和真实材料直接展开 OPEN CREATIVE LEAP，先给有差异的 Idea Seed；之后检验问题价值与品牌归属，按需深化或使用案例研究 |
 | [Product Innovation Specialist](./product-innovation-specialist/SKILL.md) | v1.6 | 需要探索产品 / SKU / 配方 / 风味 / 功能 / 包装 / 规格等创新 | 用真实市场案例和可衡量结果筛选创新机制，形成可测试的产品创新方向与假设 |
 | [Proposal Development Specialist](./proposal-development-specialist/SKILL.md) | v1.15 | 已有 Strategy / Idea / Innovation Direction，需要形成完整提案文件 | 用 Storyline 压力测试并发展 Solution；证据状态必须保留到标题与文案，最终形成可直接进入 PPT / PDF 的提案内容 |
@@ -48,45 +48,31 @@ AI 应该主动给出 **CURRENT BEST JUDGMENT**，必要时可以沿最值得推
 
 只有用户 / 团队 / 客户明确选择，或上游 Project State 已可靠记录为已选时，才进入 `SELECTED DIRECTIONS`。用户只说“继续”不算选择。
 
-## Brief Discovery v1.26：先理解现实，再理解 Brief
+## Brief Discovery v1.27：先理解市场竞争，再理解 Brief
 
-引用外部理论、研究模型或专业术语时，先核实原始定义与适用条件，区分客户用法和原义，不能以自行推断替代。该检查只在影响解题判断时触发。
-
-**不要先用客户的 Brief 定义市场，再回头寻找能证明它的资料。** 新版要求 AI 在评价 Brief 前，先建立相对独立的外部现实基准，然后才理解客户需求及其背后的商业动机。
+**先研究市场怎样运作、主要品牌怎样竞争、消费者怎样选择；再理解客户为什么提出这个 Brief，最后诊断问题。** 不围绕客户预设的竞争对手、TA、品类结论与解决方案去找佐证。
 
 ```text
-OUTSIDE-IN RESEARCH｜研究市场发展、竞争趋势、用户行为和品牌资产
-    ↓
-CLIENT INTENT｜理解客户真正的目标、提出 Brief 的原因与约束
-    ↓
-REALITY × INTENT GAP｜对照客户预期与现实，发现关键落差
-    ↓
-STRATEGIC JUDGMENT｜形成 Problem Landscape 与有证据边界的 Strategy / Opportunity Territory
+OUTSIDE-IN MARKET SYSTEM
+  → 市场演进、消费者选择、渠道与价格竞争
+  → 主要竞争者的定位 / 用户 / Offer / 营销 / 竞争表现
+  → 本品牌的相对竞争位置
+                  ↓
+INDEPENDENT PROBLEM LANDSCAPE
+  → 不受客户预设诊断影响，先识别真正值得解的问题
+                  ↓
+CLIENT INTENT + REALITY × INTENT GAP
+  → 客户为什么现在提这道题？看对了什么、忽略了什么？
+                  ↓
+STRATEGIC JUDGMENT + NEXT HANDOFF
+  → 形成有证据边界的问题定义、机会和决策建议
 ```
 
-三个 ROUND 保留，**AI先主动研究，用户只在关键判断处校准**。外部研究的四个视角是必做的基础功课，但研究深度按项目需要调整；不会要求每个项目都做行业白皮书。
+**竞争分析不是品牌名单 + Slogan + 新品新闻。** 必须在真实市场与购买情境中理解足以改变判断的主要品牌：其定位与品牌资产、目标及实际用户（如有数据）、主力产品与创新、价格渠道、代表性营销动作、竞争优势和真实表现。比较的是不同品牌如何争夺消费者选择，而不是把资料卡并排。研究对象、数量和篇幅由实际市场决定，不规定固定的六栏报告或竞品数量；缺数据保留 OPEN，不补造消费者认知或销售结果。
 
-品牌主张、产品计划、目标用户或沟通方向等 **只在客户实际提出、且对决策重要时** 才进行 Gap Diagnosis。不会假设每个 Brief 都有既定定位，也不会机械要求每个项目检查未来12个月的产品规划。深度品牌考古、医学或技术研究同样按实际问题触发，不是固定清单。
+三轮内部节奏保持，**用户不用先回答问卷**。对小型任务保持适度深度，但不能用简短结论代替实际研究。关键竞品分析应在 Brief Gap 判断之前完成；ROUND 2 只补会改变决策的更深问题，不倒过来决定该搜谁。
 
-新版明确要求，在进入 Strategy Selection 前回答：**外部研究究竟让我们发现了什么，改变了什么判断？** 没有新发现时继续查证最重要的盲区，或诚实保留证据缺口；不为“有洞察”制造结论。
-
-如果任务本身就是 Brand Restage / Repositioning / Brand Platform / Proposition，Brief 不再因为客户没有现成定位就跳过品牌逻辑。它会按需形成一条 **Brand Logic Bridge**：
-
-```text
-Human Spark
-  ↓
-Brand Belief
-  ↓
-Brand Role
-  ↓
-Product / Offering Truth
-  ↓
-Competitive Contrast
-  ↓
-Positioning Difference
-```
-
-Human Spark 是对真实 human tension 的策略综合，不是假装成消费者原话；Brand Belief 也不是 Human Insight。
+引用外部理论、研究模型或专业术语时核对原义与适用条件。品牌 Restage / Repositioning / Brand Platform 等任务按需形成 Brand Logic，但必须从消费者、竞争与品牌事实综合出来；**Human Spark 不是预选答案，也不是给 Creative 强制继承的一条推导链**。
 
 ## 新增的增长与产品创新判断
 
@@ -234,7 +220,7 @@ proposal-development-specialist/SKILL.md
 
 ### 2. Brief Discovery Specialist
 
-> 请按 Brief Discovery Specialist v1.26 工作。先根据项目范围独立研究市场发展、竞争趋势、消费者行为及品牌背景与资产；再完整阅读 Brief、会议材料，理解客户真正的需求和提出这道题的动机；最后分析与现实的关键落差，形成有证据的判断。不要先让我回答一堆问题，默认逐轮推进。
+> 请按 Brief Discovery Specialist v1.27 工作。先根据项目范围独立研究市场发展、竞争趋势、消费者行为及品牌背景与资产；再完整阅读 Brief、会议材料，理解客户真正的需求和提出这道题的动机；最后分析与现实的关键落差，形成有证据的判断。不要先让我回答一堆问题，默认逐轮推进。
 
 Brief 结束时应明确下一步属于：
 - Creative Exploration
@@ -376,7 +362,7 @@ Project Hub 是共享协议唯一原文。
 ## 当前版本
 
 - Project Hub **v1.11**
-- Brief Discovery Specialist **v1.26**
+- Brief Discovery Specialist **v1.27**
 - Creative Exploration Specialist **v3.0**
 - Product Innovation Specialist **v1.6**
 - Proposal Development Specialist **v1.15**
