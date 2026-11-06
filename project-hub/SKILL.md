@@ -1,9 +1,9 @@
 ---
 name: civilization-project-hub
-description: CIVILIZATION Project Hub v1.10。1 个 Hub + 4 个专业 Specialist 的入口与状态管理 Skill。负责建立或读取 PROJECT_STATE.md、管理 SOURCE × STATUS、HOLD / DROP、Reopen 与 Handoff，并判断下一步应进入 Brief Discovery / Creative Exploration / Product Innovation / Proposal Development 哪个专业 Skill。Hub 不做专业分析；共享协议以 Hub 为唯一原文，专业方法各自独立。
+description: CIVILIZATION Project Hub v1.11。1 个 Hub + 4 个专业 Specialist 的入口与状态管理 Skill。负责建立或读取 PROJECT_STATE.md、管理 SOURCE × STATUS、HOLD / DROP、Reopen 与 Handoff，并判断下一步应进入 Brief Discovery / Creative Exploration / Product Innovation / Proposal Development 哪个专业 Skill。Hub 不做专业分析；共享协议以 Hub 为唯一原文，专业方法各自独立。
 ---
 
-# CIVILIZATION｜Project Hub v1.10
+# CIVILIZATION｜Project Hub v1.11
 
 ## 0. 核心角色
 
@@ -292,10 +292,10 @@ Proposal 或其他下游 **不得擅自复活 HOLD / DROPPED / SUPERSEDED**。
 ### Exploration Specialist 的默认停顿
 
 **Creative Exploration**
-- ROUND 1 后强制停，做 Spark Calibration
-- ROUND 2 后默认停，进入 Selection Gate
-- 如果用户只说“继续”而没有明确 KEEP / HOLD / DROP，Creative 可以基于当前证据给出推荐判断，并在没有明确否决项时**条件性继续发展**；不得因为仍有 OPEN 证据就无限回到研究循环
-- 条件性继续不自动把方向写成 SELECTED；用户明确选择前，仍按 WORKING HYPOTHESIS 管理
+- **IDEA FIRST（默认）**：从已定义的问题与用户提供的真实材料直接进行 OPEN CREATIVE LEAP，先提交经过初筛的、有明显差异的 Idea Seed 供用户校准；不要求先交 CASE LANDSCAPE、Human Insight 或 Creative Spark
+- **RESEARCH ATLAS（按需）**：用户明确要求独立案例研究或 Casebook 时，先把研究交付完整；不强制转入 Idea Generation
+- 已有 Idea 直接深化；核心被否定时回到不同创意机制，不通过补策略解释维护弱 Idea
+- 用户只说“继续”时，Creative 可给出 CURRENT BEST JUDGMENT 并在没有明确否决项时**条件性继续发展**；不因 OPEN 无限调研，也不把 AI 推荐写成 SELECTED
 
 **Product Innovation**
 - ROUND 1 后强制停，做 Spark Calibration
@@ -355,22 +355,17 @@ Proposal 或其他下游 **不得擅自复活 HOLD / DROPPED / SUPERSEDED**。
 
 ## Creative → Proposal
 
-至少继承：
-- SELECTED DIRECTIONS
-- SELECTED IDEA / ONE-LINE IDEA
-- Human Spark（如上游已有）
-- Human Insight 及 STATUS
-- Creative Spark
-- Creative Mechanism
-- Human / Customer Truth 及 STATUS
-- Brand / Offering Action
-- Brand Advantage
-- Behavior / Engagement Mechanic
-- 关键执行条件
-- LIVE HYPOTHESES
-- HOLD
-- DROPPED / SUPERSEDED
+至少继承已存在且可确认的：
+- ORIGINAL CREATIVE PROBLEM / CLIENT ASK
+- SELECTED DIRECTIONS（仅已由人选定者）或 CURRENT BEST JUDGMENT（AI 当前推荐）
+- IDEA SEED / ONE-LINE IDEA、创意实际如何呈现及其 Creative Leap
+- PROBLEM FIT、Brand / Offering Right 与真实支撑事实
+- IDEA MATURITY：候选 / 内容或 Activation 原型 / Ready Concept
+- LIVE HYPOTHESES、关键执行条件和证据缺口
+- HOLD、DROPPED / SUPERSEDED
 - CROSS-WORKSTREAM SIGNALS（如有）
+
+Human Spark / Human Insight / Creative Spark / Case Mechanism **仅在确有形成并带有 SOURCE × STATUS 时继承**；不作为 Creative → Proposal 必填的推导链，也不要求 Proposal 倒填一套证明 Idea 的理论。
 
 ## Product Innovation → 下一步
 
@@ -532,7 +527,7 @@ Project Hub 是共享协议的**唯一原文**。
 只属于某一专业 Skill 的方法，不要求写入 Hub。
 
 例如：
-- Creative 的 Human Insight / Creative Spark / Idea Translation
+- Creative 的 OPEN CREATIVE LEAP / IDEA CALIBRATION / Idea Development（Human Insight / Creative Spark 仅按需）
 - Product Innovation 的 Spark Calibration / Result Scope / Evidence Ladder
 - Proposal 的 Page Job
 
