@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "plugin": "civilization-ai-specialists",
-  "plugin_version": "1.0.14",
+  "plugin_version": "1.0.15",
   "canonical_source": "https://github.com/rogerwangzheng1027/civilization-ai-skills",
   "canonical_branch": "main",
   "skills": {
     "project-hub": "1.11",
-    "brief-discovery-specialist": "1.26",
+    "brief-discovery-specialist": "1.27",
     "creative-exploration-specialist": "3.0",
     "product-innovation-specialist": "1.6",
     "proposal-development-specialist": "1.15"

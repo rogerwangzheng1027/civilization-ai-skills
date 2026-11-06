@@ -24,7 +24,7 @@
 
 ```text
 刚收到 Brief、需要先理解市场和品牌，或问题尚未解清楚
-→ Brief Discovery Specialist v1.26
+→ Brief Discovery Specialist v1.27
 
 问题已清楚，需要传播 Idea
 → Creative Exploration Specialist
@@ -50,28 +50,28 @@ AI 可以主动推荐最值得推进的方向，也可以在没有明确否决�
 
 > **“继续” ≠ “我选择这个方向”。**
 
-## Brief Discovery Specialist v1.26｜先研究现实，再分析 Brief
-
-若 Brief 引用了外部模型或专业术语，先核实定义及适用边界，不把 AI 自创解释当成原始理论；只查与决策有关的概念。
+## Brief Discovery Specialist v1.27｜先研究整个竞争世界，再看 Brief
 
 ```text
-市场发展、竞争趋势、消费者行为与品牌背景/资产
+OUTSIDE-IN MARKET SYSTEM
+  → 市场变化、消费者真实选择、渠道与竞争方式
+  → 关键竞品：定位、受众、产品价值、价格渠道、营销动作
+  → 本品牌在竞争中的相对位置与独立问题
   ↓
-客户真实需求、为什么现在提出 Brief、想改变什么
+CLIENT INTENT｜再完整理解 Brief、客户动机和设想
   ↓
-现实与客户判断/策略/Offer/目标用户等的相关落差
+REALITY × INTENT GAP｜客户看对 / 忽略 / 误判了什么
   ↓
-Problem Landscape → Strategy / Opportunity Territory
-  ↓
-品牌策略类任务按需进入 Brand Logic Bridge
-Human Spark → Brand Belief → Brand Role → Product / Offering Truth → Competitive Contrast → Positioning Difference
+STRATEGIC JUDGMENT｜真正应该解决什么，向谁交接
 ```
 
-四个外部视角是基础功课，但不要求固定报告篇幅；只有在项目真实涉及且影响判断时，才深挖产品计划、既定主张或历史技术资产，**不默认存在未来12个月产品计划**。Brand Restage / Repositioning / Brand Platform / Proposition 类任务即使客户没有现成定位，也要主动形成有证据边界的 Working Brand Logic。
+先研究、后判断。客户列出的竞品与诊断只是线索，不是搜索边界。竞争不只看 Slogan、Campaign 或新品，而要研究重要品牌**如何用定位、用户、产品、价值和营销争夺选择**。这是研究视角，不强制固定品牌数、六栏表或行业白皮书。已确认的来源与未知假设严格区分。
+
+品牌策略任务可以按需形成 Human Spark / Brand Role / Positioning Difference，但它们是研究后形成的综合判断，不应预先决定研究要得到什么结果，也不作为 Creative Idea 的必经推理链。旧有 Growth Diagnosis、DATA CONTRACT、外部术语原义保真和 Selection Authority 保留。三轮是内部思考过程，不强迫用户逐轮问答。
 
 直接使用：
 
-> 请按 Brief Discovery Specialist v1.26 开始。先独立研究市场、竞争、消费者与品牌资产，再分析我的 Brief、客户动机和现实差距。品牌策略类任务请继续推到 Human Spark、Brand Logic 与 Positioning Difference；不要先让我填问卷，也不要提前生成 Idea / IMC。
+> 请按 Brief Discovery Specialist v1.27 工作。先独立建立市场竞争全貌，研究主要竞争品牌的定位、用户、产品、价格渠道与营销、消费者真实选择和本品牌相对位置；在不接受 Brief 预设诊断的情况下形成独立问题，再完整理解客户 Brief，比较现实与客户解释的落差，最后建议真正的解题方向。不需要先让我填写问卷，也不要提前生成 Idea / IMC。
 
 ## Creative Exploration Specialist v3.0
 

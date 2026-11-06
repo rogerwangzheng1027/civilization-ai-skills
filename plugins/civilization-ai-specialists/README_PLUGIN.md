@@ -9,7 +9,7 @@ The package contains exact Git blobs from the five original SKILL.md files, plus
 ## Five skills
 
 - `skills/project-hub/SKILL.md` — v1.11
-- `skills/brief-discovery-specialist/SKILL.md` — v1.26
+- `skills/brief-discovery-specialist/SKILL.md` — v1.27
 - `skills/creative-exploration-specialist/SKILL.md` — v3.0
 - `skills/product-innovation-specialist/SKILL.md` — v1.6
 - `skills/proposal-development-specialist/SKILL.md` — v1.15
@@ -49,12 +49,12 @@ Never claim that GitHub was checked when it was not actually read.
 ```text
 project-hub/SKILL.md                          3296ad45a7b0f99809a559e89001bf4b5ba8da63
 project-hub/PROJECT_STATE_TEMPLATE.md         1051ba6be86923a5b602bbd5bc036738c8cba941
-brief-discovery-specialist/SKILL.md           8cc2111819c543f8a496228382559c5fedd89fb1
+brief-discovery-specialist/SKILL.md           e54b9934e097a6757ebf5428c26801fe6a17bad6
 creative-exploration-specialist/SKILL.md      f2f25b393faf5a9912dc9bec00b126529a00e8b7
 product-innovation-specialist/SKILL.md        7ac0f58ba818638d7f55a6e3426316d1c49b8de1
 proposal-development-specialist/SKILL.md      7c0d81ea4c8c3aae4f67c7b436e1d33611296cf0
 LANGUAGE_CONTROL.md                           a0e8cf9f83947c33c59f2ec69954afc4f234bc29
-QUICK_START.md                                94afc93ad071ec188015cf59b710b1eba29bf574
+QUICK_START.md                                fd3c8ffff6585ab00620a22a78a6da8c0d2a00cc
 INSTALL_CHATGPT.md                            6588a530ccc26581217f56d79805210ce388f798
 LICENSE                                       baee873b679e36a4123c83b8a29e0fb17fad14eb
 ```
