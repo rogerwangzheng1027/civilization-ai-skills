@@ -1,5 +1,5 @@
 {
-  "version": "1.9",
+  "version": "2.0",
   "purpose": "Cross-skill regression assertions for shared protocol consistency.",
   "assertions": [
     {
@@ -254,6 +254,15 @@
       "paths": [
         "brief-discovery-specialist/SKILL.md",
         "brief-discovery-specialist/test-prompts.json"
+      ]
+    },
+    {
+      "id": "P27",
+      "rule": "Creative inherits evidence-backed competitor and offering advantage when it matters for an Idea, researches only decisive gaps, and does not invent superiority or reopen Brief by default. Creative mechanisms may produce narrative, attention, feeling and memory without mandatory interaction, UGC or activation; Selection evaluates task-specific audience effort.",
+      "paths": [
+        "creative-exploration-specialist/SKILL.md",
+        "creative-exploration-specialist/test-prompts.json",
+        "tests/protocol-consistency.json"
       ]
     }
   ]
