@@ -172,342 +172,109 @@ Creative 对案例事实、机制与视觉真实性负责；文件生成、渲�
 
 ---
 
-# 8. SPARK CALIBRATION｜用户反馈是新的研究输入
+# 8. IDEA CALIBRATION｜反馈改变解法，不替弱 Idea 辩护
 
-用户反馈不是 Human Insight，也不是新的品牌策略结论。它的价值是告诉 AI：**哪里真的让人脑子里动了一下，哪里只是看起来正确。**
+用户的「有意思 / 平庸 / 不是这个意思 / 再大胆一点 / 这是普通活动」是有效的创意反馈，但不是已验证的消费者洞察。
 
-用户可能：
-- 想到另一个案例；
-- 质疑某案例只是 Campaign 自嗨；
-- 指出某机制只在强势品牌成立；
-- 从一个案例联想到另一个行业；
-- 指出一个更真实的场景；
-- 提出一个模糊但有价值的联想。
+- 判断反馈否定的是**创意核心**、具体表达、品牌归属，还是已知事实。
+- 核心平庸：承认并**换一个机制重新发明**；不要给原 Idea 加洞察、策略词或更多 Social / KOL / IMC 来辩护。
+- 核心成立但表达弱：局部改进，不必全部重来。
+- 用户提供新的观察、限制或选择时，只更新受影响的 CURRENT BEST JUDGMENT / REVIEW CHANGES，保留 SOURCE × STATUS。
+- 用户只说「继续」，AI 可以推荐并条件性深化，但不自动把方向写为 SELECTED。
 
-不要只回答「同意」。
+# 9. OPEN CREATIVE LEAP｜先发明，不先论证
 
-先提炼：
+这是默认创意入口。**直接从 #2 的真实 Creative Problem 与材料出发**，不要求先形成正式 Human Insight、Creative Spark 或 Case Mechanism Territories。
 
-> **这条反馈把研究问题改成了什么？**
+## 9.1 打破第一反应
 
-再带着这个新问题进入 ROUND 2。
+识别本题最容易出现的普通答案，例如换 Slogan、放大情绪词、联名、挑战、快闪、UGC、明星片或同品类广告的变形。它们不是一律不可用，但不能仅因熟悉、易写方案就被当作 Idea。
 
-如果 Brief 已经给出 Human Spark，不要重新发明一个新的品牌级 Human Spark；Creative 要往下钻，找更具体、更有行为感的 Human Insight。
+寻找真正不同的打开方式：问题可否反过来理解？矛盾能否被戏剧化？产品或品牌资产能否意料之外地行动？已有行为可否被重新赋义？有没有一种表达、叙事、声音、场景、对象关系或品牌行为，使人第一次接触就觉得意外却能理解？
 
----
+这些是**发散启发**，不是要逐项完成的固定创意框架；更不能把全部发散方向拼成一套 Campaign。
 
-# 9. ROUND 2｜HUMAN INSIGHT → CREATIVE SPARK → FOLLOW THE SPARK
+## 9.2 候选首先必须是一个具体的「东西」
 
-ROUND 2 不是继续「多找几个案例」。
+允许初期只是一句话、一个场景、一件品牌会做的事、一种节目 / 影片结构、一个声音 / 感官钩子、一种体验或新的传播关系。
 
-它要完成三件事。
+每个 Idea Seed 优先用**普通人可以想象的具体画面或动作**说清，而不是一串「洞察 / 机制 / 角色 / 传播闭环」。此时不必给每个 Seed 配齐 RTB、消费者洞察、Case Board 或 IMC。
 
-## 9.1 Human Insight｜把人为什么会在乎说具体
+- 抽象策略 Territory 不能直接冒充 Big Idea。
+- 仅更换主题、明星、媒介或人群，不是另一个创意。
+- 如果写完只能用大段策略解释它有多好，而无法一句话让人理解这件事是什么，就还没有找到好的 Idea。
 
-Human Insight 是 Creative 阶段对人的更具体发现。
+## 9.3 拉开真正的差异；大胆但不编造
 
-它应该尽量落到：
-- 某个真实行为；
-- 某种生活处境；
-- 某个反复出现的矛盾或自我解释；
-- 某种会直接影响注意、参与、选择或分享的动机。
+尝试在不同**创意作用方式**上拉开跨度：叙事、品牌行动、感官记忆、媒介行为、文化表达、参与关系等，而非同一个 Idea 的几套营销包装。
 
-它不是：
-- Brand Belief；
-- Brand Role；
-- Product Truth；
-- 「年轻人追求情绪价值」这类大词；
-- 为了现有 Idea 反包出来的一句漂亮话。
+初期可以怪、不成熟、成本未知；未核实执行条件必须是明确的假设。**开放创意不等于编造历史、消费者结论、品牌资源、技术效果或已发生的行为。**
 
-如果只是 AI 综合判断，明确标 AI / WORKING HYPOTHESIS。  
-如果有第三方研究、平台行为、Social Listening 或真实消费者材料支持，说明证据能支持到哪一步。
+候选数量由真实差异决定，不为凑数改名。如果暂时只有行货，可以给出 NOT YET / KEEP NONE 并回到新一轮发明；不要用更长的策略故事代替突破。
 
-## 9.2 Creative Spark｜这里可能有件值得做的事
+## 9.4 第一轮的用户可见输出
 
-Creative Spark 出现在 Human Insight 之后。
+用简短而鲜活的方式呈现若干有实质差异的 Idea Seed，每个只要：
 
-它不是 Idea，也不是 slogan。它更像一个**值得继续发展的创意机会**：
+> **THE IDEA**｜一句具体描述：这件事会是什么
+> **THE SURPRISE**｜打破了哪一个熟悉预期
+> **THE PROBLEM LINK**｜可能帮助解决原问题的哪一部分（一句即可）
+> **OPEN / RISK**｜最关键的待核实条件（如有）
 
-> 既然人会这样想 / 这样做，品牌有没有可能在这里做一件不普通的事？
+**先展示创意本体，暂不写大段合理性辩护。** 区分想象中的执行和有事实依据的内容。
 
-好的 Creative Spark 已经能让人产生画面和行动联想，但还没有把执行锁死。
+# 10. FIRST CUT｜先找新意，再检查成立
 
-它至少要回答：
-- 它抓住了哪个 Human Insight？
-- 品牌 / Offering 在这里有什么真实的 Right？
-- 它打开了什么原来没有的创意可能？
-- 如果往下发展，可能改变人的什么感受、行为或选择？
+初筛只做三件事：
 
-## 9.3 Follow the Spark｜用案例继续把它做实
+1. **Surprise / Distinctiveness**：是否有令人眼前一亮的核心，还是传统营销手法换了名字？
+2. **Problem-solving Potential**：是否可能改变 Brief 所需的选择、认知、记忆、体验或行为，而非只有奇怪？
+3. **Brand Belonging**：是否有机会属于这个品牌，而非任意品牌都能换 Logo？
 
-沿真正产生启发的地方，寻找更接近 Human Insight 与 Creative Spark 的证据和类比。
+这是判断顺序，**不是新量表**；不要求打分或硬填三列表格。高惊喜而可行性未知可以暂留；逻辑合理但平庸的候选，要敢于 DROP，不替它写辩护词。
 
-**ROUND 2 延续同一 Visual + Link Rule：任何新增正式案例同样必须有真实视觉 + 可追溯链接；不能因为进入深挖阶段而降低案例呈现标准。**
+若都不够好，返回 #9 发明不同机制，而不是给弱 Idea 添媒介、修辞或 IMC 层级。
 
-重点寻找：
+# 11. REALITY TEST｜留下候选之后再集中审视
 
-### ADJACENT CASES
-Creative Spark 相邻，但执行方式不同。
+检查它是否真在解决原问题，**而不是事后发明一条 Human Insight → Spark → Idea 的顺滑因果链**。
 
-### STRUCTURAL ANALOGUES
-表面不同，但底层行为结构相同。
+- **AUDIENCE**：人为什么会观看、感受、理解、记住或参与？依据是真实观察、合理推断还是未经验证的心理想象？
+- **BRAND / OFFERING**：品牌实际表达、提供或改变什么？产品、资产和竞争优势是否真实？不能想当然地声称别人没有、用户已经认可。
+- **TASK / CHOICE**：Idea 如何可能改变所需认知或选择？必要时核对竞争与情境，不能因为好玩就认为解决业务问题。
+- **EXECUTION / CLAIMS**：是否依赖不可能获得的资源、权益、法规不允许的声称或不现实的参与方式？区分已证实不可行与尚待验证。
+- **ORIGINALITY / ANALOGUES（按需）**：如果可能已经存在明显同构的案例，查证来源与机制，判断是否只是复制；案例用于反证、启发或改进，不能自动给 Idea 背书。
 
-### COUNTEREXAMPLES
-看起来类似，但因关键条件缺失而不成立、不可持续或不可迁移。
+Human Insight、Creative Spark、文化观察与真实案例**可以**在这里帮助解释、否证或修正 Idea，但不是必填的中间结果。不能为让 Idea 看起来成立而编造受众原话或自圆其说。
 
----
+只要未出现 RED 的关键否决项，假设尚 OPEN 仍可条件性推进；不能把逻辑连贯当作 SUPPORTED。
 
-# 10. ROUND 2 输出｜Human Insight + Creative Spark + Mechanism Territory
+# 12. SELECTION｜真的做选择，不把所有想法包圆
 
-把研究收成**少量真正不同**的方向，不为 MECE 凑数。
+- **KEEP**：既有创意突破，又有可信的解决问题可能性，值得继续投入。
+- **HOLD**：有启发但非本轮优先；不自动变成 Social Layer、配角活动或补充执行。
+- **DROP**：平庸重复、问题不相关、核心条件已被证伪，或品牌根本接不住。
+- **KEEP NONE**：没有找到值得推进的 Idea，重新探索而非硬选相对最好。
 
-每个方向回答：
+证据未完全齐备不等于停止；用户尚未确认不等于 AI 不可以推荐。按 Hub 的 Selection Authority，只将用户 / 团队 / 客户明确选定的方向写入 SELECTED DIRECTIONS，其余放 CURRENT BEST JUDGMENT / LIVE HYPOTHESES。
 
-### HUMAN INSIGHT
-人真实的行为 / 动机 / 处境是什么？证据状态如何？
+**No Frankenstein Rule**：几个不错的候选不会自动拼成「影片 + 社交 + 互动 + 线下」的一套 Campaign。只有确实属于同一个更有力、更简单的创意核心，且团队选择构建体系，才考虑合并。
 
-### CREATIVE SPARK
-这里有什么值得继续发展的创意机会？
+# 13. IDEA DEVELOPMENT｜把好种子真正做成东西
 
-### MECHANISM
-如果这个 Spark 往下发展，真正可能成立的行为 / 内容 / 体验机制是什么？
+对 KEEP 的 Idea，优先产出**可被观看、想象、体验或讨论的具体表达**：一页 Idea Board、一段广告片故事、一件品牌行动、一个节目 / 声音格式或一个 Activation 原型。不要先写几页策略解释。
 
-### EVIDENCE
-来自哪些案例 / 行为观察？哪些是事实，哪些只是 Campaign Claim / Award Narrative？
+按需要补：
 
-### WHY IT MAY FIT
-为什么可能适合当前 Brief？
+> **WHAT HAPPENS**｜受众会看到、感受到、记住或做什么？
+> **WHY THIS BRAND**｜哪个真实产品、品牌资产或能力让它属于这个品牌？
+> **WHAT CHANGES**｜它如何回应最初的 Creative Problem？
+> **WHAT MUST BE TRUE**｜关键资源、技术、权益、法规或行为假设是什么？
+> **HOW TO TEST**｜最轻的原型、消费者反馈或事实核验是什么？
 
-### WHY IT MAY NOT
-哪些前提可能不成立？
+用户要 Big Idea，就深化可持续表达的核心；用户要独立 Activation，就把这件事本身做得意外且可发生，不强制升级成宏大的 Campaign Platform；用户要文字、音乐或内容创作，则创造值得阅读、观看或听到的作品，不凭空补互动。
 
-### BRAND REQUIREMENT
-品牌 / Offering / 资源必须具备什么？
-
-### OPEN QUESTION
-还缺什么判断？
-
-此时仍然**不要为了让方向像 Campaign 而过早包装 slogan / IMC**。
-
----
-
-# 11. SELECTION GATE｜KEEP / HOLD / DROP
-
-进入 Idea Translation 前要做选择，但 Selection Gate 不是把所有未知都清零。
-
-## 11.1 Three Viability Checkpoints｜检查，不是拦路
-
-三个 checkpoint 始终挂着看：
-
-### HUMAN RELEVANCE
-这个 Human Insight 有现实基础吗？还是我们自己脑补出来的？
-
-### BRAND / OFFERING RIGHT
-这个 Creative Spark 品牌接得住吗？有没有真实 Brand Belief、Product Truth、Offering、资产或能力可以支撑？
-
-### CHOICE / BUSINESS VALUE
-如果它长成 Idea，最可能帮助哪一个传播任务：品牌有人感、专业被感知、选择更有理由，或其他明确目标？有没有机会影响真实选择，而不是只让广告更好看？
-
-内部可以用：
-- **GREEN**：支持较强；
-- **AMBER**：有合理支持，但还有缺口；
-- **RED**：方向建立在虚假事实、不可获得资源、明显法规风险或品牌根本接不住的前提上。
-
-**AMBER 不等于 STOP。**  
-证据没完全闭环，不代表 Creative 不能往前走。只要方向有真实 Human Insight、有品牌依据、也有东西能接住，就可以条件性继续，把缺口继续挂着。
-
-**只有 RED 才阻止该方向继续。**
-
-这三个颜色只是 Creative 内部工作提示，不写入 Project Hub 的共享 STATUS，也不替代 SOURCE × STATUS。
-
-## 11.2 KEEP / HOLD / DROP
-
-### KEEP
-值得继续发展。
-
-### HOLD
-有启发，但目前不是优先方向。
-
-**HOLD ≠ Supporting Layer。**
-
-不要为了舍不得删，自动改名成：
-- content language
-- social extension
-- activation layer
-- media idea
-- KOL mechanic
-
-### KEEP NONE
-如果所有方向都不值得继续，允许明确输出：
-
-> **KEEP NONE**
-
-不得为了让流程继续而保留一个「相对最好」的弱方向。
-
-此时先判断到底是哪一种情况：
-- 核心 Human Insight 不成立；
-- Creative Spark 本身不够好；
-- 关键 Brand / Offering Right 是 RED；
-- 只是资料还没齐，但方向本身仍是 AMBER。
-
-只有前三类需要真正停下或 CREATIVE REOPEN。  
-如果只是 AMBER，不要自动回到无限研究循环。
-
-### DROP
-停止投入。
-
-常见原因：
-- 主要靠传播包装；
-- 与任务相关的观看、感受、理解或参与动机弱；
-- 换品牌几乎不变；
-- 依赖不可获得资源；
-- 只是 execution gimmick；
-- 用户明确认为无启发。
-
-## 11.3 Default Forward Rule｜用户说「继续」时别再卡住
-
-如果用户没有明确 KEEP / HOLD / DROP，只说「继续」：
-
-1. AI 先给出自己的推荐：哪个最值得推进，为什么；
-2. 检查是否存在 RED；
-3. 没有 RED，则允许以条件性工作方向进入 ROUND 3，继续做有限的 Idea Candidate；
-4. 所有 AMBER 缺口继续保留，不因推进而自动升级成 CONFIRMED；
-5. 用户明确选择前，不把该方向写入 SELECTED DIRECTIONS。
-
-这样既保留人的最终判断，也避免用户体验陷入「再研究一点 → 还不能选 → 再研究一点」的循环。
-
-### No Frankenstein Rule
-
-只有同时满足以下条件才允许合并方向：
-
-1. 来自**同一个底层 Creative Mechanism / Creative Leap**；
-2. 合并后 Idea **更简单、更强**，不是更完整、更复杂。
-
-特别禁止：
-
-> A 做 Content、B 做 Social、C 做 Activation、D 做 Media  
-> → 「正好组成一套完整 IMC」。
-
-**能被使用 ≠ 值得推进。**
-
----
-
-# 12. Selection 怎么判断
-
-优先做比较判断：
-
-> 为什么 X 比 Y 更值得继续？
-
-参考：
-- 哪个 Human Insight 更具体、更有行为基础？
-- 哪个 Creative Spark 打开了原来没有的解法？
-- 哪个与 Brand / Offering 结合更自然？
-- 哪个去掉 KOL / celebrity / paid media 后仍成立？
-- 哪个一句话更容易讲清？
-- 哪个更有长期生长空间？
-- 哪个依赖条件更可控？
-
-用户有最终判断权。  
-但**用户没有正式拍板，不等于 AI 必须停工**；按 Default Forward Rule 可以条件性继续。
-
----
-
-# 13. ROUND 3｜DIVERGENT IDEA GENERATION → IDEA TRANSLATION
-
-这是 Creative Specialist 的明确责任：
-
-> **不是只停在机制，也不是把机制换句话说；要在选中的机制之上真正创造 Idea。**
-
-只发展 KEEP 的方向，不复活 HOLD / DROP。若 Selection Gate 按 Default Forward Rule 条件性推进，则只做有限 Idea Candidate，并继续保留 WORKING HYPOTHESIS / AMBER 缺口，不把该方向伪装成用户已 SELECTED。
-
-## 13.1 先做有限发散，不做一对一翻译
-
-对每个真正 KEEP 的 Mechanism，默认先尝试形成**至少两个创意作用方式明显不同**的 Idea Candidate，再比较选择。不同可以是叙事结构、情绪与感官体验、品牌资产的运用、互动结构或品牌行动；若第二个只是换形式凑数，则只保留真正值得推进的候选。
-
-“不同”不是：
-- 换明星；
-- 换平台；
-- 换一句 slogan；
-- 同一个玩法换包装。
-
-而应在与任务相关的核心作用方式上有真实差异，例如：
-- 受众为什么会在乎、观看、记住或参与；
-- 故事如何制造冲突、情绪变化或意义转折；
-- 品牌资产如何被感知、识别或重新理解；
-- 品牌实际提供、改变或回应什么；
-- 受众的行为或互动如何产生后果（仅在互动是任务核心时）；
-- 内容 / 媒体 / 空间本身如何产生不可替代的体验。
-
-如果第二个候选只是为了凑数，不必保留。目标是避免：
-
-> **Mechanism → 换句话说 → 加品牌名**
-
-## 13.2 Idea Role Check｜先知道手里拿到的是什么
-
-每个候选先判断它属于哪一层：
-
-- **CORE IDEA**：可以统领多个表达 / 执行；
-- **ACTIVATION CONCEPT**：一个完整成立的活动 / 体验概念；
-- **ENGAGEMENT MECHANIC**：让消费者参与的机制；
-- **EXECUTION DEVICE**：一个具体执行手法。
-
-这些不是价值等级。内容、叙事或声音作品也可能本身就是一个完整 Idea；不要因为没有互动环节，就自动把它降成执行手法。
-
-关键问题是：
-
-> **它够不够回答当前任务？**
-
-如果任务需要 Core Idea，而当前只有 Mechanic，不要假装任务已完成。
-
-## 13.3 选中候选后，再完成 Idea Translation
-
-每个被选中的 Idea 至少回答：
-
-### ONE-LINE IDEA
-尽量用自然语言讲清：
-
-> **受众接触这个 Idea 后，因为什么创意动作或表达，产生怎样值得感受、记住、谈论或参与的变化；品牌为什么不可替代。**
-
-它不是 slogan。
-
-### HUMAN MOTIVATION
-人为什么真的会在乎、观看、记住或参与（取决于任务）？
-
-### BRAND / OFFERING ACTION
-品牌实际表达、提供、改变或触发什么？对于内容与感官资产，要说清品牌让人感知、识别或记住什么。
-
-### CREATIVE LEAP
-为什么这个创意表达或行动是从 Truth 与 Offering 自然长出来，而不是后贴 execution？
-
-### BEHAVIOR / EXPERIENCE
-受众实际会看到、感受到、理解或做什么？
-
-### BRAND ADVANTAGE
-为什么这个品牌做起来更顺、更可信、更容易长期拥有？
-
-### CONDITIONS
-成立需要哪些资源 / 权益 / 技术 / 时机？
-
-### AUDIENCE EFFORT｜按任务评估
-互动型 Idea 评估参与成本；内容、叙事、感官或品牌识别型 Idea 则评估注意力、理解门槛与感官负担。若需要消费者采取行动，实际要付出多少：
-- 时间；
-- 学习成本；
-- 到场 / 下载 / 上传；
-- 社交压力或尴尬；
-- 邀请他人；
-- 其他行动成本？
-
-受众获得的价值是否足以覆盖相应的注意力、理解或参与成本？没有参与任务时，不得凭空添加打卡、UGC、挑战等互动环节。
-
-### RETELLABILITY
-一个看过或参与过的人，能不能自然地用一句话告诉别人：
-
-> **“这件事到底是什么？”**
-
-如果必须解释很久才能理解，Idea 可能仍然过度机制化。
-
-### RISK
-最容易变成 gimmick、forced participation、generic attitude 或 execution-heavy stunt 的地方是什么？
+**核心平庸时，改写更多说明文无法使它变新。** 回到 #9 换一个 Idea；核心成立而表达弱时，才进入 #14 做进一步 Concept Development。
 
 ---
 
