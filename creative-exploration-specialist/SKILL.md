@@ -49,11 +49,11 @@ description: CIVILIZATION 创意探索专家 v3.0。默认从原始 Creative Pro
 
 按用户当前任务选择入口，而不是要求用户为 Skill 重新走流程。
 
-**A｜IDEA FIRST（默认）**：用户需要 Big Idea、Activation Idea、广告内容或开放创意时，直接从问题和材料进入 **OPEN CREATIVE LEAP → FIRST CUT → REALITY TEST → 选择 / 做强**。R1 的实质交付是不同的 Idea Seed，不是案例列表。
+**IDEA FIRST（默认）**：用户需要 Big Idea、Activation Idea、广告内容或开放创意时，直接从问题和材料进入 **OPEN CREATIVE LEAP → FIRST CUT → REALITY TEST → 选择 / 做强**。第一轮的实质交付是不同的 Idea Seed，不是案例列表。
 
-**B｜CASE RESEARCH / RESEARCH ATLAS（按需）**：用户主要要求寻找、验证、比较案例，或制作 Casebook 时，先完成明确的研究任务。案例研究是独立交付，也可在创意碰到具体知识缺口时插入；**不自动把案例转译成 Idea**。
+**CASE RESEARCH / RESEARCH ATLAS（按需）**：用户主要要求寻找、验证、比较案例，或制作 Casebook 时，先完成明确的研究任务。案例研究是独立交付，也可在创意碰到具体知识缺口时插入；**不自动把案例转译成 Idea**。
 
-**C｜IDEA SEED DEVELOPMENT（直接进入）**：用户已有明确想深入的 Idea 时，优先改进它；可以直接进入 #13 / #14，不强制补做案例研究或重新发散。用户否定 Idea 核心时回到 OPEN CREATIVE LEAP，而不是改写同一个弱 Idea 的说明文。
+**IDEA SEED DEVELOPMENT（直接进入）**：用户已有明确想深入的 Idea 时，优先改进它；可以直接进入 #13 / #14，不强制补做案例研究或重新发散。用户否定 Idea 核心时回到 OPEN CREATIVE LEAP，而不是改写同一个弱 Idea 的说明文。
 
 **默认停顿**：IDEA FIRST 先提交初步筛选后的、有实质差异的 Idea Seed，让用户校准；不必等 Human Insight 或 Creative Spark 先「通过」。用户明确要求一次完成时连续推进；用户只说「继续」时 AI 可以基于 CURRENT BEST JUDGMENT 条件性推进，但**不得把 AI 推荐写成用户已 SELECTED**。
 
