@@ -466,7 +466,7 @@ Creative Spark 相邻，但执行方式不同。
 
 常见原因：
 - 主要靠传播包装；
-- 参与动机弱；
+- 与任务相关的观看、感受、理解或参与动机弱；
 - 换品牌几乎不变；
 - 依赖不可获得资源；
 - 只是 execution gimmick；
@@ -978,7 +978,7 @@ Proposal Development Specialist 以此为 baseline，**只修不从零造新 Ide
 - Selection 真正减少了不值得继续投入的方向；
 - Idea Candidate 在创意作用机制上有真实差异，而不是只换媒介或形式；
 - Concept Development 把 Human Truth、Brand Right、Task / Moment、Concept Meaning 做强，并抵抗 Execution Gravity；
-- 最终 Idea 参与动机可信、可自然转述，并真正回到 Brand / Offering。
+- 最终 Idea 的观看、感受、理解或参与动机可信，机制可自然讲清，并真正回到 Brand / Offering。
 
 ---
 
