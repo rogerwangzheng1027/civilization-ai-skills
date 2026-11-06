@@ -34,5 +34,17 @@
     "scenario": "决定变化只更新受影响环节",
     "prompt": "上周决定A方向，今天客户明确要求改成B，其他市场数据与定位不变。请更新状态并继续。",
     "expected": "记录REVIEW CHANGES为A到B及影响范围；只重算受影响的产品/页面，未改变的研究继续继承；不乱复活HOLD。"
+  },
+  {
+    "id": 7,
+    "scenario": "Creative 默认从问题和材料发散而非案例或 Spark 的传承链",
+    "prompt": "这是一个传播创意 Brief，资料基本充分，希望直接探索 Big Idea。上游有人提出过 Human Spark，但团队没有锁定，下一步怎么路由和交接？",
+    "expected": "Project Hub 转给 Creative IDEA FIRST：从 CLIENT ASK、真实事实、限制和 Brand / Offering Truth 出发，先探索有差异的 Idea Seed；不强制 CASE LANDSCAPE 或 Human Insight/Creative Spark 链条，不新建共享字段；Handoff 中未验证 Spark 只是可选参考，首次停顿在 Idea Seed 校准。"
+  },
+  {
+    "id": 8,
+    "scenario": "Creative 到 Proposal 的交接不倒填洞察",
+    "prompt": "团队已经选择一个具体品牌内容 Idea，它很有创意但没有正式撰写 Human Insight、Creative Spark 或案例机制图。现在需要做提案，Hub 如何交接？",
+    "expected": "继承已选 Idea、原始创意问题、Brand Right、Problem Fit、作品表现与关键执行条件及 SOURCE × STATUS；Human Insight / Spark 未形成则不编造；不阻断 Proposal Development，也不要求 Creative 为了交接重建线性推导。"
   }
 ]
