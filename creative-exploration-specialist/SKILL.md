@@ -559,7 +559,7 @@ Creative Spark 相邻，但执行方式不同。
 - **ENGAGEMENT MECHANIC**：让消费者参与的机制；
 - **EXECUTION DEVICE**：一个具体执行手法。
 
-这些不是价值等级。
+这些不是价值等级。内容、叙事或声音作品也可能本身就是一个完整 Idea；不要因为没有互动环节，就自动把它降成执行手法。
 
 关键问题是：
 
@@ -582,10 +582,10 @@ Creative Spark 相邻，但执行方式不同。
 人为什么真的会在乎、观看、记住或参与（取决于任务）？
 
 ### BRAND / OFFERING ACTION
-品牌实际改变、提供、开放或触发什么？
+品牌实际表达、提供、改变或触发什么？对于内容与感官资产，要说清品牌让人感知、识别或记住什么。
 
 ### CREATIVE LEAP
-为什么这个动作是从 Truth 与 Offering 自然长出来，而不是后贴 execution？
+为什么这个创意表达或行动是从 Truth 与 Offering 自然长出来，而不是后贴 execution？
 
 ### BEHAVIOR / EXPERIENCE
 受众实际会看到、感受到、理解或做什么？
