@@ -1,9 +1,9 @@
 [
   {
     "id": 1,
-    "scenario": "客户预设原因与竞品边界",
-    "prompt": "Brief 已明确写了客户认为销量下滑来自年轻人不喜欢传统品牌，并给了三个竞品。请完整拆解这个 Brief，不要把客户解释当事实，也不要先问我一堆问题。",
-    "expected": "先基于市场发展、竞争趋势、消费者行为与品牌资产形成独立Reality Baseline，再完整理解客户Brief和动机；区分CLIENT ASK、CLIENT DIAGNOSIS与预设解法，提出Problem Landscape、Current Best Judgment，并保持SOURCE × STATUS。"
+    "scenario": "Brief 限定竞品且预设年轻化原因",
+    "prompt": "Brief 说销量下滑主要因为年轻人不喜欢传统品牌，指定三家竞品并要求一套年轻化传播。请完成 Brief Discovery。",
+    "expected": "不能只围绕年轻化诊断搜索；先独立研究市场变化与真实选择场，明确主要竞争者（不局限指定三家）在定位、目标/实际用户、主力产品与价值、价格/渠道、代表性营销及增势方面的差异；分清竞品宣称和已验证消费者认知；先形成基于竞争现实的独立问题，再与客户诊断比较，不凭漂亮口号推断原因。"
   },
   {
     "id": 2,
@@ -13,9 +13,9 @@
   },
   {
     "id": 3,
-    "scenario": "有既定品牌主张、但缺少已验证的消费理解",
-    "prompt": "收到一个成熟品牌升级Brief。客户提出一条新主张，并预设目标人群。请按当前 Brief Discovery 方法推进，先做外部研究再评价主张。",
-    "expected": "在分析主张前先研究市场变化、竞争趋势、消费者行为与品牌资产；随后检查目标人群、产品与主张之间真实存在的Gap，不把词义推断当消费者调研，也不强制未来12个月Roadmap。"
+    "scenario": "客户主张与 TA 的讨论必须基于完整竞争关系",
+    "prompt": "成熟消费品牌升级 Brief 给了品牌主张、三个竞品广告 Slogan 及一份 TA 画像，客户希望从中直接推导新定位。请先做独立研究再分析。",
+    "expected": "不仅比较 Slogan；按重要性研究竞争品牌的定位、用户、产品/组合、价格渠道、实际营销行为及真实市场信号，明确自家相对位置，区分品牌目标 TA、实际 Buyer 和消费者认知；先建 Outside-In 基准，后评 Brief 主张，缺公开证据标 OPEN；不虚构必有未来 Roadmap。"
   },
   {
     "id": 4,
@@ -37,15 +37,15 @@
   },
   {
     "id": 7,
-    "scenario": "小型执行Brief，控制研究规模",
-    "prompt": "收到一个小型区域陈列优化Brief，预算有限，交付时间很短。请完成Brief Discovery。",
-    "expected": "快速扫描市场、竞争、消费者与品牌，不强制深度品牌考古、五年增长模型或完整行业白皮书；理解任务动机，聚焦影响执行决策的真实Gap。"
+    "scenario": "小型区域执行 Brief 保留竞争研究但控制成本",
+    "prompt": "收到一个小型区域陈列优化 Brief，预算很有限，但门店周边有几个直接竞争者。请完成 Brief Discovery。",
+    "expected": "保持与决策相关的外部研究：识别本地真实购物选择、关键对手产品/价格/陈列/营销及品牌资产，重点查可能改变陈列解法的事实；不强迫做全球行业白皮书、固定数量竞品或六栏资料卡；但不能只复述客户的陈列问题。"
   },
   {
     "id": 8,
-    "scenario": "Brand Restage 没有现成定位，但需要从 Human Spark 推到定位差异",
-    "prompt": "这是一个成熟品牌 Restage Brief。客户没有锁定最终定位，只给了业务目标、品牌资产和一些消费者研究。请完成 Brief Discovery，不要提前做 Campaign。",
-    "expected": "在 Outside-In 与 Gap Diagnosis 后触发 Brand Logic Bridge；形成 Human Spark → Brand Belief → Brand Role → Product / Offering Truth → Competitive Contrast → Positioning Difference；Human Spark 保留证据状态且不伪装成消费者逐字原话；Brand Belief 不当作 Human Insight；不因为客户没有现成定位就把 Positioning Gap 标成不适用。"
+    "scenario": "Brand Restage 的 Brand Logic 不以先选 Human Spark 为起点",
+    "prompt": "成熟品牌 Restage Brief 有业务目标和部分研究，客户给了一条很诱人的消费者观点，但我们还没完整理解重要竞争品牌的定位、产品、营销和用户。请完成 Brief Discovery。",
+    "expected": "先研究市场演进与主要竞品完整竞争方式，并建立本品牌相对位置，之后才评估该观点是否真正解释选择问题；Brand Logic Bridge 按事实综合 Consumer/Market/Competitive Context + Brand Truth，再形成可证据约束的 Brand Role、Positioning Difference，Human Spark 若有保留证据状态，不作为先验唯一驱动或强迫 Creative 沿它生成 Idea。"
   },
   {
     "id": 9,
@@ -76,5 +76,29 @@
     "scenario": "外部术语原始资料不可得时保留未知",
     "prompt": "客户提到一个同名可能有多种解释的理论术语，但没有提供引用原文，当前也无法查到权威出处。请继续判断 Brief。",
     "expected": "保留原义OPEN，区分已知客户使用语境与未证实的外部定义，不能编造作者与模型构成；不因此停掉其他能继续的Outside-In研究与条件性判断。"
+  },
+  {
+    "id": 14,
+    "scenario": "竞品研究不能只列名单和口号",
+    "prompt": "请拆一个传统成熟品类的增长 Brief，客户提供的竞品材料只有竞争品牌名称、广告 Slogan 和一段新品新闻。请开始 Outside-In Research，并说明怎样避免过早提出策略结论。",
+    "expected": "识别真实竞争场与重要竞争者；对代表性对手继续找长期定位/品牌资产、目标与已证实用户、核心产品及组合、价格渠道、实际传播动作和可靠增长迹象；跨品牌综合消费者在比较什么及竞争差异，广告或新品新闻本身不足以解释竞争优势；缺项标 OPEN 而不捏造。"
+  },
+  {
+    "id": 15,
+    "scenario": "客户要求传播但问题可能来自产品与渠道",
+    "prompt": "Brief 明确希望做情绪营销，认为品牌年轻人认知不足。外部公开信息却显示重要竞争者不断拓展便利渠道和产品价值，而客户品牌渠道与可得性可能落后。请诊断该 Brief。",
+    "expected": "先独立建立市场、竞争品牌定位/产品/营销、消费者选择与自身竞争位置，再分清真实外部证据与推测；可能发现业务问题是 Offer / Price / Access 而非纯表达；不为客户的情绪营销解法找证据，不因客户给出 Creative 方向就忽略竞争与产品。可条件性提出不同解题路径与需要验证的事实。"
+  },
+  {
+    "id": 16,
+    "scenario": "研究摘要不能替代市场竞争全貌",
+    "prompt": "请在研究完市场、消费者和五个主要竞争品牌后用 5 条结论汇总 Brief 诊断。你已经知道它们各自的定位、产品、用户、渠道与营销资料，但这些互相矛盾。",
+    "expected": "可以在最终输出中压缩为关键洞察，但内部须先做足竞争研究与对手间综合，不可为了只写5条就跳过关键矛盾、渠道/人群/产品差异或隐藏证据边界；如果数据冲突，保留状态及决策影响，不得用漂亮的统一叙事掩盖。"
+  },
+  {
+    "id": 17,
+    "scenario": "不接受 Brief 所给竞品边界",
+    "prompt": "客户 Brief 认为竞争只有三个同类品牌，但用户实际满足同一需求还有跨品类选择和某新兴零售渠道。请提出 Outside-In 竞争研究方案和初步问题框架。",
+    "expected": "从真实消费者选择和场景确定竞争边界，适度纳入直接/相邻/替代/渠道竞争，不固定品牌数量和竞品层次；关键对手用定位、用户、产品价值、营销行为和渠道事实比较；分析谁在争夺哪种选择，不因客户限定范围或漂亮的 MECE 地图排除重要替代。"
   }
 ]
