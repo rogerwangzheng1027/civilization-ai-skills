@@ -3,7 +3,7 @@
 ## 新项目怎么开始
 
 1. 把客户 Brief / 会议纪要放进项目文件夹。
-2. 加载 **Project Hub v1.10**。
+2. 加载 **Project Hub v1.11**。
 3. 如果已知距上次 Skill 版本检查超过 **7 天**、版本来源不明，或你想确认最新版，并且当前环境可以访问 GitHub，先让 Project Hub 按 **VERSION / UPDATE PROTOCOL** 检查仓库 main branch。
 4. 对它说：
 
@@ -73,53 +73,29 @@ Human Spark → Brand Belief → Brand Role → Product / Offering Truth → Com
 
 > 请按 Brief Discovery Specialist v1.26 开始。先独立研究市场、竞争、消费者与品牌资产，再分析我的 Brief、客户动机和现实差距。品牌策略类任务请继续推到 Human Spark、Brand Logic 与 Positioning Difference；不要先让我填问卷，也不要提前生成 Idea / IMC。
 
-## Creative Exploration Specialist v2.6.2
+## Creative Exploration Specialist v3.0
+
+**默认任务是解决真实创意问题，而不是把 Human Insight / Creative Spark 逐级包装成 Idea。**
 
 ```text
-CASE LANDSCAPE
+ORIGINAL PROBLEM + REAL MATERIALS / CONSTRAINTS
   ↓
-SPARK CALIBRATION
+OPEN CREATIVE LEAP｜开放产生具体、真正不同的 Idea Seed
   ↓
-HUMAN INSIGHT → CREATIVE SPARK
+FIRST CUT｜先看惊喜、问题相关性与品牌归属
   ↓
-FOLLOW THE SPARK
+REALITY TEST｜再核实竞品、品牌事实、受众与执行条件
   ↓
-KEEP / HOLD / DROP
-  ↓
-IDEA TRANSLATION
-  ↓
-CONCEPT DEVELOPMENT
-  ↓
-CREATIVE REVIEW
+SELECTION / IDEA DEVELOPMENT｜选中后做实，需要时才扩展 IMC
 ```
 
-关键点：
+**IDEA FIRST（默认）**：用户要 Big Idea、Activation、广告内容或品牌创意时，直接给创意种子，先让人能看到「这件事是什么」。第一次停在 Idea Seed 校准，而非 Case Landscape / Spark Calibration。
 
-> **不是取消 Idea，而是推迟 Idea。**
+**CASE RESEARCH / RESEARCH ATLAS（按需）**：用户要系统案例研究 / Casebook 时，完成真实来源、实际执行视觉、可追溯链接与文件 QA；此任务可以独立完成，不强制转入 Idea。
 
-R1 不急着出 Idea；正式案例必须同时带**真实执行视觉 + 可追溯 SOURCE LINK**，缺图或缺链接的案例只能放 TO SOURCE / BACKUP。
+**IDEA SEED DEVELOPMENT（直达）**：已选择的 Idea 直接深化。若核心平庸，回到 OPEN CREATIVE LEAP 重新发明；不能用长篇策略辩护或 KOL / Social / Activation 层级救活普通 Idea。
 
-案例研究分两种入口：**EXPLORE** 少量高启发深拆，**RESEARCH ATLAS** 按明确研究范围系统广搜、查覆盖缺口，再精选机制案例。深入比较时看 **BRAND JOB → AUDIENCE VALUE** 与机制成立条件；要求交付 PDF / 离线 HTML 时必须核实**真实案例图片实际嵌入**、链接可点、离线可用，不把示意图或外链算作完成。EXPLORE 在案例之后进入 Spark Calibration；RESEARCH ATLAS 按用户指定范围先完成研究交付。仅在竞争差异对 Idea 成立关键时检查继承资料和必要事实缺口；内容、叙事、感官型任务不强制创造互动。
-
-Selection Gate 的三个 Viability Checkpoints 是检查点，不是三道必须全部清零的门。AMBER 可以条件性推进；只有明确 RED 才停止。用户只说「继续」时，AI 应给出自己的推荐并继续，不反复把选择题丢回用户。
-
-Selection 后，R3 对 KEEP 或条件性推进的方向先产生结构真正不同的 Idea Candidate。选中 Idea Seed 后先进入 **CONCEPT DEVELOPMENT**，把概念做强，再进入 Execution / IMC；已有角色、联名、包装、活动等先视为 Execution Hypotheses。
-
-### 已经有 Idea 雏形怎么办
-
-如果团队已经有一个明确 KEEP 的 Idea Seed，并希望：
-
-> **“先把概念优化完整，不要沿具体执行往下做。”**
-
-可以直接进入 Creative 的 **CONCEPT DEVELOPMENT**，不必强制重跑 ROUND 1 / ROUND 2。
-
-核心动作：
-
-- 拆 CORE CONCEPT 与 EXECUTION HYPOTHESES；
-- 压力测试 Human Truth、Brand Right、Task / Moment Necessity、Concept Meaning；
-- 定义 Expression System 与 Creative Requirements；
-- 输出 Refined Concept Platform；
-- 只有 **CONCEPT READY** 后才进入完整 Execution / IMC。
+Human Spark、Human Insight、Creative Spark、案例均是**可选参考**，必须保留真实证据状态；不作为必须走完的创意推导环节。用户只说「继续」不等于明确 Selection，AI 可以条件性推进。
 
 ## 四个 Specialist 的语言控制
 
