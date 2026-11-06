@@ -32,15 +32,15 @@
 
 | Skill | 当前版本 | 什么时候用 | 核心作用 |
 | --- | --- | --- | --- |
-| [Project Hub](./project-hub/SKILL.md) | v1.10 | 新项目、阶段切换、重要 Review 后 | 管理项目状态、共享协议与交接；判断当前在哪里、下一步该找哪个专业 Specialist |
+| [Project Hub](./project-hub/SKILL.md) | v1.11 | 新项目、阶段切换、重要 Review 后 | 管理项目状态、共享协议与交接；判断当前在哪里、下一步该找哪个专业 Specialist |
 | [Brief Discovery Specialist](./brief-discovery-specialist/SKILL.md) | v1.26 | 刚收到 Brief、问题定义或关键前提不清楚 | **先研究市场、竞争、用户行为与品牌资产**；再理解客户目标和提出 Brief 的动机；最后诊断现实与客户期待的落差，形成有证据的解题判断与机会方向 |
-| [Creative Exploration Specialist](./creative-exploration-specialist/SKILL.md) | v2.6.2 | 问题基本清楚，需要寻找传播创意解法，或已有 Idea Seed 需要继续做强 | 用真实跨界案例打开参考系，筛选并发展 Idea；选中后先做 Concept Development，再进入 Execution / IMC |
+| [Creative Exploration Specialist](./creative-exploration-specialist/SKILL.md) | v3.0 | 问题基本清楚，需要寻找传播创意解法，或已有 Idea Seed 需要继续做强 | 从原始问题和真实材料直接展开 OPEN CREATIVE LEAP，先给有差异的 Idea Seed；之后检验问题价值与品牌归属，按需深化或使用案例研究 |
 | [Product Innovation Specialist](./product-innovation-specialist/SKILL.md) | v1.6 | 需要探索产品 / SKU / 配方 / 风味 / 功能 / 包装 / 规格等创新 | 用真实市场案例和可衡量结果筛选创新机制，形成可测试的产品创新方向与假设 |
 | [Proposal Development Specialist](./proposal-development-specialist/SKILL.md) | v1.15 | 已有 Strategy / Idea / Innovation Direction，需要形成完整提案文件 | 用 Storyline 压力测试并发展 Solution；证据状态必须保留到标题与文案，最终形成可直接进入 PPT / PDF 的提案内容 |
 
 一句话记住：
 
-> **Hub 管导航与交接；Brief 管问题和 Brand Logic；Creative 管 Human Insight、Creative Spark 与传播 Idea；Innovation 管产品创新；Proposal 管提案文件的发展与成稿。**
+> **Hub 管导航与交接；Brief 管问题和 Brand Logic；Creative 从真实问题发明、筛选和深化传播 Idea；Innovation 管产品创新；Proposal 管提案文件的发展与成稿。**
 
 ### 推荐不等于选择
 
@@ -127,46 +127,30 @@ Brief Discovery
 
 ## 两个探索 Specialist 为什么拆开
 
-### Creative Exploration Specialist v2.6.2
+### Creative Exploration Specialist v3.0
 
-专门研究：
-- Campaign / Communication
-- Social / Creator
-- Activation / Experience
-- Content / Media
-- Brand behavior / Engagement mechanic
-
-核心流程：
+本次重构默认工作方式：**Problem First → Open Creative Leap → First Cut → Reality Test → Select / Develop**。
 
 ```text
-CASE LANDSCAPE
-  ↓
-SPARK CALIBRATION
-  ↓
-HUMAN INSIGHT → CREATIVE SPARK
-  ↓
-FOLLOW THE SPARK
-  ↓
-SELECTION GATE: KEEP / HOLD / DROP
-  ↓
-IDEA TRANSLATION
-  ↓
-CONCEPT DEVELOPMENT
-  ↓
-CREATIVE REVIEW
+SAME PROBLEM + SAME FACTUAL MATERIALS
+                 ↓
+OPEN CREATIVE LEAP｜先发明不同的 Idea Seed
+                 ↓
+FIRST CUT｜是否有惊喜、可能解决问题、品牌能否拥有？
+                 ↓
+REALITY TEST｜再查消费者、竞争、品牌依据与执行条件
+                 ↓
+SELECTION / IDEA DEVELOPMENT｜选中后才做强
 ```
 
-关键变化：
+**Human Spark / Human Insight / Creative Spark 仅作可选的、保留 SOURCE × STATUS 的研究材料**；不再要求 Case Landscape → Insight → Spark → Idea 的固定演绎。没有创意突破，就换一个机制重新发明，不用策略文案给平庸 Idea 辩护。
 
-> **不是取消 Idea，而是推迟 Idea。**
+- 默认 **IDEA FIRST**：Brief 的真实问题、材料与约束是起点；先展示可感知的 Big Idea / 内容 / Activation 创意种子，而不是先交一套合理性的叙事。
+- **CASE RESEARCH / RESEARCH ATLAS**：用户明确要求案例研究、或事实问题确有研究必要时按需启动；正式案例仍需真图、链接、来源与交付 QA，不能以案例包装自嗨方案。
+- **IDEA SEED DEVELOPMENT**：已有选中的 Seed 时直接打磨；是否做完整 Campaign Platform / IMC 由任务决定。
+- 筛选强调真实差异、问题解决潜力和 Brand Right，证据与可行性在 Idea 初筛后集中校验，不用伪造数据或编造消费者洞察。
 
-ROUND 1 提供 **EXPLORE（少量深拆）/ RESEARCH ATLAS（先广搜、查遗漏、再精选深拆）** 两种入口：只在用户要求系统案例研究时做 Search Coverage / Gap Audit，按研究价值选出值得深拆的案例。Case Anatomy 关注 **Brand Job → Audience Value** 与机制成立的条件；必要时核对上游竞争依据，不补造品牌优势。创意机制可以来自内容、叙事、感官、品牌行为或互动，不强制所有方向加入参与动作；Casebook 的 PDF / HTML 要核实真实执行图已实际嵌入而非只贴 URL，缺图不能冒充完整交付。
-
-ROUND 1 先用案例打开空间，用户做 Spark Calibration；ROUND 2 不只是继续找案例，而要把研究推进到更具体的 **Human Insight → Creative Spark**。Creative Spark 是「这里可能有件值得做的事」，还不是 Idea。**正式案例必须同时带真实执行视觉 + 可追溯来源链接**，缺图或缺链接的案例只进入 TO SOURCE / BACKUP。
-
-Selection Gate 保留三个 Viability Checkpoints，但它们是检查点，不是三道必须全部清零的拦截门。证据仍是 AMBER 时可以条件性继续；只有方向建立在虚假事实、不可获得资源、明显法规风险或品牌根本接不住的前提上，才真正停止。用户只说「继续」时，AI 应给出推荐判断并在没有明确否决项时继续往下，不把用户困在无限研究循环里。
-
-完成 Selection 后，ROUND 3 对 KEEP 或条件性推进的方向先形成**参与结构 / 品牌动作真正不同的候选 Idea**。选中 Idea Seed 后进入 **Concept Development**：先把 Human Truth、Brand Right、Task / Moment Role、Concept Meaning、Expression System 与 Creative Requirements 做强；已有角色、联名、包装、活动等只作为 Execution Hypotheses，不因已经具体就自动向下发展。只有 Concept Ready 后才进入完整 Execution / IMC。
+第一轮停在有真实差异的 Idea Seed 供用户校准，而不是停在案例搜集之后。AI 可以条件性推荐并继续，但 Selection Authority 仍归用户 / 团队 / 客户。
 
 ### Product Innovation Specialist v1.6
 
@@ -259,7 +243,7 @@ Brief 结束时应明确下一步属于：
 
 ### 3. Creative Exploration Specialist
 
-> 请按 Creative Exploration Specialist v2.6.2 开始 ROUND 1。先根据当前 Creative Problem 寻找跨界真实案例并拆机制，不要直接生成 Idea。案例之后停下来做 Spark Calibration；下一轮继续找 Human Insight 和 Creative Spark，再进入 Selection。
+> 请按 Creative Exploration Specialist v3.0 工作。从当前 Brief 的原始问题、事实材料和约束直接发散真正不同、可想象的 Idea Seed；先看是否令人眼前一亮、能否解决问题，再做品牌与证据检验。不要要求先完成 Human Insight、Creative Spark 或案例推导，也不要把普通创意包装成 IMC。
 
 ROUND 3 把选中机制变成具体 Idea Seed；如果已经有 KEEP 的 Idea 雏形，也可以直接进入 Concept Development，先优化 Concept，再决定是否发展 Execution / IMC。
 
@@ -353,7 +337,7 @@ Project Hub 是共享协议唯一原文。
 
 > https://github.com/rogerwangzheng1027/civilization-ai-skills
 
-版本检查规则统一定义在 **Project Hub v1.10 的 VERSION / UPDATE PROTOCOL**。四个 Specialist 只继承，不重复维护。
+版本检查规则统一定义在 **Project Hub v1.11 的 VERSION / UPDATE PROTOCOL**。四个 Specialist 只继承，不重复维护。
 
 历史正式版本已经用 Git Tags 归档；版本命名、当前版本与回退说明见：
 
@@ -391,9 +375,9 @@ Project Hub 是共享协议唯一原文。
 
 ## 当前版本
 
-- Project Hub **v1.10**
+- Project Hub **v1.11**
 - Brief Discovery Specialist **v1.26**
-- Creative Exploration Specialist **v2.6.2**
+- Creative Exploration Specialist **v3.0**
 - Product Innovation Specialist **v1.6**
 - Proposal Development Specialist **v1.15**
 
