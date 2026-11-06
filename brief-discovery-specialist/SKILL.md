@@ -304,68 +304,19 @@ AI 要敢于推荐；最终 Selection 仍由人完成。
 
 ## 5.6 Brand Logic Bridge｜品牌策略类项目按需触发
 
-如果任务本身涉及 **Brand Restage / Repositioning / Brand Platform / Proposition / Masterbrand Strategy**，Brief Discovery 不能只停在一个 Strategy Territory。此时应主动把研究推进成一条可交给 Creative 的 Brand Logic。
+如果任务涉及 Brand Restage / Repositioning / Brand Platform / Proposition / Masterbrand Strategy，Brief Discovery 需要在完成市场竞争研究与 Gap Diagnosis 后，形成**经事实和竞争关系校验的 Brand Logic**，不只停在一个 Strategy Territory。不是每个 Brief 都需要定位，不提前写 Slogan 或 Campaign Idea。
 
-这不是要求每个 Brief 都造一句定位，也不是提前写 Slogan。只在品牌策略本身就是任务的一部分时启用。
+**这里是综合与验证，不是固定的因果推导。** 不先写 Human Spark，再按它的方向寻找品牌资产、产品优势或竞争理由；也不需要机械地填满每个术语。依据事实构建最能解释本题的品牌判断：
 
-**Brand Logic 必须从完整市场竞争与消费者事实中综合形成，而不是先决定一条 Human Spark，再为它依次寻找 Brand Belief、Product Truth 和 Competitive Contrast。** 下列要素用于检查逻辑是否一致、差异是否有真实依据；不是强制的研究顺序，更不是交给 Creative 的既定创意答案。
+- **Competitive Context & Positioning Reality**：重要竞争者在什么需求、受众、产品利益和品牌意义上建立选择理由？哪些主张已被竞争者长期表达？本品牌真正不同在哪里？不能只看广告词。
+- **Brand / Offering Truth**：品牌今天真实拥有怎样的产品、服务、历史资产、技术、渠道或独特体验？区分品类普遍价值、品牌真实贡献、现有 Offer、未来计划与未经验证的 Claim。
+- **Consumer Choice & Human Meaning**：真实人在什么处境中为什么购买、比较、使用、拒绝或转换？哪些是实际行为或研究结论，哪些是推断？必要时形成证据边界清楚的 **Human Spark**，它是研究综合，不是消费者逐字原话，更不是创意的唯一规定起点。
+- **Brand Belief / Brand Role**：在既有竞争格局与真实能力中，品牌有资格坚持什么价值或承担什么长期角色？Brand Belief 不等于 Human Insight；不能先写漂亮的 Brand Role 再反过来补品牌史与竞争解释。
+- **Positioning Difference**：消费者应当如何不同地理解或选择本品牌？不是 Slogan；要能说明和重要竞争者相比有何可信、可兑现且可持续的差异。
 
-### HUMAN SPARK
+**现实关系优先于顺滑链路。** 不要求以上五项按固定顺序得出，也不强制全部命名成单独页面。最重要的交付，是基于市场、竞争、消费者与品牌事实能站得住的 Brand Logic / Positioning Difference，以及仍需验证的核心前提。
 
-先说清楚，人真实存在的 tension 是什么。
-
-Human Spark 可以来自客户研究、第三方研究、行为观察和 AI 综合判断，但必须保留 SOURCE × STATUS。它可以是一句策略综合，不得假装成消费者逐字原话。
-
-Human Spark 要够大，能解释为什么这件事值得品牌长期回应；也要够具体，能说清人在什么生活里为什么会在乎。
-
-### BRAND BELIEF
-
-品牌基于这个 Human Spark 选择相信什么。
-
-**Brand Belief 不是 Human Insight。**  
-它是品牌的长期判断与态度，不是对消费者心理的再次改写。
-
-### BRAND ROLE
-
-品牌因此在人生活里承担什么作用。
-
-不要先写一句漂亮的 Brand Role，再倒推证据。先看品牌手里真实有什么能力、历史、Offer、渠道或服务，再总结它能长期承担什么。
-
-### PRODUCT / OFFERING TRUTH
-
-哪些今天真实存在的产品、服务、技术、体验或长期行为，能把 Brand Role 接住？
-
-这里要区分：
-- 品类天然价值；
-- 品牌真实贡献；
-- 当前在售 / 可用 Offer；
-- 未来计划；
-- 未验证 Claim。
-
-### COMPETITIVE CONTRAST
-
-强制回答：
-
-> 竞争品牌也能说什么？  
-> 这个品牌为什么说得更真实、更可信、更自然、更有机会长期拥有？
-
-如果结论只是「我们更专业」「我们更年轻」「我们更懂消费者」，继续往下拆。差异不一定来自别人完全不能做，也可以来自这个品牌有更完整、更可信的长期理由。
-
-### POSITIONING DIFFERENCE
-
-最后再回答：
-
-> **消费者应该怎样不同地理解这个品牌？**
-
-这不是 Slogan，也不是 Campaign Line。它是一句有证据边界的战略差异。
-
-用于综合核对的 Brand Logic（按任务组织，不强制一条因果顺序）：
-
-> **Consumer / Market Reality + Competitive Context + Brand / Offering Truth → Brand Role / Belief / Positioning Difference（必要时凝练 Human Spark）**
-
-不要为了填写一个 Human Spark，就让后续分析围绕其自圆其说。与竞争品牌的现实对照应先存在，不能最后补上一句「我们更懂消费者」充当 Competitive Contrast。
-
-如果其中某一层只能做到 WORKING HYPOTHESIS，可以继续形成条件性 Brand Logic，不因证据尚未闭环而拒绝输出；但要说清哪一层仍是 OPEN。
+品牌策略判断可以是 WORKING HYPOTHESIS 并保留 OPEN；不能为了将一条理论链写圆，把未知的消费者认知、竞争差异或产品利益当成事实。Creative Specialist 将继承真实问题、已知材料和已选决定，而**不会被要求将此处的 Human Spark 逐级包装成 Idea**。
 
 ---
 
