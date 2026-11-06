@@ -1,5 +1,5 @@
 {
-  "version": "2.1",
+  "version": "2.2",
   "purpose": "Cross-skill regression assertions for shared protocol consistency.",
   "assertions": [
     {
@@ -110,7 +110,7 @@
     },
     {
       "id": "P13",
-      "rule": "Brand-strategy Briefs may produce a Brand Logic Bridge from Human Spark through Brand Belief, Brand Role, Product/Offering Truth, Competitive Contrast and Positioning Difference; Human Spark is evidence-bounded synthesis, not fabricated verbatim consumer language.",
+      "rule": "Brand-strategy Briefs may form an evidence-bounded Brand Logic Bridge after independent market, competitor, consumer and brand research; Human Spark, Brand Belief, Brand Role, Offering Truth, Competitive Contrast and Positioning Difference are consistency lenses, not a mandatory causal chain beginning from an assumed Human Spark.",
       "paths": [
         "brief-discovery-specialist/SKILL.md",
         "brief-discovery-specialist/test-prompts.json",
@@ -273,6 +273,25 @@
         "project-hub/SKILL.md",
         "project-hub/test-prompts.json",
         "creative-exploration-specialist/SKILL.md"
+      ]
+    },
+    {
+      "id": "P30",
+      "rule": "Brief Discovery's initial Outside-In establishes a defensible market system and competitor landscape before interpreting client diagnosis: consumer choice set; decisive competitors' positioning, audience, offering/portfolio, price-channel, marketing actions and evidence-bounded momentum; cross-brand synthesis and own relative role. Competition research cannot be postponed entirely to a client-gap-triggered Deep Dive, or reduced to competitor names, slogans and product news.",
+      "paths": [
+        "brief-discovery-specialist/SKILL.md",
+        "brief-discovery-specialist/test-prompts.json",
+        "README.md",
+        "QUICK_START.md"
+      ]
+    },
+    {
+      "id": "P31",
+      "rule": "Brief independently identifies market- and competition-derived questions before client Brief analysis; a concise final Reality Baseline never substitutes for actual research. Its diagnosis may challenge an assumed communication solution in favor of offer/access/choice problems. Research depth follows decision impact without fixed competitor counts or matrices, and SOURCE × STATUS governs unsupported claims.",
+      "paths": [
+        "brief-discovery-specialist/SKILL.md",
+        "brief-discovery-specialist/test-prompts.json",
+        "tests/protocol-consistency.json"
       ]
     }
   ]
