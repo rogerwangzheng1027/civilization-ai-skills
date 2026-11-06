@@ -89,7 +89,7 @@ description: CIVILIZATION 创意探索专家 v3.0。默认从原始 Creative Pro
 
 > **WHAT HAPPENED**｜时间、地点、品牌具体做了什么；不是只写一个好听的 Campaign 名字  
 > **BRAND JOB → AUDIENCE VALUE**｜品牌希望促成什么认知、行为或选择变化？受众实际获得什么利益、体验或表达机会？两者通过什么创意动作联系？  
-> **WHAT PEOPLE ACTUALLY DID**｜人实际参与 / 使用 / 分享了什么；区分已观察的行为与活动规则期待的行为  
+> **WHAT AUDIENCES ACTUALLY EXPERIENCED / DID**｜人实际看到、听到、感受或做了什么；区分真实执行、品牌希望的反应和已观察到的行为  
 > **WHY PEOPLE CARED**｜为什么愿意注意 / 参与 / 分享；区分事实、证据支持的动机与 AI 推断  
 > **WHAT MADE IT WORK**｜关键条件及可能的作用机制，不把相关性包装成已证实的因果  
 > **CONTEXT / MECHANISM DEPENDENCY**｜哪些品牌资产、时代情绪、用户习惯、渠道 / 资源与执行条件不可照搬  
@@ -99,7 +99,7 @@ description: CIVILIZATION 创意探索专家 v3.0。默认从原始 Creative Pro
 
 > **这个案例的品牌任务与受众价值如何建立联系？哪些机制依赖特定资源、场景或行为条件？**
 
-案例的表面主张、品牌宣称的成果与真实参与行为不能混成一件事。
+案例的表面主张、品牌宣称的成果、真实呈现的内容与已观察到的受众反应不能混成一件事。
 
 ---
 
@@ -113,10 +113,10 @@ description: CIVILIZATION 创意探索专家 v3.0。默认从原始 Creative Pro
 
 不要因为 viral、热搜、获奖、曝光、售罄，就自动把单一机制写成成功原因。
 
-凡进入 ROUND 1 / ROUND 2 **正式分析、比较或结论**的案例，默认必须有：
+凡作为**正式研究案例**进入分析、比较或结论的案例，默认必须有：
 
 > **SOURCE LINK**｜可点击、可追溯来源  
-> **VISUAL**｜至少 1 张能看懂真实执行 / 参与机制的真实视觉；若环境不能直接展示，则提供 **VISUAL SOURCE LINK**
+> **VISUAL**｜至少 1 张能看懂真实执行 / 内容 / 体验形式的真实视觉；若环境不能直接展示，则提供 **VISUAL SOURCE LINK**
 
 视觉优先使用官方真实执行图、现场 / 界面 / 参与行为图、官方 Case Film 关键帧或可信媒体实拍。Logo、无关 packshot、stock、装饰图、AI 生成图都不能代替真实案例视觉。
 
@@ -143,20 +143,20 @@ description: CIVILIZATION 创意探索专家 v3.0。默认从原始 Creative Pro
 
 ---
 
-# 7. ROUND 1 输出与 Casebook 交付
+# 7. 案例研究与 Casebook 交付
 
-**EXPLORE**：优先少而完整，正式案例采用简洁 Case Board：
+针对用户要求的研究范围，正式案例可以采用简明 Case Board：
 
-> **CASE + REAL VISUAL + SOURCE**  
-> **BRAND JOB → AUDIENCE VALUE**  
-> **WHAT PEOPLE ACTUALLY DID / WHY PEOPLE CARED**  
-> **EVIDENCE BLOCK**  
-> **MECHANISM + DEPENDENCY**  
+> **CASE + REAL VISUAL + SOURCE**
+> **BRAND JOB → AUDIENCE VALUE**
+> **WHAT WAS ACTUALLY EXECUTED / EXPERIENCED / DONE**
+> **EVIDENCE BLOCK**
+> **MECHANISM + CONTEXT DEPENDENCY**
 > **WHY IT MATTERS HERE**
 
-最后总结最有价值的机制判断，不为凑数固定数量。**R1 不直接生成完整 Campaign Idea**，然后停下让用户做 Spark Calibration。
+重点是帮助判断一个实际问题，不能通过把案例排成逐级推进的故事线，反过来证明尚不存在的 Idea。
 
-**RESEARCH ATLAS**：先完成有边界的覆盖扫描、重要遗漏与验证缺口，再从相关案例中选出值得深拆的机制。可依用户要求做案例索引、图鉴、PDF 或 HTML；不要求把所有候选都写成同样长度的深度分析。
+**RESEARCH ATLAS**：先完成有边界的覆盖扫描、重要遗漏和验证缺口，再精选真实案例深拆。研究任务可以独立交付；无论形式多完整，不自动转向 Campaign 方案。
 
 ## Casebook / PDF / HTML Delivery QA｜只有用户要求文件时触发
 
@@ -168,7 +168,7 @@ Creative 对案例事实、机制与视觉真实性负责；文件生成、渲�
 4. **Open & Click**：抽查各页 / 各案例真实图片、排版与可点击来源；检查断图、错图、缺图、断链、中文孤字 / 孤行及视觉呈现是否可读。
 5. **Truthful completion**：若当前环境无法取得、嵌入、授权或验证部分素材，应明确标示未完成项，**不能把“有图片链接”“用了示意图”说成“真实素材已嵌入”**，也不能声称对未打开过的最终文件完成了 QA。
 
-只在用户要求这些交付物时执行上述 QA；不把每次 Creative 探索都变成繁重的文件制作流程。
+只在用户要求研究交付物时执行上述 QA；普通 Idea 探索不需要为了证明创意合理而制作案例文件。
 
 ---
 
