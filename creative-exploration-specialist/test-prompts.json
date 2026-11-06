@@ -1,15 +1,15 @@
 [
   {
     "id": 1,
-    "scenario": "ROUND 1 案例探索",
-    "prompt": "Strategy Territory 已基本确认。请按 Creative Exploration Specialist 做 ROUND 1，用真实跨界案例打开创意空间。不要直接给 Campaign Idea。",
-    "expected": "输出少量高质量案例；每个正式案例必须同时包含至少 1 张真实执行视觉、可追溯 SOURCE LINK、VISUAL SOURCE LINK 与 Evidence Block；不得用 Logo/packshot/stock/AI 生成图冒充案例视觉；无法获得可靠视觉或链接的案例只能进入 TO SOURCE / BACKUP；区分真实行为、Campaign Claim 和 Award Narrative；ROUND 1 后 🛑 STOP 等待 Spark Calibration。"
+    "scenario": "默认从同一 Brief 直接提出 Idea Seed",
+    "prompt": "我们已经有商业目标、受众、品牌事实与限制，请直接解决这个传播问题，探索 Big Idea。不要让我先走几轮案例和洞察推导。",
+    "expected": "默认 IDEA FIRST：从原问题与已知材料直接发散；输出有可想象创意动作、相互差异明显的 Idea Seed 与简短 Problem Link；不强制先输出 Case Landscape、Human Insight、Creative Spark；区分事实与假设，并在 First Cut 后让用户校准。"
   },
   {
     "id": 2,
-    "scenario": "KEEP mechanism 后生成 Idea",
-    "prompt": "我 KEEP 的机制是：让个体行为产生一个可被别人接住的后果。请进入 ROUND 3，发展值得推进的 Idea。不要把 Content、Social、Activation 自动拼成一套。",
-    "expected": "先形成参与结构或品牌动作真正不同的候选；做 Idea Role Check、Participation Cost、Retellability、De-media Test；弱候选不为凑数保留；必要时允许 KEEP NONE。"
+    "scenario": "非套路 Activation 创意先于策略证明",
+    "prompt": "给一个交通服务品牌想新的 Activation，目标是让用户主动记住它的便利性。不要给我普通挑战、快闪、扫码互动、KOL 拼盘。",
+    "expected": "从现有任务和资料生成真正不同的、可具体想象的品牌事件或行为；不以策略标签充当活动，不为凑数拼活动体系；先 First Cut 挑选有意外性的种子，之后检查 Brand Right、Problem Fit、可执行假设和参与负担。"
   },
   {
     "id": 3,
@@ -19,39 +19,39 @@
   },
   {
     "id": 4,
-    "scenario": "已有 Idea 雏形，要求先优化概念而不是发展执行",
-    "prompt": "我们已经有一个 Idea 雏形，也已经顺手想了一些角色、联名、包装和活动。这个 Idea 我想 KEEP。请先帮我把概念本身优化完善，不要沿这些具体执行往下做。",
-    "expected": "直接进入 Concept Development，不强制重跑 ROUND 1/2；先拆 CORE CONCEPT 与 EXECUTION HYPOTHESES；角色/联名/包装/活动不因已有雏形而自动 KEEP；压力测试 Human Truth、Brand Right、Task/Moment Necessity、Concept Meaning/Semantic Boundary、Expression System 与 Creative Requirements；可给同一 Idea Seed 下的 Concept Variants，但不得用不同媒介/活动冒充 Variant；输出 Refined Concept Platform 和 CONCEPT READY / NEEDS DEVELOPMENT / CREATIVE REOPEN Gate，不生成完整 IMC。"
+    "scenario": "已有明确 Idea 直接改进，不补先前阶段",
+    "prompt": "我们已经选定了一个需要深化的 Idea，但表现形式还很弱。请先帮我把它做强，不要补前面的三轮洞察或案例推导。",
+    "expected": "直达 IDEA SEED DEVELOPMENT / CONCEPT DEVELOPMENT；保留既有用户 Selection；用更鲜活的作品/表达打磨核心，真实事实校验后再发展所需执行，不要求逆向补 Human Insight / Creative Spark / Caseboard，不自动拼 IMC。"
   },
   {
     "id": 5,
-    "scenario": "执行雏形很吸引人但 Concept 仍不清楚",
-    "prompt": "这个角色形象已经很好看，也已经想好了周边、联名、短片和社交玩法。先按这些执行把整套 campaign 做完整吧。",
-    "expected": "如果核心 Concept 尚未通过 Concept Gate，应抵抗 Execution Gravity；把现有执行降为 EXECUTION HYPOTHESES，先检查核心 Idea、Human Truth、Brand Right、Task/Moment Role 和 Concept Meaning；不能用执行丰富度替代概念成立；只有 CONCEPT READY 后才进入完整 IMC。"
+    "scenario": "漂亮执行不等于大 Idea，允许退回重想",
+    "prompt": "有一个很漂亮的品牌角色设计、配套影片和联名，但整件事没什么新意。请评估是否值得继续，而不要自动帮它写完全年传播。",
+    "expected": "不被已有执行绑架；如果核心 Idea 缺乏 Creative Leap 应明确判断核心平庸并 CREATIVE REOPEN / KEEP NONE，重新寻找不同解法，而不是补策略叙事、把角色/KOL/联名拼成 IMC。"
   },
   {
     "id": 6,
-    "scenario": "Creative 需要 Human Insight，Creative Spark 后置",
-    "prompt": "Brief 已经给了一个 Human Spark。请继续 Creative Exploration。我希望你通过案例和研究继续找到更具体的 Human Insight，再判断有哪些 Creative Spark，不要把 Brand Belief 或 Product Truth 换个名字当 Insight。",
-    "expected": "保留上游 Human Spark，不重复发明品牌级 Human Spark；ROUND 2 明确区分 Human Insight 与 Creative Spark；Human Insight 落到真实行为/动机/生活处境并标证据状态；Creative Spark 是可继续发展的创意机会而非 Idea；再用案例、结构类比和反例验证。"
+    "scenario": "上游 Human Spark 可以是参考，但不是必经前提",
+    "prompt": "Brief 里已经有一个听起来合理的 Human Spark，但我们还不确定它对解决传播问题是否关键。请根据原始 Brief、事实与约束直接想 Big Idea，不要把这个 Spark 逐级演绎成自洽 Idea。",
+    "expected": "继承原始问题、事实、限制和 Spark 的 SOURCE × STATUS；并行探索能解决同一问题的其他创意机制，不要求 Human Insight → Creative Spark → Idea 的线性推导；新 Idea 通过 First Cut 和 Reality Test 检查，不能倒推编造消费者原话。"
   },
   {
     "id": 7,
-    "scenario": "三个 checkpoint 仍有缺口，用户只说继续",
-    "prompt": "目前三个 Creative Viability Checkpoints 都还有一些证据缺口，但没有发现虚假前提、不可获得资源或明显法规风险。我不想继续无限验证了，继续。",
-    "expected": "不得把 OPEN/AMBER 自动当 STOP；给出当前推荐方向和理由；确认没有 RED 后允许条件性进入 ROUND 3 做有限 Idea Candidate；保留 AMBER/WORKING HYPOTHESIS，不把方向写成用户已 SELECTED；不得再次把 KEEP/HOLD/DROP 选择题原样丢回用户。"
+    "scenario": "用户说继续，允许推进但不假装选定",
+    "prompt": "目前第一轮已有几条 Idea Seed，有些事实仍待验证。我只说‘继续’，请给推荐并做下轮发展。",
+    "expected": "不重复抛回选择题，给 CURRENT BEST JUDGMENT 并在无 RED 时条件性进入 Reality Test 或 Idea Development；保留 OPEN / HYPOTHESIS，不写入 SELECTED DIRECTIONS；如核心平庸则重新生成，不进入自我辩护循环。"
   },
   {
     "id": 8,
-    "scenario": "跨领域案例研究的覆盖缺口检查",
-    "prompt": "请围绕一个品牌传播课题系统研究不同媒介与参与方式的真实案例。覆盖相关行业、区域、受众与执行机制，并主动检查遗漏；先不要发展 Campaign Idea。",
-    "expected": "采用 RESEARCH ATLAS MODE；先确定与问题相关的行业、地域、时间、受众、案例机制和素材边界，再进行广搜与覆盖缺口检查；说明未覆盖或无法核实之处，不虚称穷尽；按启发性与证据强弱精选案例深拆，不要求全体候选使用相同模板，不强制转入 Idea/IMC。"
+    "scenario": "系统研究是独立交付，不强制包装成创意",
+    "prompt": "请为一个社会议题传播研究跨领域真实案例，覆盖多个区域和平台并检查遗漏，先做完案例研究，不开发 Big Idea。",
+    "expected": "采用 RESEARCH ATLAS MODE，明确用户边界、覆盖缺口、真实执行、来源与视觉；精选案例深拆并完成约定交付；不把案例排成一条 Human Insight → Creative Spark → Idea 的必然演绎，也不自动转入 IMC。"
   },
   {
     "id": 9,
-    "scenario": "案例目的、受众价值与机制条件的比较",
-    "prompt": "比较几个传播与品牌体验案例：品牌分别想促成什么改变、受众为什么愿意回应、真实发生了哪些行为？哪些机制可以迁移？",
-    "expected": "对重点案例说明 BRAND JOB → AUDIENCE VALUE、观察到的 WHAT PEOPLE ACTUALLY DID、WHY PEOPLE CARED 的证据或假设，以及 CONTEXT / MECHANISM DEPENDENCY；品牌目标、传播表达、实际行为、效果与因果归因严格区分；迁移建议写清行为、资源和市场适用条件。"
+    "scenario": "案例机制不等于必须复制其创意形式",
+    "prompt": "比较若干已执行的品牌内容与体验案例，解释真正发生了什么、什么有迁移价值，也讨论哪些不能照搬。",
+    "expected": "核对 BRAND JOB → AUDIENCE VALUE、真实内容/行为、证据、环境条件和机制差异；能讲清案例如何回答对应问题，却不把案例做法强制转译成当前客户的唯一 Idea。"
   },
   {
     "id": 10,
@@ -61,14 +61,32 @@
   },
   {
     "id": 11,
-    "scenario": "关键竞争依据缺失时只补必要事实",
-    "prompt": "我们要替一个成熟服务品牌解决价格溢价的传播问题。材料写了‘消费者认为我们更专业’，但没有研究依据，也没有实际比较对象。请从 Creative Problem 继续探索，不要直接编造竞争优势，也不要重做整个 Brief。",
-    "expected": "先检查上游已确认的竞争选择、竞品表达和 Brand / Offering Advantage；只补会影响创意判断的竞争事实；无法确认则保留 SOURCE × STATUS 与条件性假设，不声称消费者更信任或竞品没有类似优势；不自动建立新研究阶段或阻断可行探索，仅上游问题定义被推翻时触发 BRIEF REOPEN。"
+    "scenario": "竞争事实重要才补查，创意不中止",
+    "prompt": "传播任务依赖高价产品的品牌资格，但客户材料没有说明人们实际与什么对比，也没有证据证明竞品都不具备我们的优势。请继续发想并诚实说明风险。",
+    "expected": "继承原始问题和现有证据，只核验影响 Idea 成立的竞争差异，不能假定独占或偏好；不为补全策略而强制停下发想；发散后在 REALITY TEST 检查并把未证实的优势标 OPEN。"
   },
   {
     "id": 12,
-    "scenario": "内容叙事与感官创意不强制互动机制",
-    "prompt": "请为一个设计工具做有记忆点的品牌短片和声音资产。目标是让人认得、记住并愿意看完，不需要消费者打卡、创作 UGC 或参加活动。请在现有 Creative 机制中形成候选并筛选。",
-    "expected": "将任务定义为感受、观看、记忆或品牌识别的变化，研究真实内容/感官机制和可迁移条件；候选允许在叙事结构、情绪变化和品牌资产使用上不同；不能用强制参与或互动来衡量全部 Idea，按需评估注意力/理解成本，保留品牌归属与任务适配判断，不自动拼出 Activation/IMC。"
+    "scenario": "非互动型创意与内容作品本身可以完整成立",
+    "prompt": "设计一部有记忆点的品牌短片和辨识度强的声音资产。目标是愿意看完、认出并记住品牌，不要求打卡、UGC、竞赛或互动。",
+    "expected": "Idea Seed 可以直接是叙事结构、声音钩子或感官表达；以注意力、记忆和 Brand Right 检查，不强制参与结构、品牌行为或 Activation；不用为了‘概念完整’自动追加 Social / IMC。"
+  },
+  {
+    "id": 13,
+    "scenario": "同一个问题可被不同创意世界解决",
+    "prompt": "请用同一份关于城市文化机构的 Brief 和材料探索不同创意解法，不先认定上游某个洞察是唯一出发点。要求看得见的 Idea，而不是三个策略 Territory。",
+    "expected": "保持同一 CLIENT ASK、真实事实、约束与目标；从不同叙事、感官、品牌行动或媒介机制出发生成实质不同的 Idea Seed；先简短呈现创意本体与意外性，不能重新发明不同的 Brief 或为 Idea 编造理由。"
+  },
+  {
+    "id": 14,
+    "scenario": "用户认为全是行货，停止自圆其说",
+    "prompt": "刚才给我的所有想法都很常规，不要换名字、补洞察或写更多策略理由。请真正想点别的。",
+    "expected": "承认核心缺少新意，直接回到 OPEN CREATIVE LEAP 生成不同机制的新候选；不改名复活 DROP、不拼 KOL/社交/联名扩大形式、不用更长策略叙事为原候选辩护；允许 NOT YET / KEEP NONE。"
+  },
+  {
+    "id": 15,
+    "scenario": "单独成立的创意不必变成长线平台",
+    "prompt": "我们只需要一个会让人震惊又符合品牌的单次街头行动，而不是一年 IMC 平台。请给可以讨论和验证的 Activation Idea。",
+    "expected": "先提供具体而可想象的行为或事件，初筛后根据品牌资格、目标和执行条件判断；单次 Activation 可作为完整 Idea，不必抽象成宏大品牌主张或完整 IMC；未获得许可、场地或资源不能写成已确认。"
   }
 ]
