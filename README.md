@@ -375,9 +375,9 @@ Project Hub 是共享协议唯一原文。
 
 ## 当前版本
 
-- Project Hub **v1.10**
+- Project Hub **v1.11**
 - Brief Discovery Specialist **v1.26**
-- Creative Exploration Specialist **v2.6.2**
+- Creative Exploration Specialist **v3.0**
 - Product Innovation Specialist **v1.6**
 - Proposal Development Specialist **v1.15**
 
