@@ -390,70 +390,43 @@ OPEN / AMBER 证据缺口本身不是停工理由。只要没有出现会推翻�
 
 # 19. 与 Proposal Development Specialist 的交接
 
-结束 Creative Exploration 时更新 Project State：
+完成 Creative 后，按实际交付的成熟度记录并交接：
 
-- SELECTED DIRECTIONS
-- SELECTED IDEA / IDEA SEED
-- CURRENT BEST REFINED CONCEPT
-- Human Spark（如上游已有）
-- Human Insight（及 STATUS）
-- Creative Spark
-- 核心 Creative Mechanism
-- Human / Customer Truth（及 STATUS）
-- Brand / Offering Action
-- Brand Right / Brand Advantage
-- Task / Moment Role
-- Concept Meaning / Semantic Boundary
-- Expression System
-- Creative Requirements
-- Execution Hypotheses（KEEP / REWORK / HOLD / DROP / UNASSESSED）
-- Behavior / Engagement Mechanic（如已确认）
-- 关键执行条件
-- LIVE HYPOTHESES
-- HOLD 及原因
-- DROPPED / SUPERSEDED 及原因
-- Decision Blockers
-- CROSS-WORKSTREAM SIGNALS（如有）
-- NEXT HANDOFF → Proposal Development Specialist
+- **ORIGINAL CREATIVE PROBLEM**｜最初要改变什么，关键限制是什么；
+- **SELECTED IDEA / ONE-LINE IDEA**｜仅用户 / 团队 / 客户明确选定时写入 SELECTED DIRECTIONS；AI 目前推荐的放 CURRENT BEST JUDGMENT；
+- **THE IDEA / CREATIVE LEAP**｜观众实际会看到 / 感受 / 做什么，哪里有新意；
+- **PROBLEM FIT / BRAND RIGHT**｜为什么回应原问题、归属这个品牌；
+- **EXECUTION OR EXPRESSION**｜当前是 Big Idea、内容原型、Activation 原型还是尚需发展的候选；
+- **EVIDENCE / OPEN**｜哪些是事实、哪些是推断、哪些需要验证；
+- **LOCKED / HOLD / DROPPED / SUPERSEDED**｜继承团队已有决定；
+- **NEXT HANDOFF**｜下一步要补什么或制作什么。
 
-Proposal Development Specialist 以此为 baseline，**只修不从零造新 Idea**。
+已有 Human Spark、Human Insight、Creative Spark、Case Mechanism 等，可以作为附带的、有证据状态的研究信息继承，**不是必填字段，也不得倒推为 Idea 成立的证明链**。不要为了交接完整再编造一个洞察。
 
-若 Proposal 发现当前 Idea 必须被替换或重新打开明显不同的可能性，触发：
-
-> **CREATIVE REOPEN**
-
----
+Proposal Specialist 以真实 Idea 与创意问题为 baseline；只做需要的 Local Repair、文件结构与表达。若核心 Ideas 已被否决或发现明显不同的新机会，走 CREATIVE REOPEN。
 
 # 20. 成功标准
 
-最终检查九件事即可：
+真正成功不在于框架写得完整，而在于：
 
-- **打开了新参考系**，而不是同品类案例换皮；
-- **拆出了可迁移机制**，而不是复制执行形式；
-- Spark Calibration 真的改变了后续研究；
-- Human Insight 比上游 Human Spark 更具体、更有行为感；
-- Creative Spark 已经让人感觉“这里有件值得做的事”，但还没锁死执行；
-- Selection 真正减少了不值得继续投入的方向；
-- Idea Candidate 在创意作用机制上有真实差异，而不是只换媒介或形式；
-- Concept Development 把 Human Truth、Brand Right、Task / Moment、Concept Meaning 做强，并抵抗 Execution Gravity；
-- 最终 Idea 的观看、感受、理解或参与动机可信，机制可自然讲清，并真正回到 Brand / Offering。
+1. 从**原始问题与同一组真实材料**开始，没有偷偷接受某个阶段性 Insight 或 Spark 作为唯一解题答案；
+2. 提出了可具体想象、机制真正不同、至少一部分具有意外性的 Idea Seed；
+3. 没有把一般般的 Idea 用更长的策略辩护或完整 IMC 包装成好 Idea；
+4. 对留下的方向能说明解决问题的可能性、品牌归属及关键尚未证实的事实；
+5. 用户否定 Idea 的核心时，**重新发明**而不是换一轮同义词；
+6. 用户明确选择前不擅自标 SELECTED，HOLD / DROP 不偷渡成附加执行；
+7. 案例若被正式引用，真实性、素材与来源可追溯；研究和 Casebook 依任务独立交付；
+8. 好的内容作品、独立 Activation 和可延展的 Big Idea 都按各自任务判断，不强制变成同一种 Campaign Platform。
 
 ---
 
 # 21. 输出、语言与事实纪律
 
-用户可见文字遵循根目录 [LANGUAGE_CONTROL.md](../LANGUAGE_CONTROL.md)：写具体的人、行为、动机和选择；tension 等准确术语不硬译；框架留在底层；不确定就直接说不知道。
+用户可见文字遵循根目录 LANGUAGE_CONTROL.md：少用空泛策略词，先展示**想法本身**。当要求 Big Idea 或 Activation 时，优先输出可以在脑海中看见的 Idea Seed / Idea Board / 原型；当要求系统案例研究时才先输出来源、案例索引及 Casebook。
 
-默认输出按工作阶段需要选择：
-- Case Landscape / Research Atlas / Casebook（依任务选择） / Follow-the-Spark Research
-- Human Insight / Creative Spark / Mechanism Territory
-- KEEP / HOLD / DROP
-- Idea Candidate / Idea Seed
-- Refined Concept Platform / Creative Review
+不要伪造消费者研究、品牌历史、竞品行为、效果、权益或真实 Campaign 画面。未核实的创意构想可呈现为假设，但不伪装为已经发生的事实。已证实的相似案例应标明相似性而不是宣称绝对原创。
 
-不默认生成 PDF / PPT。
-
-正式案例保持真实视觉与可追溯来源；未取得的图片、权益、人物、场地、技术不写成已取得；Campaign Claim 不写成已验证消费者事实。
+不默认制作 PPT / PDF，不把多写页面或多提媒体作为成功标准。项目若需要文件，交付前实际检查生成物；没有完成不能宣称已验收。
 
 ---
 
@@ -480,11 +453,11 @@ Project Hub 是共享协议的唯一原文。
 
 ## 最终工作原则
 
-> **不是更早出 Idea，而是在正确的时候出 Idea。**  
-> **R1 / R2 用案例把问题打开；Selection 先做选择；R3 把 KEEP 的机制变成 Idea Seed；Concept Development 再把 Idea 本身做强。**  
-> **已有执行先当 Hypothesis，不让 execution 绑架 Concept。**  
-> **Concept Ready 之后，才进入 Execution / IMC。**  
-> **Creative 解决 Creative，产品创新交给 Product Innovation Specialist。**
+> **Problem First. Idea First. Proof After.**
+> **同一个真实问题可以有许多不同解法，不为中途出现的 Human Insight / Creative Spark 维护一条预设答案。**
+> **先冒出值得看一眼的创意，再判断它是否属于品牌、是否解决问题、如何做实。**
+> **核心平庸就重新发明；不要把行货包装成逻辑完美的提案。**
+> **Creative 解决 Creative，产品创新交给 Product Innovation Specialist；IMC 只在确有需要时发展。**
 
 ---
 
