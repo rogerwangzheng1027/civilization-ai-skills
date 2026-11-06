@@ -1,5 +1,5 @@
 {
-  "version": "2.0",
+  "version": "2.1",
   "purpose": "Cross-skill regression assertions for shared protocol consistency.",
   "assertions": [
     {
@@ -80,22 +80,18 @@
     },
     {
       "id": "P10",
-      "rule": "Creative formal cases in ROUND 1 / ROUND 2 require at least one authentic execution visual plus traceable SOURCE LINK and VISUAL SOURCE LINK; cases missing reliable visual or link stay in TO SOURCE / BACKUP and AI/stock/logo/packshot cannot substitute for real case visuals.",
+      "rule": "Creative formal research cases (not speculative Idea Seeds) require authentic visual and traceable SOURCE / VISUAL SOURCE links; incomplete cases remain TO SOURCE / BACKUP, with no fictitious proof. The requirement does not force a case study before ideation.",
       "paths": [
         "creative-exploration-specialist/SKILL.md",
-        "creative-exploration-specialist/test-prompts.json",
-        "README.md",
-        "QUICK_START.md"
+        "creative-exploration-specialist/test-prompts.json"
       ]
     },
     {
       "id": "P11",
-      "rule": "Creative supports direct Concept Development from a user-selected Idea Seed; existing mascot/IP/collab/packaging/activation/KOL/media ideas are treated as EXECUTION HYPOTHESES until the core concept passes Human Truth, Brand Right, Task/Moment, semantic-boundary and creative-requirement checks. Full Execution/IMC is downstream of CONCEPT READY.",
+      "rule": "Creative may develop an already selected Idea directly; Concept Development evaluates only relevant creative, audience, brand and execution conditions. It must not require post-hoc Human Insight / Creative Spark or a long-term Concept Platform for a standalone film or activation, and IMC is not used to rescue a weak idea.",
       "paths": [
         "creative-exploration-specialist/SKILL.md",
-        "creative-exploration-specialist/test-prompts.json",
-        "README.md",
-        "QUICK_START.md"
+        "creative-exploration-specialist/test-prompts.json"
       ]
     },
     {
@@ -124,13 +120,11 @@
     },
     {
       "id": "P14",
-      "rule": "Creative distinguishes inherited Human Spark from Creative-stage Human Insight and later Creative Spark; viability checkpoints are non-blocking when evidence is AMBER, and a user saying continue may trigger conditional progress without falsely marking the route SELECTED.",
+      "rule": "Creative preserves upstream Human Spark, Human Insight and Creative Spark as evidence-tagged optional references. They do not become mandatory steps or a logical proof chain for Idea generation. Creative may advance conditionally without falsely marking AI recommendations SELECTED.",
       "paths": [
-        "project-hub/SKILL.md",
         "creative-exploration-specialist/SKILL.md",
         "creative-exploration-specialist/test-prompts.json",
-        "README.md",
-        "QUICK_START.md"
+        "project-hub/SKILL.md"
       ]
     },
     {
@@ -231,13 +225,12 @@
     },
     {
       "id": "P24",
-      "rule": "Creative Exploration offers Explore and opt-in Research Atlas. Atlas researches according to the task's actual scope, audits evidence and coverage gaps, selectively deepens useful cases, analyzes Brand Job to Audience Value and mechanism dependencies, and verifies genuinely embedded case visuals, sources and offline rendering when requested. No automatic Idea/IMC or premature stop while a requested Casebook remains incomplete.",
+      "rule": "Creative defaults to IDEA FIRST from the original problem and factual materials, while case Inspiration Search and independent Research Atlas remain opt-in / task-triggered. Case studies are not a mandatory gate to Ideas; actual Research Atlas / Casebook delivery still requires credible cases, media, source and offline artifact QA.",
       "paths": [
         "creative-exploration-specialist/SKILL.md",
         "creative-exploration-specialist/test-prompts.json",
         "README.md",
-        "QUICK_START.md",
-        "tests/protocol-consistency.json"
+        "QUICK_START.md"
       ]
     },
     {
@@ -263,6 +256,23 @@
         "creative-exploration-specialist/SKILL.md",
         "creative-exploration-specialist/test-prompts.json",
         "tests/protocol-consistency.json"
+      ]
+    },
+    {
+      "id": "P28",
+      "rule": "Creative Open Leap starts from the same real Brief, assets, constraints and source-bounded facts, generates concrete distinct ideas before explanatory rationalization, First Cuts for surprise/problem fit/brand belonging, tests retained ideas afterward, and re-generates when judged generic instead of post-hoc justifying the original.",
+      "paths": [
+        "creative-exploration-specialist/SKILL.md",
+        "creative-exploration-specialist/test-prompts.json"
+      ]
+    },
+    {
+      "id": "P29",
+      "rule": "Project Hub Creative default stop and Creative → Proposal handoff are idea-first; insights and Sparks are optional, source-tagged references, not required shared handoff fields. Selection remains human-controlled; other Specialists keep their professional round structure.",
+      "paths": [
+        "project-hub/SKILL.md",
+        "project-hub/test-prompts.json",
+        "creative-exploration-specialist/SKILL.md"
       ]
     }
   ]
