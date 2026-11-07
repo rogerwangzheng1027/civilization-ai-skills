@@ -1,5 +1,9 @@
 # CIVILIZATION Specialist Workflow｜Quick Start
 
+> **看清真实市场，打破惯性思维。**
+
+**Brief 先看清现实，再判断真正的问题；Creative 从真实问题出发，开放发明新的解法。** 不顺着客户的既定诊断找证据，也不靠一长串 Insight / Spark 解释替普通 Idea 辩护。
+
 ## 新项目怎么开始
 
 1. 把客户 Brief / 会议纪要放进项目文件夹。

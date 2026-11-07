@@ -1,5 +1,9 @@
 # CIVILIZATION AI Specialists | Plugin package
 
+> **看清真实市场，打破惯性思维。**
+
+**Brief Discovery** independently understands market competition, consumer choice, and the brand's real position before diagnosing the client's Brief. **Creative Exploration** starts from the same real problem and evidence to invent distinctive solutions before validating them. The system supports clear professional judgment, not post-hoc justification.
+
 This plugin is a **packaging layer only**. The canonical source of truth is the original repository main branch:
 
 https://github.com/rogerwangzheng1027/civilization-ai-skills
