@@ -46,5 +46,17 @@
     "scenario": "Creative 到 Proposal 的交接不倒填洞察",
     "prompt": "团队已经选择一个具体品牌内容 Idea，它很有创意但没有正式撰写 Human Insight、Creative Spark 或案例机制图。现在需要做提案，Hub 如何交接？",
     "expected": "继承已选 Idea、原始创意问题、Brand Right、Problem Fit、作品表现与关键执行条件及 SOURCE × STATUS；Human Insight / Spark 未形成则不编造；不阻断 Proposal Development，也不要求 Creative 为了交接重建线性推导。"
+  },
+  {
+    "id": 9,
+    "scenario": "日常局部修改不引入 Challenge 流程成本",
+    "prompt": "这是已经确认方向的提案。我只需要你把本页两个中文标题改得更简练，不要求重新研究。",
+    "expected": "直接交付可用标题；仅当发现影响方向的真实证据冲突才简短提示，不重跑四步Challenge，不增加新报告、人物卡、反证页或等待审批。"
+  },
+  {
+    "id": 10,
+    "scenario": "高影响假设存在替代原因时触发 Deep Challenge",
+    "prompt": "我们认为一个新品增长主要源于新配方，准备扩大投入，但已有数据显示同期也大幅铺货和促销。请按当前最佳判断推进。",
+    "expected": "指出尚未区分配方贡献与渠道/促销等竞争性解释，保留SOURCE × STATUS，提出最有鉴别力的已有数据或最小试验；给出条件性Current Best Judgment，不装作因果已证实；Challenge不应扩成固定多轮报告。"
   }
 ]
