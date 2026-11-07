@@ -20,11 +20,13 @@
 
 当前完整系统快照：
 
-> **`civilization-ai-specialists-v1.0.15`**
+> **`civilization-ai-specialists-v1.0.16`**
 
 该 Release 已包含以上五个当前 Skill 版本，可用于安装、比较和整体回退。
 
-**v1.0.15 / Brief v1.27**：加深 Outside-In 市场竞争系统研究：在解读客户诊断前先理解主要竞品定位、目标/实际用户、产品组合与利益、价格渠道、真实营销行为，以及它们如何争夺消费者选择；本品牌相对位置及独立问题先于 Reality × Intent Gap。竞争深挖是对首轮研究的深化，不得作为跳过基础竞品研究的理由；精简摘要不能替代研究。Brand Logic 由竞争与真实材料综合，不强制从预设 Human Spark 开始。无固定竞品数量或研究模板；保留 SOURCE × STATUS、三轮内部思考与研究深度按决策价值调整。针对这些变化新增通用测试。
+**v1.0.16 / 介绍与引导文案同步（Skill 方法版本不变）**：在 GitHub README、Quick Start 及 Plugin 介绍中统一核心理念「看清真实市场，打破惯性思维」。明确 Brief 的独立市场与竞争研究、Creative 从真实问题开放发明新解法，以及两者之间共享事实而非传递预设答案的关系；同时修正 Plugin 中过时的 Creative 默认提示。五个 Skill 专业方法与版本不变，此次仅调整面向使用者的描述与示例。
+
+**此前 v1.0.15 / Brief v1.27**：加深 Outside-In 市场竞争系统研究：在解读客户诊断前先理解主要竞品定位、目标/实际用户、产品组合与利益、价格渠道、真实营销行为，以及它们如何争夺消费者选择；本品牌相对位置及独立问题先于 Reality × Intent Gap。竞争深挖是对首轮研究的深化，不得作为跳过基础竞品研究的理由；精简摘要不能替代研究。Brand Logic 由竞争与真实材料综合，不强制从预设 Human Spark 开始。无固定竞品数量或研究模板；保留 SOURCE × STATUS、三轮内部思考与研究深度按决策价值调整。针对这些变化新增通用测试。
 
 **此前 v1.0.14 / Creative v3.0 + Hub v1.11**：Creative 默认以同一个原始问题和真实材料开启 OPEN CREATIVE LEAP，先产生具体、彼此不同的 Idea Seed，经 First Cut 后再做 Reality Test；Human Insight / Creative Spark / 案例不再是创意生成必经的推导链。保留独立案例研究、真实素材 QA、Brand Right、证据边界、Selection Authority 和局部 Concept Development。Hub 同步 Creative 首轮停顿与可选洞察交接，其他 Specialist 的专业方法不变。通用测试重新覆盖问题优先、反自洽、不同创意机制及不强制 IMC 的情境。
 
