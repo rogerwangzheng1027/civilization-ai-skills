@@ -1,5 +1,5 @@
 {
-  "version": "2.2",
+  "version": "2.3",
   "purpose": "Cross-skill regression assertions for shared protocol consistency.",
   "assertions": [
     {
@@ -292,6 +292,29 @@
         "brief-discovery-specialist/SKILL.md",
         "brief-discovery-specialist/test-prompts.json",
         "tests/protocol-consistency.json"
+      ]
+    },
+    {
+      "id": "P32",
+      "rule": "Project Hub is the single source for Reality Check & Challenge Protocol: Reality, Anomaly, Rival Hypotheses, Decisive Test; Light default and Deep decision-triggered. Challenge must create value, not complexity. Do not add mandatory reports, new Specialists, rounds, state systems, or faux AI-consumer sample-size claims.",
+      "paths": [
+        "project-hub/SKILL.md",
+        "brief-discovery-specialist/SKILL.md",
+        "creative-exploration-specialist/SKILL.md",
+        "product-innovation-specialist/SKILL.md",
+        "proposal-development-specialist/SKILL.md",
+        "project-hub/PROJECT_STATE_TEMPLATE.md",
+        "README.md"
+      ]
+    },
+    {
+      "id": "P33",
+      "rule": "Brief challenges only decisive problem/territory explanations; Creative challenges retained Idea after OPEN CREATIVE LEAP, not before; Product challenges innovation incremental-growth causality within Selection; Proposal challenges decisive Solution claims with KEEP/REPAIR/REOPEN, no compulsory objection slides.",
+      "paths": [
+        "brief-discovery-specialist/SKILL.md",
+        "creative-exploration-specialist/SKILL.md",
+        "product-innovation-specialist/SKILL.md",
+        "proposal-development-specialist/SKILL.md"
       ]
     }
   ]
