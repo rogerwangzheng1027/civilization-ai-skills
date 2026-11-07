@@ -58,7 +58,7 @@ creative-exploration-specialist/SKILL.md      f2f25b393faf5a9912dc9bec00b126529a
 product-innovation-specialist/SKILL.md        7ac0f58ba818638d7f55a6e3426316d1c49b8de1
 proposal-development-specialist/SKILL.md      7c0d81ea4c8c3aae4f67c7b436e1d33611296cf0
 LANGUAGE_CONTROL.md                           a0e8cf9f83947c33c59f2ec69954afc4f234bc29
-QUICK_START.md                                fd3c8ffff6585ab00620a22a78a6da8c0d2a00cc
+QUICK_START.md                                7c1e2d85abd2ef2a61874dba0e612f912337eeca
 INSTALL_CHATGPT.md                            6588a530ccc26581217f56d79805210ce388f798
 LICENSE                                       baee873b679e36a4123c83b8a29e0fb17fad14eb
 ```
