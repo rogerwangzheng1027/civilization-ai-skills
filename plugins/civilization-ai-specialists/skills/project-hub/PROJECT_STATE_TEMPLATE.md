@@ -46,6 +46,7 @@
 ## EVIDENCE NOTES
 - 关键证据的 SOURCE（可为 UNKNOWN）+ STATUS：
 - 不得猜 SOURCE；不同 Claim 分别标 STATUS：
+- 仅在足以改变判断时，记录重要反证、竞争性解释或最小验证；不另建 Challenge 报告：
 
 ## CROSS-WORKSTREAM SIGNALS
 - TO CREATIVE：POSSIBLE / NONE｜why：

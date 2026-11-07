@@ -12,11 +12,11 @@ The package contains exact Git blobs from the five original SKILL.md files, plus
 
 ## Five skills
 
-- `skills/project-hub/SKILL.md` — v1.11
-- `skills/brief-discovery-specialist/SKILL.md` — v1.27
-- `skills/creative-exploration-specialist/SKILL.md` — v3.0
-- `skills/product-innovation-specialist/SKILL.md` — v1.6
-- `skills/proposal-development-specialist/SKILL.md` — v1.15
+- `skills/project-hub/SKILL.md` — v1.12
+- `skills/brief-discovery-specialist/SKILL.md` — v1.28
+- `skills/creative-exploration-specialist/SKILL.md` — v3.1
+- `skills/product-innovation-specialist/SKILL.md` — v1.7
+- `skills/proposal-development-specialist/SKILL.md` — v1.16
 
 Project Hub remains the single source for shared SOURCE × STATUS, Handoff, and version/update protocols. Every Specialist retains its own distinct methodology. The shared language rules are at `skills/LANGUAGE_CONTROL.md`, preserving original relative Markdown links.
 
@@ -51,12 +51,12 @@ Never claim that GitHub was checked when it was not actually read.
 ## Source integrity (Git blob SHA)
 
 ```text
-project-hub/SKILL.md                          3296ad45a7b0f99809a559e89001bf4b5ba8da63
-project-hub/PROJECT_STATE_TEMPLATE.md         1051ba6be86923a5b602bbd5bc036738c8cba941
-brief-discovery-specialist/SKILL.md           e54b9934e097a6757ebf5428c26801fe6a17bad6
-creative-exploration-specialist/SKILL.md      f2f25b393faf5a9912dc9bec00b126529a00e8b7
-product-innovation-specialist/SKILL.md        7ac0f58ba818638d7f55a6e3426316d1c49b8de1
-proposal-development-specialist/SKILL.md      7c0d81ea4c8c3aae4f67c7b436e1d33611296cf0
+project-hub/SKILL.md                          8a8b006e4c8144f7b64588ce675e2e4369fd2e17
+project-hub/PROJECT_STATE_TEMPLATE.md         059917a36ed86350a1529e22094db0217c426cfd
+brief-discovery-specialist/SKILL.md           3492bf8cc87803c640423bc3c530e3923fc72000
+creative-exploration-specialist/SKILL.md      0913cf161b9b785ebe56c5978fb4f7685f29ecf5
+product-innovation-specialist/SKILL.md        f1c3657b1eb8149f3a5802e585ecd553cad5ea9b
+proposal-development-specialist/SKILL.md      192134914abd2c8f1a2f048fedb0af0fef344a79
 LANGUAGE_CONTROL.md                           a0e8cf9f83947c33c59f2ec69954afc4f234bc29
 QUICK_START.md                                7c1e2d85abd2ef2a61874dba0e612f912337eeca
 INSTALL_CHATGPT.md                            6588a530ccc26581217f56d79805210ce388f798

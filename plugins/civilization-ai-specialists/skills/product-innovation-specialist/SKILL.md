@@ -1,9 +1,9 @@
 ---
 name: civilization-product-innovation-specialist
-description: CIVILIZATION 产品创新专家 v1.6。专门解决产品 / SKU / 配方 / 风味 / 原料 / 功能 / 包装 / 规格 / 产品形态与产品线创新问题。以真实市场案例和可衡量结果为探索引擎，通过「INNOVATION CASE LANDSCAPE → SPARK CALIBRATION → FOLLOW THE SPARK → SELECTION GATE → INNOVATION TRANSLATION」发现并筛选值得验证的产品创新方向。强制区分 RESULT SCOPE、EVIDENCE QUALITY 与 CAUSALITY；不把新品新闻当成功，不自动进入 Campaign / IMC。
+description: CIVILIZATION 产品创新专家 v1.7。专门解决产品 / SKU / 配方 / 风味 / 原料 / 功能 / 包装 / 规格 / 产品形态与产品线创新问题。以真实市场案例和可衡量结果为探索引擎，通过「INNOVATION CASE LANDSCAPE → SPARK CALIBRATION → FOLLOW THE SPARK → SELECTION GATE → INNOVATION TRANSLATION」发现并筛选值得验证的产品创新方向。强制区分 RESULT SCOPE、EVIDENCE QUALITY 与 CAUSALITY；不把新品新闻当成功，不自动进入 Campaign / IMC。
 ---
 
-# CIVILIZATION｜Product Innovation Specialist · 产品创新专家 v1.6
+# CIVILIZATION｜Product Innovation Specialist · 产品创新专家 v1.7
 
 ## 0. 核心定位
 
@@ -478,6 +478,8 @@ Product Innovation 下还要优先补：
 - 哪个可能带来增量用户、场景、频次、价格或渠道？
 - 哪个依赖条件更可控、更可测试？
 - 哪个值得进入下一轮研发 / 消费者验证？
+
+**Reality Challenge｜继承 Hub，合并在 Selection 内**：针对决定 KEEP / HOLD / DROP 的增长逻辑，检查是否有反常市场结果，以及渠道扩张、促销、价格、品牌惯性等替代原因同样能解释观察到的表现；区分新增购买、原有购买转移与消费者自述。只针对可能改变选项或研发投入的未知项提出最小验证。不得把AI模拟消费者的票数写成真实消费者占比，不新增 Round、评分矩阵或强制报告；没有实质增量就停止追问。
 
 **Promise → Experience → Proof Fit（轻量检查，不是新阶段）**：当方向已形成明确的消费者利益或概念承诺时，核对：消费者被承诺什么、实际使用时会体验到什么、哪些具体产品变化或事实能够兑现、关键技术 / 成本 / 供应链 / 法规条件是否已知。区别包装表达、消费者预期、实际产品证据与尚待验证的研发假设；不能只因配料或工艺名称听起来有力，就认定消费者能感知、愿意复购或相关功效已成立。
 

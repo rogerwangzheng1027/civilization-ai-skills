@@ -1,9 +1,9 @@
 ---
 name: civilization-proposal-development-specialist
-description: CIVILIZATION 提案发展专家 v1.15。用于把已形成的 Strategy / Creative Idea / Product Innovation Direction 发展成完整提案文件：先继承上游 Solution，再用 Storyline 做压力测试，必要时做受限 Repair，随后形成 Proposal Spine、章节结构、Page Plan、关键标题与可直接进入 PPT / PDF 的提案内容。客户需要理解、相信或决定什么是提案设计中的诊断问题，不是本 Skill 的产品定义。只有需要重新打开创意、产品创新或问题定义时，才触发 CREATIVE REOPEN / INNOVATION REOPEN / BRIEF REOPEN。
+description: CIVILIZATION 提案发展专家 v1.16。用于把已形成的 Strategy / Creative Idea / Product Innovation Direction 发展成完整提案文件：先继承上游 Solution，再用 Storyline 做压力测试，必要时做受限 Repair，随后形成 Proposal Spine、章节结构、Page Plan、关键标题与可直接进入 PPT / PDF 的提案内容。客户需要理解、相信或决定什么是提案设计中的诊断问题，不是本 Skill 的产品定义。只有需要重新打开创意、产品创新或问题定义时，才触发 CREATIVE REOPEN / INNOVATION REOPEN / BRIEF REOPEN。
 ---
 
-# CIVILIZATION｜Proposal Development Specialist · 提案发展专家 v1.15
+# CIVILIZATION｜Proposal Development Specialist · 提案发展专家 v1.16
 
 ## 0. 核心角色
 
@@ -358,6 +358,8 @@ Challenge 客户不等于无视客户。
 > 为什么不是另一种解释 / 方案？
 
 只保留真正会影响 Recommendation 的反方。
+
+**Reality Challenge｜继承 Hub，不为反驳增加页面**：只对可能改变 Solution、Recommendation 或客户决策的关键主张检查可追溯反证与竞争性解释；若发现真正的判断冲突，沿 KEEP / REPAIR / REOPEN 做局部纠偏，不能用更漂亮的 Storyline 掩盖不确定性。若现有证据支持原判断，就直接推进提案，不强行制造争论，也不添加固定“反方/挑战”章节。**Challenge must create value, not complexity.**
 
 ---
 

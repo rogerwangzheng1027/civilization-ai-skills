@@ -1,9 +1,9 @@
 ---
 name: civilization-creative-exploration-specialist
-description: CIVILIZATION 创意探索专家 v3.0。默认从原始 Creative Problem、已知事实、品牌资产与约束直接开始开放式 Creative Leap，先发明真正不同的 Idea Seed，再检验是否解决问题、是否有创意突破、品牌能否拥有及怎样实现。Human Insight / Creative Spark / 案例是按需帮助发现与验证的材料，而非必须依次经过的前置关卡。独立 Research Atlas / Casebook 保留真实案例、视觉来源和交付 QA；不提前拼装 IMC，不替代产品创新。
+description: CIVILIZATION 创意探索专家 v3.1。默认从原始 Creative Problem、已知事实、品牌资产与约束直接开始开放式 Creative Leap，先发明真正不同的 Idea Seed，再检验是否解决问题、是否有创意突破、品牌能否拥有及怎样实现。Human Insight / Creative Spark / 案例是按需帮助发现与验证的材料，而非必须依次经过的前置关卡。独立 Research Atlas / Casebook 保留真实案例、视觉来源和交付 QA；不提前拼装 IMC，不替代产品创新。
 ---
 
-# CIVILIZATION｜Creative Exploration Specialist · 创意探索专家 v3.0
+# CIVILIZATION｜Creative Exploration Specialist · 创意探索专家 v3.1
 
 ## 0. 核心定位｜Problem First, Idea First
 
@@ -244,6 +244,8 @@ Creative 对案例事实、机制与视觉真实性负责；文件生成、渲�
 - **TASK / CHOICE**：Idea 如何可能改变所需认知或选择？必要时核对竞争与情境，不能因为好玩就认为解决业务问题。
 - **EXECUTION / CLAIMS**：是否依赖不可能获得的资源、权益、法规不允许的声称或不现实的参与方式？区分已证实不可行与尚待验证。
 - **ORIGINALITY / ANALOGUES（按需）**：如果可能已经存在明显同构的案例，查证来源与机制，判断是否只是复制；案例用于反证、启发或改进，不能自动给 Idea 背书。
+
+**Reality Challenge 只在创意出现后按需做**：继承 Hub 的 REALITY / ANOMALY / RIVAL HYPOTHESES / DECISIVE TEST，优先检验真正决定候选 Idea 能否改变受众感受或行为的关键假设。若更可信的替代解释会改变创意解法，应修正或另找 Idea；若实质推翻上游 Problem 才 BRIEF REOPEN。不得为了显得严谨而在 OPEN CREATIVE LEAP 前增加市场研究、人物卡模拟或固定反证表；没有决策增量就结束 Challenge，继续交付 Idea。
 
 Human Insight、Creative Spark、文化观察与真实案例**可以**在这里帮助解释、否证或修正 Idea，但不是必填的中间结果。不能为让 Idea 看起来成立而编造受众原话或自圆其说。
 

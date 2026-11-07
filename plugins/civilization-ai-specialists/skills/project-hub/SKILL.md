@@ -1,9 +1,9 @@
 ---
 name: civilization-project-hub
-description: CIVILIZATION Project Hub v1.11。1 个 Hub + 4 个专业 Specialist 的入口与状态管理 Skill。负责建立或读取 PROJECT_STATE.md、管理 SOURCE × STATUS、HOLD / DROP、Reopen 与 Handoff，并判断下一步应进入 Brief Discovery / Creative Exploration / Product Innovation / Proposal Development 哪个专业 Skill。Hub 不做专业分析；共享协议以 Hub 为唯一原文，专业方法各自独立。
+description: CIVILIZATION Project Hub v1.12。1 个 Hub + 4 个专业 Specialist 的入口与状态管理 Skill。负责建立或读取 PROJECT_STATE.md、管理 SOURCE × STATUS、HOLD / DROP、Reopen 与 Handoff，并判断下一步应进入 Brief Discovery / Creative Exploration / Product Innovation / Proposal Development 哪个专业 Skill。Hub 不做专业分析；共享协议以 Hub 为唯一原文，专业方法各自独立。
 ---
 
-# CIVILIZATION｜Project Hub v1.11
+# CIVILIZATION｜Project Hub v1.12
 
 ## 0. 核心角色
 
@@ -105,6 +105,7 @@ Brief Discovery
 
 ## EVIDENCE NOTES
 - 关键证据的 SOURCE + STATUS：
+- 仅在会改变方向时，简记真实反证 / 竞争性解释 / 最小验证；否则不加内容：
 
 ## CROSS-WORKSTREAM SIGNALS
 - TO CREATIVE：POSSIBLE / NONE｜why：
@@ -220,6 +221,27 @@ Brand Advantage 是判断“适不适合由这个品牌做”的共享机制，�
 > 第一反应 → 为什么泛 → 锐化版 → 改了什么
 
 这是测试与复盘开关，不是默认输出格式。
+
+## 4.7 REALITY CHECK & CHALLENGE PROTOCOL｜真实优先于合理
+
+> **Reality over Plausibility. Challenge must create value, not complexity.**
+> **看清真实市场，打破惯性思维。** 不是刻意反对已有判断，而是寻找足以改变决策的真实信息。
+
+这是 Project Hub 唯一完整的共享定义；四个 Specialist 在各自既有工作环节内应用，**不是第五个 Specialist、新 Round、新审批关卡或默认报告模板**。
+
+**触发强度（按决策影响，而非项目轮次）：**
+- **LIGHT CHECK｜默认内化**：检查重要事实、惯性假设和明显反例；没有发现会改变判断的东西，就直接完成当前任务，不另写 Challenge 报告。
+- **DEEP CHALLENGE｜必要时触发**：仅当问题定义、Strategy / Idea / Innovation Direction、关键客户决策或重大资源投入可能因判断错误而改变时，明确审视最强反证与替代解释。日常修文案、补图、制作一页PPT等 DIRECT REVIEW / EXECUTION 不被迫重跑研究。
+
+**四个判断动作（按需执行，复用已有 SOURCE × STATUS，不要求填四列表格）：**
+1. **REALITY｜现实**：观察到的市场/消费者行为是什么？它与消费者自述、客户宣称、团队经验、AI 推断分别是什么关系？资料存在、比例看似精准、逻辑自洽均不等于事实得到验证；AI 人物卡及多次独立会话不能被当作真实独立消费者样本。
+2. **ANOMALY｜反常与反证**：是否有真实的相反增长、失败、转换、复购或行为线索挑战当前解释？若不存在可靠反证，不得凭空创造“反常洞察”。
+3. **RIVAL HYPOTHESES｜竞争性解释**：是否有另一种同样能解释现象、却导向不同商业行动的解释？针对真正影响选择的假设比较，不为显得全面强制生成三种观点。
+4. **DECISIVE TEST｜关键验证**：什么已有数据、最小研究或低成本实验最可能推翻或支持当前判断？优先复用已有证据；暂时无法验证则保留 OPEN / WORKING HYPOTHESIS，不无限研究。
+
+**VALUE GATE｜继续 Challenge 的门槛**：至少可能带来以下一种实质增量，才扩展研究：发现遗漏的真实信息、纠正重大误判、打开更好的解法、降低关键决策风险。若不能改变 Current Best Judgment、方向选择或下一步行动，立即停止追加研究；最多在必要时提示一个证据边界。
+
+**结论与交接**：沿用 CURRENT BEST JUDGMENT / LIVE HYPOTHESES / EVIDENCE NOTES / REVIEW CHANGES / KEEP-REPAIR-REOPEN 记录真正改变工作的信息；不另建 Challenge 状态、评分体系或交付文件。只有新证据实质改变上游前提时才 Reopen。允许已有判断被证据确认，**不把反常识等同于有洞察**。
 
 ---
 
